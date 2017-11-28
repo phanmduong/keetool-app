@@ -6,13 +6,12 @@ import {
     Container, Item, Left, Right, Spinner, Content
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
-import Icon from '../../commons/Icon';
 import HamburgerButton from '../../commons/HamburgerButton';
-import * as color from '../../styles/colorDark';
 import * as colors from '../../styles/generalStyle';
 import general from '../../styles/generalStyle';
+import {connect} from 'react-redux';
 
-export default class BookStoreContainer extends Component {
+class BookStoreContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -71,6 +70,7 @@ export default class BookStoreContainer extends Component {
     }
 
     ShowTab() {
+        const {general} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -164,13 +164,14 @@ export default class BookStoreContainer extends Component {
     render() {
         const {feature, data} = this.state;
         const {navigate} = this.props.navigation;
+        const {general, colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
                     barStyle={"light-content"}
                 />
                 <LinearGradient
-                    colors={colors.colors}
+                    colors={colors}
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>
@@ -254,7 +255,6 @@ export default class BookStoreContainer extends Component {
                                         :
                                         general.wrapperMenuTextNotActive
                                 }>
-
                                     <Text
                                         style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>Comic</Text>
 
@@ -270,3 +270,11 @@ export default class BookStoreContainer extends Component {
         );
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        general : state.theme.general,
+        colors: state.theme.colors
+    }
+}
+export default connect(mapStateToProps)(BookStoreContainer)

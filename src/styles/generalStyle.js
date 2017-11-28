@@ -11,6 +11,7 @@ let color = colorDark;
 export const colors = [color.colorGradient0, color.colorGradient1, color.colorGradient2];
 
 export const themeCalendar = {
+    marginLeft: -20,
     marginTop: 20,
     backgroundColor: color.textColor,
     calendarBackground: color.textColor,

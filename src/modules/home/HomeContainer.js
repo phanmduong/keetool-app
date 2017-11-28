@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,
+    Text, TouchableOpacity, View, FlatList, Image,
 } from 'react-native';
 import {
     Container, Item, Left, Right, Spinner, Content
@@ -8,11 +8,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as size from '../../styles/size';
-import * as colors from '../../styles/generalStyle';
-import * as actions from './changeThemeAction';
-import general from '../../styles/generalStyle';
 import {connect} from 'react-redux'
-import {bindActionCreators} from 'redux';
 
 
 class HomeContainer extends Component {
@@ -69,10 +65,6 @@ class HomeContainer extends Component {
         }
     }
 
-    componentWillMount() {
-
-    }
-
     ViewDashboard() {
         this.setState({tab: 0})
     }
@@ -86,23 +78,23 @@ class HomeContainer extends Component {
     }
 
     ShowTab() {
+        const {general} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
                     <Content
                         showsVerticalScrollIndicator={false}
-                        style={{flex: 1}}
-                    >
+                        style={{flex: 1}}>
                         <TouchableOpacity
                             activeOpacity={0.8}
-                            style={[general.wrapperImageFeature, general.marginTopBottom, general.shadow, general.paddingLR, {marginTop: 20}]}>
+                            style={[general.wrapperImageFeature, general.marginTopBottom, general.shadow, {marginTop: 20}]}>
                             <Image
                                 resizeMode={'cover'}
                                 source={{uri: this.state.feature.url}}
                                 style={general.imageFeature}
                             />
                         </TouchableOpacity>
-                        <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
+                        <Text style={[general.textIstActive, general.marginTopBottom]}>
                             Album
                         </Text>
                         <FlatList
@@ -112,19 +104,19 @@ class HomeContainer extends Component {
                             renderItem={({item}) =>
                                 <TouchableOpacity
                                     activeOpacity={0.8}
-                                    style={item == this.state.data[0] ? [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeftFar] : [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeft]}>
+                                    style={[general.wrapperImageSquare, general.marginRight, general.marginTopBottom, general.shadow]}>
                                     <Image
                                         resizeMode={'cover'}
                                         source={{uri: item.url}}
-                                        style={[general.imageSquare]}
+                                        style={general.imageSquare}
                                     />
                                 </TouchableOpacity>
                             }
                         />
-                        <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
+                        <Text style={[general.textIstActive, general.marginTopBottom]}>
                             Update
                         </Text>
-                        <Content style={[{height: size.wid * 3 / 5 + 60}, general.paddingLR]}>
+                        <Content style={{height: size.wid * 3 / 5 + 60}}>
                             <FlatList
                                 showsVerticalScrollIndicator={false}
                                 data={this.state.data}
@@ -150,10 +142,10 @@ class HomeContainer extends Component {
                                 }
                             />
                         </Content>
-                        <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
+                        <Text style={[general.textIstActive, general.marginTopBottom]}>
                             Gird
                         </Text>
-                        <View style={[{margin: -5, marginBottom: 20}, general.paddingLR]}>
+                        <View style={{margin: -5, marginBottom: 20}}>
                             <FlatList
                                 showsVerticalScrollIndicator={false}
                                 data={this.state.data}
@@ -179,7 +171,7 @@ class HomeContainer extends Component {
                 );
             case 1:
                 return (
-                    <Content style={[{flex: 1}, general.paddingLR]}>
+                    <Content style={{flex: 1}}>
                         <FlatList
                             showsVerticalScrollIndicator={false}
                             data={this.state.data}
@@ -214,13 +206,11 @@ class HomeContainer extends Component {
 
     render() {
         const {navigate} = this.props.navigation;
+        const {general, colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
-                <StatusBar
-                    barStyle={"light-content"}
-                />
                 <LinearGradient
-                    colors={colors.colors}
+                    colors={colors}
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>
@@ -271,9 +261,8 @@ class HomeContainer extends Component {
                             </View>
                         </TouchableOpacity>
                     </View>
-                    <View style={general.wrapperFullWidth}>
-                        {this.ShowTab()}
-                    </View>
+                    {this.ShowTab()}
+
                 </LinearGradient>
             </Container>
         );
@@ -281,13 +270,10 @@ class HomeContainer extends Component {
 }
 
 function mapStateToProps(state) {
-    return {}
-}
-
-function mapDispatchToProps(dispatch) {
     return {
-        actions: bindActionCreators(actions, dispatch),
+        general: state.theme.general,
+        colors: state.theme.colors,
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(HomeContainer);
+export default connect(mapStateToProps)(HomeContainer);

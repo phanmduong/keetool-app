@@ -1,15 +1,19 @@
 import React, {Component} from 'react';
 import {
-    View, Text, TouchableOpacity,
+    View, Text, TouchableOpacity, StatusBar
 } from 'react-native';
 import {
     Container,
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
-import general from '../../styles/generalStyle';
 import * as colors from '../../styles/generalStyle';
+import * as changeThemeAction from '../home/changeThemeAction';
+import {connect} from 'react-redux';
 
-export default class DrawerContainer extends Component {
+import general from '../../styles/generalStyle'
+import {bindActionCreators} from 'redux';
+
+class DrawerContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -17,14 +21,21 @@ export default class DrawerContainer extends Component {
         }
     }
 
-    changeTheme(){
-
+    changeTheme() {
+        this.props.theme
+            ?
+            this.props.changeThemeAction.changeThemeDark()
+            :
+            this.props.changeThemeAction.changeThemeLight()
     }
 
     render() {
         const {navigate} = this.props.navigation;
         return (
             <Container style={general.wrapperContainer}>
+                <StatusBar
+                    barStyle={this.props.theme ? "light-content" : "dark-content"}
+                />
                 <LinearGradient
                     colors={colors.colors}
                     style={general.linearGradientInDrawer}>
@@ -82,3 +93,17 @@ export default class DrawerContainer extends Component {
         );
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        theme: state.theme.theme,
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        changeThemeAction: bindActionCreators(changeThemeAction, dispatch)
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(DrawerContainer)

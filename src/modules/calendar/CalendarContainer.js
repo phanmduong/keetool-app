@@ -8,12 +8,10 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import HamburgerButton from '../../commons/HamburgerButton';
-import * as color from '../../styles/colorDark';
-import general from '../../styles/generalStyle';
-import * as colors from '../../styles/generalStyle';
+import {connect} from 'react-redux';
 import {Calendar, CalendarList, Agenda} from 'react-native-calendars';
 
-export default class CalendarContainer extends Component {
+class CalendarContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -30,13 +28,14 @@ export default class CalendarContainer extends Component {
 
     render() {
         const {navigate} = this.props.navigation;
+        const {general, colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
                     barStyle={"light-content"}
                 />
                 <LinearGradient
-                    colors={colors.colors}
+                    colors={colors}
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>
@@ -68,7 +67,7 @@ export default class CalendarContainer extends Component {
                         this.state.calendarTypeView
                             ?
                             <Calendar
-                                theme={[colors.themeCalendar, general.wrapperFullWidth]}
+                                theme={colors.themeCalendar}
                             />
                             :
                             <Agenda
@@ -186,3 +185,11 @@ const styles = StyleSheet.create({
         paddingTop: 30
     }
 });
+
+function mapStateToProps(state) {
+    return {
+        general : state.theme.general,
+        colors: state.theme.colors
+    }
+}
+export default connect(mapStateToProps)(CalendarContainer)

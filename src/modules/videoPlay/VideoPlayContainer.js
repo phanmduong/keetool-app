@@ -9,11 +9,11 @@ import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
-import general from '../../styles/generalStyle';
+import {connect} from 'react-redux';
 import * as colors from '../../styles/generalStyle';
 import Video from 'react-native-video';
 
-export default class VideoPlayContainer extends Component {
+ class VideoPlayContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -85,6 +85,7 @@ export default class VideoPlayContainer extends Component {
     render() {
         const {navigate} = this.props.navigation;
         const {play, paused} = this.state;
+        const {general, colors} = this.props;
         let temp = this.state.currentTime == 0 || this.state.duration == 0 ? 0 : this.state.currentTime / this.state.duration;
         let widthDeadlineProgress = (size.wid - 20) * temp;
         return (
@@ -93,7 +94,7 @@ export default class VideoPlayContainer extends Component {
                     barStyle={"light-content"}
                 />
                 <LinearGradient
-                    colors={colors.colors}
+                    colors={colors}
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>
@@ -216,3 +217,10 @@ export default class VideoPlayContainer extends Component {
         );
     }
 }
+function mapStateToProps(state){
+     return {
+         general : state.theme.general,
+         colors: state.theme.colors,
+     }
+}
+export default connect(mapStateToProps)(VideoPlayContainer)
