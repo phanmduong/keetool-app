@@ -257,6 +257,12 @@ const general = StyleSheet.create({
         marginRight: -20,
         height: size.HEIGHT_FULL_WIDTH_IMAGE
     },
+    wrapperFullWidth: {
+        flex: 1,
+        marginLeft: -20,
+        marginRight: -20,
+
+    },
     wrapperRevenueLine: {
         padding: 10,
         alignItems: 'center',
@@ -323,6 +329,10 @@ const general = StyleSheet.create({
     paddingLeft: {
         paddingLeft: 10
     },
+    paddingLR: {
+        paddingLeft: 20,
+        paddingRight: 20,
+    },
     paddingLine: {
         paddingTop: 5,
         paddingBottom: 5,
@@ -356,6 +366,9 @@ const general = StyleSheet.create({
     },
     marginLeft: {
         marginLeft: 10
+    },
+    marginLeftFar: {
+        marginLeft: 20
     },
     marginLR: {
         marginLeft: 5,

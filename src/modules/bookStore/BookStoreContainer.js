@@ -12,7 +12,7 @@ import * as color from '../../styles/colorDark';
 import * as colors from '../../styles/generalStyle';
 import general from '../../styles/generalStyle';
 
-export default class MusicPlayContainer extends Component {
+export default class BookStoreContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -181,8 +181,9 @@ export default class MusicPlayContainer extends Component {
                         </Right>
                     </View>
                     <Content showsVerticalScrollIndicator={false}
+                             style={general.wrapperFullWidth}
                     >
-                        <View style={[general.marginTopBottom, general.wrapperFeatureBook, general.paddingBottom]}>
+                        <View style={[general.marginTopBottom, general.wrapperFeatureBook, general.paddingBottom, general.paddingLR]}>
                             <View style={[general.shadow, general.wrapperImageRectangle]}>
                                 <Image
                                     resizeMode={'cover'}
@@ -197,7 +198,7 @@ export default class MusicPlayContainer extends Component {
                                 <Text style={general.textDescriptionCard}>{feature.description}</Text>
                             </View>
                         </View>
-                        <Text style={[general.textIstActive, general.marginTopBottom]}>
+                        <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
                             We pick for you
                         </Text>
                         <View style={{flex: 1}}>
@@ -207,7 +208,7 @@ export default class MusicPlayContainer extends Component {
                                 data={data}
                                 renderItem={({item}) =>
                                     <TouchableOpacity
-                                        style={[general.wrapperImageRectangle, general.marginRightFar, general.marginTopBottom, general.shadow]}>
+                                        style={[general.wrapperImageRectangle, general.marginLeftFar, general.marginTopBottom, general.shadow]}>
                                         <Image
                                             resizeMode={'cover'}
                                             source={{uri: item.url}}
@@ -219,7 +220,7 @@ export default class MusicPlayContainer extends Component {
                                 }
                             />
                         </View>
-                        <View style={[general.wrapperMenuHome, general.marginTopBottom]}>
+                        <View style={[general.wrapperMenuHome, general.marginTopBottom, general.paddingLR]}>
                             <TouchableOpacity onPress={() => this.ViewKnowledge()}>
                                 <View style={
                                     this.state.tab === 0
@@ -260,7 +261,9 @@ export default class MusicPlayContainer extends Component {
                                 </View>
                             </TouchableOpacity>
                         </View>
-                        {this.ShowTab()}
+                        <View style={general.paddingLR}>
+                            {this.ShowTab()}
+                        </View>
                     </Content>
                 </LinearGradient>
             </Container>
