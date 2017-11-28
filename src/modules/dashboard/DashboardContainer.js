@@ -10,7 +10,6 @@ import Icon from '../../commons/Icon';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
-import * as colors from '../../styles/generalStyle';
 import PercentageCircle from 'react-native-percentage-circle';
 import {connect} from 'react-redux';
  class DashboardContainer extends Component {
@@ -83,7 +82,7 @@ import {connect} from 'react-redux';
     }
 
     ShowTab() {
-        const {general} = this.props;
+        const {general, colors} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -243,14 +242,14 @@ import {connect} from 'react-redux';
 
     render() {
         const {navigate} = this.props.navigation;
-        const {general} = this.props;
+        const {general,colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
                     barStyle={"light-content"}
                 />
                 <LinearGradient
-                    colors={colors.colors}
+                    colors={colors}
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>

@@ -8,6 +8,8 @@ import BookStoreContainer from '../modules/bookStore/BookStoreContainer';
 import CalendarContainer from '../modules/calendar/CalendarContainer';
 import DashboardContainer from '../modules/dashboard/DashboardContainer';
 import * as size from '../styles/size';
+import MapContainer from "../modules/Maps/MapContainer";
+import QRcodeContainer from "../modules/QRcode/QRcodeContainer";
 
 const StackNavigatorStyle = {
     navigationOptions: {
@@ -27,6 +29,8 @@ const Drawer = DrawerNavigator(
         BookStore: {screen: BookStoreContainer},
         Calendar: {screen: CalendarContainer},
         Dashboard: {screen: DashboardContainer},
+        Map : {screen : MapContainer},
+        QRCode : {screen : QRcodeContainer}
     },
     {
         drawerWidth: size.wid * 3 / 4,

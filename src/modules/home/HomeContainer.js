@@ -8,7 +8,6 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as size from '../../styles/size';
-import * as colors from '../../styles/generalStyle';
 import {connect} from 'react-redux'
 
 
@@ -80,7 +79,7 @@ class HomeContainer extends Component {
     }
 
     ShowTab() {
-        const {general} = this.props;
+        const {general,colors} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -208,14 +207,14 @@ class HomeContainer extends Component {
 
     render() {
         const {navigate} = this.props.navigation;
-        const {general} = this.props;
+        const {general,colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
                     barStyle={"light-content"}
                 />
                 <LinearGradient
-                    colors={colors.colors}
+                    colors={colors}
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>
@@ -276,7 +275,8 @@ class HomeContainer extends Component {
 
 function mapStateToProps(state) {
     return {
-      general : state.theme.general
+      general : state.theme.general,
+        colors : state.theme.colors
     }
 }
 

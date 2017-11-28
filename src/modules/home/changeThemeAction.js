@@ -9,6 +9,7 @@ export function changeThemeLight(){
     return {
         type : types.THEME_LIGHT,
         theme : true,
+        colors : [color.colorGradient0, color.colorGradient1, color.colorGradient2],
         general : StyleSheet.create({
             wrapperContainer: {
                 flex: 1,
@@ -401,6 +402,7 @@ export function changeThemeDark(){
     return {
         type : types.THEME_DARK,
         theme : false,
+        colors : [color.colorGradient0, color.colorGradient1, color.colorGradient2],
         general : StyleSheet.create({
             wrapperContainer: {
                 flex: 1,

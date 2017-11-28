@@ -142,7 +142,7 @@ import Video from 'react-native-video';
     render() {
         const {data, index, play, paused} = this.state;
         const {navigate} = this.props.navigation;
-        const {general} = this.props;
+        const {general,colors} = this.props;
         let temp = this.state.currentTime == 0 || this.state.duration == 0 ? 0 : this.state.currentTime / this.state.duration;
         let widthDeadlineProgress = (size.wid - 20) * temp;
         return (
@@ -151,7 +151,7 @@ import Video from 'react-native-video';
                     barStyle={"light-content"}
                 />
                 <LinearGradient
-                    colors={colors.colors}
+                    colors={colors}
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>
@@ -264,7 +264,8 @@ import Video from 'react-native-video';
 }
 function mapStateToProps(state) {
     return {
-        general : state.theme.general
+        general : state.theme.general,
+        colors : state.theme.colors
     }
 }
 export default connect(mapStateToProps)(MusicPlayContainer)

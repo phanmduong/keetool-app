@@ -84,6 +84,18 @@ import {bindActionCreators} from 'redux';
                     >
                         <Text style={general.textInDrawer}>Dashboard</Text>
                     </TouchableOpacity>
+                    <TouchableOpacity
+                    style={[general.itemTabInDrawer, general.paddingLeft]}
+                    onPress={() => navigate('Map')}
+                >
+                    <Text style={general.textInDrawer}>Map</Text>
+                </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('QRCode')}
+                    >
+                        <Text style={general.textInDrawer}>QRCODE</Text>
+                    </TouchableOpacity>
                 </View>
             </Container>
         );

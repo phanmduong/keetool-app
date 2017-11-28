@@ -9,7 +9,8 @@ export default {
         data: [],
     },
     theme: {
-        theme : true,
+        theme : false,
+        colors : [color.colorGradient0, color.colorGradient1, color.colorGradient2],
         general :
             StyleSheet.create({
                 wrapperContainer: {
