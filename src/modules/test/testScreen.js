@@ -28,8 +28,7 @@ class Test extends Component{
     }
 
     componentWillMount(){
-        let fs = require('fs');
-        let file = read.readFileSync()
+
     }
 
     changeColor(){
