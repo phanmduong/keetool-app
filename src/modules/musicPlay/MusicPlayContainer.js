@@ -9,7 +9,6 @@ import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
-import * as colors  from '../../styles/generalStyle';
 import {connect} from 'react-redux'
 import Video from 'react-native-video';
 

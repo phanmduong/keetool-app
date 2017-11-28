@@ -9,7 +9,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as colors from '../../styles/generalStyle';
 import general from '../../styles/generalStyle';
-import {connect} from 'react-redux';
+import {connect} from 'react-redux'
 
 class BookStoreContainer extends Component {
     constructor() {
@@ -70,7 +70,7 @@ class BookStoreContainer extends Component {
     }
 
     ShowTab() {
-        const {general} = this.props;
+        const {general, colors} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -209,7 +209,7 @@ class BookStoreContainer extends Component {
                                 data={data}
                                 renderItem={({item}) =>
                                     <TouchableOpacity
-                                        style={[general.wrapperImageRectangle, general.marginLeftFar, general.marginTopBottom, general.shadow]}>
+                                        style={[general.wrapperImageRectangle, general.marginLeft, general.marginTopBottom, general.shadow]}>
                                         <Image
                                             resizeMode={'cover'}
                                             source={{uri: item.url}}
@@ -255,6 +255,7 @@ class BookStoreContainer extends Component {
                                         :
                                         general.wrapperMenuTextNotActive
                                 }>
+
                                     <Text
                                         style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>Comic</Text>
 
@@ -274,7 +275,7 @@ class BookStoreContainer extends Component {
 function mapStateToProps(state) {
     return {
         general : state.theme.general,
-        colors: state.theme.colors
+        colors: state.theme.colors,
     }
 }
 export default connect(mapStateToProps)(BookStoreContainer)
