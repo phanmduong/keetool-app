@@ -6,13 +6,12 @@ import {
     Container, Item, Left, Right, Spinner, Content
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
-import Icon from '../../commons/Icon';
 import HamburgerButton from '../../commons/HamburgerButton';
-import * as color from '../../styles/colorDark';
 import * as colors from '../../styles/generalStyle';
+import general from '../../styles/generalStyle';
 import {connect} from 'react-redux'
 
- class BookStoreContainer extends Component {
+class BookStoreContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -71,7 +70,8 @@ import {connect} from 'react-redux'
     }
 
     ShowTab() {
-        const {general,colors} = this.props;
+
+        const {general, colors} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -183,8 +183,9 @@ import {connect} from 'react-redux'
                         </Right>
                     </View>
                     <Content showsVerticalScrollIndicator={false}
+                             style={general.wrapperFullWidth}
                     >
-                        <View style={[general.marginTopBottom, general.wrapperFeatureBook, general.paddingBottom]}>
+                        <View style={[general.marginTopBottom, general.wrapperFeatureBook, general.paddingBottom, general.paddingLR]}>
                             <View style={[general.shadow, general.wrapperImageRectangle]}>
                                 <Image
                                     resizeMode={'cover'}
@@ -199,7 +200,7 @@ import {connect} from 'react-redux'
                                 <Text style={general.textDescriptionCard}>{feature.description}</Text>
                             </View>
                         </View>
-                        <Text style={[general.textIstActive, general.marginTopBottom]}>
+                        <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
                             We pick for you
                         </Text>
                         <View style={{flex: 1}}>
@@ -209,7 +210,7 @@ import {connect} from 'react-redux'
                                 data={data}
                                 renderItem={({item}) =>
                                     <TouchableOpacity
-                                        style={[general.wrapperImageRectangle, general.marginRightFar, general.marginTopBottom, general.shadow]}>
+                                        style={[general.wrapperImageRectangle, general.marginLeft, general.marginTopBottom, general.shadow]}>
                                         <Image
                                             resizeMode={'cover'}
                                             source={{uri: item.url}}
@@ -221,7 +222,7 @@ import {connect} from 'react-redux'
                                 }
                             />
                         </View>
-                        <View style={[general.wrapperMenuHome, general.marginTopBottom]}>
+                        <View style={[general.wrapperMenuHome, general.marginTopBottom, general.paddingLR]}>
                             <TouchableOpacity onPress={() => this.ViewKnowledge()}>
                                 <View style={
                                     this.state.tab === 0
@@ -262,17 +263,20 @@ import {connect} from 'react-redux'
                                 </View>
                             </TouchableOpacity>
                         </View>
-                        {this.ShowTab()}
+                        <View style={general.paddingLR}>
+                            {this.ShowTab()}
+                        </View>
                     </Content>
                 </LinearGradient>
             </Container>
         );
     }
 }
+
 function mapStateToProps(state) {
     return {
         general : state.theme.general,
-        colors : state.theme.colors
+        colors: state.theme.colors,
     }
 }
 export default connect(mapStateToProps)(BookStoreContainer)

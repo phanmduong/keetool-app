@@ -12,6 +12,7 @@ import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
 import PercentageCircle from 'react-native-percentage-circle';
 import {connect} from 'react-redux';
+
  class DashboardContainer extends Component {
     constructor() {
         super();
@@ -242,12 +243,10 @@ import {connect} from 'react-redux';
 
     render() {
         const {navigate} = this.props.navigation;
-        const {general,colors} = this.props;
+
+        const {general, colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
-                <StatusBar
-                    barStyle={"light-content"}
-                />
                 <LinearGradient
                     colors={colors}
                     style={general.linearGradient}>
@@ -309,7 +308,8 @@ import {connect} from 'react-redux';
 }
 function mapStateToProps(state){
     return{
-        general : state.theme.general
+        general : state.theme.general,
+        colors: state.theme.colors
     }
 }
 export default connect(mapStateToProps)(DashboardContainer)

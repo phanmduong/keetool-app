@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-    Text, TouchableOpacity, View, FlatList, Image, Platform, ScrollView, StatusBar, RefreshControl,StyleSheet
+   Text, TouchableOpacity, View, FlatList, Image, Platform, ScrollView, StatusBar, RefreshControl,StyleSheet,TextInput
 } from 'react-native';
 import {
     Container, Item, Left, Right, Spinner, Content
@@ -17,9 +17,22 @@ import{connect} from 'react-redux';
         super();
         this.state = {
             calendarTypeView: true,
-            items: {}
+            items: {},
+            markedDates : {},
         }
     }
+     onDayPress = (day)=> {
+         const markedDates = this.state.markedDates;
+         const dateString = day.dateString
+
+         if (markedDates.hasOwnProperty(dateString)) {
+             delete markedDates[dateString]
+         } else {
+             markedDates[dateString] = { startingDay: true, color: '#70a3f4', endingDay: true,selected: true}
+         }
+
+         this.setState({markedDates});
+     }
 
     changeCalendarTypeView() {
         let temp = !this.state.calendarTypeView;
@@ -47,11 +60,12 @@ import{connect} from 'react-redux';
                         </Right>
                     </View>
                     <View style={general.wrapperRowSpaceBetween}>
-                        <Icon
-                            name="fontawesome|bell-o"
-                            size={20}
-                            style={general.iconStyle}
-                        />
+                        <View style={general.wrapperRowCenter}>
+                            <Text style={general.textTitleCard}>Notification</Text>
+                            <View style={[general.wrapperNotificationCircle, {marginLeft: 3}]}>
+                                <Text style={general.textNotification}>1</Text>
+                            </View>
+                        </View>
                         <TouchableOpacity
                             onPress={() => this.changeCalendarTypeView()}
                         >
@@ -78,6 +92,9 @@ import{connect} from 'react-redux';
                                 renderItem={this.renderItem.bind(this)}
                                 renderEmptyDate={this.renderEmptyDate.bind(this)}
                                 rowHasChanged={this.rowHasChanged.bind(this)}
+                                onDayPress={(day) => {this.onDayPress(day)} }
+                                markedDates={this.state.markedDates}
+                                markingType={'period'}
                             />
                     }
                 </LinearGradient>
@@ -85,70 +102,41 @@ import{connect} from 'react-redux';
         );
     }
 
-    loadItems(day) {
-        setTimeout(() => {
-            for (let i = -15; i < 85; i++) {
-                const time = day.timestamp + i * 24 * 60 * 60 * 1000;
-                const strTime = this.timeToString(time);
-                if (!this.state.items[strTime]) {
-                    this.state.items[strTime] = [];
-                    const numItems = Math.floor(Math.random() * 5);
-                    for (let j = 0; j < numItems; j++) {
-                        this.state.items[strTime].push({
-                            name: strTime,
-                            height: Math.max(50, Math.floor(Math.random() * 150))
-                        });
-                    }
-                }
-            }
-            //console.log(this.state.items);
-            const newItems = {};
-            Object.keys(this.state.items).forEach(key => {
-                newItems[key] = this.state.items[key];
-            });
-            this.setState({
-                items: newItems
-            });
-        }, 1000);
-        // console.log(`Load Items for ${day.year}-${day.month}`);
-    }
-
-
-    loadItems(day) {
-        setTimeout(() => {
-            for (let i = -15; i < 85; i++) {
-                const time = day.timestamp + i * 24 * 60 * 60 * 1000;
-                const strTime = this.timeToString(time);
-                if (!this.state.items[strTime]) {
-                    this.state.items[strTime] = [];
-                    const numItems = Math.floor(Math.random() * 5);
-                    for (let j = 0; j < numItems; j++) {
-                        this.state.items[strTime].push({
-                            name: 'Item for ' + strTime,
-                            height: Math.max(50, Math.floor(Math.random() * 150))
-                        });
-                    }
-                }
-            }
-            //console.log(this.state.items);
-            const newItems = {};
-            Object.keys(this.state.items).forEach(key => {
-                newItems[key] = this.state.items[key];
-            });
-            this.setState({
-                items: newItems
-            });
-        }, 1000);
-        // console.log(`Load Items for ${day.year}-${day.month}`);
-    }
+     loadItems(day) {
+         setTimeout(() => {
+             for (let i = -15; i < 85; i++) {
+                 const time = day.timestamp + i * 24 * 60 * 60 * 1000;
+                 const strTime = this.timeToString(time);
+                 if (!this.state.items[strTime]) {
+                     this.state.items[strTime] = [];
+                     this.state.items[strTime].push({
+                         name: 'Nothing for ' + strTime,
+                         height: 100,
+                         key : strTime,
+                     });
+                 }
+             }
+             const newItems = {};
+             Object.keys(this.state.items).forEach(key => {newItems[key] = this.state.items[key];});
+             this.setState({
+                 items: newItems
+             });
+         }, 1000);
+         // console.log(`Load Items for ${day.year}-${day.month}`);
+     }
+     updateDay(key ,message){
+         const arr1 = Object.assign({}, this.state.items);
+         arr1[key][0].name = message;
+         this.setState({items : arr1});
+     }
 
     renderItem(item) {
         return (
             <TextInput
                 style={[styles.item, {height: item.height}]}
-                placeholder={item.name}
                 multiline={false}
-
+                onChangeText = {(message) => {this.updateDay(item.key, message)}}
+                value= {item.name}
             />
         );
     }
@@ -170,6 +158,7 @@ import{connect} from 'react-redux';
 }
 
 
+
 const styles = StyleSheet.create({
     item: {
         backgroundColor: 'white',
@@ -189,7 +178,7 @@ const styles = StyleSheet.create({
 function mapStateToProps(state) {
     return {
         general : state.theme.general,
-        colors : state.theme.colors
+        colors: state.theme.colors
     }
 }
 export default connect(mapStateToProps)(CalendarContainer)

@@ -220,7 +220,8 @@ import Video from 'react-native-video';
 function mapStateToProps(state){
      return {
          general : state.theme.general,
-         colors : state.theme.colors
+
+         colors: state.theme.colors,
      }
 }
 export default connect(mapStateToProps)(VideoPlayContainer)

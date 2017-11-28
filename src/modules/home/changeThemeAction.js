@@ -4,6 +4,8 @@ import * as colorLight from '../../styles/colorLight';
 import * as colorDark from '../../styles/colorDark';
 import {hei, wid} from '../../styles/size';
 import * as size from '../../styles/size';
+import * as styles from '../../styles/generalStyle'
+
 export function changeThemeLight(){
     const color = colorLight;
     return {
@@ -51,6 +53,14 @@ export function changeThemeLight(){
                 flex: 1,
                 justifyContent: 'center',
                 alignItems: 'center',
+            },
+            wrapperNotificationCircle: {
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: 16,
+                width: 16,
+                borderRadius: 8,
+                backgroundColor: color.textColor
             },
             wrapperCenterRow: {
                 flex: 1,
@@ -162,15 +172,20 @@ export function changeThemeLight(){
                 fontSize: size.titleNormal,
                 color: 'black',
             },
-            textNumberChart:{
+            textNumberChart: {
                 color: color.textColor,
                 fontFamily: 'Montserrat-Regular',
                 fontSize: 35,
             },
+            textNotification: {
+                color: 'black',
+                fontFamily: 'Montserrat-Regular',
+                fontSize: 12,
+            },
             iconStyle: {
                 color: color.textColor,
             },
-            colorTextLight:{
+            colorTextLight: {
                 color: '#FFFFFF'
             },
             iconStarStyle: {
@@ -234,6 +249,11 @@ export function changeThemeLight(){
                 marginLeft: -20,
                 marginRight: -20,
                 height: size.HEIGHT_FULL_WIDTH_IMAGE
+            },
+            wrapperFullWidth: {
+                flex: 1,
+                marginLeft: -20,
+                marginRight: -20,
             },
             wrapperRevenueLine: {
                 padding: 10,
@@ -301,6 +321,10 @@ export function changeThemeLight(){
             paddingLeft: {
                 paddingLeft: 10
             },
+            paddingLR: {
+                paddingLeft: 20,
+                paddingRight: 20,
+            },
             paddingLine: {
                 paddingTop: 5,
                 paddingBottom: 5,
@@ -334,6 +358,9 @@ export function changeThemeLight(){
             },
             marginLeft: {
                 marginLeft: 10
+            },
+            marginLeftFar: {
+                marginLeft: 20
             },
             marginLR: {
                 marginLeft: 5,
@@ -445,6 +472,14 @@ export function changeThemeDark(){
                 justifyContent: 'center',
                 alignItems: 'center',
             },
+            wrapperNotificationCircle: {
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: 16,
+                width: 16,
+                borderRadius: 8,
+                backgroundColor: color.textColor
+            },
             wrapperCenterRow: {
                 flex: 1,
                 justifyContent: 'center',
@@ -555,15 +590,20 @@ export function changeThemeDark(){
                 fontSize: size.titleNormal,
                 color: 'black',
             },
-            textNumberChart:{
+            textNumberChart: {
                 color: color.textColor,
                 fontFamily: 'Montserrat-Regular',
                 fontSize: 35,
             },
+            textNotification: {
+                color: 'black',
+                fontFamily: 'Montserrat-Regular',
+                fontSize: 12,
+            },
             iconStyle: {
                 color: color.textColor,
             },
-            colorTextLight:{
+            colorTextLight: {
                 color: '#FFFFFF'
             },
             iconStarStyle: {
@@ -627,6 +667,11 @@ export function changeThemeDark(){
                 marginLeft: -20,
                 marginRight: -20,
                 height: size.HEIGHT_FULL_WIDTH_IMAGE
+            },
+            wrapperFullWidth: {
+                flex: 1,
+                marginLeft: -20,
+                marginRight: -20,
             },
             wrapperRevenueLine: {
                 padding: 10,
@@ -694,6 +739,10 @@ export function changeThemeDark(){
             paddingLeft: {
                 paddingLeft: 10
             },
+            paddingLR: {
+                paddingLeft: 20,
+                paddingRight: 20,
+            },
             paddingLine: {
                 paddingTop: 5,
                 paddingBottom: 5,
@@ -727,6 +776,9 @@ export function changeThemeDark(){
             },
             marginLeft: {
                 marginLeft: 10
+            },
+            marginLeftFar: {
+                marginLeft: 20
             },
             marginLR: {
                 marginLeft: 5,

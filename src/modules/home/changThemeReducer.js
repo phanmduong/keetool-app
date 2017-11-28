@@ -9,7 +9,7 @@ export default function changThemeReducer(state = initialState.theme, action) {
                 ...{
                     theme: action.theme,
                     general : action.general,
-                    colors : action.colors
+                    colors: action.colors
                 }
             };
         case types.THEME_LIGHT:
@@ -18,7 +18,7 @@ export default function changThemeReducer(state = initialState.theme, action) {
                 ...{
                     theme: action.theme,
                     general: action.general,
-                    colors : action.colors
+                    colors: action.colors
                 }
             };
         default:

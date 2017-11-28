@@ -9,7 +9,6 @@ import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
-import * as colors  from '../../styles/generalStyle';
 import {connect} from 'react-redux'
 import Video from 'react-native-video';
 
@@ -142,7 +141,7 @@ import Video from 'react-native-video';
     render() {
         const {data, index, play, paused} = this.state;
         const {navigate} = this.props.navigation;
-        const {general,colors} = this.props;
+        const {general, colors} = this.props;
         let temp = this.state.currentTime == 0 || this.state.duration == 0 ? 0 : this.state.currentTime / this.state.duration;
         let widthDeadlineProgress = (size.wid - 20) * temp;
         return (
@@ -265,7 +264,7 @@ import Video from 'react-native-video';
 function mapStateToProps(state) {
     return {
         general : state.theme.general,
-        colors : state.theme.colors
+        colors: state.theme.colors,
     }
 }
 export default connect(mapStateToProps)(MusicPlayContainer)

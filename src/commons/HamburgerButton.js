@@ -3,10 +3,11 @@ import {
     TouchableOpacity
 } from 'react-native';
 import Icon from './Icon';
-import general from '../styles/generalStyle';
+import {connect} from 'react-redux';
 
 class HamburgerButton extends Component{
     render(){
+        const {general} = this.props;
         return(
             <TouchableOpacity
                 onPress={() => this.props.navigate('DrawerOpen')}>
@@ -19,5 +20,10 @@ class HamburgerButton extends Component{
         );
     }
 }
+function mapStateToProps(state) {
+    return {
+        general: state.theme.general,
+    }
+}
 
-export default HamburgerButton;
+export default connect(mapStateToProps)(HamburgerButton);
