@@ -1,0 +1,10 @@
+export const none = 'transparent';
+export const main = 'rgb(197, 0, 0)';
+export const backGround = 'rgb(255, 255, 255)';
+export const gray = 'rgb(178, 178, 178)';
+export const textColor = 'rgb(255, 255, 255)';
+export const icon = 'rgb(214, 214, 214)';
+export const darkGray = 'rgb(109, 109, 109)';
+export const titleBlue = 'rgb(0, 128, 214)';
+export const shadowColor = 'rgba(0,0,0,0.5)';
+export const bgModal = 'rgba(0, 0, 0, 0.7)';
