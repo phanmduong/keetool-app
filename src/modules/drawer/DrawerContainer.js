@@ -6,10 +6,13 @@ import {
     Container,
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
-import general from '../../styles/generalStyle';
 import * as colors from '../../styles/generalStyle';
+import * as changeThemeAction from '../home/changeThemeAction';
+import {connect} from 'react-redux';
 
-export default class DrawerContainer extends Component {
+import general from '../../styles/generalStyle'
+import {bindActionCreators} from 'redux';
+ class DrawerContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -18,7 +21,11 @@ export default class DrawerContainer extends Component {
     }
 
     changeTheme(){
-
+     if(this.props.theme){
+         this.props.changeThemeAction.changeThemeDark();
+     }else {
+         this.props.changeThemeAction.changeThemeLight();
+     }
     }
 
     render() {
@@ -82,3 +89,15 @@ export default class DrawerContainer extends Component {
         );
     }
 }
+function mapStateToProps(state) {
+    return {
+        theme : state.theme.theme,
+
+    }
+}
+function mapDispatchToProps(dispatch){
+    return {
+        changeThemeAction : bindActionCreators(changeThemeAction, dispatch)
+    }
+}
+export default connect(mapStateToProps, mapDispatchToProps)(DrawerContainer)

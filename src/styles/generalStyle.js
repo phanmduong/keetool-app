@@ -1,37 +1,11 @@
 import {StyleSheet} from 'react-native';
 import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
 import * as colorDark from './colorDark';
 import * as colorLight from './colorLight';
 import * as size from './size';
 import {hei, wid} from './size';
-
-let color = colorDark;
-
+let color =  colorDark ;
 export const colors = [color.colorGradient0, color.colorGradient1, color.colorGradient2];
-
-export const themeCalendar = {
-    backgroundColor: color.none,
-    calendarBackground: color.none,
-    textSectionTitleColor: color.textColor,
-    selectedDayBackgroundColor: color.textColor,
-    selectedDayTextColor: color.textColor,
-    todayTextColor: color.textColor,
-    dayTextColor: color.textColorNotActive2,
-    textDisabledColor: color.textColorNotActive,
-    dotColor: color.textColor,
-    selectedDotColor: color.textColor,
-    arrowColor: color.textColor,
-    monthTextColor: color.textColor,
-    textDayFontFamily: 'Montserrat-Regular',
-    textMonthFontFamily: 'Montserrat-Regular',
-    textDayHeaderFontFamily: 'Montserrat-Regular',
-    textDayFontSize: 15,
-    textMonthFontSize: 18,
-    textDayHeaderFontSize: 15
-};
-
-
 const general = StyleSheet.create({
     wrapperContainer: {
         flex: 1,
@@ -417,5 +391,4 @@ const general = StyleSheet.create({
         backgroundColor: color.none
     }
 });
-
-export default (general)
+export default  (general)

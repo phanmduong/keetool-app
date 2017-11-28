@@ -10,10 +10,10 @@ import Icon from '../../commons/Icon';
 import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
 import * as colors  from '../../styles/generalStyle';
-import general from '../../styles/generalStyle';
+import {connect} from 'react-redux'
 import Video from 'react-native-video';
 
-export default class MusicPlayContainer extends Component {
+ class MusicPlayContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -142,6 +142,7 @@ export default class MusicPlayContainer extends Component {
     render() {
         const {data, index, play, paused} = this.state;
         const {navigate} = this.props.navigation;
+        const {general} = this.props;
         let temp = this.state.currentTime == 0 || this.state.duration == 0 ? 0 : this.state.currentTime / this.state.duration;
         let widthDeadlineProgress = (size.wid - 20) * temp;
         return (
@@ -261,3 +262,9 @@ export default class MusicPlayContainer extends Component {
         );
     }
 }
+function mapStateToProps(state) {
+    return {
+        general : state.theme.general
+    }
+}
+export default connect(mapStateToProps)(MusicPlayContainer)

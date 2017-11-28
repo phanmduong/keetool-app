@@ -8,19 +8,19 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import HamburgerButton from '../../commons/HamburgerButton';
-import general from '../../styles/generalStyle';
 import * as colors from '../../styles/generalStyle';
-import { Calendar, CalendarList, Agenda } from 'react-native-calendars';
-export default class CalendarContainer extends Component {
+import { Calendar } from 'react-native-calendars';
+import {connect} from 'react-redux';
+ class CalendarContainer extends Component {
     constructor() {
         super();
         this.state = {
-            agenda
         }
     }
 
     render() {
         const {navigate} = this.props.navigation;
+        const {general} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
@@ -57,3 +57,9 @@ export default class CalendarContainer extends Component {
         );
     }
 }
+function mapStateToProps(state) {
+    return {
+        general : state.theme.general
+    }
+}
+export default connect(mapStateToProps)(CalendarContainer)

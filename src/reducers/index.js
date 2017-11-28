@@ -1,7 +1,7 @@
-import homeReducer from '../modules/home/homeReducer';
+import changeThemeReducer from '../modules/home/changThemeReducer';
 import {combineReducers} from 'redux';
 
 const rootReducer = combineReducers({
-    home: homeReducer,
+    theme: changeThemeReducer,
 });
 export default rootReducer;

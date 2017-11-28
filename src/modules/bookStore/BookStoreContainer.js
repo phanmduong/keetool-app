@@ -10,9 +10,9 @@ import Icon from '../../commons/Icon';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as color from '../../styles/colorDark';
 import * as colors from '../../styles/generalStyle';
-import general from '../../styles/generalStyle';
+import {connect} from 'react-redux'
 
-export default class MusicPlayContainer extends Component {
+ class BookStoreContainer extends Component {
     constructor() {
         super();
         this.state = {
@@ -71,6 +71,7 @@ export default class MusicPlayContainer extends Component {
     }
 
     ShowTab() {
+        const {general} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -164,6 +165,7 @@ export default class MusicPlayContainer extends Component {
     render() {
         const {feature, data} = this.state;
         const {navigate} = this.props.navigation;
+        const {general} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
@@ -267,3 +269,9 @@ export default class MusicPlayContainer extends Component {
         );
     }
 }
+function mapStateToProps(state) {
+    return {
+        general : state.theme.general
+    }
+}
+export default connect(mapStateToProps)(BookStoreContainer)

@@ -9,10 +9,8 @@ import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as size from '../../styles/size';
 import * as colors from '../../styles/generalStyle';
-import * as actions from './changeThemeAction';
-import general from '../../styles/generalStyle';
 import {connect} from 'react-redux'
-import {bindActionCreators} from 'redux';
+
 
 
 class HomeContainer extends Component {
@@ -69,10 +67,6 @@ class HomeContainer extends Component {
         }
     }
 
-    componentWillMount() {
-
-    }
-
     ViewDashboard() {
         this.setState({tab: 0})
     }
@@ -86,6 +80,7 @@ class HomeContainer extends Component {
     }
 
     ShowTab() {
+        const {general} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -213,6 +208,7 @@ class HomeContainer extends Component {
 
     render() {
         const {navigate} = this.props.navigation;
+        const {general} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
@@ -280,14 +276,8 @@ class HomeContainer extends Component {
 
 function mapStateToProps(state) {
     return {
-
+      general : state.theme.general
     }
 }
 
-function mapDispatchToProps(dispatch) {
-    return {
-        actions: bindActionCreators(actions, dispatch),
-    }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(HomeContainer);
+export default connect(mapStateToProps)(HomeContainer);
