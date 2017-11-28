@@ -11,14 +11,15 @@ let color = colorDark;
 export const colors = [color.colorGradient0, color.colorGradient1, color.colorGradient2];
 
 export const themeCalendar = {
-    backgroundColor: color.none,
-    calendarBackground: color.none,
+    marginTop: 20,
+    backgroundColor: color.textColor,
+    calendarBackground: color.textColor,
     textSectionTitleColor: color.textColor,
     selectedDayBackgroundColor: color.textColor,
-    selectedDayTextColor: color.textColor,
-    todayTextColor: color.textColor,
-    dayTextColor: color.textColorNotActive2,
-    textDisabledColor: color.textColorNotActive,
+    selectedDayTextColor: 'black',
+    todayTextColor: 'black',
+    dayTextColor: 'black',
+    textDisabledColor: 'black',
     dotColor: color.textColor,
     selectedDotColor: color.textColor,
     arrowColor: color.textColor,
@@ -73,6 +74,14 @@ const general = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+    },
+    wrapperNotificationCircle: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 16,
+        width: 16,
+        borderRadius: 8,
+        backgroundColor: color.textColor
     },
     wrapperCenterRow: {
         flex: 1,
@@ -188,6 +197,11 @@ const general = StyleSheet.create({
         color: color.textColor,
         fontFamily: 'Montserrat-Regular',
         fontSize: 35,
+    },
+    textNotification:{
+        color: 'black',
+        fontFamily: 'Montserrat-Regular',
+        fontSize: 12,
     },
     iconStyle: {
         color: color.textColor,

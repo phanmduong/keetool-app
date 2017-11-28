@@ -47,11 +47,12 @@ export default class CalendarContainer extends Component {
                         </Right>
                     </View>
                     <View style={general.wrapperRowSpaceBetween}>
-                        <Icon
-                            name="fontawesome|bell-o"
-                            size={20}
-                            style={general.iconStyle}
-                        />
+                        <View style={general.wrapperRowCenter}>
+                            <Text style={general.textTitleCard}>Notification</Text>
+                            <View style={[general.wrapperNotificationCircle, {marginLeft: 3}]}>
+                                <Text style={general.textNotification}>1</Text>
+                            </View>
+                        </View>
                         <TouchableOpacity
                             onPress={() => this.changeCalendarTypeView()}
                         >
@@ -67,7 +68,7 @@ export default class CalendarContainer extends Component {
                         this.state.calendarTypeView
                             ?
                             <Calendar
-                                theme={colors.themeCalendar}
+                                theme={[colors.themeCalendar, general.wrapperFullWidth]}
                             />
                             :
                             <Agenda
