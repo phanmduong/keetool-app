@@ -13,7 +13,7 @@ class HamburgerButton extends Component{
                 <Icon
                     name="materialCommunity|menu"
                     size={30}
-                    style={general.iconStyle}
+                    style={[general.iconStyle, {marginRight: -3}]}
                 />
             </TouchableOpacity>
         );

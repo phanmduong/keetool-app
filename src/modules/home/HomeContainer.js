@@ -70,8 +70,7 @@ class HomeContainer extends Component {
     }
 
     componentWillMount() {
-        this.props.actions.setTheme();
-        this.props.actions.getTheme();
+
     }
 
     ViewDashboard() {

@@ -9,8 +9,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as color from '../../styles/colorDark';
-import * as size from '../../styles/size';
-import part from '../../styles/partStyle';
+import * as colors from '../../styles/generalStyle';
 import general from '../../styles/generalStyle';
 
 export default class MusicPlayContainer extends Component {
@@ -171,7 +170,7 @@ export default class MusicPlayContainer extends Component {
                     barStyle={"light-content"}
                 />
                 <LinearGradient
-                    colors={[color.colorGradient0, color.colorGradient1, color.colorGradient2]}
+                    colors={colors.colors}
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>

@@ -4,7 +4,6 @@ import thunk from 'redux-thunk';
 import {compose, applyMiddleware, createStore} from 'redux';
 import rootReducer from './reducers/index';
 import {Main} from './navigator/appRouter';
-import Test from './modules/test/testScreen';
 
 const store = createStore(rootReducer, compose(applyMiddleware(thunk)));
 

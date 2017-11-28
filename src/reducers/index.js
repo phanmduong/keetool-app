@@ -1,7 +1,7 @@
-import testReducer from '../modules/test/testReducer';
+import homeReducer from '../modules/home/homeReducer';
 import {combineReducers} from 'redux';
 
 const rootReducer = combineReducers({
-    test: testReducer,
+    home: homeReducer,
 });
 export default rootReducer;

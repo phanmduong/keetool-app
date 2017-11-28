@@ -67,6 +67,12 @@ export default class DrawerContainer extends Component {
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('Calendar')}
+                    >
+                        <Text style={general.textInDrawer}>Calendar</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
                         onPress={() => navigate('Dashboard')}
                     >
                         <Text style={general.textInDrawer}>Dashboard</Text>

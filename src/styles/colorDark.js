@@ -4,6 +4,7 @@ export const colorGradient0 = '#7D9CEF';
 export const colorGradient1 = '#C86AD9';
 export const colorGradient2 = '#333760';
 export const textColorNotActive = 'rgba(255, 255, 255, 0.2)';
+export const textColorNotActive2 = 'rgba(255, 255, 255, 0.5)';
 export const shadowColor = 'rgba(0,0,0,0.5)';
 export const star = '#ffff05';
 export const blueDashboard = '#4697E8';

@@ -1,21 +1,20 @@
 import * as types from '../../constants/actionTypes';
 import initialState from '../../reducers/initialState';
 
-export default function listBlogReducer(state = initialState.home, action) {
+export default function listBlogReducer(state = initialState.theme, action) {
     switch (action.type) {
-        case types.BEGIN_GET_DATA:
+        case types.THEME_DARK:
             return {
                 ...state,
                 ...{
-                    isLoading: true,
+                    themeType: 'colorDark'
                 }
             };
-        case types.GET_DATA_SUCCESS:
+        case types.THEME_LIGHT:
             return {
                 ...state,
                 ...{
-                    isLoading: false,
-                    data: action.data,
+                    themeType: 'colorLight'
                 }
             };
         default:

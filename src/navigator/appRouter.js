@@ -5,6 +5,7 @@ import DrawerContainer from '../modules/drawer/DrawerContainer';
 import MusicPlayContainer from '../modules/musicPlay/MusicPlayContainer';
 import VideoPlayContainer from '../modules/videoPlay/VideoPlayContainer';
 import BookStoreContainer from '../modules/bookStore/BookStoreContainer';
+import CalendarContainer from '../modules/calendar/CalendarContainer';
 import DashboardContainer from '../modules/dashboard/DashboardContainer';
 import * as size from '../styles/size';
 
@@ -24,6 +25,7 @@ const Drawer = DrawerNavigator(
         MusicPlay: {screen: MusicPlayContainer},
         VideoPlay: {screen: VideoPlayContainer},
         BookStore: {screen: BookStoreContainer},
+        Calendar: {screen: CalendarContainer},
         Dashboard: {screen: DashboardContainer},
     },
     {

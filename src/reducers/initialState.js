@@ -4,6 +4,7 @@ export default {
         data: [],
     },
     theme: {
-        themeColor: ''
-    },
+        themeType: 'colorDark'
+    }
+
 }
