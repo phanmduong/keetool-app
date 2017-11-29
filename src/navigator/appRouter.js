@@ -10,7 +10,7 @@ import DashboardContainer from '../modules/dashboard/DashboardContainer';
 import * as size from '../styles/size';
 import MapContainer from "../modules/Maps/MapContainer";
 import QRcodeContainer from "../modules/QRcode/QRcodeContainer";
-
+import TrelloContainer from '../modules/trello/trelloContainer'
 const StackNavigatorStyle = {
     navigationOptions: {
         header: null,
@@ -30,7 +30,8 @@ const Drawer = DrawerNavigator(
         Calendar: {screen: CalendarContainer},
         Dashboard: {screen: DashboardContainer},
         Map : {screen : MapContainer},
-        QRCode : {screen : QRcodeContainer}
+        QRCode : {screen : QRcodeContainer},
+        Trello : {screen : TrelloContainer}
     },
     {
         drawerWidth: size.wid * 3 / 4,
