@@ -9,7 +9,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import {connect} from 'react-redux';
 
 
-const LATITUDE = 0.0922;
+const LATITUDE = 0.01;
 const {width, height} = Dimensions.get('window');
 class MapContainer extends Component {
     constructor() {
@@ -41,8 +41,10 @@ class MapContainer extends Component {
 
     componentDidMount() {
         navigator.geolocation.getCurrentPosition((position) => {
-                let lat = parseFloat(position.coords.latitude);
-                let long = parseFloat(position.coords.longitude);
+                // let lat = parseFloat(position.coords.latitude);
+                // let long = parseFloat(position.coords.longitude);
+                let lat = 21.0229925;
+                let long = 105.7993911;
                 let initialRegion = {
                     latitude: lat,
                     longitude: long,
@@ -55,8 +57,10 @@ class MapContainer extends Component {
             {enableHighAccuracy: true, timeout: 30000, maximumAge: 100}
         )
         this.watchID = navigator.geolocation.watchPosition((position) => {
-            let lat = parseFloat(position.coords.latitude);
-            let long = parseFloat(position.coords.longitude);
+            // let lat = parseFloat(position.coords.latitude);
+            // let long = parseFloat(position.coords.longitude);
+            let lat = 21.0229925;
+            let long = 105.7993911;
             let lastRegion = {
                 latitude: lat,
                 longitude: long,
@@ -64,8 +68,8 @@ class MapContainer extends Component {
                 longitudeDelta: 0.0421
             }
             let NY = {
-                lat: lat,
-                lng: long
+                lat: 21.0229925,
+                lng: 105.7993911
             }
             this.setState({initialPosition: lastRegion, markerPosition: lastRegion});
             Geocoder.geocodePosition(NY).then(res => {

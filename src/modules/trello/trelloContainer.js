@@ -75,22 +75,22 @@ class TrelloContainer extends Component {
                             </TouchableOpacity>
                         </Right>
                     </View>
-                    <ScrollView
-                        showsHorizontalScrollIndicator={false}
-                        horizontal={true}>
-                        {this.state.List.map((item) => {
-                            return (
-                                <FlatList
-                                    style {{marginLeft: 20}}
-                                    data={item}
-                                    renderItem={({itemInCard}) =>
-                                        <Text>{itemInCard.name}</Text>
-                                    }
-                                    extraData={this.state}
-                                />
-                            )
-                        })}
-                    </ScrollView>
+                    {/*<ScrollView*/}
+                        {/*showsHorizontalScrollIndicator={false}*/}
+                        {/*horizontal={true}>*/}
+                        {/*{this.state.List.map((item) => {*/}
+                            {/*return (*/}
+                                {/*<FlatList*/}
+                                    {/*style {{marginLeft: 20}}*/}
+                                    {/*data={item}*/}
+                                    {/*renderItem={({itemInCard}) =>*/}
+                                        {/*<Text>{itemInCard.name}</Text>*/}
+                                    {/*}*/}
+                                    {/*extraData={this.state}*/}
+                                {/*/>*/}
+                            {/*)*/}
+                        {/*})}*/}
+                    {/*</ScrollView>*/}
                 </LinearGradient>
             </Container>
         )

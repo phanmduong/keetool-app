@@ -107,6 +107,7 @@ class DrawerContainer extends Component {
                         <Text style={general.textInDrawer}>QRCODE</Text>
                     </TouchableOpacity>
                 </Content>
+
             </Container>
         );
     }
