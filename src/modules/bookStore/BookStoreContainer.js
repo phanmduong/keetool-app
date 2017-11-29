@@ -7,9 +7,7 @@ import {
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
-import * as colors from '../../styles/generalStyle';
-import general from '../../styles/generalStyle';
-import {connect} from 'react-redux'
+import {connect} from 'react-redux';
 
 class BookStoreContainer extends Component {
     constructor() {

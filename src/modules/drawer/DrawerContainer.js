@@ -34,7 +34,7 @@ class DrawerContainer extends Component {
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
-                    barStyle={this.props.theme ? "light-content" : "dark-content"}
+                    barStyle={this.props.theme ? "dark-content" : "light-content"}
                 />
                 <LinearGradient
                     colors={colors.colors}

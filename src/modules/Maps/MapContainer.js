@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
 import {Dimensions, Platform, StatusBar, StyleSheet, TouchableOpacity, View} from 'react-native';
-import part from '../../styles/partStyle';
-import MapView from 'react-native-maps';
-import Icon from '../../commons/Icon';
-import * as color from '../../styles/color';
-import * as size from '../../styles/size';
-import Geocoder from 'react-native-geocoder';
 import {Container, Content, Item, Left, Right, Spinner, Text, Body} from 'native-base';
-import {hei, wid} from '../../styles/size';
+import MapView from 'react-native-maps';
+import * as color from '../../styles/color';
+import HamburgerButton from '../../commons/HamburgerButton';
+import Geocoder from 'react-native-geocoder';
+import LinearGradient from 'react-native-linear-gradient';
+import {connect} from 'react-redux';
+
+
 const LATITUDE = 0.0922;
 const {width, height} = Dimensions.get('window');
-// const LONGITUDE = LATITUDE * DELTA;
-export default class MapContainer extends Component {
+class MapContainer extends Component {
     constructor() {
         super()
         this.state = {
@@ -70,7 +70,11 @@ export default class MapContainer extends Component {
             this.setState({initialPosition: lastRegion, markerPosition: lastRegion});
             Geocoder.geocodePosition(NY).then(res => {
                 console.log(res)
-                this.setState({Address: res[0].formattedAddress, streetName: res[0].streetName, country: res[0].country })
+                this.setState({
+                    Address: res[0].formattedAddress,
+                    streetName: res[0].streetName,
+                    country: res[0].country
+                })
             })
                 .catch(err => console.log(err))
         })
@@ -79,85 +83,71 @@ export default class MapContainer extends Component {
 
 
     render() {
+        const {navigate} = this.props.navigation;
+        const {general, colors} = this.props;
         return (
-            <Container style={[part.wrapperContainer, {paddingBottom: 0}]}>
-                <StatusBar
-                    backgroundColor={color.main}
-                    barStyle={Platform.OS === 'ios' ? "dark-content" : "light-content"}
-                />
-                {
-                    Platform.OS === 'ios'
-                        ?
-                        <View style={part.wrapperStatusBarNoPadding}>
-                        </View>
-                        :
-                        <View/>
-                }
-                <View>
-                    <Item style={[part.noBorder, {paddingLeft: 15}]}>
-                        <Text style={[part.titleLargeDarkBold, part.paddingLineFar]}>
+            <Container style={general.wrapperContainer}>
+                <LinearGradient
+                    colors={colors}
+                    style={general.linearGradient}>
+                    <View style={general.wrapperHeader}>
+                        <Text style={[general.textTitleHeader]}>
                             WIFI CHECKIN
                         </Text>
-                        <Right style={part.paddingRight}>
-                            <TouchableOpacity
-                                activeOpacity={0.9}
-                                onPress={() => this.props.navigation.navigate('DrawerOpen')}
-                            >
-                                <Icon
-                                    name="materialCommunity|menu"
-                                    color={color.text}
-                                    size={size.iconGiant}
-                                    style={part.padding}
-                                />
-                            </TouchableOpacity>
+                        <Right>
+                            <HamburgerButton navigate={navigate}/>
                         </Right>
-                    </Item>
-                </View>
-                <View style={[styles.wrapperContainer, {marginTop: 20}]}>
-                    <MapView
-                        style={styles.map}
-                        region={this.state.initialPosition}
-                        onRegionChange={region => this.setState({initialPosition: region})}
-                        onRegionChangeComplete={region => this.setState({initialPosition: region})}
-                        followsUserLocation={true}
-                    >
-                        <MapView.Marker
-                            coordinate={this.state.markerPosition}
-                        >
-                            <View style={styles.radius}>
-                                <View style={styles.marker}/>
+                    </View>
+                    <Content style={general.wrapperFullWidth}>
+                        <View style={[styles.wrapperContainer, {marginTop: 20}]}>
+                            <MapView
+                                style={styles.map}
+                                region={this.state.initialPosition}
+                                onRegionChange={region => this.setState({initialPosition: region})}
+                                onRegionChangeComplete={region => this.setState({initialPosition: region})}
+                                followsUserLocation={true}
+                            >
+                                <MapView.Marker
+                                    coordinate={this.state.markerPosition}
+                                >
+                                    <View style={styles.radius}>
+                                        <View style={styles.marker}/>
+                                    </View>
+                                </MapView.Marker>
+                            </MapView>
+                            <View style={{marginTop: height / 3 + 20, marginLeft: 10}}>
+                                <View>
+                                    <Text style={general.textTitleCard}>Địa điểm hiện tai </Text>
+                                    <Text style={general.textDescriptionCard}>Address
+                                        : {this.state.Address}</Text>
+                                    <Text style={general.textDescriptionCard}>Street Name
+                                        : {this.state.streetName}</Text>
+                                </View>
+                                <View style={{marginTop: 15}}>
+                                    <Text style={general.textTitleCard}>Tên Wifi </Text>
+                                    <Text style={general.textDescriptionCard}>Country
+                                        : {this.state.country}</Text>
+                                </View>
                             </View>
-                        </MapView.Marker>
-                    </MapView>
-                    <View style={{marginTop: height / 3 + 20, marginLeft: 10}}>
-                        <View>
-                            <Text style={[part.titleSmallDarkBold, {fontSize: 15}]}>Địa điểm hiện tai </Text>
-                            <Text style={[part.textPrice2, {fontSize: 15, padding: 5}]}>Address
-                                : {this.state.Address}</Text>
-                            <Text style={[part.textPrice2, {fontSize: 15, padding: 5}]}>streetName
-                                : {this.state.streetName}</Text>
+                            <View style={general.marginTop}>
+                                <Body>
+                                <TouchableOpacity
+                                    style={general.marginTop}
+                                >
+                                    <Text style={general.textTitleCard}>Check in</Text>
+                                </TouchableOpacity>
+                                <TouchableOpacity
+                                    style={general.marginTop}
+                                >
+                                    <Text style={general.textTitleCard}>Lịch sử điểm danh</Text>
+                                </TouchableOpacity>
+                                </Body>
+                            </View>
                         </View>
-                        <View style={{marginTop: 15}}>
-                            <Text style={[part.titleSmallDarkBold, {fontSize: 15}]}>Tên Wifi </Text>
-                            <Text style={[part.textPrice2, {fontSize: 15, padding: 5}]}>country
-                                : {this.state.country}</Text>
-                        </View>
-                    </View>
-                    <View style={[part.bottomModal, {marginTop : 30}]}>
-                        <Body>
-                        <TouchableOpacity style={[part.buttonOrderInModal, {justifyContent: 'center', alignItems: 'center', height : 50, width : wid -20}]}
-                        >
-                            <Text style={[part.textBigLight]}>Check in</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={[part.buttonOrderInModal, {backgroundColor : color.gray ,height : 50, width : wid -20,justifyContent: 'center', alignItems: 'center', marginTop : 10}]}
-                        >
-                            <Text style={[part.textBigLight]}>Lịch sử điểm danh</Text>
-                        </TouchableOpacity>
-                        </Body>
-                    </View>
-                </View>
+                    </Content>
 
 
+                </LinearGradient>
             </Container>
         )
     }
@@ -196,5 +186,13 @@ const styles = StyleSheet.create({
         backgroundColor: '#007AFF',
         borderColor: 'white'
     }
-    
+
 })
+
+function mapStateToProps(state){
+    return {
+        general : state.theme.general,
+        colors: state.theme.colors,
+    }
+}
+export default connect(mapStateToProps)(MapContainer)

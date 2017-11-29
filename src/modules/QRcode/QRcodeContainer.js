@@ -1,13 +1,12 @@
-
 import React, {Component} from 'react';
-
 import {Linking, Platform, StyleSheet, TouchableOpacity, View, StatusBar} from 'react-native';
 import QRCodeScanner from 'react-native-qrcode-scanner';
 import part from '../../styles/partStyle';
-import Icon from '../../commons/Icon';
 import {Container, Content, Item, Left, Right, Spinner, Text} from 'native-base';
-import * as color from '../../styles/color';
-import * as size from '../../styles/size';
+import {connect} from 'react-redux';
+import HamburgerButton from '../../commons/HamburgerButton';
+import LinearGradient from 'react-native-linear-gradient';
+
 class QRcodeContainer extends Component {
     onSuccess(e) {
         Linking
@@ -17,58 +16,39 @@ class QRcodeContainer extends Component {
 
     render() {
         const {goBack, navigate} = this.props.navigation;
+        const {general, colors} = this.props;
         return (
-
-            <Container style={[part.wrapperContainer, {paddingBottom: 0}]}>
-                <StatusBar
-                    backgroundColor={color.main}
-                    barStyle={Platform.OS === 'ios' ? "dark-content" : "light-content"}
-                />
-                {
-                    Platform.OS === 'ios'
-                        ?
-                        <View style={part.wrapperStatusBarNoPadding}>
-                        </View>
-                        :
-                        <View/>
-                }
-                <View>
-                    <Item style={[part.noBorder, {paddingLeft: 15}]}>
-                        <Text style={[part.titleLargeDarkBold, part.paddingLineFar]}>
-                            QR CODE
+            <Container style={general.wrapperContainer}>
+                <LinearGradient
+                    colors={colors}
+                    style={general.linearGradient}>
+                    <View style={general.wrapperHeader}>
+                        <Text style={[general.textTitleHeader]}>
+                            WIFI CHECKIN
                         </Text>
-                        <Right style={part.paddingRight}>
-                            <TouchableOpacity
-                                activeOpacity={0.9}
-                                onPress={() => this.props.navigation.navigate('DrawerOpen')}
-                            >
-                                <Icon
-                                    name="materialCommunity|menu"
-                                    color={color.text}
-                                    size={size.iconGiant}
-                                    style={part.padding}
-                                />
-                            </TouchableOpacity>
+                        <Right>
+                            <HamburgerButton navigate={navigate}/>
                         </Right>
-                    </Item>
-                </View>
-                <View style={{marginTop: 30}}>
-                    <QRCodeScanner onRead={this.onSuccess.bind(this)}/>
-                </View>
-                <View style={styles.buttonQR}>
-                    <TouchableOpacity style={styles.buttonTouchable}>
-                        <View style={styles.radius}>
-                            <View style={styles.marker}/>
+                    </View>
+                    <View style={general.wrapperFullWidth}>
+                        <View style={{marginTop: 30}}>
+                            <QRCodeScanner onRead={this.onSuccess.bind(this)}/>
                         </View>
-                    </TouchableOpacity>
-                </View>
+                        <View style={styles.buttonQR}>
+                            <TouchableOpacity style={styles.buttonTouchable}>
+                                <View style={styles.radius}>
+                                    <View style={styles.marker}/>
+                                </View>
+                            </TouchableOpacity>
+                        </View>
+                    </View>
+                </LinearGradient>
             </Container>
 
         );
     }
 }
 
-export default QRcodeContainer;
 const styles = StyleSheet.create({
     centerText: {
         flex: 1,
@@ -112,3 +92,11 @@ const styles = StyleSheet.create({
     }
 });
 
+function mapStateToProps(state) {
+    return {
+        general: state.theme.general,
+        colors: state.theme.colors,
+    }
+}
+
+export default connect(mapStateToProps)(QRcodeContainer)

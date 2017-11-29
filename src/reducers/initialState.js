@@ -8,7 +8,6 @@ export default {
         data: [],
     },
     theme: {
-
         theme : false,
         colors : [color.colorGradient0, color.colorGradient1, color.colorGradient2],
         general :

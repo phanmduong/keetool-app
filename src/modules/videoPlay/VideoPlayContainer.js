@@ -10,7 +10,6 @@ import Icon from '../../commons/Icon';
 import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
 import {connect} from 'react-redux';
-import * as colors from '../../styles/generalStyle';
 import Video from 'react-native-video';
 
  class VideoPlayContainer extends Component {
@@ -90,9 +89,6 @@ import Video from 'react-native-video';
         let widthDeadlineProgress = (size.wid - 20) * temp;
         return (
             <Container style={general.wrapperContainer}>
-                <StatusBar
-                    barStyle={"light-content"}
-                />
                 <LinearGradient
                     colors={colors}
                     style={general.linearGradient}>
@@ -146,7 +142,7 @@ import Video from 'react-native-video';
                             <Icon
                                 name={this.state.paused ? "entypo|controller-play" : "entypo|controller-paus"}
                                 size={40}
-                                style={[general.iconStyle, this.state.paused ? {paddingLeft: 5} : '']}
+                                style={[general.iconStyle, {color: '#FFFFFF'}, this.state.paused ? {paddingLeft: 5} : '']}
                             />
                             <View style={{position: 'absolute', bottom: 5}}>
                                 <TouchableOpacity style={{paddingTop: 10}}
@@ -154,7 +150,7 @@ import Video from 'react-native-video';
                                 >
                                     <View style={general.wrapperDeadline}>
                                         <View
-                                            style={[general.deadlineProgress, {width: widthDeadlineProgress}]}>
+                                            style={[general.deadlineProgress, {width: widthDeadlineProgress, backgroundColor: '#FFFFFF'}]}>
                                         </View>
                                     </View>
                                 </TouchableOpacity>
@@ -220,7 +216,6 @@ import Video from 'react-native-video';
 function mapStateToProps(state){
      return {
          general : state.theme.general,
-
          colors: state.theme.colors,
      }
 }

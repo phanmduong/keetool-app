@@ -124,11 +124,10 @@ class HomeContainer extends Component {
                             Update
                         </Text>
                         <Content style={[{height: size.wid * 3 / 5 + 60}, general.paddingLR]}>
-                            <FlatList
-                                showsVerticalScrollIndicator={false}
-                                data={this.state.data}
-                                renderItem={({item}) =>
+                           {
+                               this.state.data.map((item, i) =>
                                     <TouchableOpacity
+                                        key={i}
                                         activeOpacity={0.8}
                                         style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
                                         <View
@@ -146,8 +145,8 @@ class HomeContainer extends Component {
                                             <Text style={general.textNoteCard}>{item.created_at}</Text>
                                         </View>
                                     </TouchableOpacity>
-                                }
-                            />
+                               )}
+
                         </Content>
                         <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
                             Gird
@@ -179,11 +178,10 @@ class HomeContainer extends Component {
             case 1:
                 return (
                     <Content style={{flex: 1, padding: 20}}>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={this.state.data}
-                            renderItem={({item}) =>
+                        {
+                            this.state.data.map((item, i) =>
                                 <TouchableOpacity
+                                    key={i}
                                     activeOpacity={0.8}
                                     style={[general.marginTopBottom, general.shadow, {marginTop: 20}]}>
                                     <Image
@@ -197,9 +195,7 @@ class HomeContainer extends Component {
                                         <Text style={general.textNoteCard}>{item.created_at}</Text>
                                     </View>
                                 </TouchableOpacity>
-                            }
-                        />
-
+                            )}
                     </Content>
                 );
             case 2:
