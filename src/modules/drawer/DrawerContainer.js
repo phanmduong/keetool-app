@@ -18,13 +18,13 @@ class DrawerContainer extends Component {
         super();
         this.state = {
             text: '',
-            setThemeDark: true
+            setThemeDark: false
         }
     }
 
     changeTheme() {
         this.setState({setThemeDark : !this.state.setThemeDark})
-        this.props.theme && !this.state.setThemeDark
+        this.props.theme || this.state.setThemeDark
             ?
             this.props.changeThemeAction.changeThemeDark()
             :

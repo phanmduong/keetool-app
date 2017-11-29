@@ -419,6 +419,27 @@ export function changeThemeLight(){
                 borderRadius: 5,
                 backgroundColor: color.textColor,
             },
+            wrapperModal: {
+                flex: 1,
+                backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                alignItems: 'center',
+                justifyContent: 'center',
+            },
+            topModal: {
+                height: 50,
+                padding: 10,
+                justifyContent: 'center',
+                alignItems: 'center',
+            },
+            contentModal: {
+                flex: 1,
+            },
+            modalCart: {
+                borderRadius: 15,
+                width: wid * 0.9,
+                height: hei * 0.8,
+                backgroundColor: '#ffffff',
+            },
             wrapperDeadline: {
                 width: wid - 40,
                 height: 5,
@@ -442,11 +463,32 @@ export function changeThemeDark(){
                 flex: 1,
                 backgroundColor: color.none,
             },
+            contentModal: {
+                flex: 1,
+            },
+            modalCart: {
+                borderRadius: 15,
+                width: wid * 0.9,
+                height: hei * 0.8,
+                backgroundColor: '#ffffff',
+            },
             wrapperHeader: {
                 height: 100,
                 paddingTop: 20,
                 flexDirection: 'row',
                 alignItems: 'center',
+            },
+            topModal: {
+                height: 50,
+                padding: 10,
+                justifyContent: 'center',
+                alignItems: 'center',
+            },
+            wrapperModal: {
+                flex: 1,
+                backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                alignItems: 'center',
+                justifyContent: 'center',
             },
             wrapperMenuHome: {
                 flexDirection: 'row',

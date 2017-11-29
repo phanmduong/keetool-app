@@ -648,6 +648,12 @@ const general = StyleSheet.create({
     imageFullWidth: {
         flex: 1,
     },
+    wrapperModal: {
+        flex: 1,
+        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
     wrapperRevenue: {
         justifyContent: 'flex-end',
         backgroundColor: color.blueDashboard,
@@ -725,6 +731,21 @@ const general = StyleSheet.create({
         paddingTop: 0,
         height: hei,
         width: wid,
+    },
+    contentModal: {
+        flex: 1,
+    },
+    topModal: {
+        height: 50,
+        padding: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    modalCart: {
+        borderRadius: 15,
+        width: wid * 0.9,
+        height: hei * 0.8,
+        backgroundColor: '#ffffff',
     },
     linearGradientInDrawer: {
         paddingBottom: 0,
