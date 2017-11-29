@@ -8,6 +8,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import HamburgerButton from '../../commons/HamburgerButton';
+import * as generalStyle from '../../styles/generalStyle';
 import {Calendar, CalendarList, Agenda} from 'react-native-calendars';
 
 import{connect} from 'react-redux';
@@ -45,9 +46,6 @@ import{connect} from 'react-redux';
         const {general, colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
-                <StatusBar
-                    barStyle={"light-content"}
-                />
                 <LinearGradient
                     colors={colors}
                     style={general.linearGradient}>
@@ -77,26 +75,25 @@ import{connect} from 'react-redux';
                         </TouchableOpacity>
 
                     </View>
-                    {
-                        this.state.calendarTypeView
-                            ?
-                            <Calendar
-                                theme={colors.themeCalendar}
-                            />
-                            :
-                            <Agenda
-                                style={[general.wrapperFullWidth, {marginTop: 20}]}
-                                items={this.state.items}
-                                loadItemsForMonth={this.loadItems.bind(this)}
-                                selected={'2017-11-28'}
-                                renderItem={this.renderItem.bind(this)}
-                                renderEmptyDate={this.renderEmptyDate.bind(this)}
-                                rowHasChanged={this.rowHasChanged.bind(this)}
-                                onDayPress={(day) => {this.onDayPress(day)} }
-                                markedDates={this.state.markedDates}
-                                markingType={'period'}
-                            />
-                    }
+                    <View  style={[general.wrapperFullWidth, {marginTop: 20}]}>
+                        {
+                            this.state.calendarTypeView
+                                ?
+                                <Calendar
+                                    theme={generalStyle.themeCalendar}
+                                />
+                                :
+                                <Agenda
+                                    items={this.state.items}
+                                    loadItemsForMonth={this.loadItems.bind(this)}
+                                    selected={'2017-05-16'}
+                                    renderItem={this.renderItem.bind(this)}
+                                    renderEmptyDate={this.renderEmptyDate.bind(this)}
+                                    rowHasChanged={this.rowHasChanged.bind(this)}
+                                />
+                        }
+                    </View>
+
                 </LinearGradient>
             </Container>
         );

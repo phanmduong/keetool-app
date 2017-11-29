@@ -1,5 +1,5 @@
 export const none = 'transparent';
-export const textColor = 'rgb(255, 255, 255)';
+export const textColor = '#FFFFFF';
 export const colorGradient0 = '#7D9CEF';
 export const colorGradient1 = '#C86AD9';
 export const colorGradient2 = '#333760';
@@ -10,3 +10,4 @@ export const star = '#ffff05';
 export const blueDashboard = '#4697E8';
 export const buttonPlay = 'rgba(155, 141, 171, 0.4)';
 export const buttonNext = 'rgba(255, 255, 255, 0.4)';
+export const textColorReverse = '#000000';

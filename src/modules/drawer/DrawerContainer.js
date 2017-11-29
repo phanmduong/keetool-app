@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {
-    View, Text, TouchableOpacity, StatusBar
+    View, Text, TouchableOpacity, StatusBar, Switch
 } from 'react-native';
 import {
-    Container,
+    Container, Content
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import * as colors from '../../styles/generalStyle';
@@ -18,11 +18,13 @@ class DrawerContainer extends Component {
         super();
         this.state = {
             text: '',
+            setThemeDark: true
         }
     }
 
     changeTheme() {
-        this.props.theme
+        this.setState({setThemeDark : !this.state.setThemeDark})
+        this.props.theme && !this.state.setThemeDark
             ?
             this.props.changeThemeAction.changeThemeDark()
             :
@@ -45,12 +47,16 @@ class DrawerContainer extends Component {
                         </Text>
                     </View>
                 </LinearGradient>
-                <View style={general.padding}>
+                <Content style={general.padding}>
                     <TouchableOpacity
                         style={[general.itemTabInDrawer, general.paddingLeft]}
-                        onPress={() => this.changeTheme()}
                     >
                         <Text style={general.textInDrawer}>Change Theme</Text>
+                        <Switch
+                            value={this.state.setThemeDark}
+                            onValueChange={() => this.changeTheme()}
+                            onTintColor={'#C86AD9'}
+                        />
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={[general.itemTabInDrawer, general.paddingLeft]}
@@ -100,7 +106,7 @@ class DrawerContainer extends Component {
                     >
                         <Text style={general.textInDrawer}>QRCODE</Text>
                     </TouchableOpacity>
-                </View>
+                </Content>
             </Container>
         );
     }

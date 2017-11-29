@@ -63,6 +63,9 @@ import Video from 'react-native-video';
     }
 
     nextSong(){
+        this.setState({
+            data: []
+        })
         if(this.state.index < 2) {
             this.setState({
                 index: this.state.index + 1,
@@ -146,9 +149,6 @@ import Video from 'react-native-video';
         let widthDeadlineProgress = (size.wid - 20) * temp;
         return (
             <Container style={general.wrapperContainer}>
-                <StatusBar
-                    barStyle={"light-content"}
-                />
                 <LinearGradient
                     colors={colors}
                     style={general.linearGradient}>

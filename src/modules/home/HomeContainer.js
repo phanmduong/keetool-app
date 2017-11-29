@@ -213,9 +213,6 @@ class HomeContainer extends Component {
 
         return (
             <Container style={general.wrapperContainer}>
-                <StatusBar
-                    barStyle={"light-content"}
-                />
                 <LinearGradient
                     colors={colors}
                     style={general.linearGradient}>

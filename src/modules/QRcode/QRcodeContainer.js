@@ -31,7 +31,7 @@ class QRcodeContainer extends Component {
                         </Right>
                     </View>
                     <View style={general.wrapperFullWidth}>
-                        <View style={{marginTop: 30}}>
+                        <View style={general.marginTop}>
                             <QRCodeScanner onRead={this.onSuccess.bind(this)}/>
                         </View>
                         <View style={styles.buttonQR}>

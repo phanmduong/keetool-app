@@ -33,7 +33,7 @@ class MapContainer extends Component {
         }
     }
 
-    watchID: ?number = null;
+    watchID: ? number = null;
 
     componentWillMount() {
         navigator.geolocation.clearWatch(this.watchID);
@@ -117,14 +117,14 @@ class MapContainer extends Component {
                             </MapView>
                             <View style={{marginTop: height / 3 + 20, marginLeft: 10}}>
                                 <View>
-                                    <Text style={general.textTitleCard}>Địa điểm hiện tai </Text>
+                                    <Text style={general.textTitleCard}>Localization</Text>
                                     <Text style={general.textDescriptionCard}>Address
                                         : {this.state.Address}</Text>
                                     <Text style={general.textDescriptionCard}>Street Name
                                         : {this.state.streetName}</Text>
                                 </View>
                                 <View style={{marginTop: 15}}>
-                                    <Text style={general.textTitleCard}>Tên Wifi </Text>
+                                    <Text style={general.textTitleCard}>Wifi name</Text>
                                     <Text style={general.textDescriptionCard}>Country
                                         : {this.state.country}</Text>
                                 </View>
@@ -139,7 +139,7 @@ class MapContainer extends Component {
                                 <TouchableOpacity
                                     style={general.marginTop}
                                 >
-                                    <Text style={general.textTitleCard}>Lịch sử điểm danh</Text>
+                                    <Text style={general.textTitleCard}>Attendance history </Text>
                                 </TouchableOpacity>
                                 </Body>
                             </View>

@@ -7,30 +7,14 @@ import * as size from './size';
 import {hei, wid} from './size';
 
 let color = colorDark;
-
 export const colors = [color.colorGradient0, color.colorGradient1, color.colorGradient2];
-
 export const themeCalendar = {
-    marginLeft: -20,
-    marginTop: 20,
-    backgroundColor: color.textColor,
-    calendarBackground: color.textColor,
-    textSectionTitleColor: color.textColor,
-    selectedDayBackgroundColor: color.textColor,
-    selectedDayTextColor: 'black',
-    todayTextColor: 'black',
-    dayTextColor: 'black',
-    textDisabledColor: 'black',
-    dotColor: color.textColor,
-    selectedDotColor: color.textColor,
-    arrowColor: color.textColor,
-    monthTextColor: color.textColor,
     textDayFontFamily: 'Montserrat-Regular',
     textMonthFontFamily: 'Montserrat-Regular',
     textDayHeaderFontFamily: 'Montserrat-Regular',
-    textDayFontSize: 15,
-    textMonthFontSize: 18,
-    textDayHeaderFontSize: 15
+    textDayFontSize: 14,
+    textMonthFontSize: 16,
+    textDayHeaderFontSize: 14
 };
 
 export const styles = {
@@ -611,7 +595,7 @@ const general = StyleSheet.create({
         fontSize: 35,
     },
     textNotification: {
-        color: 'black',
+        color: color.textColorReverse,
         fontFamily: 'Montserrat-Regular',
         fontSize: 12,
     },
@@ -808,8 +792,14 @@ const general = StyleSheet.create({
     marginTop: {
         marginTop: 10
     },
+    marginTopFar: {
+        marginTop: 20
+    },
     marginBottom: {
         marginBottom: 10
+    },
+    marginBottomFar: {
+        marginBottom: 20
     },
     noMarginLeft: {
         marginLeft: 0
@@ -836,6 +826,7 @@ const general = StyleSheet.create({
     itemTabInDrawer: {
         alignItems: 'center',
         flexDirection: 'row',
+        justifyContent: 'space-between',
         height: 40,
         backgroundColor: color.none,
         borderBottomWidth: 0,

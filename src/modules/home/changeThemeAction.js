@@ -178,7 +178,7 @@ export function changeThemeLight(){
                 fontSize: 35,
             },
             textNotification: {
-                color: 'black',
+                color: color.textColorReverse,
                 fontFamily: 'Montserrat-Regular',
                 fontSize: 12,
             },
@@ -375,8 +375,14 @@ export function changeThemeLight(){
             marginTop: {
                 marginTop: 10
             },
+            marginTopFar: {
+                marginTop: 20
+            },
             marginBottom: {
                 marginBottom: 10
+            },
+            marginBottomFar: {
+                marginBottom: 20
             },
             noMarginLeft: {
                 marginLeft: 0
@@ -403,6 +409,7 @@ export function changeThemeLight(){
             itemTabInDrawer: {
                 alignItems: 'center',
                 flexDirection: 'row',
+                justifyContent: 'space-between',
                 height: 40,
                 backgroundColor: color.none,
                 borderBottomWidth: 0,
@@ -596,7 +603,7 @@ export function changeThemeDark(){
                 fontSize: 35,
             },
             textNotification: {
-                color: 'black',
+                color: color.textColorReverse,
                 fontFamily: 'Montserrat-Regular',
                 fontSize: 12,
             },
@@ -793,8 +800,14 @@ export function changeThemeDark(){
             marginTop: {
                 marginTop: 10
             },
+            marginTopFar: {
+                marginTop: 20
+            },
             marginBottom: {
                 marginBottom: 10
+            },
+            marginBottomFar: {
+                marginBottom: 20
             },
             noMarginLeft: {
                 marginLeft: 0
@@ -821,6 +834,7 @@ export function changeThemeDark(){
             itemTabInDrawer: {
                 alignItems: 'center',
                 flexDirection: 'row',
+                justifyContent: 'space-between',
                 height: 40,
                 backgroundColor: color.none,
                 borderBottomWidth: 0,

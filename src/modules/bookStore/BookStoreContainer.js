@@ -166,9 +166,6 @@ class BookStoreContainer extends Component {
         const {general, colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
-                <StatusBar
-                    barStyle={"light-content"}
-                />
                 <LinearGradient
                     colors={colors}
                     style={general.linearGradient}>
