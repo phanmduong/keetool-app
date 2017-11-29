@@ -1,22 +1,31 @@
 import React, {Component} from 'react';
-import {FlatList, PanResponder, ScrollView, StatusBar, Text, TouchableOpacity, View} from 'react-native';
-import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
+import {FlatList, PanResponder, ScrollView, StatusBar, Text, TouchableOpacity, View,Modal, TextInput} from 'react-native';
+import {Container, Content, Item, Left, Right, Spinner, Body} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
-
+import  part from '../../styles/partStyle';
 class TrelloContainer extends Component {
     constructor() {
         super();
         this.state = {
-            List: [],
             modalAddCard: false,
             modalAddList: false,
+            title : '',
+            List : [
+                {
+                    text : "Tieu de 1",
+                    data :["1", "2", "3", "4", "4", "5"]
+                },
+                {
+                   text : "Tieu de 2",
+                    data : ["1","3","4","7","8","9"]
+                }
+            ]
         }
     }
 
     componentWillMount() {
-        this.props.detailBookAction.detailBook(this.props.navigation.state.params.id);
         this.panResponder = PanResponder.create({
             onStartShouldSetPanResponder: (event, gestureState) => true,
             onPanResponderGrant: this._onPanResponderGrant.bind(this),
@@ -26,14 +35,13 @@ class TrelloContainer extends Component {
     _onPanResponderGrant(event, gestureState) {
         if (event.nativeEvent.locationX === event.nativeEvent.pageX) {
             this.setState({
-                modalCart: false,
-                modalInfoCart: false,
-                modalBuySuccess: false,
+                modalAddList: false,
+                modalAddCard: false,
             });
         }
     }
 
-    setModaAddCard(visible) {
+    setModalAddCard(visible) {
         this.setState({modalAddCard: visible});
     }
 
@@ -41,12 +49,20 @@ class TrelloContainer extends Component {
         this.setState({modalAddList: visible});
     }
 
-    addList() {
-
+    addList(text) {
+        let list = {text : text, data : []};
+        let List = this.state.List;
+        List.push(list);
+        this.setState({List: List})
     }
 
-    addCardInOneItem() {
-
+    addCardInOneItem(index, text) {
+        let List = this.state.List;
+        List[index].data.push(text);
+        this.setState({List : List});
+    }
+    openModalAddCard(index){
+        this.setModalAddCard(true);
     }
 
     render() {
@@ -74,24 +90,122 @@ class TrelloContainer extends Component {
                                 />
                             </TouchableOpacity>
                         </Right>
+
                     </View>
-                    {/*<ScrollView*/}
-                        {/*showsHorizontalScrollIndicator={false}*/}
-                        {/*horizontal={true}>*/}
-                        {/*{this.state.List.map((item) => {*/}
-                            {/*return (*/}
-                                {/*<FlatList*/}
-                                    {/*style {{marginLeft: 20}}*/}
-                                    {/*data={item}*/}
-                                    {/*renderItem={({itemInCard}) =>*/}
-                                        {/*<Text>{itemInCard.name}</Text>*/}
-                                    {/*}*/}
-                                    {/*extraData={this.state}*/}
-                                {/*/>*/}
-                            {/*)*/}
-                        {/*})}*/}
-                    {/*</ScrollView>*/}
+                    <ScrollView
+                        showsHorizontalScrollIndicator={false}
+                        horizontal={true}>
+                        {
+                            this.state.List.map((item, i) => {
+                                return (
+                                    <View style = {{marginLeft : 20}}>git
+                                        <Text>{item.text}</Text>
+                                        <FlatList
+                                            data = {item.data}
+                                            extraData = {this.state}
+                                            renderItem={({item}) => { return (<Text>{item}</Text>) }}
+                                        >
+                                        </FlatList>
+                                        <TouchableOpacity style ={{marginTop : 20}} onPress = {() => this.setModalAddCard(i)}>
+                                            <Text>Them the</Text>
+                                        </TouchableOpacity>
+                                    </View>
+
+                                )
+                            })
+                        }
+                        <TouchableOpacity style ={{marginLeft: 20}} onPress = {() => this.setModalAddList(true)}>
+                            <Text>Them cong viec</Text>
+                        </TouchableOpacity>
+                    </ScrollView>
+
                 </LinearGradient>
+                <Modal
+                    presentationStyle="overFullScreen"
+                    animationType="fade"
+                    transparent={true}
+                    visible={this.state.modalAddList}
+                >
+                    <View
+                        style={part.wrapperModal}
+                        {...this.panResponder.panHandlers}
+                    >
+                        <View style={part.modalCart}>
+                            <View style={[part.topModal, part.haveBorderBottom]}>
+                                <Text style={part.titleBigDarkBold}>
+                                    THÊM DANH SÁCH
+                                </Text>
+                            </View>
+                            <View style={part.contentModal}>
+                                <View>
+                                    <TextInput
+                                        style={{backgroundColor : 'blue',
+                                            flex: 1,
+                                            borderRadius: 5,
+                                            padding: 10,
+                                            marginRight: 10,
+                                            marginTop: 17}}
+                                        multiline={false}
+                                        onChangeText = {(title) => {this.setState({title})}}
+                                    />
+                                </View>
+                            </View>
+
+                            <View style={[part.bottomModal, part.haveBorderTop]}>
+                                    <Body>
+                                    <TouchableOpacity
+                                        onPress = {() => {this.addList(this.state.title, i)}}
+                                    >
+                                        <Text style={part.textBigBlue}>Thêm</Text>
+                                    </TouchableOpacity>
+                                    </Body>
+                            </View>
+                        </View>
+                    </View>
+                </Modal>
+                <Modal
+                    presentationStyle="overFullScreen"
+                    animationType="fade"
+                    transparent={true}
+                    visible={this.state.modalAddCard}
+                >
+                    <View
+                        style={part.wrapperModal}
+                        {...this.panResponder.panHandlers}
+                    >
+                        <View style={part.modalCart}>
+                            <View style={[part.topModal, part.haveBorderBottom]}>
+                                <Text style={part.titleBigDarkBold}>
+                                    THÊM THE
+                                </Text>
+                            </View>
+                            <View style={part.contentModal}>
+                                <View>
+                                    <TextInput
+                                        style={{width : 100,
+                                            flex: 1,
+                                            borderRadius: 5,
+                                            padding: 10,
+                                            marginRight: 10,
+                                            marginTop: 17}}
+                                        multiline={false}
+                                        onChangeText = {(title) => {this.setState({title})}}
+                                    />
+                                </View>
+                            </View>
+
+                            <View style={[part.bottomModal, part.haveBorderTop]}>
+                                <Body>
+                                <TouchableOpacity
+                                    onPress = {() => {this.addCardInOneItem(this.state.title)}}
+                                >
+                                    <Text style={part.textBigBlue}>Thêm</Text>
+                                </TouchableOpacity>
+                                </Body>
+                            </View>
+                        </View>
+                    </View>
+                </Modal>
             </Container>
         )
     }

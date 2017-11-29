@@ -106,6 +106,12 @@ class DrawerContainer extends Component {
                     >
                         <Text style={general.textInDrawer}>QRCODE</Text>
                     </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('Trello')}
+                    >
+                        <Text style={general.textInDrawer}>Trello</Text>
+                    </TouchableOpacity>
                 </Content>
 
             </Container>

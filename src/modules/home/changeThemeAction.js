@@ -438,13 +438,24 @@ export function changeThemeLight(){
                 borderRadius: 15,
                 width: wid * 0.9,
                 height: hei * 0.8,
-                backgroundColor: '#ffffff',
+                backgroundColor: 'rgb(255, 255,255)',
             },
             wrapperDeadline: {
                 width: wid - 40,
                 height: 5,
                 borderRadius: 5,
                 backgroundColor: color.textColorNotActive,
+            },
+            bottomModal: {
+                height: 50,
+                padding: 10,
+                justifyContent: 'center',
+                alignItems: 'center',
+                bottom: 0,
+            },
+            haveBorderTop: {
+                borderTopWidth: 0.5,
+                borderColor: 'rgb(214,214,214)',
             },
             noBackground: {
                 backgroundColor: color.none
@@ -462,6 +473,17 @@ export function changeThemeDark(){
             wrapperContainer: {
                 flex: 1,
                 backgroundColor: color.none,
+            },
+            haveBorderTop: {
+                borderTopWidth: 0.5,
+                borderColor: 'rgb(214,214,214)',
+            },
+            bottomModal: {
+                height: 50,
+                padding: 10,
+                justifyContent: 'center',
+                alignItems: 'center',
+                bottom: 0,
             },
             contentModal: {
                 flex: 1,

@@ -37,6 +37,17 @@ export const styles = {
             paddingRight: 5,
             marginRight: 10,
         },
+    bottomModal: {
+        height: 50,
+        padding: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+        bottom: 0,
+    },
+    haveBorderTop: {
+        borderTopWidth: 0.5,
+        borderColor: 'rgb(214,214,214)',
+    },
         wrapperMenuTextIsActive: {
             paddingBottom: 10,
             paddingRight: 5,
@@ -745,7 +756,7 @@ const general = StyleSheet.create({
         borderRadius: 15,
         width: wid * 0.9,
         height: hei * 0.8,
-        backgroundColor: '#ffffff',
+        backgroundColor: 'rgb(255,255,255)',
     },
     linearGradientInDrawer: {
         paddingBottom: 0,
