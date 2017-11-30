@@ -53,9 +53,9 @@ export const styles = {
     },
 
     itemInCardTrello : {
-       width : 240,
+       width : 200,
         height : 40,
-        backgroundColor : 'rgb(255,255,255)',
+        backgroundColor : 'rgb(242, 244, 247)',
         justifyContent: 'center', alignItems : 'center', flex :1
     },
     bottomModal: {

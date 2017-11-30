@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {FlatList, Modal, PanResponder, StatusBar, Text, TouchableOpacity, View,} from 'react-native';
+import {Animated, FlatList, Modal, PanResponder, StatusBar, Text, TouchableOpacity, View} from 'react-native';
 import {Body, Container, Content, Input, Item, Label, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
 import part from '../../styles/partStyle';
-
+import DragAndDropContainer from './dragAndDropContainer'
 class TrelloContainer extends Component {
     constructor() {
         super();
@@ -110,7 +110,9 @@ class TrelloContainer extends Component {
                             {
                                 this.state.List.map((item, i) => {
                                     return (
-                                        <View style={[general.wrapperItemTrello, {marginLeft: 20}]}>
+                                        <View {...this.panResponder.panHandlers}
+                                              style={[general.wrapperItemTrello, {marginLeft: 20}]}>
+
                                             <View style={general.trelloCart}>
                                                 <View style={[part.topModal, part.haveBorderBottom]}>
                                                     <Text style={part.titleBigDarkBold}>
@@ -123,16 +125,9 @@ class TrelloContainer extends Component {
                                                         extraData={this.state}
                                                         renderItem={({item}) => {
                                                             return (
-                                                                <View style={{
-                                                                    justifyContent: 'center',
-                                                                    alignItems: 'center'
-                                                                }}>
-                                                                    <View
-                                                                        style={[general.itemInCardTrello, {marginTop: 10}]}>
-                                                                        <Text>{item}</Text>
-                                                                    </View>
-                                                                </View>
-
+                                                               <DragAndDropContainer
+                                                                 item = {item}
+                                                               />
                                                             )
                                                         }}
                                                     >
@@ -159,7 +154,7 @@ class TrelloContainer extends Component {
                                 <View style={[general.trelloCart, {height: 50}]}>
                                     <View style={[part.topModal, part.haveBorderBottom]}>
                                         <TouchableOpacity onPress={() => this.openModalAddList()}>
-                                            <Text style ={part.titleBigDarkBold} >Thêm công việc</Text>
+                                            <Text style={part.titleBigDarkBold}>Thêm công việc</Text>
                                         </TouchableOpacity>
                                     </View>
                                 </View>
@@ -188,8 +183,10 @@ class TrelloContainer extends Component {
                                 <View>
                                     <Item>
                                         <Input
-                                         onChangeText = {(title) => {this.setState({title})}}
-                                         placeholder = "Thêm tiêu đề "
+                                            onChangeText={(title) => {
+                                                this.setState({title})
+                                            }}
+                                            placeholder="Thêm tiêu "
                                         />
                                     </Item>
                                 </View>
@@ -229,8 +226,10 @@ class TrelloContainer extends Component {
                                 <View>
                                     <Item>
                                         <Input
-                                            onChangeText = {(title) => {this.setState({title})}}
-                                            placeholder = "Thêm tiêu đề"
+                                            onChangeText={(title) => {
+                                                this.setState({title})
+                                            }}
+                                            placeholder="Thêm tiêu đề"
                                         />
                                     </Item>
                                 </View>
