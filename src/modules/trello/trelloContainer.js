@@ -12,6 +12,7 @@ class TrelloContainer extends Component {
             modalAddCard: false,
             modalAddList: false,
             title : '',
+            index : 0,
             List : [
                 {
                     text : "Tieu de 1",
@@ -54,15 +55,21 @@ class TrelloContainer extends Component {
         let List = this.state.List;
         List.push(list);
         this.setState({List: List})
+        this.setModalAddList(false);
     }
 
     addCardInOneItem(index, text) {
         let List = this.state.List;
         List[index].data.push(text);
         this.setState({List : List});
+        this.setModalAddCard(false);
+    }
+    openModalAddList(){
+        this.setModalAddList(true);
     }
     openModalAddCard(index){
         this.setModalAddCard(true);
+        this.setState({index : index})
     }
 
     render() {
@@ -98,7 +105,7 @@ class TrelloContainer extends Component {
                         {
                             this.state.List.map((item, i) => {
                                 return (
-                                    <View style = {{marginLeft : 20}}>git
+                                    <View style = {{marginLeft : 20}}>
                                         <Text>{item.text}</Text>
                                         <FlatList
                                             data = {item.data}
@@ -106,7 +113,7 @@ class TrelloContainer extends Component {
                                             renderItem={({item}) => { return (<Text>{item}</Text>) }}
                                         >
                                         </FlatList>
-                                        <TouchableOpacity style ={{marginTop : 20}} onPress = {() => this.setModalAddCard(i)}>
+                                        <TouchableOpacity style ={{marginTop : 20}} onPress = {() => this.openModalAddCard(i)}>
                                             <Text>Them the</Text>
                                         </TouchableOpacity>
                                     </View>
@@ -114,7 +121,7 @@ class TrelloContainer extends Component {
                                 )
                             })
                         }
-                        <TouchableOpacity style ={{marginLeft: 20}} onPress = {() => this.setModalAddList(true)}>
+                        <TouchableOpacity style ={{marginLeft: 20}} onPress = {() => this.openModalAddList()}>
                             <Text>Them cong viec</Text>
                         </TouchableOpacity>
                     </ScrollView>
@@ -154,7 +161,7 @@ class TrelloContainer extends Component {
                             <View style={[part.bottomModal, part.haveBorderTop]}>
                                     <Body>
                                     <TouchableOpacity
-                                        onPress = {() => {this.addList(this.state.title, i)}}
+                                        onPress = {() => {this.addList(this.state.title)}}
                                     >
                                         <Text style={part.textBigBlue}>Thêm</Text>
                                     </TouchableOpacity>
@@ -197,7 +204,7 @@ class TrelloContainer extends Component {
                             <View style={[part.bottomModal, part.haveBorderTop]}>
                                 <Body>
                                 <TouchableOpacity
-                                    onPress = {() => {this.addCardInOneItem(this.state.title)}}
+                                    onPress = {() => {this.addCardInOneItem(this.state.index, this.state.title)}}
                                 >
                                     <Text style={part.textBigBlue}>Thêm</Text>
                                 </TouchableOpacity>
