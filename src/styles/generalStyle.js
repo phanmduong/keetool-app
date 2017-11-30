@@ -37,6 +37,27 @@ export const styles = {
             paddingRight: 5,
             marginRight: 10,
         },
+    wrapperItemTrello : {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+      trelloCart : {
+          width: 250,
+          height: hei * 0.8,
+          backgroundColor: color.trelloItemColor,
+      },
+    contentTrello : {
+       flex : 1,
+       backgroundColor : colorLight.textColorNotActive
+    },
+
+    itemInCardTrello : {
+       width : 240,
+        height : 40,
+        backgroundColor : 'rgb(255,255,255)',
+        justifyContent: 'center', alignItems : 'center', flex :1
+    },
     bottomModal: {
         height: 50,
         padding: 10,

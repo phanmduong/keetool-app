@@ -623,7 +623,7 @@ const part = StyleSheet.create({
     modalCart: {
         borderRadius: 15,
         width: wid * 0.9,
-        height: hei * 0.8,
+        height: 300,
         backgroundColor: color.backGround,
     },
     modalCartStatus: {

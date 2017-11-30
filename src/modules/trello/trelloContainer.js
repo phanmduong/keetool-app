@@ -1,26 +1,27 @@
 import React, {Component} from 'react';
-import {FlatList, PanResponder, ScrollView, StatusBar, Text, TouchableOpacity, View,Modal, TextInput} from 'react-native';
-import {Container, Content, Item, Left, Right, Spinner, Body} from 'native-base';
+import {FlatList, Modal, PanResponder, StatusBar, Text, TouchableOpacity, View,} from 'react-native';
+import {Body, Container, Content, Input, Item, Label, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
-import  part from '../../styles/partStyle';
+import part from '../../styles/partStyle';
+
 class TrelloContainer extends Component {
     constructor() {
         super();
         this.state = {
             modalAddCard: false,
             modalAddList: false,
-            title : '',
-            index : 0,
-            List : [
+            title: '',
+            index: 0,
+            List: [
                 {
-                    text : "Tieu de 1",
-                    data :["1", "2", "3", "4", "4", "5"]
+                    text: "Tieu de 1",
+                    data: ["1", "2", "3", "4", "4", "5"]
                 },
                 {
-                   text : "Tieu de 2",
-                    data : ["1","3","4","7","8","9"]
+                    text: "Tieu de 2",
+                    data: ["1", "3", "4", "7", "8", "9"]
                 }
             ]
         }
@@ -51,7 +52,7 @@ class TrelloContainer extends Component {
     }
 
     addList(text) {
-        let list = {text : text, data : []};
+        let list = {text: text, data: []};
         let List = this.state.List;
         List.push(list);
         this.setState({List: List})
@@ -61,15 +62,17 @@ class TrelloContainer extends Component {
     addCardInOneItem(index, text) {
         let List = this.state.List;
         List[index].data.push(text);
-        this.setState({List : List});
+        this.setState({List: List});
         this.setModalAddCard(false);
     }
-    openModalAddList(){
+
+    openModalAddList() {
         this.setModalAddList(true);
     }
-    openModalAddCard(index){
+
+    openModalAddCard(index) {
         this.setModalAddCard(true);
-        this.setState({index : index})
+        this.setState({index: index})
     }
 
     render() {
@@ -99,33 +102,71 @@ class TrelloContainer extends Component {
                         </Right>
 
                     </View>
-                    <ScrollView
-                        showsHorizontalScrollIndicator={false}
-                        horizontal={true}>
-                        {
-                            this.state.List.map((item, i) => {
-                                return (
-                                    <View style = {{marginLeft : 20}}>
-                                        <Text>{item.text}</Text>
-                                        <FlatList
-                                            data = {item.data}
-                                            extraData = {this.state}
-                                            renderItem={({item}) => { return (<Text>{item}</Text>) }}
-                                        >
-                                        </FlatList>
-                                        <TouchableOpacity style ={{marginTop : 20}} onPress = {() => this.openModalAddCard(i)}>
-                                            <Text>Them the</Text>
+                    <View style={{flex: 1}}>
+                        <Content
+                            showsHorizontalScrollIndicator={false}
+                            horizontal={true}
+                        >
+                            {
+                                this.state.List.map((item, i) => {
+                                    return (
+                                        <View style={[general.wrapperItemTrello, {marginLeft: 20}]}>
+                                            <View style={general.trelloCart}>
+                                                <View style={[part.topModal, part.haveBorderBottom]}>
+                                                    <Text style={part.titleBigDarkBold}>
+                                                        {item.text}
+                                                    </Text>
+                                                </View>
+                                                <View style={general.contentTrello}>
+                                                    <FlatList
+                                                        data={item.data}
+                                                        extraData={this.state}
+                                                        renderItem={({item}) => {
+                                                            return (
+                                                                <View style={{
+                                                                    justifyContent: 'center',
+                                                                    alignItems: 'center'
+                                                                }}>
+                                                                    <View
+                                                                        style={[general.itemInCardTrello, {marginTop: 10}]}>
+                                                                        <Text>{item}</Text>
+                                                                    </View>
+                                                                </View>
+
+                                                            )
+                                                        }}
+                                                    >
+                                                    </FlatList>
+                                                </View>
+                                                <View style={[part.bottomModal, part.haveBorderTop]}>
+                                                    <Body>
+                                                    <TouchableOpacity onPress={() => this.openModalAddCard(i)}>
+                                                        <Text>Thêm thẻ </Text>
+                                                    </TouchableOpacity>
+                                                    </Body>
+                                                </View>
+
+                                            </View>
+                                        </View>
+                                    )
+                                })
+                            }
+                            <View style={[general.wrapperItemTrello, {
+                                marginLeft: 20,
+                                marginTop: 20,
+                                justifyContent: 'flex-start'
+                            }]}>
+                                <View style={[general.trelloCart, {height: 50}]}>
+                                    <View style={[part.topModal, part.haveBorderBottom]}>
+                                        <TouchableOpacity onPress={() => this.openModalAddList()}>
+                                            <Text style ={part.titleBigDarkBold} >Thêm công việc</Text>
                                         </TouchableOpacity>
                                     </View>
+                                </View>
+                            </View>
 
-                                )
-                            })
-                        }
-                        <TouchableOpacity style ={{marginLeft: 20}} onPress = {() => this.openModalAddList()}>
-                            <Text>Them cong viec</Text>
-                        </TouchableOpacity>
-                    </ScrollView>
-
+                        </Content>
+                    </View>
                 </LinearGradient>
                 <Modal
                     presentationStyle="overFullScreen"
@@ -145,27 +186,25 @@ class TrelloContainer extends Component {
                             </View>
                             <View style={part.contentModal}>
                                 <View>
-                                    <TextInput
-                                        style={{backgroundColor : 'blue',
-                                            flex: 1,
-                                            borderRadius: 5,
-                                            padding: 10,
-                                            marginRight: 10,
-                                            marginTop: 17}}
-                                        multiline={false}
-                                        onChangeText = {(title) => {this.setState({title})}}
-                                    />
+                                    <Item>
+                                        <Input
+                                         onChangeText = {(title) => {this.setState({title})}}
+                                         placeholder = "Thêm tiêu đề "
+                                        />
+                                    </Item>
                                 </View>
                             </View>
 
                             <View style={[part.bottomModal, part.haveBorderTop]}>
-                                    <Body>
-                                    <TouchableOpacity
-                                        onPress = {() => {this.addList(this.state.title)}}
-                                    >
-                                        <Text style={part.textBigBlue}>Thêm</Text>
-                                    </TouchableOpacity>
-                                    </Body>
+                                <Body>
+                                <TouchableOpacity
+                                    onPress={() => {
+                                        this.addList(this.state.title)
+                                    }}
+                                >
+                                    <Text style={part.textBigBlue}>Thêm</Text>
+                                </TouchableOpacity>
+                                </Body>
                             </View>
                         </View>
                     </View>
@@ -183,28 +222,26 @@ class TrelloContainer extends Component {
                         <View style={part.modalCart}>
                             <View style={[part.topModal, part.haveBorderBottom]}>
                                 <Text style={part.titleBigDarkBold}>
-                                    THÊM THE
+                                    THÊM THẺ
                                 </Text>
                             </View>
                             <View style={part.contentModal}>
                                 <View>
-                                    <TextInput
-                                        style={{width : 100,
-                                            flex: 1,
-                                            borderRadius: 5,
-                                            padding: 10,
-                                            marginRight: 10,
-                                            marginTop: 17}}
-                                        multiline={false}
-                                        onChangeText = {(title) => {this.setState({title})}}
-                                    />
+                                    <Item>
+                                        <Input
+                                            onChangeText = {(title) => {this.setState({title})}}
+                                            placeholder = "Thêm tiêu đề"
+                                        />
+                                    </Item>
                                 </View>
                             </View>
 
                             <View style={[part.bottomModal, part.haveBorderTop]}>
                                 <Body>
                                 <TouchableOpacity
-                                    onPress = {() => {this.addCardInOneItem(this.state.index, this.state.title)}}
+                                    onPress={() => {
+                                        this.addCardInOneItem(this.state.index, this.state.title)
+                                    }}
                                 >
                                     <Text style={part.textBigBlue}>Thêm</Text>
                                 </TouchableOpacity>
