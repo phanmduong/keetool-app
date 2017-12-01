@@ -41,10 +41,10 @@ class MapContainer extends Component {
 
     componentDidMount() {
         navigator.geolocation.getCurrentPosition((position) => {
-                // let lat = parseFloat(position.coords.latitude);
-                // let long = parseFloat(position.coords.longitude);
-                let lat = 21.0229925;
-                let long = 105.7993911;
+                let lat = parseFloat(position.coords.latitude);
+                let long = parseFloat(position.coords.longitude);
+                // let lat = 21.0229925;
+                // let long = 105.7993911;
                 let initialRegion = {
                     latitude: lat,
                     longitude: long,
@@ -57,10 +57,10 @@ class MapContainer extends Component {
             {enableHighAccuracy: true, timeout: 30000, maximumAge: 100}
         )
         this.watchID = navigator.geolocation.watchPosition((position) => {
-            // let lat = parseFloat(position.coords.latitude);
-            // let long = parseFloat(position.coords.longitude);
-            let lat = 21.0229925;
-            let long = 105.7993911;
+            let lat = parseFloat(position.coords.latitude);
+            let long = parseFloat(position.coords.longitude);
+            // let lat = 21.0229925;
+            // let long = 105.7993911;
             let lastRegion = {
                 latitude: lat,
                 longitude: long,
@@ -68,8 +68,8 @@ class MapContainer extends Component {
                 longitudeDelta: 0.0421
             }
             let NY = {
-                lat: 21.0229925,
-                lng: 105.7993911
+                lat: lat,
+                lng: long
             }
             this.setState({initialPosition: lastRegion, markerPosition: lastRegion});
             Geocoder.geocodePosition(NY).then(res => {

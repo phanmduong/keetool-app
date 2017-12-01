@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import {Animated, FlatList, Modal, PanResponder, StatusBar, Text, TouchableOpacity, View} from 'react-native';
 import {Body, Container, Content, Input, Item, Label, Left, Right, Spinner} from 'native-base';
-import LinearGradient from 'react-native-linear-gradient';
-import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
-import part from '../../styles/partStyle';
+import general from '../../styles/generalStyle'
 
 class DragAndDropContainer extends Component {
     constructor() {
@@ -26,21 +24,21 @@ class DragAndDropContainer extends Component {
         })
     }
     render (){
-        const {general} = this.props;
+        // const {general} = this.props;
         const panStyle = {
             transform: this.state.pan.getTranslateTransform()
         }
         return (
         <Animated.View
             {...this.panResponder.panHandlers}
-            style={{
-                justifyContent: 'center',
-                alignItems: 'center',
-            }}>
+            style={general.wrapperCenter}>
             <Animated.View
                 {...this.panResponder.panHandlers}
-                style={[general.itemInCardTrello, panStyle, {marginTop: 10}]}>
+                style={[general.itemInCardTrello, general.shadow,
+                    // panStyle,
+                    general.marginTop]}>
                 <Text>{this.props.item}</Text>
+                <View style={[general.deadlineProgressJobAssignment,  general.marginTop]}/>
             </Animated.View>
         </Animated.View>
         )

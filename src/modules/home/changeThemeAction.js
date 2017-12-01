@@ -4,7 +4,6 @@ import * as colorLight from '../../styles/colorLight';
 import * as colorDark from '../../styles/colorDark';
 import {hei, wid} from '../../styles/size';
 import * as size from '../../styles/size';
-import * as styles from '../../styles/generalStyle'
 
 export function changeThemeLight(){
     const color = colorLight;
@@ -50,7 +49,6 @@ export function changeThemeLight(){
                 flexDirection: 'column',
             },
             wrapperCenter: {
-                flex: 1,
                 justifyContent: 'center',
                 alignItems: 'center',
             },
@@ -142,8 +140,23 @@ export function changeThemeLight(){
                 fontFamily: 'Montserrat-Medium',
                 fontSize: size.defaultText,
             },
+            textTitleCardDark: {
+                color: 'black',
+                fontFamily: 'Montserrat-Medium',
+                fontSize: size.defaultText,
+            },
+            textTitleCardBlue: {
+                color: color.blue,
+                fontFamily: 'Montserrat-Medium',
+                fontSize: size.defaultText,
+            },
             textTitleBig: {
                 color: color.textColor,
+                fontFamily: 'Montserrat-Medium',
+                fontSize: size.titleBig,
+            },
+            textTitleBigBlue: {
+                color: color.blue,
                 fontFamily: 'Montserrat-Medium',
                 fontSize: size.titleBig,
             },
@@ -231,6 +244,12 @@ export function changeThemeLight(){
             imageFullWidth: {
                 flex: 1,
             },
+            wrapperModal: {
+                flex: 1,
+                backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                alignItems: 'center',
+                justifyContent: 'center',
+            },
             wrapperRevenue: {
                 justifyContent: 'flex-end',
                 backgroundColor: color.blueDashboard,
@@ -308,6 +327,21 @@ export function changeThemeLight(){
                 paddingTop: 0,
                 height: hei,
                 width: wid,
+            },
+            contentModal: {
+                flex: 1,
+            },
+            topModal: {
+                height: 50,
+                padding: 10,
+                justifyContent: 'center',
+                alignItems: 'center',
+            },
+            modalCart: {
+                borderRadius: 10,
+                width: wid * 0.9,
+                height: hei * 0.5,
+                backgroundColor: 'rgb(255,255,255)',
             },
             linearGradientInDrawer: {
                 paddingBottom: 0,
@@ -419,47 +453,61 @@ export function changeThemeLight(){
                 borderRadius: 5,
                 backgroundColor: color.textColor,
             },
-            wrapperModal: {
-                flex: 1,
-                backgroundColor: 'rgba(0, 0, 0, 0.7)',
-                alignItems: 'center',
-                justifyContent: 'center',
-            },
-            topModal: {
-                height: 50,
-                padding: 10,
-                justifyContent: 'center',
-                alignItems: 'center',
-            },
-            contentModal: {
-                flex: 1,
-            },
-            modalCart: {
-                borderRadius: 15,
-                width: wid * 0.9,
-                height: hei * 0.8,
-                backgroundColor: 'rgb(255, 255,255)',
-            },
             wrapperDeadline: {
                 width: wid - 40,
                 height: 5,
                 borderRadius: 5,
                 backgroundColor: color.textColorNotActive,
             },
+            noBackground: {
+                backgroundColor: color.none
+            },
+            headerModal: {
+                height: 50,
+                justifyContent: 'center',
+                alignItems: 'center',
+            },
             bottomModal: {
+                width: wid * 0.8,
                 height: 50,
                 padding: 10,
                 justifyContent: 'center',
                 alignItems: 'center',
                 bottom: 0,
             },
+            haveBorderBottom: {
+                borderBottomWidth: 0.5,
+                borderColor: 'rgba(214,214,214, 0.6)',
+            },
             haveBorderTop: {
                 borderTopWidth: 0.5,
-                borderColor: 'rgb(214,214,214)',
+                borderColor: 'rgba(214,214,214, 0.6)',
             },
-            noBackground: {
-                backgroundColor: color.none
-            }
+            wrapperItemTrello: {
+                alignItems: 'center',
+                justifyContent: 'center',
+            },
+            trelloCart: {
+                borderRadius: 10,
+                width: wid * 0.9,
+                height: hei * 0.75,
+                backgroundColor: '#fcfcfc',
+            },
+            contentTrello: {
+                flex: 1,
+            },
+
+            itemInCardTrello: {
+                width: wid * 0.8,
+                height: 40,
+                backgroundColor: '#ffffff',
+                justifyContent: 'center', alignItems: 'center',
+                flex: 1
+            },
+            inputTheme:{
+                fontSize: size.titleNormal,
+                width: wid * 0.7,
+            },
         }),
     }
 }
@@ -474,43 +522,11 @@ export function changeThemeDark(){
                 flex: 1,
                 backgroundColor: color.none,
             },
-            haveBorderTop: {
-                borderTopWidth: 0.5,
-                borderColor: 'rgb(214,214,214)',
-            },
-            bottomModal: {
-                height: 50,
-                padding: 10,
-                justifyContent: 'center',
-                alignItems: 'center',
-                bottom: 0,
-            },
-            contentModal: {
-                flex: 1,
-            },
-            modalCart: {
-                borderRadius: 15,
-                width: wid * 0.9,
-                height: hei * 0.8,
-                backgroundColor: '#ffffff',
-            },
             wrapperHeader: {
                 height: 100,
                 paddingTop: 20,
                 flexDirection: 'row',
                 alignItems: 'center',
-            },
-            topModal: {
-                height: 50,
-                padding: 10,
-                justifyContent: 'center',
-                alignItems: 'center',
-            },
-            wrapperModal: {
-                flex: 1,
-                backgroundColor: 'rgba(0, 0, 0, 0.7)',
-                alignItems: 'center',
-                justifyContent: 'center',
             },
             wrapperMenuHome: {
                 flexDirection: 'row',
@@ -539,7 +555,6 @@ export function changeThemeDark(){
                 flexDirection: 'column',
             },
             wrapperCenter: {
-                flex: 1,
                 justifyContent: 'center',
                 alignItems: 'center',
             },
@@ -631,8 +646,23 @@ export function changeThemeDark(){
                 fontFamily: 'Montserrat-Medium',
                 fontSize: size.defaultText,
             },
+            textTitleCardDark: {
+                color: 'black',
+                fontFamily: 'Montserrat-Medium',
+                fontSize: size.defaultText,
+            },
+            textTitleCardBlue: {
+                color: color.blue,
+                fontFamily: 'Montserrat-Medium',
+                fontSize: size.defaultText,
+            },
             textTitleBig: {
                 color: color.textColor,
+                fontFamily: 'Montserrat-Medium',
+                fontSize: size.titleBig,
+            },
+            textTitleBigBlue: {
+                color: color.blue,
                 fontFamily: 'Montserrat-Medium',
                 fontSize: size.titleBig,
             },
@@ -720,6 +750,12 @@ export function changeThemeDark(){
             imageFullWidth: {
                 flex: 1,
             },
+            wrapperModal: {
+                flex: 1,
+                backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                alignItems: 'center',
+                justifyContent: 'center',
+            },
             wrapperRevenue: {
                 justifyContent: 'flex-end',
                 backgroundColor: color.blueDashboard,
@@ -797,6 +833,21 @@ export function changeThemeDark(){
                 paddingTop: 0,
                 height: hei,
                 width: wid,
+            },
+            contentModal: {
+                flex: 1,
+            },
+            topModal: {
+                height: 50,
+                padding: 10,
+                justifyContent: 'center',
+                alignItems: 'center',
+            },
+            modalCart: {
+                borderRadius: 10,
+                width: wid * 0.9,
+                height: hei * 0.5,
+                backgroundColor: 'rgb(255,255,255)',
             },
             linearGradientInDrawer: {
                 paddingBottom: 0,
@@ -916,7 +967,53 @@ export function changeThemeDark(){
             },
             noBackground: {
                 backgroundColor: color.none
-            }
+            },
+            headerModal: {
+                height: 50,
+                justifyContent: 'center',
+                alignItems: 'center',
+            },
+            bottomModal: {
+                width: wid * 0.8,
+                height: 50,
+                padding: 10,
+                justifyContent: 'center',
+                alignItems: 'center',
+                bottom: 0,
+            },
+            haveBorderBottom: {
+                borderBottomWidth: 0.5,
+                borderColor: 'rgba(214,214,214, 0.6)',
+            },
+            haveBorderTop: {
+                borderTopWidth: 0.5,
+                borderColor: 'rgba(214,214,214, 0.6)',
+            },
+            wrapperItemTrello: {
+                alignItems: 'center',
+                justifyContent: 'center',
+            },
+            trelloCart: {
+                borderRadius: 10,
+                width: wid * 0.9,
+                height: hei * 0.75,
+                backgroundColor: '#fcfcfc',
+            },
+            contentTrello: {
+                flex: 1,
+            },
+
+            itemInCardTrello: {
+                width: wid * 0.8,
+                height: 40,
+                backgroundColor: '#ffffff',
+                justifyContent: 'center', alignItems: 'center',
+                flex: 1
+            },
+            inputTheme:{
+                fontSize: size.titleNormal,
+                width: wid * 0.7,
+            },
         }),
 
     }

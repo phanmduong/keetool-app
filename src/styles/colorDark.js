@@ -11,4 +11,4 @@ export const blueDashboard = '#4697E8';
 export const buttonPlay = 'rgba(155, 141, 171, 0.4)';
 export const buttonNext = 'rgba(255, 255, 255, 0.4)';
 export const textColorReverse = '#000000';
-export const trelloItemColor = 'rgb(227, 229, 232)'
+export const blue = 'rgb(0, 128, 214)';

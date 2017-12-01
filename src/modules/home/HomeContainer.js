@@ -124,8 +124,8 @@ class HomeContainer extends Component {
                             Update
                         </Text>
                         <Content style={[{height: size.wid * 3 / 5 + 60}, general.paddingLR]}>
-                           {
-                               this.state.data.map((item, i) =>
+                            {
+                                this.state.data.map((item, i) =>
                                     <TouchableOpacity
                                         key={i}
                                         activeOpacity={0.8}
@@ -145,7 +145,7 @@ class HomeContainer extends Component {
                                             <Text style={general.textNoteCard}>{item.created_at}</Text>
                                         </View>
                                     </TouchableOpacity>
-                               )}
+                                )}
 
                         </Content>
                         <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
@@ -273,10 +273,12 @@ class HomeContainer extends Component {
         );
     }
 }
+
 function mapStateToProps(state) {
     return {
-      general : state.theme.general,
-        colors : state.theme.colors
+        general: state.theme.general,
+        colors: state.theme.colors
     }
 }
+
 export default connect(mapStateToProps)(HomeContainer);

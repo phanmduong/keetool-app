@@ -8,9 +8,9 @@ import BookStoreContainer from '../modules/bookStore/BookStoreContainer';
 import CalendarContainer from '../modules/calendar/CalendarContainer';
 import DashboardContainer from '../modules/dashboard/DashboardContainer';
 import * as size from '../styles/size';
-import MapContainer from "../modules/Maps/MapContainer";
+import MapContainer from "../modules/maps/MapContainer";
 import QRcodeContainer from "../modules/QRcode/QRcodeContainer";
-import TrelloContainer from '../modules/trello/trelloContainer'
+import TrelloContainer from '../modules/trello/TrelloContainer'
 const StackNavigatorStyle = {
     navigationOptions: {
         header: null,
