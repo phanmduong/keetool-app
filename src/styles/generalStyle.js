@@ -127,7 +127,9 @@ const general = StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'row',
     },
-
+    wrapperPeople:{
+        height: 70,
+    },
     textTitleHeader: {
         fontFamily: 'Montserrat-SemiBold',
         fontSize: size.titleHeader,
@@ -313,6 +315,11 @@ const general = StyleSheet.create({
         height: 20,
         width: 20,
         borderRadius: 10,
+    },
+    imageCircleNormal: {
+        height: 50,
+        width: 50,
+        borderRadius: 25,
     },
     imageSquare: {
         height: wid / 3,
@@ -512,6 +519,9 @@ const general = StyleSheet.create({
     wrapperItemTrello: {
         alignItems: 'center',
         justifyContent: 'center',
+    },
+    wrapperBottomModule:{
+        height: 50,
     },
     trelloCart: {
         borderRadius: 10,

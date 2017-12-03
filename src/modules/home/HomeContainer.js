@@ -8,8 +8,8 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as size from '../../styles/size';
+import general from '../../styles/generalStyle';
 import {connect} from 'react-redux'
-import {bindActionCreators} from 'redux';
 
 
 class HomeContainer extends Component {
@@ -66,10 +66,6 @@ class HomeContainer extends Component {
         }
     }
 
-    componentWillMount() {
-
-    }
-
     ViewDashboard() {
         this.setState({tab: 0})
     }
@@ -83,8 +79,7 @@ class HomeContainer extends Component {
     }
 
     ShowTab() {
-
-        const {general, colors} = this.props;
+        const {data} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -107,11 +102,11 @@ class HomeContainer extends Component {
                         <FlatList
                             horizontal={true}
                             showsHorizontalScrollIndicator={false}
-                            data={this.state.data}
+                            data={data}
                             renderItem={({item}) =>
                                 <TouchableOpacity
                                     activeOpacity={0.8}
-                                    style={item == this.state.data[0] ? [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeftFar] : [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeft]}>
+                                    style={item == data[0] ? [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeftFar] : [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeft]}>
                                     <Image
                                         resizeMode={'cover'}
                                         source={{uri: item.url}}
@@ -125,7 +120,7 @@ class HomeContainer extends Component {
                         </Text>
                         <Content style={[{height: size.wid * 3 / 5 + 60}, general.paddingLR]}>
                             {
-                                this.state.data.map((item, i) =>
+                                data.map((item, i) =>
                                     <TouchableOpacity
                                         key={i}
                                         activeOpacity={0.8}
@@ -151,24 +146,20 @@ class HomeContainer extends Component {
                         <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
                             Gird
                         </Text>
-                        <View style={[{margin: -5, marginBottom: 20}, general.paddingLR]}>
+                        <View style={[{marginBottom: 20}, general.paddingLR]}>
                             <FlatList
                                 showsVerticalScrollIndicator={false}
-                                data={this.state.data}
+                                data={data}
                                 numColumns={3}
                                 renderItem={({item}) =>
                                     <TouchableOpacity
                                         activeOpacity={0.8}
-                                        style={[general.marginTopBottom, general.wrapperCenter, general.noMarginBottom]}>
-                                        <View
-                                            style={[general.imageSquareSmall, general.shadow]}
-                                        >
+                                        style={[general.marginTopBottom, general.wrapperCenter, general.noMarginBottom, general.marginRight]}>
                                             <Image
                                                 resizeMode={'cover'}
                                                 source={{uri: item.url}}
                                                 style={general.imageSquareSmall}
                                             />
-                                        </View>
                                     </TouchableOpacity>
                                 }
                             />
@@ -179,7 +170,7 @@ class HomeContainer extends Component {
                 return (
                     <Content style={{flex: 1, padding: 20}}>
                         {
-                            this.state.data.map((item, i) =>
+                            data.map((item, i) =>
                                 <TouchableOpacity
                                     key={i}
                                     activeOpacity={0.8}
@@ -210,7 +201,6 @@ class HomeContainer extends Component {
     render() {
         const {navigate} = this.props.navigation;
         const {general, colors} = this.props;
-
         return (
             <Container style={general.wrapperContainer}>
                 <LinearGradient
@@ -277,7 +267,8 @@ class HomeContainer extends Component {
 function mapStateToProps(state) {
     return {
         general: state.theme.general,
-        colors: state.theme.colors
+        colors: state.theme.colors,
+        data: state.home.data,
     }
 }
 

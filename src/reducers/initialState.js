@@ -512,5 +512,10 @@ export default {
                 },
             })
     },
-
+    data: {
+        data: [],
+        staff: [],
+        schedules: [],
     }
+
+}

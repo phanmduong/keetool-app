@@ -9,6 +9,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import * as colors from '../../styles/generalStyle';
 import * as size from '../../styles/size';
 import * as changeThemeAction from '../home/changeThemeAction';
+import * as homeAction from '../home/homeAction';
 import {connect} from 'react-redux';
 import Icon from '../../commons/Icon';
 import general from '../../styles/generalStyle'
@@ -21,6 +22,12 @@ class DrawerContainer extends Component {
             text: '',
             setThemeDark: false
         }
+    }
+
+    componentWillMount(){
+        this.props.homeAction.getData();
+        this.props.homeAction.getDataPeople();
+        this.props.homeAction.getDataSchedules();
     }
 
     changeTheme() {
@@ -344,7 +351,8 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        changeThemeAction: bindActionCreators(changeThemeAction, dispatch)
+        changeThemeAction: bindActionCreators(changeThemeAction, dispatch),
+        homeAction: bindActionCreators(homeAction, dispatch)
     }
 }
 

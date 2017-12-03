@@ -55,12 +55,22 @@ class TeachContainer extends Component {
     }
 
     ShowTab() {
-        const {general, colors} = this.props;
+        const {general, schedules} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
                     <Content style={{flex: 1, padding: 20}}>
-
+                        <FlatList
+                            showsVerticalScrollIndicator={false}
+                            data={schedules}
+                            renderItem={({item}) =>
+                                <TouchableOpacity style={[general.wrapperPeople, general.wrapperRowCenter, general.paddingBottom]}>
+                                        <Text
+                                              style={general.textDescriptionCard}>{item.name}</Text>
+                                </TouchableOpacity>
+                            }
+                        />
+                        <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
             case 1:
@@ -286,7 +296,8 @@ class TeachContainer extends Component {
 function mapStateToProps(state) {
     return {
         general: state.theme.general,
-        colors: state.theme.colors
+        colors: state.theme.colors,
+        schedules: state.home.schedules,
     }
 }
 
