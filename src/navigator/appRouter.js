@@ -13,7 +13,7 @@ import MarketingManagementContainer from '../modules/marketingManagement/Marketi
 import FinanceManagementContainer from '../modules/financeManagement/FinanceManagementContainer';
 import ExerciseAndPostContainer from '../modules/exerciseAndPost/ExerciseAndPostContainer';
 import EmailContainer from '../modules/email/EmailContainer';
-import SMSContainer from '../modules/sms/SMSContainer';
+import ContactContainer from '../modules/contact/ContactContainer';
 import EventContainer from '../modules/event/EventContainer';
 import BaseContainer from '../modules/base/BaseContainer';
 import * as size from '../styles/size';
@@ -48,7 +48,7 @@ const Drawer = DrawerNavigator(
         ExerciseAndPost : {screen : ExerciseAndPostContainer},
         Base : {screen : BaseContainer},
         Email : {screen : EmailContainer},
-        SMS : {screen : SMSContainer},
+        Contact : {screen : ContactContainer},
         Event : {screen : EventContainer},
 
     },

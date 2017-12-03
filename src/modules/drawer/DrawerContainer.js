@@ -291,24 +291,24 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Exercise And Post</Text>
                         </View>
                     </TouchableOpacity>
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('Email')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="material|email"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>Email</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
-                        onPress={() => navigate('Email')}
-                    >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="material|email"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>Email</Text>
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                        style={general.itemTabInDrawer}
-                        onPress={() => navigate('SMS')}
+                        onPress={() => navigate('Contact')}
                     >
                         <View style={general.wrapperRowCenter}>
                             <View style={general.wrapperIconDrawer}>
@@ -318,7 +318,7 @@ class DrawerContainer extends Component {
                                     style={general.colorDark}
                                 />
                             </View>
-                            <Text style={general.textInDrawer}>SMS</Text>
+                            <Text style={general.textInDrawer}>Contact</Text>
                         </View>
                     </TouchableOpacity>
                     <TouchableOpacity
