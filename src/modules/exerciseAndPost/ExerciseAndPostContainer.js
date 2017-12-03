@@ -113,7 +113,7 @@ class ExerciseAndPostContainer extends Component {
                     style={general.linearGradient}>
                     <View style={general.wrapperHeader}>
                         <Text style={[general.textTitleHeader]}>
-                            EXERCISE & POST
+                            EXERCISE
                         </Text>
                         <Right>
                             <HamburgerButton navigate={navigate}/>

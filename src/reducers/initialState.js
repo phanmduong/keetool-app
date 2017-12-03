@@ -111,11 +111,19 @@ export default {
                     flexDirection: 'row',
                     alignItems: 'center',
                 },
+                wrapperIconDrawer: {
+                    height: 30,
+                    width: 40,
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                },
                 wrapperFeatureBook: {
                     alignItems: 'center',
                     flexDirection: 'row',
                 },
-
+                wrapperPeople:{
+                    height: 70,
+                },
                 textTitleHeader: {
                     fontFamily: 'Montserrat-SemiBold',
                     fontSize: size.titleHeader,
@@ -199,6 +207,9 @@ export default {
                 },
                 iconStyle: {
                     color: color.textColor,
+                },
+                iconGray: {
+                    color: '#a5a5a5',
                 },
                 colorTextLight: {
                     color: '#FFFFFF'
@@ -298,6 +309,11 @@ export default {
                     height: 20,
                     width: 20,
                     borderRadius: 10,
+                },
+                imageCircleNormal: {
+                    height: 50,
+                    width: 50,
+                    borderRadius: 25,
                 },
                 imageSquare: {
                     height: wid / 3,
@@ -461,6 +477,15 @@ export default {
                     borderRadius: 5,
                     backgroundColor: color.textColorNotActive,
                 },
+                deadlineProgressJobAssignment: {
+                    width: 80,
+                    height: 3,
+                    backgroundColor: 'red' ,
+                },
+                wrapperDeadlineJobAssignment: {
+                    height: 3,
+                    backgroundColor: 'rgba(0, 0, 0, 0.1)',
+                },
                 noBackground: {
                     backgroundColor: color.none
                 },
@@ -489,27 +514,32 @@ export default {
                     alignItems: 'center',
                     justifyContent: 'center',
                 },
+                wrapperBottomModule:{
+                    height: 50,
+                },
                 trelloCart: {
                     borderRadius: 10,
                     width: wid * 0.9,
                     height: hei * 0.75,
-                    backgroundColor: '#FFFFFF',
+                    backgroundColor: '#fcfcfc',
                 },
                 contentTrello: {
                     flex: 1,
                 },
 
                 itemInCardTrello: {
-                    width: wid * 0.6,
-                    height: 40,
-                    backgroundColor: '#f7f7f7',
-                    justifyContent: 'center', alignItems: 'center',
+                    width: wid * 0.8,
+                    backgroundColor: '#ffffff',
+                    padding: 10,
                     flex: 1
                 },
                 inputTheme:{
                     fontSize: size.titleNormal,
                     width: wid * 0.7,
                 },
+                colorDark:{
+                    color: 'black'
+                }
             })
     },
     data: {

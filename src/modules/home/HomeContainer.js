@@ -8,7 +8,6 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as size from '../../styles/size';
-import general from '../../styles/generalStyle';
 import {connect} from 'react-redux'
 
 
@@ -79,7 +78,7 @@ class HomeContainer extends Component {
     }
 
     ShowTab() {
-        const {data} = this.props;
+        const {data, general} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
