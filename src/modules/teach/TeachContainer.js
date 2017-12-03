@@ -54,7 +54,7 @@ class TeachContainer extends Component {
     }
 
     ShowTab() {
-        const {general, schedules} = this.props;
+        const {general, schedules, study_sessions} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -63,9 +63,9 @@ class TeachContainer extends Component {
                             showsVerticalScrollIndicator={false}
                             data={schedules}
                             renderItem={({item}) =>
-                                <TouchableOpacity style={[general.wrapperPeople, general.wrapperRowCenter, general.paddingBottom]}>
-                                        <Text
-                                              style={general.textDescriptionCard}>{item.name}</Text>
+                                <TouchableOpacity
+                                    style={[general.wrapperRowCenter, general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                    <Text style={general.textDescriptionCard}>{item.name}</Text>
                                 </TouchableOpacity>
                             }
                         />
@@ -75,7 +75,24 @@ class TeachContainer extends Component {
             case 1:
                 return (
                     <Content style={{flex: 1, padding: 20}}>
-
+                        <View style={[general.wrapperRowSpaceBetween, general.paddingBottom, general.haveBorderBottom]}>
+                            <Text style={general.textTitleCard}>Weekday</Text>
+                            <Text style={general.textTitleCard}>Start Time</Text>
+                            <Text style={general.textTitleCard}>End Time</Text>
+                        </View>
+                        <FlatList
+                            showsVerticalScrollIndicator={false}
+                            data={study_sessions}
+                            renderItem={({item}) =>
+                                <TouchableOpacity
+                                    style={[general.wrapperRowSpaceBetween, general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                    <Text style={general.textDescriptionCard}>{item.weekday}</Text>
+                                    <Text style={general.textDescriptionCard}>{item.start_time}</Text>
+                                    <Text style={general.textDescriptionCard}>{item.end_time}</Text>
+                                </TouchableOpacity>
+                            }
+                        />
+                        <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
 
@@ -297,6 +314,7 @@ function mapStateToProps(state) {
         general: state.theme.general,
         colors: state.theme.colors,
         schedules: state.home.schedules,
+        study_sessions: state.home.study_sessions,
     }
 }
 

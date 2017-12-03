@@ -29,6 +29,7 @@ class DrawerContainer extends Component {
         this.props.homeAction.getDataPeople();
         this.props.homeAction.getDataSchedules();
         this.props.homeAction.getDataRole();
+        this.props.homeAction.getDataStudySession();
     }
 
     changeTheme() {

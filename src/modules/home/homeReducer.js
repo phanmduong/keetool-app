@@ -31,6 +31,13 @@ export default function homeAction(state = initialState.data, action) {
                     roles: action.roles
                 }
             };
+        case types.GET_DATA_STUDY_SESSION:
+            return {
+                ...state,
+                ...{
+                    study_sessions: action.study_sessions
+                }
+            };
         default:
             return state
     }

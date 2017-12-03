@@ -1114,3 +1114,158 @@ export function getDataRole() {
     }
 }
 
+export function getDataStudySession() {
+    return {
+        type: types.GET_DATA_STUDY_SESSION,
+        study_sessions: [
+            {
+                id: 21,
+                start_time: "19:00",
+                end_time: "21:00",
+                weekday: "Chủ nhật",
+                selected: false
+            },
+            {
+                id: 20,
+                start_time: "15:00",
+                end_time: "17:00",
+                weekday: "Chủ nhật",
+                selected: false
+            },
+            {
+                id: 19,
+                start_time: "9:00",
+                end_time: "11:00",
+                weekday: "Chủ nhật",
+                selected: false
+            },
+            {
+                id: 18,
+                start_time: "19:00",
+                end_time: "21:00",
+                weekday: "Thứ bảy",
+                selected: false
+            },
+            {
+                id: 17,
+                start_time: "15:00",
+                end_time: "17:00",
+                weekday: "Thứ bảy",
+                selected: false
+            },
+            {
+                id: 16,
+                start_time: "9:00",
+                end_time: "11:00",
+                weekday: "Thứ bảy",
+                selected: false
+            },
+            {
+                id: 15,
+                start_time: "19:00",
+                end_time: "21:00",
+                weekday: "Thứ sáu",
+                selected: false
+            },
+            {
+                id: 14,
+                start_time: "15:00",
+                end_time: "17:00",
+                weekday: "Thứ sáu",
+                selected: false
+            },
+            {
+                id: 13,
+                start_time: "9:00",
+                end_time: "11:00",
+                weekday: "Thứ sáu",
+                selected: false
+            },
+            {
+                id: 12,
+                start_time: "19:00",
+                end_time: "21:00",
+                weekday: "Thứ năm",
+                selected: false
+            },
+            {
+                id: 11,
+                start_time: "15:00",
+                end_time: "17:00",
+                weekday: "Thứ năm",
+                selected: false
+            },
+            {
+                id: 10,
+                start_time: "9:00",
+                end_time: "11:00",
+                weekday: "Thứ năm",
+                selected: false
+            },
+            {
+                id: 9,
+                start_time: "19:00",
+                end_time: "21:00",
+                weekday: "Thứ tư",
+                selected: false
+            },
+            {
+                id: 8,
+                start_time: "15:00",
+                end_time: "17:00",
+                weekday: "Thứ tư",
+                selected: false
+            },
+            {
+                id: 7,
+                start_time: "9:00",
+                end_time: "11:00",
+                weekday: "Thứ tư",
+                selected: false
+            },
+            {
+                id: 6,
+                start_time: "19:00",
+                end_time: "21:00",
+                weekday: "Thứ ba",
+                selected: false
+            },
+            {
+                id: 5,
+                start_time: "9:00",
+                end_time: "11:00",
+                weekday: "Thứ ba",
+                selected: false
+            },
+            {
+                id: 4,
+                start_time: "19:00",
+                end_time: "21:00",
+                weekday: "Thứ hai",
+                selected: false
+            },
+            {
+                id: 3,
+                start_time: "15:00",
+                end_time: "17:00",
+                weekday: "Thứ hai",
+                selected: false
+            },
+            {
+                id: 2,
+                start_time: "9:00",
+                end_time: "11:00",
+                weekday: "Thứ hai",
+                selected: false
+            },
+            {
+                id: 1,
+                start_time: "15:00",
+                end_time: "17:00",
+                weekday: "Thứ ba",
+                selected: false
+            }
+        ]
+    }
+}
+

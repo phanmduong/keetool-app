@@ -19,6 +19,7 @@ export default {
         staff: [],
         schedules: [],
         roles:[],
+        study_sessions: [],
     }
 
 }

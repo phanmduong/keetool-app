@@ -4,3 +4,4 @@ export const GET_DATA = 'GET_DATA';
 export const GET_DATA_PEOPLE = 'GET_DATA_PEOPLE';
 export const GET_DATA_SCHEDULES = 'GET_DATA_SCHEDULES';
 export const GET_DATA_ROLE = 'GET_DATA_ROLE';
+export const GET_DATA_STUDY_SESSION = 'GET_DATA_STUDY_SESSION';
