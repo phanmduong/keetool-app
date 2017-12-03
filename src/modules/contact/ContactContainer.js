@@ -101,6 +101,7 @@ class ContactContainer extends Component {
                                         />
                                     </View>
                                     <View style={[general.marginLeft, general.wrapperCenterLeftToRightColumn]}>
+                                        <Text style={general.textTitleCard}> Họ và tên: {item.name}</Text>
                                         <Text style={general.textTitleCard}> Nơi làm việc: {item.workPlace}</Text>
                                         <Text style={general.textDescriptionCard}> Số điện thoai: <TouchableOpacity
                                             onPress={() => this.openModalContact(true, item.phoneNumber, '')}
@@ -246,16 +247,16 @@ class ContactContainer extends Component {
                                     Chọn Kiểu liên lạc
                                 </Text>
                             </View>
-                            <View style={{height: 100, width: 200}}>
+                            <View style={{height: 100, width: 200, justifyContent: 'center', alignItems: 'center'}}>
                                 <TouchableOpacity
                                     onPress={() => this.phoneCall(this.state.numberPhone)}
-                                    style={{height: 10, width: 100, marginTop: 20}}>
-                                    <Text>Call</Text>
+                                    style={{height: 10, width: 200, marginTop: 20}}>
+                                    <Text style = {{justifyContent: 'center', alignItems: 'center'}} >Call</Text>
                                 </TouchableOpacity>
                                 <TouchableOpacity
                                     onPress={() => this.message(this.state.numberPhone, this.state.title)}
-                                    style={{height: 10, width: 100, marginTop: 20}}>
-                                    <Text>Message</Text>
+                                    style={[general.haveBorderBottom,{height: 10, width: 200, marginTop: 20}]}>
+                                    <Text style ={{justifyContent: 'center', alignItems: 'center'}} >Message</Text>
                                 </TouchableOpacity>
                             </View>
                         </View>
