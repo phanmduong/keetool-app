@@ -50,6 +50,11 @@ class TrelloContainer extends Component {
             });
         }
     }
+    forceUpdate(indexList, order){
+        let List = this.state.List;
+        List[indexList].data = order;
+        this.setState({List : List})
+    }
 
 
     setModalAddCard(visible) {
@@ -139,8 +144,10 @@ class TrelloContainer extends Component {
                                                         order={order}
                                                         onRowMoved={e => {
                                                             order.splice(e.to, 0, order.splice(e.from, 1)[0])
-                                                            this.forceUpdate()
+                                                            this.forceUpdate(i, order)
                                                         }}
+                                                        activeOpacity = {0.1}
+                                                        rowHasChanged ={() => {return true ;}}
                                                         renderRow={row => <DragAndDropContainer item={row} sortHandlers = {this.props.sortHandlers}/>}
                                                     />
                                                 </View>
