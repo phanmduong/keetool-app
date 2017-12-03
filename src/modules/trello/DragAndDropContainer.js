@@ -3,6 +3,7 @@ import {Animated, FlatList, Modal, PanResponder, StatusBar, Text, TouchableOpaci
 import {Body, Container, Content, Input, Item, Label, Left, Right, Spinner} from 'native-base';
 import {connect} from 'react-redux'
 import general from '../../styles/generalStyle'
+import Icon from '../../commons/Icon';
 
 class DragAndDropContainer extends Component {
     constructor() {
@@ -37,8 +38,16 @@ class DragAndDropContainer extends Component {
                 style={[general.itemInCardTrello, general.shadow,
                     // panStyle,
                     general.marginTop]}>
-                <Text>{this.props.item}</Text>
-                <View style={[general.deadlineProgressJobAssignment,  general.marginTop]}/>
+                <View style={general.wrapperRowSpaceBetween}>
+                    <Text>{this.props.item}</Text>
+                    <Icon name="fontawesome|pencil"
+                          size={15}
+                          style={general.iconGray}
+                    />
+                </View>
+                <View style={[general.wrapperDeadlineJobAssignment, general.marginTopBottom]}>
+                    <View style={[general.deadlineProgressJobAssignment]}/>
+                </View>
             </Animated.View>
         </Animated.View>
         )
@@ -46,7 +55,6 @@ class DragAndDropContainer extends Component {
 }
 function mapStateToProps(state){
     return {
-        general : state.theme.general
     }
 }
 export default connect(mapStateToProps)(DragAndDropContainer)

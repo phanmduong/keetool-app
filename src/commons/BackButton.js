@@ -16,7 +16,7 @@ class BackButton extends Component{
             >
                 <Icon name="entypo|chevron-thin-left"
                       size={size.iconBig}
-                      color={color.colorText}
+                      color={color.textColor}
                 />
             </TouchableOpacity>
         );

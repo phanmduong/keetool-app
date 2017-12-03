@@ -9,7 +9,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import * as colors from '../../styles/generalStyle';
 import * as changeThemeAction from '../home/changeThemeAction';
 import {connect} from 'react-redux';
-
+import Icon from '../../commons/Icon';
 import general from '../../styles/generalStyle'
 import {bindActionCreators} from 'redux';
 
@@ -110,7 +110,61 @@ class DrawerContainer extends Component {
                         style={[general.itemTabInDrawer, general.paddingLeft]}
                         onPress={() => navigate('Trello')}
                     >
-                        <Text style={general.textInDrawer}>Trello</Text>
+                        <Text style={general.textInDrawer}>Jobs</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('PersonnelManagement')}
+                    >
+                        <Text style={general.textInDrawer}>Personnel Management</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('Teach')}
+                    >
+                        <Text style={general.textInDrawer}>Teach</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('MarketingManagement')}
+                    >
+                        <Text style={general.textInDrawer}>Marketing Management</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('FinanceManagement')}
+                    >
+                        <Text style={general.textInDrawer}>Finance Management</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('Base')}
+                    >
+                        <Text style={general.textInDrawer}>Bases</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('ExerciseAndPost')}
+                    >
+                        <Text style={general.textInDrawer}>Exercise And Post</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('Email')}
+                    >
+                        <Text style={general.textInDrawer}>Email</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('SMS')}
+                    >
+                        <Text style={general.textInDrawer}>SMS</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={[general.itemTabInDrawer, general.paddingLeft]}
+                        onPress={() => navigate('Event')}
+                    >
+                        <Text style={general.textInDrawer}>Events</Text>
                     </TouchableOpacity>
                 </Content>
 
