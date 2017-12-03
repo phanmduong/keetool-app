@@ -30,11 +30,11 @@ class DragAndDropContainer extends Component {
             transform: this.state.pan.getTranslateTransform()
         }
         return (
-        <Animated.View
-            {...this.panResponder.panHandlers}
+        <TouchableOpacity
+            {...this.props.sortHandlers}
             style={general.wrapperCenter}>
             <Animated.View
-                {...this.panResponder.panHandlers}
+                {...this.props.sortHandlers}
                 style={[general.itemInCardTrello, general.shadow,
                     // panStyle,
                     general.marginTop]}>
@@ -49,7 +49,7 @@ class DragAndDropContainer extends Component {
                     <View style={[general.deadlineProgressJobAssignment]}/>
                 </View>
             </Animated.View>
-        </Animated.View>
+        </TouchableOpacity>
         )
     }
 }
