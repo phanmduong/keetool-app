@@ -1,21 +1,61 @@
 import React, {Component} from 'react';
 import {
-    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,
+    Text, TouchableOpacity, View, FlatList, Image, Modal, PanResponder, StatusBar, RefreshControl,
 } from 'react-native';
 import {
     Container, Item, Left, Right, Spinner, Content
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
+import Icon from '../../commons/Icon';
 import {connect} from 'react-redux';
-import {wid} from "../../styles/size";
 
 class PersonnelManagementContainer extends Component {
     constructor() {
         super();
         this.state = {
             tab: 0,
+            modal: false,
+            staff: {
+                name: '',
+                avatar_url: '',
+                cover_url: '',
+                email: '',
+                phone: '',
+                role: 0,
+                age: 0,
+            }
         }
+    }
+
+    componentWillMount() {
+        this.panResponder = PanResponder.create({
+            onStartShouldSetPanResponder: (event, gestureState) => true,
+            onPanResponderGrant: this._onPanResponderGrant.bind(this),
+        })
+    }
+
+    _onPanResponderGrant(event, gestureState) {
+        if (event.nativeEvent.locationX === event.nativeEvent.pageX) {
+            this.setState({
+                modal: false,
+            });
+        }
+    }
+
+    setStaffModal(visible, item) {
+        this.setState({
+            modal: visible,
+            staff: {
+                name: item.name,
+                avatar_url: item.avatar_url,
+                cover_url: item.cover_url,
+                email: item.email,
+                phone: item.phone,
+                role: item.role_id,
+                age: item.age,
+            }
+        });
     }
 
     ViewEmployee() {
@@ -62,16 +102,17 @@ class PersonnelManagementContainer extends Component {
     }
 
     ShowTab() {
-        const {staff, general} = this.props;
+        const {staff, roles, general} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
                     <Content style={{flex: 1, padding: 20}}>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={staff}
-                            renderItem={({item}) =>
-                                <TouchableOpacity style={[general.wrapperPeople, general.wrapperRowCenter]}>
+                        {
+                            staff.map((item, i) =>
+                                <TouchableOpacity
+                                    key={i}
+                                    onPress={() => this.setStaffModal(true, item)}
+                                    style={[general.wrapperPeople, general.wrapperRowCenter]}>
                                     <Image
                                         resizeMode={'cover'}
                                         source={{uri: item.avatar_url}}
@@ -87,15 +128,70 @@ class PersonnelManagementContainer extends Component {
                                               style={general.textIstActive}>{this.Role(item.role_id)}</Text>
                                     </View>
                                 </TouchableOpacity>
-                            }
-                        />
+                            )
+                        }
+
+                        <Modal
+                            presentationStyle="overFullScreen"
+                            animationType="fade"
+                            transparent={true}
+                            visible={this.state.modal}
+                        >
+                            <View
+                                style={general.wrapperModal}
+                                {...this.panResponder.panHandlers}
+                            >
+                                <View style={general.wrapperModalStaff}>
+                                    <View style={[general.wrapperRowCenter, general.padding]}>
+                                        <View style={{flex: 1}}>
+                                            <Text style={general.textTitleCardLight}>{this.state.staff.name}</Text>
+                                            <Text
+                                                style={general.textDescriptionCardLight}>{this.state.staff.email}</Text>
+                                        </View>
+                                        <Image
+                                            resizeMode={'cover'}
+                                            source={{uri: this.state.staff.avatar_url}}
+                                            style={general.imageCircleNormal}
+                                        />
+                                    </View>
+                                    <View style={[general.contentModal, general.wrapperCenter]}>
+                                        <Text
+                                            style={general.textTitleBigLight}>{this.Role(this.state.staff.role)}</Text>
+                                    </View>
+                                    <TouchableOpacity style={[general.bottomModal, general.wrapperRowCenter]}>
+                                        <Icon
+                                            name="material|phone"
+                                            size={30}
+                                            color={'#FFFFFF'}
+                                        />
+                                        <Text
+                                            style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.staff.phone}</Text>
+                                    </TouchableOpacity>
+                                </View>
+                            </View>
+                        </Modal>
+
+
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
             case 1:
                 return (
                     <Content style={{flex: 1, padding: 20}}>
-
+                        <View style={[general.wrapperRowSpaceBetween, general.paddingBottom, general.haveBorderBottom]}>
+                            <Text style={general.textTitleCard}>Role</Text>
+                            <Text style={general.textTitleCard}>Authorities</Text>
+                        </View>
+                        {
+                            roles.map((item, i) =>
+                                <View key={i}
+                                      style={[general.wrapperRowSpaceBetween, general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                    <Text style={general.textDescriptionCard}>{item.role_title}</Text>
+                                    <Text style={general.textDescriptionCard}>{item.num_tabs}</Text>
+                                </View>
+                            )
+                        }
+                        <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
 
@@ -158,7 +254,8 @@ function mapStateToProps(state) {
     return {
         general: state.theme.general,
         colors: state.theme.colors,
-        staff: state.home.staff
+        staff: state.home.staff,
+        roles: state.home.roles,
     }
 }
 

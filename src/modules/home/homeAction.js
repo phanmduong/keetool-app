@@ -965,3 +965,152 @@ export function getDataSchedules() {
     }
 }
 
+
+export function getDataRole() {
+    return {
+        type: types.GET_DATA_ROLE,
+        roles: [
+            {
+                id: 22,
+                role_title: "Designer SM",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 12,
+                created_at: "2017-10-22 15:53:12",
+                updated_at: "2017-10-22 15:53:12",
+                deleted_at: null
+            },
+            {
+                id: 21,
+                role_title: "backend",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 9,
+                created_at: "2017-10-08 10:35:05",
+                updated_at: "2017-11-01 23:33:41",
+                deleted_at: null
+            },
+            {
+                id: 20,
+                role_title: "Giám đốc đào tạo",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 22,
+                created_at: "2017-09-20 15:01:06",
+                updated_at: "2017-11-16 00:03:06",
+                deleted_at: null
+            },
+            {
+                id: 19,
+                role_title: "Sales Manager",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 27,
+                created_at: "2017-09-07 14:59:12",
+                updated_at: "2017-10-12 13:07:37",
+                deleted_at: null
+            },
+            {
+                id: 18,
+                role_title: "Trợ lý Giám đốc Sales&Marketing",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 34,
+                created_at: "2017-08-08 11:22:05",
+                updated_at: "2017-10-12 13:08:19",
+                deleted_at: null
+            },
+            {
+                id: 17,
+                role_title: "Quản lý sách",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 7,
+                created_at: "2016-10-16 10:38:59",
+                updated_at: "2016-11-27 00:11:26",
+                deleted_at: null
+            },
+            {
+                id: 16,
+                role_title: "test chuyen tien",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 1,
+                created_at: "2016-08-28 22:09:43",
+                updated_at: "2016-08-28 22:09:43",
+                deleted_at: null
+            },
+            {
+                id: 15,
+                role_title: "Trainee",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 4,
+                created_at: "2016-07-11 20:41:32",
+                updated_at: "2017-09-05 13:01:59",
+                deleted_at: null
+            },
+            {
+                id: 13,
+                role_title: "Email Marketing",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 26,
+                created_at: "2016-07-08 14:31:05",
+                updated_at: "2017-09-05 13:03:42",
+                deleted_at: null
+            },
+            {
+                id: 11,
+                role_title: "IT",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 48,
+                created_at: "2016-07-05 16:36:35",
+                updated_at: "2017-10-12 13:10:48",
+                deleted_at: null
+            },
+            {
+                id: 10,
+                role_title: "Giảng viên",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 12,
+                created_at: "2016-07-05 16:35:28",
+                updated_at: "2017-09-05 13:01:20",
+                deleted_at: null
+            },
+            {
+                id: 9,
+                role_title: "CEO",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 61,
+                created_at: "2016-07-05 16:34:41",
+                updated_at: "2017-10-12 13:09:48",
+                deleted_at: null
+            },
+            {
+                id: 8,
+                role_title: "Marketing&Sales",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 33,
+                created_at: "2016-07-05 16:33:00",
+                updated_at: "2017-10-12 13:09:05",
+                deleted_at: null
+            },
+            {
+                id: 7,
+                role_title: "Telesale",
+                role_slug: "",
+                num_staffs: 0,
+                num_tabs: 21,
+                created_at: "2016-07-05 09:40:29",
+                updated_at: "2017-04-15 21:50:21",
+                deleted_at: null
+            }
+        ]
+    }
+}
+

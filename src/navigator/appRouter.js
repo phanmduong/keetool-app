@@ -30,6 +30,8 @@ const HomeStackNavigator = StackNavigator({
     HomeContainer: {screen: HomeContainer},
 
 }, StackNavigatorStyle);
+
+
 const Drawer = DrawerNavigator(
     {
         Home: {screen: HomeStackNavigator},
@@ -55,7 +57,7 @@ const Drawer = DrawerNavigator(
     {
         drawerWidth: size.wid * 3 / 4,
         drawerPosition: 'right',
-        contentComponent: props => <DrawerContainer {...props} />
+        contentComponent: props => <DrawerContainer {...props} />,
     }
 );
 export const Main = StackNavigator(

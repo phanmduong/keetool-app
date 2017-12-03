@@ -17,9 +17,7 @@ export const themeCalendar = {
     textDayHeaderFontSize: 14
 };
 
-
-
-const general = StyleSheet.create({
+export const style = {
     wrapperContainer: {
         flex: 1,
         backgroundColor: color.none,
@@ -130,6 +128,12 @@ const general = StyleSheet.create({
     wrapperPeople:{
         height: 70,
     },
+    wrapperModalStaff:{
+        width: wid * 0.8,
+        height: hei * 0.4,
+        borderRadius: 10,
+        backgroundColor: 'rgba(47, 24, 71, 0.8)'
+    },
     textTitleHeader: {
         fontFamily: 'Montserrat-SemiBold',
         fontSize: size.titleHeader,
@@ -156,8 +160,13 @@ const general = StyleSheet.create({
         fontFamily: 'Montserrat-Medium',
         fontSize: size.defaultText,
     },
+    textTitleCardLight: {
+        color: '#FFFFFF',
+        fontFamily: 'Montserrat-Medium',
+        fontSize: size.defaultText,
+    },
     textTitleCardDark: {
-        color: 'black',
+        color: '#000000',
         fontFamily: 'Montserrat-Medium',
         fontSize: size.defaultText,
     },
@@ -168,6 +177,11 @@ const general = StyleSheet.create({
     },
     textTitleBig: {
         color: color.textColor,
+        fontFamily: 'Montserrat-Medium',
+        fontSize: size.titleBig,
+    },
+    textTitleBigLight: {
+        color: '#FFFFFF',
         fontFamily: 'Montserrat-Medium',
         fontSize: size.titleBig,
     },
@@ -183,6 +197,16 @@ const general = StyleSheet.create({
     },
     textDescriptionCard: {
         color: color.textColor,
+        fontFamily: 'Montserrat-Light',
+        fontSize: size.titleNormal,
+    },
+    textDescriptionCardLight: {
+        color: '#FFFFFF',
+        fontFamily: 'Montserrat-Light',
+        fontSize: size.titleNormal,
+    },
+    textDescriptionCardDark: {
+        color: '#000000',
         fontFamily: 'Montserrat-Light',
         fontSize: size.titleNormal,
     },
@@ -546,6 +570,8 @@ const general = StyleSheet.create({
     colorDark:{
         color: 'black'
     }
-});
+};
+
+const general = StyleSheet.create(style);
 
 export default (general)

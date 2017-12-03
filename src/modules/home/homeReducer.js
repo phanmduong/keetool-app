@@ -24,6 +24,13 @@ export default function homeAction(state = initialState.data, action) {
                     schedules: action.schedules
                 }
             };
+        case types.GET_DATA_ROLE:
+            return {
+                ...state,
+                ...{
+                    roles: action.roles
+                }
+            };
         default:
             return state
     }

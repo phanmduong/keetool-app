@@ -28,6 +28,7 @@ class DrawerContainer extends Component {
         this.props.homeAction.getData();
         this.props.homeAction.getDataPeople();
         this.props.homeAction.getDataSchedules();
+        this.props.homeAction.getDataRole();
     }
 
     changeTheme() {
@@ -336,6 +337,7 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Events</Text>
                         </View>
                     </TouchableOpacity>
+                    <View style={general.wrapperBottomModule}/>
                 </Content>
 
             </Container>
