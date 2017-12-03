@@ -124,7 +124,7 @@ class TeachContainer extends Component {
 
     render() {
         const {navigate} = this.props.navigation;
-        const {colors} = this.props;
+        const {colors, general} = this.props;
 
         return (
             <Container style={general.wrapperContainer}>

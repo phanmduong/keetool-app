@@ -18,7 +18,7 @@ class MarketingManagementContainer extends Component {
         }
     }
 
-    ViewTelesaleHistory() {
+    ViewTeleSaleHistory() {
         this.setState({tab: 0})
     }
 
@@ -122,7 +122,7 @@ class MarketingManagementContainer extends Component {
                     <View style={general.wrapperMenuHome}>
                         <Content horizontal={true}
                                  showsHorizontalScrollIndicator={false}>
-                            <TouchableOpacity onPress={() => this.ViewTelesaleHistory()}
+                            <TouchableOpacity onPress={() => this.ViewTeleSaleHistory()}
                                               style={{height: 30}}>
                                 <View style={
                                     this.state.tab === 0
