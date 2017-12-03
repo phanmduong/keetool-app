@@ -478,6 +478,9 @@ const general = StyleSheet.create({
         height: 50,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor : '#ffffff',
+        borderTopLeftRadius : 10,
+        borderTopRightRadius : 10,
     },
     bottomModal: {
         width: wid * 0.8,
@@ -503,10 +506,11 @@ const general = StyleSheet.create({
         borderRadius: 10,
         width: wid * 0.9,
         height: hei * 0.75,
-        backgroundColor: '#fcfcfc',
+        backgroundColor: '#f2f2f2',
     },
     contentTrello: {
         flex: 1,
+        backgroundColor : 'rgb(192, 198, 209)'
     },
 
     itemInCardTrello: {

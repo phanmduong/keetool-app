@@ -5,7 +5,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
 import DragAndDropContainer from './DragAndDropContainer';
-
+import SortableListView from 'react-native-sortable-listview';
 class TrelloContainer extends Component {
     constructor() {
         super();
@@ -51,6 +51,7 @@ class TrelloContainer extends Component {
         }
     }
 
+
     setModalAddCard(visible) {
         this.setState({modalAddCard: visible});
     }
@@ -65,6 +66,12 @@ class TrelloContainer extends Component {
         List.push(list);
         this.setState({List: List})
         this.setModalAddList(false);
+    }
+     toObject(arr) {
+        let rv = {};
+        for (let i = 0; i < arr.length; ++i)
+            rv[i] = arr[i];
+        return rv;
     }
 
     addCardInOneItem(index, text) {
@@ -114,6 +121,8 @@ class TrelloContainer extends Component {
                         >
                             {
                                 this.state.List.map((item, i) => {
+                                    let data = this.toObject(item.data);
+                                    let order = Object.keys(data);
                                     return (
                                         <View
                                             style={[general.wrapperCenter, general.marginLeftFar, general.shadow]}>
@@ -124,16 +133,15 @@ class TrelloContainer extends Component {
                                                     </Text>
                                                 </View>
                                                 <View style={general.contentTrello}>
-                                                    <FlatList
-                                                        data={item.data}
-                                                        extraData={this.state}
-                                                        renderItem={({item}) => {
-                                                            return (
-                                                                <DragAndDropContainer
-                                                                    item={item}
-                                                                />
-                                                            )
+                                                    <SortableListView
+                                                        style={{ flex: 1, backgroundColor : 'rgb(192, 198, 209)' }}
+                                                        data={data}
+                                                        order={order}
+                                                        onRowMoved={e => {
+                                                            order.splice(e.to, 0, order.splice(e.from, 1)[0])
+                                                            this.forceUpdate()
                                                         }}
+                                                        renderRow={row => <DragAndDropContainer item={row} sortHandlers = {this.props.sortHandlers}/>}
                                                     />
                                                 </View>
                                                 <View style={[general.bottomModal, general.haveBorderTop]}>

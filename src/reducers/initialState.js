@@ -332,6 +332,7 @@ export default {
                 },
                 contentModal: {
                     flex: 1,
+                    backgroundColor : 'rgb(192, 198, 209)'
                 },
                 topModal: {
                     height: 50,

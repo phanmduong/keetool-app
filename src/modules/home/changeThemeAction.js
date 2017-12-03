@@ -491,10 +491,11 @@ export function changeThemeLight(){
                 borderRadius: 10,
                 width: wid * 0.9,
                 height: hei * 0.75,
-                backgroundColor: '#fcfcfc',
+                backgroundColor: 'rgb(192, 198, 209)',
             },
             contentTrello: {
                 flex: 1,
+                backgroundColor : 'rgb(192, 198, 209)'
             },
 
             itemInCardTrello: {
@@ -1001,14 +1002,15 @@ export function changeThemeDark(){
             },
             contentTrello: {
                 flex: 1,
+                backgroundColor : 'rgb(192, 198, 209)',
             },
 
             itemInCardTrello: {
                 width: wid * 0.8,
                 height: 40,
-                backgroundColor: '#ffffff',
+                backgroundColor: '#f2f2f2',
                 justifyContent: 'center', alignItems: 'center',
-                flex: 1
+                flex: 1,
             },
             inputTheme:{
                 fontSize: size.titleNormal,
