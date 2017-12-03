@@ -7,6 +7,15 @@ import VideoPlayContainer from '../modules/videoPlay/VideoPlayContainer';
 import BookStoreContainer from '../modules/bookStore/BookStoreContainer';
 import CalendarContainer from '../modules/calendar/CalendarContainer';
 import DashboardContainer from '../modules/dashboard/DashboardContainer';
+import PersonnelManagementContainer from '../modules/personnelManagement/PersonnelManagementContainer';
+import TeachContainer from '../modules/teach/TeachContainer';
+import MarketingManagementContainer from '../modules/marketingManagement/MarketingManagementContainer';
+import FinanceManagementContainer from '../modules/financeManagement/FinanceManagementContainer';
+import ExerciseAndPostContainer from '../modules/exerciseAndPost/ExerciseAndPostContainer';
+import EmailContainer from '../modules/email/EmailContainer';
+import SMSContainer from '../modules/sms/SMSContainer';
+import EventContainer from '../modules/event/EventContainer';
+import BaseContainer from '../modules/base/BaseContainer';
 import * as size from '../styles/size';
 import MapContainer from "../modules/maps/MapContainer";
 import QRcodeContainer from "../modules/QRcode/QRcodeContainer";
@@ -31,7 +40,17 @@ const Drawer = DrawerNavigator(
         Dashboard: {screen: DashboardContainer},
         Map : {screen : MapContainer},
         QRCode : {screen : QRcodeContainer},
-        Trello : {screen : TrelloContainer}
+        Trello : {screen : TrelloContainer},
+        PersonnelManagement : {screen : PersonnelManagementContainer},
+        Teach : {screen : TeachContainer},
+        MarketingManagement : {screen : MarketingManagementContainer},
+        FinanceManagement : {screen : FinanceManagementContainer},
+        ExerciseAndPost : {screen : ExerciseAndPostContainer},
+        Base : {screen : BaseContainer},
+        Email : {screen : EmailContainer},
+        SMS : {screen : SMSContainer},
+        Event : {screen : EventContainer},
+
     },
     {
         drawerWidth: size.wid * 3 / 4,

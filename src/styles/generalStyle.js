@@ -117,11 +117,19 @@ const general = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
     },
+    wrapperIconDrawer: {
+        height: 30,
+        width: 40,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
     wrapperFeatureBook: {
         alignItems: 'center',
         flexDirection: 'row',
     },
-
+    wrapperPeople:{
+        height: 70,
+    },
     textTitleHeader: {
         fontFamily: 'Montserrat-SemiBold',
         fontSize: size.titleHeader,
@@ -205,6 +213,9 @@ const general = StyleSheet.create({
     },
     iconStyle: {
         color: color.textColor,
+    },
+    iconGray: {
+        color: '#a5a5a5',
     },
     colorTextLight: {
         color: '#FFFFFF'
@@ -304,6 +315,11 @@ const general = StyleSheet.create({
         height: 20,
         width: 20,
         borderRadius: 10,
+    },
+    imageCircleNormal: {
+        height: 50,
+        width: 50,
+        borderRadius: 25,
     },
     imageSquare: {
         height: wid / 3,
@@ -461,15 +477,20 @@ const general = StyleSheet.create({
         borderRadius: 5,
         backgroundColor: color.textColor,
     },
-    deadlineProgressJobAssignment: {
-        height: 3,
-        backgroundColor: '#e0e0e0' ,
-    },
     wrapperDeadline: {
         width: wid - 40,
         height: 5,
         borderRadius: 5,
         backgroundColor: color.textColorNotActive,
+    },
+    deadlineProgressJobAssignment: {
+        width: 80,
+        height: 3,
+        backgroundColor: 'red' ,
+    },
+    wrapperDeadlineJobAssignment: {
+        height: 3,
+        backgroundColor: 'rgba(0, 0, 0, 0.1)',
     },
     noBackground: {
         backgroundColor: color.none
@@ -502,6 +523,9 @@ const general = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    wrapperBottomModule:{
+        height: 50,
+    },
     trelloCart: {
         borderRadius: 10,
         width: wid * 0.9,
@@ -523,6 +547,9 @@ const general = StyleSheet.create({
         fontSize: size.titleNormal,
         width: wid * 0.7,
     },
+    colorDark:{
+        color: 'black'
+    }
 });
 
 export default (general)
