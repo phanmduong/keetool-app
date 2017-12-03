@@ -7,7 +7,6 @@ import {
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
-import general from '../../styles/generalStyle';
 import {connect} from 'react-redux'
 
 class MarketingManagementContainer extends Component {
@@ -104,8 +103,7 @@ class MarketingManagementContainer extends Component {
 
     render() {
         const {navigate} = this.props.navigation;
-        const {colors} = this.props;
-
+        const {colors, general} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <LinearGradient

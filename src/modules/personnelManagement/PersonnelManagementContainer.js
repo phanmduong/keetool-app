@@ -7,7 +7,6 @@ import {
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
-import general from '../../styles/generalStyle';
 import {connect} from 'react-redux';
 import {wid} from "../../styles/size";
 
@@ -63,7 +62,7 @@ class PersonnelManagementContainer extends Component {
     }
 
     ShowTab() {
-        const {staff} = this.props;
+        const {staff, general} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (

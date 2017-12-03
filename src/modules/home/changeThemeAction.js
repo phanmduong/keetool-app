@@ -109,11 +109,19 @@ export function changeThemeLight(){
                 flexDirection: 'row',
                 alignItems: 'center',
             },
+            wrapperIconDrawer: {
+                height: 30,
+                width: 40,
+                justifyContent: 'center',
+                alignItems: 'center',
+            },
             wrapperFeatureBook: {
                 alignItems: 'center',
                 flexDirection: 'row',
             },
-
+            wrapperPeople:{
+                height: 70,
+            },
             textTitleHeader: {
                 fontFamily: 'Montserrat-SemiBold',
                 fontSize: size.titleHeader,
@@ -197,6 +205,9 @@ export function changeThemeLight(){
             },
             iconStyle: {
                 color: color.textColor,
+            },
+            iconGray: {
+                color: '#a5a5a5',
             },
             colorTextLight: {
                 color: '#FFFFFF'
@@ -296,6 +307,11 @@ export function changeThemeLight(){
                 height: 20,
                 width: 20,
                 borderRadius: 10,
+            },
+            imageCircleNormal: {
+                height: 50,
+                width: 50,
+                borderRadius: 25,
             },
             imageSquare: {
                 height: wid / 3,
@@ -459,6 +475,15 @@ export function changeThemeLight(){
                 borderRadius: 5,
                 backgroundColor: color.textColorNotActive,
             },
+            deadlineProgressJobAssignment: {
+                width: 80,
+                height: 3,
+                backgroundColor: 'red' ,
+            },
+            wrapperDeadlineJobAssignment: {
+                height: 3,
+                backgroundColor: 'rgba(0, 0, 0, 0.1)',
+            },
             noBackground: {
                 backgroundColor: color.none
             },
@@ -487,28 +512,32 @@ export function changeThemeLight(){
                 alignItems: 'center',
                 justifyContent: 'center',
             },
+            wrapperBottomModule:{
+                height: 50,
+            },
             trelloCart: {
                 borderRadius: 10,
                 width: wid * 0.9,
                 height: hei * 0.75,
-                backgroundColor: 'rgb(192, 198, 209)',
+                backgroundColor: '#fcfcfc',
             },
             contentTrello: {
                 flex: 1,
-                backgroundColor : 'rgb(192, 198, 209)'
             },
 
             itemInCardTrello: {
                 width: wid * 0.8,
-                height: 40,
                 backgroundColor: '#ffffff',
-                justifyContent: 'center', alignItems: 'center',
+                padding: 10,
                 flex: 1
             },
             inputTheme:{
                 fontSize: size.titleNormal,
                 width: wid * 0.7,
             },
+            colorDark:{
+                color: 'black'
+            }
         }),
     }
 }
@@ -616,11 +645,19 @@ export function changeThemeDark(){
                 flexDirection: 'row',
                 alignItems: 'center',
             },
+            wrapperIconDrawer: {
+                height: 30,
+                width: 40,
+                justifyContent: 'center',
+                alignItems: 'center',
+            },
             wrapperFeatureBook: {
                 alignItems: 'center',
                 flexDirection: 'row',
             },
-
+            wrapperPeople:{
+                height: 70,
+            },
             textTitleHeader: {
                 fontFamily: 'Montserrat-SemiBold',
                 fontSize: size.titleHeader,
@@ -704,6 +741,9 @@ export function changeThemeDark(){
             },
             iconStyle: {
                 color: color.textColor,
+            },
+            iconGray: {
+                color: '#a5a5a5',
             },
             colorTextLight: {
                 color: '#FFFFFF'
@@ -803,6 +843,11 @@ export function changeThemeDark(){
                 height: 20,
                 width: 20,
                 borderRadius: 10,
+            },
+            imageCircleNormal: {
+                height: 50,
+                width: 50,
+                borderRadius: 25,
             },
             imageSquare: {
                 height: wid / 3,
@@ -966,6 +1011,15 @@ export function changeThemeDark(){
                 borderRadius: 5,
                 backgroundColor: color.textColorNotActive,
             },
+            deadlineProgressJobAssignment: {
+                width: 80,
+                height: 3,
+                backgroundColor: 'red' ,
+            },
+            wrapperDeadlineJobAssignment: {
+                height: 3,
+                backgroundColor: 'rgba(0, 0, 0, 0.1)',
+            },
             noBackground: {
                 backgroundColor: color.none
             },
@@ -994,6 +1048,9 @@ export function changeThemeDark(){
                 alignItems: 'center',
                 justifyContent: 'center',
             },
+            wrapperBottomModule:{
+                height: 50,
+            },
             trelloCart: {
                 borderRadius: 10,
                 width: wid * 0.9,
@@ -1002,20 +1059,21 @@ export function changeThemeDark(){
             },
             contentTrello: {
                 flex: 1,
-                backgroundColor : 'rgb(192, 198, 209)',
             },
 
             itemInCardTrello: {
                 width: wid * 0.8,
-                height: 40,
-                backgroundColor: '#f2f2f2',
-                justifyContent: 'center', alignItems: 'center',
-                flex: 1,
+                backgroundColor: '#ffffff',
+                padding: 10,
+                flex: 1
             },
             inputTheme:{
                 fontSize: size.titleNormal,
                 width: wid * 0.7,
             },
+            colorDark:{
+                color: 'black'
+            }
         }),
 
     }
