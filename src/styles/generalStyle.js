@@ -117,6 +117,12 @@ const general = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
     },
+    wrapperIconDrawer: {
+        height: 30,
+        width: 40,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
     wrapperFeatureBook: {
         alignItems: 'center',
         flexDirection: 'row',
@@ -527,6 +533,9 @@ const general = StyleSheet.create({
         fontSize: size.titleNormal,
         width: wid * 0.7,
     },
+    colorDark:{
+        color: 'black'
+    }
 });
 
 export default (general)
