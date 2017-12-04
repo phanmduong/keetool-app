@@ -11,7 +11,7 @@ import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
 import general from '../../styles/generalStyle';
 import {Col, Row, Grid} from "react-native-easy-grid";
-
+import Communications from 'react-native-communications'
 class TeachContainer extends Component {
     constructor() {
         super();
@@ -211,6 +211,7 @@ class TeachContainer extends Component {
                                             name={item.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
                                             size={30}
                                             color={'#FFFFFF'}
+                                            onPress = {()=>{Communications.phonecall(item.phone, true)}}
                                         />
                                     </TouchableOpacity>
                                 </TouchableOpacity>
@@ -270,7 +271,10 @@ class TeachContainer extends Component {
                                         </View>
 
                                     </View>
-                                    <TouchableOpacity style={[general.bottomModal, general.wrapperRowCenter]}>
+                                    <TouchableOpacity
+                                        style={[general.bottomModal, general.wrapperRowCenter]}
+                                        onPress = {() => {Communications.phonecall(this.state.register.phone, true)}}
+                                    >
                                         <Icon
                                             name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
                                             size={30}
