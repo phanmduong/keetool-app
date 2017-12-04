@@ -38,6 +38,27 @@ export default function homeAction(state = initialState.data, action) {
                     study_sessions: action.study_sessions
                 }
             };
+        case types.GET_DATA_REGISTER_STUDENT:
+            return {
+                ...state,
+                ...{
+                    registers: action.registers
+                }
+            };
+        case types.GET_DATA_GENS:
+            return {
+                ...state,
+                ...{
+                    gens: action.gens
+                }
+            };
+        case types.GET_DATA_COURSE:
+            return {
+                ...state,
+                ...{
+                    courses: action.courses
+                }
+            };
         default:
             return state
     }

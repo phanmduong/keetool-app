@@ -1269,3 +1269,1031 @@ export function getDataStudySession() {
     }
 }
 
+export function getDataRegisterStudent() {
+    return {
+        type: types.GET_DATA_REGISTER_STUDENT,
+        registers: [
+            {
+                id: 18594,
+                gen_id: 25,
+                code: "CM31545",
+                name: "Nguyễn Việt Nga",
+                student_id: 7359,
+                email: "vietnga.skt@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0979682929",
+                paid_status: true,
+                time_to_reach: 24,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 3,
+                note: "CM30072 học lại để nắm vững kiến thức ",
+                class: {
+                    name: "PR 31.1",
+                    id: 1042,
+                    study_time: "(19h-21h) Thứ 7 - Chủ Nhật",
+                    description: "Khai giảng ngày 16 tháng 12 năm 2017",
+                    room: "Tầng 4",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-04 10:32:30",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 18,
+                    name: "DS Chờ",
+                    color: "43a047"
+                }
+            },
+            {
+                id: 18593,
+                gen_id: 25,
+                code: "",
+                name: "Tăng Mỹ Kỳ",
+                student_id: 8396,
+                email: "myky.tang@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0933901144",
+                paid_status: false,
+                time_to_reach: 1,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "AI - Danh Sách Chờ (Cơ sở 3)",
+                    id: 1010,
+                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    description: "Nhận ưu đãi tốt nhất từ colorME",
+                    room: "Tầng 4",
+                    base: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM"
+                },
+                created_at: "2017-12-04 10:16:05",
+                is_delete: true,
+                call_status: "success",
+                saler: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18592,
+                gen_id: 25,
+                code: "",
+                name: "Tăng Mỹ Kỳ",
+                student_id: 8396,
+                email: "myky.tang@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0933901144",
+                paid_status: false,
+                time_to_reach: 1,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PS 31.17 (Sài Gòn)",
+                    id: 1059,
+                    study_time: "(19h-21h) Thứ 4 - Thứ 6",
+                    description: "Khai giảng ngày 13 tháng 12 năm 2017",
+                    room: "Tầng 5",
+                    base: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM"
+                },
+                created_at: "2017-12-04 10:15:17",
+                is_delete: true,
+                call_status: "success",
+                saler: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18591,
+                gen_id: 25,
+                code: "",
+                name: "Nguyễn Thị Hồng Hà",
+                student_id: 5972,
+                email: "1234glx@gmail.com",
+                university: "Học viện Ngoại giao",
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1502413914zm9KIcYAuInDNM2.jpg",
+                phone: "0868959480",
+                paid_status: false,
+                time_to_reach: 23,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 3,
+                note: "",
+                class: {
+                    name: "AI 31.4",
+                    id: 1023,
+                    study_time: "(19h-21h) Thứ 4 - Thứ 6",
+                    description: "Khai giảng ngày 13 tháng 12 năm 2017",
+                    room: "Tầng 2",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-04 09:29:58",
+                is_delete: true,
+                call_status: "uncall"
+            },
+            {
+                id: 18590,
+                gen_id: 25,
+                code: "",
+                name: "Lê Đặng Hoàng Tùng",
+                student_id: 8394,
+                email: "ledanghoangtung@gmail.com",
+                university: "RMIT",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "01638595779",
+                paid_status: false,
+                time_to_reach: 22,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PS 31.6",
+                    id: 1009,
+                    study_time: "(19h-21h) Thứ 7 - Chủ Nhật",
+                    description: "Khai giảng ngày 16 tháng 12 năm 2017",
+                    room: "Tầng 5",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-04 08:47:27",
+                is_delete: true,
+                call_status: "uncall"
+            },
+            {
+                id: 18589,
+                gen_id: 25,
+                code: "",
+                name: "Ngô Minh",
+                student_id: 2802,
+                email: "minh.greencity@gmail.com",
+                university: "Đi làm",
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1478516137yVOHRaaLI8mHFNy.jpg",
+                phone: "0962183335",
+                paid_status: false,
+                time_to_reach: 17,
+                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
+                course_money: 1200000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PT 31.2",
+                    id: 1049,
+                    study_time: "(19h-21h) Thứ 3 - Thứ 5",
+                    description: "Khai giảng ngày 12 tháng 12 năm 2017",
+                    room: "Studio Tầng 5",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-04 03:02:54",
+                is_delete: true,
+                call_status: "uncall"
+            },
+            {
+                id: 18588,
+                gen_id: 25,
+                code: "",
+                name: "Ngô Minh",
+                student_id: 2802,
+                email: "minh.greencity@gmail.com",
+                university: "Đi làm",
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1478516137yVOHRaaLI8mHFNy.jpg",
+                phone: "0962183335",
+                paid_status: false,
+                time_to_reach: 17,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PR 31.2",
+                    id: 1045,
+                    study_time: "(19h-21h) Thứ 4 - Thứ 6",
+                    description: "Khai giảng ngày 13 tháng 12 năm 2017",
+                    room: "Tầng 3",
+                    base: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội"
+                },
+                created_at: "2017-12-04 02:57:55",
+                is_delete: true,
+                call_status: "uncall"
+            },
+            {
+                id: 18587,
+                gen_id: 25,
+                code: "",
+                name: "Nguyễn Ngọc Diệp Yến",
+                student_id: 8393,
+                email: "diepyenng@gmail.com",
+                university: "Viện ĐH Mở Hà Nội",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0989363951",
+                paid_status: false,
+                time_to_reach: 14,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PS - Danh Sách Chờ (Cơ sở 1)",
+                    id: 994,
+                    study_time: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
+                    description: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
+                    room: "Tầng 5",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-04 00:52:03",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 5064,
+                    name: "Nguyễn Thanh Thi",
+                    color: ""
+                },
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                }
+            },
+            {
+                id: 18586,
+                gen_id: 25,
+                code: "",
+                name: "Nguyễn Ngọc Diệp Yến",
+                student_id: 8393,
+                email: "diepyenng@gmail.com",
+                university: "Viện ĐH Mở Hà Nội",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0989363951",
+                paid_status: false,
+                time_to_reach: 14,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "AI 31.1",
+                    id: 1026,
+                    study_time: "(9h-11h) Thứ 3 - Thứ 5",
+                    description: "Khai giảng ngày 12 tháng 12 năm 2017",
+                    room: "Tầng 2",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-04 00:46:59",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 5064,
+                    name: "Nguyễn Thanh Thi",
+                    color: ""
+                },
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                }
+            },
+            {
+                id: 18585,
+                gen_id: 25,
+                code: "",
+                name: "Phạm Lê Ngọc Linh",
+                student_id: 7557,
+                email: "ngoclinhrobust26@gmail.com",
+                university: "Đại học Hà Nội",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "01632361999",
+                paid_status: false,
+                time_to_reach: 14,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 2,
+                note: "",
+                class: {
+                    name: "PS - Danh Sách Chờ (Cơ sở 2)",
+                    id: 993,
+                    study_time: "ColorME sẽ gọi cho bạn ngay khi có khoá mới. ",
+                    description: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
+                    room: "Tầng 5",
+                    base: "Số 162 phố Phương Liệt ( số 83 Trường Chinh rẽ vào) - Thanh Xuân - Hà Nội"
+                },
+                created_at: "2017-12-04 00:08:21",
+                is_delete: true,
+                call_status: "uncall"
+            },
+            {
+                id: 18584,
+                gen_id: 25,
+                code: "",
+                name: "Bùi Trung Kiên",
+                student_id: 3939,
+                email: "trungkienbui1998@gmail.com",
+                university: "z",
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508239347d2EHR8PrSvM0PLz.jpg",
+                phone: "0168.770.7575",
+                paid_status: false,
+                time_to_reach: 13,
+                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                course_money: 1200000,
+                money: 0,
+                study_time: 2,
+                note: "",
+                class: {
+                    name: "AE 31.1",
+                    id: 1036,
+                    study_time: "(19h-21h) Thứ 3 - Thứ 5",
+                    description: "Khai giảng ngày 12 tháng 12 năm 2017",
+                    room: "Tầng 4",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 23:42:21",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18583,
+                gen_id: 25,
+                code: "",
+                name: "Đinh Phương Linh",
+                student_id: 8392,
+                email: "linhdinh812@gmail.com",
+                university: "z",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0983633970",
+                paid_status: false,
+                time_to_reach: 13,
+                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                course_money: 1200000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "AE 31.1",
+                    id: 1036,
+                    study_time: "(19h-21h) Thứ 3 - Thứ 5",
+                    description: "Khai giảng ngày 12 tháng 12 năm 2017",
+                    room: "Tầng 4",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 23:41:06",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18582,
+                gen_id: 25,
+                code: "",
+                name: "Vũ Thị Thảo Nguyên",
+                student_id: 8391,
+                email: "vttnnguyen295@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "01697670653",
+                paid_status: false,
+                time_to_reach: 12,
+                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
+                course_money: 1200000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PT - Khoá Sau (Danh Sách Chờ)",
+                    id: 1044,
+                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    description: "Nhận ưu đãi tốt nhất từ colorME",
+                    room: "Studio Tầng 5",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 22:32:28",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18581,
+                gen_id: 25,
+                code: "",
+                name: "Vũ Thị Thảo Nguyên",
+                student_id: 8391,
+                email: "vttnnguyen295@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "01697670653",
+                paid_status: false,
+                time_to_reach: 12,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PR - Danh Sách Chờ (Cơ sở 1)",
+                    id: 1041,
+                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    description: "Nhận ưu đãi tốt nhất từ colorME",
+                    room: "Tầng 2",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 22:32:17",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18580,
+                gen_id: 25,
+                code: "",
+                name: "Vũ Thị Thảo Nguyên",
+                student_id: 8391,
+                email: "vttnnguyen295@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "01697670653",
+                paid_status: false,
+                time_to_reach: 12,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "AI - Danh Sách Chờ (Cơ sở 1)",
+                    id: 1019,
+                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    description: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    room: "Tầng 2",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 22:32:06",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18579,
+                gen_id: 25,
+                code: "",
+                name: "Vũ Thị Thảo Nguyên",
+                student_id: 8391,
+                email: "vttnnguyen295@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "01697670653",
+                paid_status: false,
+                time_to_reach: 12,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PS - Danh Sách Chờ (Cơ sở 1)",
+                    id: 994,
+                    study_time: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
+                    description: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
+                    room: "Tầng 5",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 22:31:52",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18578,
+                gen_id: 25,
+                code: "",
+                name: "Hoàng Mai Linh",
+                student_id: 8390,
+                email: "linhbin18799@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0964980070",
+                paid_status: false,
+                time_to_reach: 12,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PS - Danh Sách Chờ (Cơ sở 1)",
+                    id: 994,
+                    study_time: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
+                    description: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
+                    room: "Tầng 5",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 22:11:18",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18577,
+                gen_id: 25,
+                code: "",
+                name: "Hoàng Mai Linh",
+                student_id: 8390,
+                email: "linhbin18799@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0964980070",
+                paid_status: false,
+                time_to_reach: 12,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "AI - Danh Sách Chờ (Cơ sở 1)",
+                    id: 1019,
+                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    description: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    room: "Tầng 2",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 22:11:03",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18576,
+                gen_id: 25,
+                code: "",
+                name: "Hoàng Mai Linh",
+                student_id: 8390,
+                email: "linhbin18799@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0964980070",
+                paid_status: false,
+                time_to_reach: 12,
+                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
+                course_money: 1200000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PT - Khoá Sau (Danh Sách Chờ)",
+                    id: 1044,
+                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    description: "Nhận ưu đãi tốt nhất từ colorME",
+                    room: "Studio Tầng 5",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 22:10:48",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            },
+            {
+                id: 18575,
+                gen_id: 25,
+                code: "",
+                name: "Hoàng Mai Linh",
+                student_id: 8390,
+                email: "linhbin18799@gmail.com",
+                university: ".",
+                avatar_url: "http://api.colorme.vn/img/user.png",
+                phone: "0964980070",
+                paid_status: false,
+                time_to_reach: 12,
+                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
+                course_money: 1000000,
+                money: 0,
+                study_time: 1,
+                note: "",
+                class: {
+                    name: "PR - Danh Sách Chờ (Cơ sở 1)",
+                    id: 1041,
+                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                    description: "Nhận ưu đãi tốt nhất từ colorME",
+                    room: "Tầng 2",
+                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                },
+                created_at: "2017-12-03 22:10:24",
+                is_delete: true,
+                call_status: "uncall",
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                }
+            }
+        ],
+    }
+}
+
+export function getDataGens() {
+    return {
+        type: types.GET_DATA_GENS,
+        gens: [
+            {
+                id: 26,
+                name: "32",
+                description: "Khai giảng ngày 16 tháng 1 năm 2018",
+                start_time: "2017-12-01",
+                end_time: "2018-02-18",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 25,
+                name: "31",
+                description: "Khai giảng ngày 12 tháng 12 năm 2017",
+                start_time: "2017-11-09",
+                end_time: "2017-12-12",
+                status: 1,
+                teach_status: 0
+            },
+            {
+                id: 23,
+                name: "30",
+                description: "Khóa 30",
+                start_time: "2017-10-11",
+                end_time: "2017-11-08",
+                status: 0,
+                teach_status: 1
+            },
+            {
+                id: 22,
+                name: "29",
+                description: "",
+                start_time: "2017-09-07",
+                end_time: "2017-10-11",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 21,
+                name: "28",
+                description: "",
+                start_time: "2017-08-09",
+                end_time: "2017-09-06",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 20,
+                name: "27",
+                description: "",
+                start_time: "2017-07-07",
+                end_time: "2017-08-08",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 19,
+                name: "26",
+                description: "",
+                start_time: "2017-06-09",
+                end_time: "2017-07-06",
+                status: 0,
+                teach_status: 0
+            },
+
+            {
+                id: 18,
+                name: "25",
+                description: "",
+                start_time: "2017-05-13",
+                end_time: "2017-06-10",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 17,
+                name: "24",
+                description: "",
+                start_time: "2017-04-13",
+                end_time: "2017-05-13",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 16,
+                name: "23",
+                description: "",
+                start_time: "2017-03-14",
+                end_time: "2017-04-12",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 15,
+                name: "21",
+                description: "",
+                start_time: "2017-02-13",
+                end_time: "2017-03-14",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 14,
+                name: "20",
+                description: "",
+                start_time: "2017-01-04",
+                end_time: "2017-02-17",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 13,
+                name: "19",
+                description: "",
+                start_time: "2016-12-03",
+                end_time: "2017-01-03",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 12,
+                name: "18",
+                description: "",
+                start_time: "2016-11-06",
+                end_time: "2016-12-03",
+                status: 0,
+                teach_status: 0
+            },
+
+            {
+                id: 10,
+                name: "17",
+                description: "ƯU ĐÃI NỔI BẬT: ĐĂNG KÝ & ĐÓNG HỌC PHÍ TRƯỚC NGÀY 17/10 GIẢM NGAY 150K HỌC PHÍ MÔN THIẾT KẾ BẤT KỲ ⚠️ ƯU ĐÃI LỚN NHẤT: GIẢM ĐẾN 200K HỌC PHÍ CHO KHÓA NHIẾP ẢNH: HỌC NHIẾP ẢNH SẴN MÁY ẢNH CHỈ VỚI GIÁ 1.000.000Đ ⚠️ ƯU ĐÃI NGAY 800.000Đ KHI ĐĂNG KÝ COMBO 4",
+                start_time: "2016-10-09",
+                end_time: "2016-11-07",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 9,
+                name: "16",
+                description: "",
+                start_time: "2016-09-06",
+                end_time: "2016-10-09",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 8,
+                name: "15",
+                description: "",
+                start_time: "2016-08-04",
+                end_time: "2016-09-06",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 6,
+                name: "14",
+                description: "",
+                start_time: "2016-07-05",
+                end_time: "2016-08-03",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 5,
+                name: "13",
+                description: "",
+                start_time: "2016-06-06",
+                end_time: "2016-07-04",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 4,
+                name: "12",
+                description: "",
+                start_time: "2016-05-09",
+                end_time: "2016-06-05",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 3,
+                name: "11",
+                description: "",
+                start_time: "2016-04-03",
+                end_time: "2016-05-08",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 2,
+                name: "10",
+                description: "",
+                start_time: "2016-03-01",
+                end_time: "2016-04-02",
+                status: 0,
+                teach_status: 0
+            },
+            {
+                id: 1,
+                name: "9",
+                description: "Khóa 9 - Bắt đầu tuyển sinh từ cuối tháng 2, chính thức học vào đầu tháng 3",
+                start_time: "2016-02-14",
+                end_time: "2016-03-05",
+                status: 0,
+                teach_status: 0
+            }
+
+        ],
+    }
+}
+
+export function getDataCourse() {
+    return {
+        type: types.GET_DATA_COURSE,
+        courses: [
+            {
+                id: 1,
+                name: "Photoshop",
+                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                num_classes: 218,
+                duration: 8,
+                price: 1000000
+            },
+            {
+                id: 2,
+                name: "Illustrator",
+                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                num_classes: 175,
+                duration: 8,
+                price: 1000000
+            },
+            {
+                id: 3,
+                name: "After Effects",
+                icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                num_classes: 78,
+                duration: 8,
+                price: 1200000
+            },
+            {
+                id: 4,
+                name: "Photography",
+                icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
+                num_classes: 67,
+                duration: 8,
+                price: 1200000
+            },
+            {
+                id: 5,
+                name: "Premiere",
+                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
+                num_classes: 25,
+                duration: 8,
+                price: 1000000
+            },
+            {
+                id: 6,
+                name: "InDesign",
+                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg",
+                num_classes: 14,
+                duration: 8,
+                price: 1000000
+            },
+            {
+                id: 7,
+                name: "Thiết Kế Chuyên Sâu",
+                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1494575688odFkdXzweOeXMpO.jpg",
+                num_classes: 3,
+                duration: 75,
+                price: 12000000
+            },
+            {
+                id: 8,
+                name: "UI UX",
+                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150643679690MuQbClSmXQ7ug.jpg",
+                num_classes: 2,
+                duration: 16,
+                price: 2000000
+            }
+        ],
+    }
+}
+

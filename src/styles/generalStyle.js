@@ -199,6 +199,7 @@ export const style = {
         color: color.textColor,
         fontFamily: 'Montserrat-Light',
         fontSize: size.titleNormal,
+        backgroundColor: color.none,
     },
     textDescriptionCardLight: {
         color: '#FFFFFF',
@@ -292,6 +293,17 @@ export const style = {
         backgroundColor: 'rgba(0, 0, 0, 0.7)',
         alignItems: 'center',
         justifyContent: 'center',
+    },
+    wrapperBadge:{
+        height: 15,
+        width: 15,
+        borderRadius: 7.5,
+        position: 'absolute',
+        backgroundColor: 'red',
+        bottom: 0,
+        right: 0,
+        justifyContent: 'center',
+        alignItems: 'center'
     },
     wrapperRevenue: {
         justifyContent: 'flex-end',
@@ -573,7 +585,12 @@ export const style = {
     },
     colorDark:{
         color: 'black'
+    },
+    buttonUser:{
+        padding: 3,
+        borderRadius: 5,
     }
+
 };
 
 const general = StyleSheet.create(style);

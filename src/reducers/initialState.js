@@ -21,6 +21,9 @@ export default {
         schedules: [],
         roles: [],
         study_sessions: [],
+        registers: [],
+        gens:[],
+        courses: [],
     }
 
 }

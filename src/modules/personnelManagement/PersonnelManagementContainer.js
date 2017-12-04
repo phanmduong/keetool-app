@@ -24,6 +24,7 @@ class PersonnelManagementContainer extends Component {
                 phone: '',
                 role: 0,
                 age: 0,
+                base_id: 0,
             }
         }
     }
@@ -43,7 +44,7 @@ class PersonnelManagementContainer extends Component {
         }
     }
 
-    setStaffModal(visible, item) {
+    setModal(visible, item) {
         this.setState({
             modal: visible,
             staff: {
@@ -54,6 +55,7 @@ class PersonnelManagementContainer extends Component {
                 phone: item.phone,
                 role: item.role_id,
                 age: item.age,
+                base_id: item.base_id,
             }
         });
     }
@@ -95,12 +97,20 @@ class PersonnelManagementContainer extends Component {
             case 8:
                 return ('Marketing&Sales');
             case 7:
-                return ('Designer SM');
-            default:
-                return ('Telesale')
+                return ('Telesale ');
         }
     }
 
+    Base(base) {
+        switch (base) {
+            case 3:
+                return ('Cơ sở 1:  Số 175 phố Chùa Láng - Đống Đa - Hà Nội');
+            case 6:
+                return ('Cơ sở 3: Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM');
+            case 8:
+                return ('Cơ sở 4: Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội');
+        }
+    }
     ShowTab() {
         const {staff, roles, general} = this.props;
         switch (this.state.tab) {
@@ -111,7 +121,7 @@ class PersonnelManagementContainer extends Component {
                             staff.map((item, i) =>
                                 <TouchableOpacity
                                     key={i}
-                                    onPress={() => this.setStaffModal(true, item)}
+                                    onPress={() => this.setModal(true, item)}
                                     style={[general.wrapperPeople, general.wrapperRowCenter]}>
                                     <Image
                                         resizeMode={'cover'}
@@ -145,8 +155,8 @@ class PersonnelManagementContainer extends Component {
                                     <View style={[general.wrapperRowCenter, general.padding]}>
                                         <View style={{flex: 1}}>
                                             <Text style={general.textTitleCardLight}>{this.state.staff.name}</Text>
-                                            <Text
-                                                style={general.textDescriptionCardLight}>{this.state.staff.email}</Text>
+                                            <Text style={general.textDescriptionCardLight}>{this.state.staff.email}</Text>
+                                            <Text style={general.textDescriptionCardLight}>{this.Base(this.state.staff.base_id)}</Text>
                                         </View>
                                         <Image
                                             resizeMode={'cover'}
@@ -170,8 +180,6 @@ class PersonnelManagementContainer extends Component {
                                 </View>
                             </View>
                         </Modal>
-
-
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
