@@ -19,7 +19,8 @@ import BaseContainer from '../modules/base/BaseContainer';
 import * as size from '../styles/size';
 import MapContainer from "../modules/maps/MapContainer";
 import QRcodeContainer from "../modules/QRcode/QRcodeContainer";
-import TrelloContainer from '../modules/trello/TrelloContainer'
+import TrelloContainer from '../modules/trello/TrelloContainer';
+import CartContainer from '../modules/cart/CartContainer'
 const StackNavigatorStyle = {
     navigationOptions: {
         header: null,
@@ -52,7 +53,7 @@ const Drawer = DrawerNavigator(
         Email : {screen : EmailContainer},
         Contact : {screen : ContactContainer},
         Event : {screen : EventContainer},
-
+        Cart : {screen : CartContainer}
     },
     {
         drawerWidth: size.wid * 3 / 4,

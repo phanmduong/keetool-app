@@ -1,0 +1,1 @@
+export const API_GRAPHICS    = 'http://api.keetool3.xyz';

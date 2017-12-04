@@ -170,6 +170,18 @@ class PersonnelManagementContainer extends Component {
                                     </View>
                                     <TouchableOpacity
                                         style={[general.bottomModal, general.wrapperRowCenter]}
+                                        onPress = {() => Comunications.text(this.state.staff.phone, 'chúc mọi sự tốt lành')}
+                                    >
+                                        <Icon
+                                            name="material|sms"
+                                            size={30}
+                                            color={'#FFFFFF'}
+                                        />
+                                        <Text
+                                            style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.staff.phone}</Text>
+                                    </TouchableOpacity>
+                                    <TouchableOpacity
+                                        style={[general.bottomModal, general.wrapperRowCenter]}
                                         onPress = {() => Comunications.phonecall(this.state.staff.phone, true)}
                                     >
                                         <Icon

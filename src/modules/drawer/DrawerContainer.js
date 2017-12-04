@@ -238,6 +238,21 @@ class DrawerContainer extends Component {
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
+                        onPress={() => navigate('Cart')}
+                    >
+                        <View style={general.wrapperRowCenter}>
+                            <View style={general.wrapperIconDrawer}>
+                                <Icon
+                                    name="material|event"
+                                    size={size.iconBig}
+                                    style={general.colorDark}
+                                />
+                            </View>
+                            <Text style={general.textInDrawer}>Cart</Text>
+                        </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={general.itemTabInDrawer}
                         onPress={() => navigate('MarketingManagement')}
                     >
                         <View style={general.wrapperRowCenter}>
@@ -311,21 +326,21 @@ class DrawerContainer extends Component {
                             {/*<Text style={general.textInDrawer}>Email</Text>*/}
                         {/*</View>*/}
                     {/*</TouchableOpacity>*/}
-                    <TouchableOpacity
-                        style={general.itemTabInDrawer}
-                        onPress={() => navigate('Contact')}
-                    >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="material|textsms"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>Contact</Text>
-                        </View>
-                    </TouchableOpacity>
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('Contact')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="material|textsms"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>Contact</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
                         onPress={() => navigate('Event')}

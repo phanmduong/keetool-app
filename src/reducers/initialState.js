@@ -4,6 +4,12 @@ import * as style from '../styles/generalStyle';
 
 let color = colorDark;
 export default {
+    book:{
+        isLoading: false,
+        books: [],
+        isLoadingOrder : false,
+        status : 0,
+    },
     home: {
         isLoading: false,
         data: [],
