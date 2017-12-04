@@ -17,7 +17,7 @@ class TrelloContainer extends Component {
             List: [
                 {
                     text: "Done",
-                    data: ["Design landing page", "Party"]
+                    data: ["Design landing page", "Party", "Tomorrow", "LastNight"]
                 },
                 {
                     text: "Doing",
@@ -50,9 +50,15 @@ class TrelloContainer extends Component {
             });
         }
     }
-    forceUpdate(indexList, order){
+    updatePosition(indexList, data, e, order){
+        let arr = [];
         let List = this.state.List;
-        List[indexList].data = order;
+        order.splice(e.to, 0, order.splice(e.from, 1)[0]);
+        for (let i = 0; i<order.length; i++){
+            arr.push(data[order[i]])
+        }
+        List[indexList].data = arr;
+        console.log(arr);
         this.setState({List : List})
     }
 
@@ -128,6 +134,7 @@ class TrelloContainer extends Component {
                                 this.state.List.map((item, i) => {
                                     let data = this.toObject(item.data);
                                     let order = Object.keys(data);
+                                    console.log(order);
                                     return (
                                         <View
                                             style={[general.wrapperCenter, general.marginLeftFar, general.shadow]}>
@@ -143,8 +150,7 @@ class TrelloContainer extends Component {
                                                         data={data}
                                                         order={order}
                                                         onRowMoved={e => {
-                                                            order.splice(e.to, 0, order.splice(e.from, 1)[0])
-                                                            this.forceUpdate(i, order)
+                                                           this.updatePosition(i, data, e, order)
                                                         }}
                                                         activeOpacity = {0.1}
                                                         rowHasChanged ={() => {return true ;}}
