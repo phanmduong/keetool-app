@@ -59,6 +59,27 @@ export default function homeAction(state = initialState.data, action) {
                     courses: action.courses
                 }
             };
+        case types.GET_DATA_CLASSES:
+            return {
+                ...state,
+                ...{
+                    classes: action.classes
+                }
+            };
+        case types.GET_DATA_CLASS:
+            return {
+                ...state,
+                ...{
+                    classInfo: action.classInfo
+                }
+            };
+        case types.GET_DATA_CALL_HISTORY:
+            return {
+                ...state,
+                ...{
+                    call_history: action.call_history
+                }
+            };
         default:
             return state
     }

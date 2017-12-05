@@ -134,6 +134,12 @@ export const style = {
         borderRadius: 10,
         backgroundColor: 'rgba(47, 24, 71, 0.8)'
     },
+    wrapperModalClass:{
+        width: wid * 0.9,
+        height: hei * 0.8,
+        borderRadius: 10,
+        backgroundColor: 'rgba(47, 24, 71, 0.8)'
+    },
     textTitleHeader: {
         fontFamily: 'Montserrat-SemiBold',
         fontSize: size.titleHeader,
@@ -412,6 +418,10 @@ export const style = {
     padding: {
         padding: 10
     },
+    paddingTopBottom: {
+        paddingTop: 10,
+        paddingBottom: 10,
+    },
     paddingLeft: {
         paddingLeft: 10
     },
@@ -522,11 +532,23 @@ export const style = {
     deadlineProgressJobAssignment: {
         width: 80,
         height: 3,
-        backgroundColor: 'red' ,
+        backgroundColor: '#c50000' ,
     },
-    wrapperDeadlineJobAssignment: {
+    progress: {
         height: 3,
-        backgroundColor: 'rgba(0, 0, 0, 0.1)',
+        backgroundColor: '#c50000' ,
+    },
+    wrapperProgressDark: {
+        height: 3,
+        backgroundColor: 'rgba(0, 0, 0, 0.2)',
+    },
+    wrapperProgressLight: {
+        height: 3,
+        backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    },
+    wrapperA: {
+        height: 3,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
     },
     noBackground: {
         backgroundColor: color.none

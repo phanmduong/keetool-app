@@ -9,6 +9,6 @@ export const titleSmall = 10;
 export const titleHeader = 30;
 export const titleBig = 18;
 export const titleGiant = 21;
-export const defaultText = 15;
+export const defaultText = 14;
 export const HEIGHT_FULL_WIDTH_IMAGE = hei / 3 + 20;
 

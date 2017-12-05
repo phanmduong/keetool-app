@@ -1,5 +1,6 @@
 export const none = 'transparent';
 export const textColor = '#000000';
+export const themeColor = '#FFFFFF';
 export const colorGradient0 = '#FFFFFF';
 export const colorGradient1 = '#FFFFFF';
 export const colorGradient2 = '#FFFFFF';
