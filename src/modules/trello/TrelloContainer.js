@@ -168,9 +168,9 @@ class TrelloContainer extends Component {
                                                     <SortableList
                                                         style={{ flex: 1, backgroundColor : 'rgb(192, 198, 209)'}}
                                                         data={data}
-                                                        renderRow={({data, active, key}) =>
+                                                        renderRow={({data, active, index}) =>
                                                             {
-                                                                let indexItem = Number(key);
+                                                                let indexItem = Number(index);
                                                                 return <DragAndDropContainer indexItem = {indexItem} openModalEditItem = {this.openModalEditItem} item={data} active={active} index = {i} />
                                                         }} />
                                                 </View>
