@@ -5,7 +5,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
 import DragAndDropContainer from './DragAndDropContainer';
-import SortableListView from 'react-native-sortable-listview';
+import SortableList from 'react-native-sortable-list';
 class TrelloContainer extends Component {
     constructor() {
         super();
@@ -50,16 +50,20 @@ class TrelloContainer extends Component {
             });
         }
     }
-    updatePosition(indexList, data, e, order){
-        let arr = [];
-        let List = this.state.List;
-        order.splice(e.to, 0, order.splice(e.from, 1)[0]);
-        for (let i = 0; i<order.length; i++){
-            arr.push(data[order[i]])
-        }
-        List[indexList].data = arr;
-        console.log(arr);
-        this.setState({List : List})
+    // updatePosition(indexList, data, e, order){
+    //     let arr = [];
+    //     let List = this.state.List;
+    //     order.splice(e.to, 0, order.splice(e.from, 1)[0]);
+    //     for (let i = 0; i<order.length; i++){
+    //         arr.push(data[order[i]])
+    //     }
+    //     List[indexList].data = arr;
+    //     console.log(arr);
+    //     this.setState({List : List})
+    // }
+
+    _renderRow = ({data, active}) => {
+        return <DragAndDropContainer item={data} active={active} />
     }
 
 
@@ -133,8 +137,6 @@ class TrelloContainer extends Component {
                             {
                                 this.state.List.map((item, i) => {
                                     let data = this.toObject(item.data);
-                                    let order = Object.keys(data);
-                                    console.log(order);
                                     return (
                                         <View
                                             style={[general.wrapperCenter, general.marginLeftFar, general.shadow]}>
@@ -145,17 +147,10 @@ class TrelloContainer extends Component {
                                                     </Text>
                                                 </View>
                                                 <View style={general.contentTrello}>
-                                                    <SortableListView
-                                                        style={{ flex: 1, backgroundColor : 'rgb(192, 198, 209)' }}
+                                                    <SortableList
+                                                        style={{ flex: 1, backgroundColor : 'rgb(192, 198, 209)'}}
                                                         data={data}
-                                                        order={order}
-                                                        onRowMoved={e => {
-                                                           this.updatePosition(i, data, e, order)
-                                                        }}
-                                                        activeOpacity = {0.1}
-                                                        rowHasChanged ={() => {return true ;}}
-                                                        renderRow={row => <DragAndDropContainer item={row} sortHandlers = {this.props.sortHandlers}/>}
-                                                    />
+                                                        renderRow={this._renderRow} />
                                                 </View>
                                                 <View style={[general.bottomModal, general.haveBorderTop]}>
                                                     <TouchableOpacity onPress={() => this.openModalAddCard(i)}
