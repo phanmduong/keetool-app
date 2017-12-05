@@ -51,7 +51,8 @@ class DragAndDropContainer extends Component {
     }
 
     render (){
-         const {item, active} = this.props;
+         const {item, active, indexItem, index} = this.props;
+
         return (
         <Animated.View
             style={[general.wrapperCenter, this._style]}>
@@ -63,6 +64,7 @@ class DragAndDropContainer extends Component {
                     <Icon name="fontawesome|pencil"
                           size={15}
                           style={general.iconGray}
+                          onPress = {() => this.props.openModalEditItem(item, indexItem, index)}
                     />
                 </View>
                 <View style={[general.wrapperDeadlineJobAssignment, general.marginTopBottom]}>
