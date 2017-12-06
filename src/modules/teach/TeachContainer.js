@@ -315,7 +315,6 @@ class TeachContainer extends Component {
                                                     :
                                                     <Text/>
                                             }
-
                                         </View>
                                         <View style={general.paddingTop}>
                                             {
@@ -331,7 +330,7 @@ class TeachContainer extends Component {
                                     </View>
                                     <TouchableOpacity
                                         style={[general.bottomModal, general.wrapperRowCenter]}
-                                        onPress = {() => {Communications.text(this.state.register.phone, 'Chúc mọi điều tốt lành ')}}
+                                        onPress = {() => {Communications.text(this.state.register.phone, 'Hi')}}
                                     >
                                         <Icon
                                             name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
@@ -341,18 +340,7 @@ class TeachContainer extends Component {
                                         <Text
                                             style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.register.phone}</Text>
                                     </TouchableOpacity>
-                                    <TouchableOpacity
-                                        style={[general.bottomModal, general.wrapperRowCenter]}
-                                        onPress = {() => {Communications.phonecall(this.state.register.phone, true)}}
-                                    >
-                                        <Icon
-                                            name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
-                                            size={30}
-                                            color={'#FFFFFF'}
-                                        />
-                                        <Text
-                                            style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.register.phone}</Text>
-                                    </TouchableOpacity>
+
                                 </View>
                             </View>
                         </Modal>

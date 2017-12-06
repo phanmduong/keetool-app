@@ -246,7 +246,7 @@ class DrawerContainer extends Component {
                         <View style={general.wrapperRowCenter}>
                             <View style={general.wrapperIconDrawer}>
                                 <Icon
-                                    name="material|event"
+                                    name="materialCommunity|cart"
                                     size={size.iconBig}
                                     style={general.colorDark}
                                 />
@@ -314,36 +314,36 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Exercise And Post</Text>
                         </View>
                     </TouchableOpacity>
-                    {/*<TouchableOpacity*/}
-                        {/*style={general.itemTabInDrawer}*/}
-                        {/*onPress={() => navigate('Email')}*/}
-                    {/*>*/}
-                        {/*<View style={general.wrapperRowCenter}>*/}
-                            {/*<View style={general.wrapperIconDrawer}>*/}
-                                {/*<Icon*/}
-                                    {/*name="material|email"*/}
-                                    {/*size={size.iconBig}*/}
-                                    {/*style={general.colorDark}*/}
-                                {/*/>*/}
-                            {/*</View>*/}
-                            {/*<Text style={general.textInDrawer}>Email</Text>*/}
-                        {/*</View>*/}
-                    {/*</TouchableOpacity>*/}
-                    {/*<TouchableOpacity*/}
-                        {/*style={general.itemTabInDrawer}*/}
-                        {/*onPress={() => navigate('Contact')}*/}
-                    {/*>*/}
-                        {/*<View style={general.wrapperRowCenter}>*/}
-                            {/*<View style={general.wrapperIconDrawer}>*/}
-                                {/*<Icon*/}
-                                    {/*name="material|textsms"*/}
-                                    {/*size={size.iconBig}*/}
-                                    {/*style={general.colorDark}*/}
-                                {/*/>*/}
-                            {/*</View>*/}
-                            {/*<Text style={general.textInDrawer}>Contact</Text>*/}
-                        {/*</View>*/}
-                    {/*</TouchableOpacity>*/}
+                    <TouchableOpacity
+                        style={general.itemTabInDrawer}
+                        onPress={() => navigate('Email')}
+                    >
+                        <View style={general.wrapperRowCenter}>
+                            <View style={general.wrapperIconDrawer}>
+                                <Icon
+                                    name="material|email"
+                                    size={size.iconBig}
+                                    style={general.colorDark}
+                                />
+                            </View>
+                            <Text style={general.textInDrawer}>Email</Text>
+                        </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={general.itemTabInDrawer}
+                        onPress={() => navigate('Contact')}
+                    >
+                        <View style={general.wrapperRowCenter}>
+                            <View style={general.wrapperIconDrawer}>
+                                <Icon
+                                    name="material|textsms"
+                                    size={size.iconBig}
+                                    style={general.colorDark}
+                                />
+                            </View>
+                            <Text style={general.textInDrawer}>Contact</Text>
+                        </View>
+                    </TouchableOpacity>
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
                         onPress={() => navigate('Event')}
