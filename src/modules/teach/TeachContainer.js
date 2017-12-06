@@ -10,8 +10,7 @@ import HamburgerButton from '../../commons/HamburgerButton';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
 import {Col, Row, Grid} from "react-native-easy-grid";
-import {wid} from "../../styles/size";
-
+import Communications from 'react-native-communications';
 class TeachContainer extends Component {
     constructor() {
         super();
@@ -267,7 +266,7 @@ class TeachContainer extends Component {
                                         <Text style={general.textIstActive}>{item.name}</Text>
                                         <Text style={general.textDescriptionCard}>{item.phone}</Text>
                                     </View>
-                                    <TouchableOpacity>
+                                    <TouchableOpacity onPress = {()=>{Communications.phonecall(item.phone, true)}}>
                                         <Icon
                                             name={item.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
                                             size={30}
@@ -330,7 +329,22 @@ class TeachContainer extends Component {
                                             }
                                         </View>
                                     </View>
-                                    <TouchableOpacity style={[general.bottomModal, general.wrapperRowCenter]}>
+                                    <TouchableOpacity
+                                        style={[general.bottomModal, general.wrapperRowCenter]}
+                                        onPress = {() => {Communications.text(this.state.register.phone, 'Chúc mọi điều tốt lành ')}}
+                                    >
+                                        <Icon
+                                            name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
+                                            size={30}
+                                            color={'#FFFFFF'}
+                                        />
+                                        <Text
+                                            style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.register.phone}</Text>
+                                    </TouchableOpacity>
+                                    <TouchableOpacity
+                                        style={[general.bottomModal, general.wrapperRowCenter]}
+                                        onPress = {() => {Communications.phonecall(this.state.register.phone, true)}}
+                                    >
                                         <Icon
                                             name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
                                             size={30}

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Animated, FlatList, Modal, PanResponder, StatusBar, Text, TouchableOpacity, View} from 'react-native';
+import {Animated, FlatList, Modal, PanResponder, StatusBar, Text, TouchableOpacity, View, Platform, Easing} from 'react-native';
 import {Body, Container, Content, Input, Item, Label, Left, Right, Spinner} from 'native-base';
 import {connect} from 'react-redux'
 import general from '../../styles/generalStyle'
@@ -8,48 +8,70 @@ import Icon from '../../commons/Icon';
 class DragAndDropContainer extends Component {
     constructor() {
         super()
-        this.state = {
-            pan: new Animated.ValueXY()
+        this._active = new Animated.Value(0);
+
+        this._style = {
+            ...Platform.select({
+                ios: {
+                    transform: [{
+                        scale: this._active.interpolate({
+                            inputRange: [0, 1],
+                            outputRange: [1, 1.1],
+                        }),
+                    }],
+                    shadowRadius: this._active.interpolate({
+                        inputRange: [0, 1],
+                        outputRange: [2, 10],
+                    }),
+                },
+
+                android: {
+                    transform: [{
+                        scale: this._active.interpolate({
+                            inputRange: [0, 1],
+                            outputRange: [1, 1.07],
+                        }),
+                    }],
+                    elevation: this._active.interpolate({
+                        inputRange: [0, 1],
+                        outputRange: [2, 6],
+                    }),
+                },
+            })
+        };
+    }
+    componentWillReceiveProps(nextProps) {
+        if (this.props.active !== nextProps.active) {
+            Animated.timing(this._active, {
+                duration: 300,
+                easing: Easing.bounce,
+                toValue: Number(nextProps.active),
+            }).start();
         }
     }
 
-    componentWillMount() {
-        this._val = {x: 0, y: 0};
-        this.state.pan.addListener((value) => this._val = value);
-        this.panResponder = PanResponder.create({
-            onStartShouldSetPanResponder: (event, gestureState) => true,
-            onPanResponderMove: Animated.event([
-                null, {dx: this.state.pan.x, dy: this.state.pan.y},
-                this.state.pan.setValue({x: 0, y: 0})
-            ]),
-        })
-    }
     render (){
-        // const {general} = this.props;
-        const panStyle = {
-            transform: this.state.pan.getTranslateTransform()
-        }
+         const {item, active, indexItem, index} = this.props;
+
         return (
-        <TouchableOpacity
-            {...this.props.sortHandlers}
-            style={general.wrapperCenter}>
+        <Animated.View
+            style={[general.wrapperCenter, this._style]}>
             <Animated.View
-                {...this.props.sortHandlers}
                 style={[general.itemInCardTrello, general.shadow,
-                    // panStyle,
                     general.marginTop]}>
                 <View style={general.wrapperRowSpaceBetween}>
-                    <Text>{this.props.item}</Text>
+                    <Text>{item}</Text>
                     <Icon name="fontawesome|pencil"
                           size={15}
                           style={general.iconGray}
+                          onPress = {() => this.props.openModalEditItem(item, indexItem, index)}
                     />
                 </View>
                 <View style={[general.wrapperDeadlineJobAssignment, general.marginTopBottom]}>
                     <View style={[general.deadlineProgressJobAssignment]}/>
                 </View>
             </Animated.View>
-        </TouchableOpacity>
+        </Animated.View>
         )
     }
 }

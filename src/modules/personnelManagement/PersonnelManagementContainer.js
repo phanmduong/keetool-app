@@ -9,7 +9,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux';
-
+import Comunications from 'react-native-communications'
 class PersonnelManagementContainer extends Component {
     constructor() {
         super();
@@ -168,7 +168,22 @@ class PersonnelManagementContainer extends Component {
                                         <Text
                                             style={general.textTitleBigLight}>{this.Role(this.state.staff.role)}</Text>
                                     </View>
-                                    <TouchableOpacity style={[general.bottomModal, general.wrapperRowCenter]}>
+                                    <TouchableOpacity
+                                        style={[general.bottomModal, general.wrapperRowCenter]}
+                                        onPress = {() => Comunications.text(this.state.staff.phone, 'chúc mọi sự tốt lành')}
+                                    >
+                                        <Icon
+                                            name="material|sms"
+                                            size={30}
+                                            color={'#FFFFFF'}
+                                        />
+                                        <Text
+                                            style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.staff.phone}</Text>
+                                    </TouchableOpacity>
+                                    <TouchableOpacity
+                                        style={[general.bottomModal, general.wrapperRowCenter]}
+                                        onPress = {() => Comunications.phonecall(this.state.staff.phone, true)}
+                                    >
                                         <Icon
                                             name="material|phone"
                                             size={30}

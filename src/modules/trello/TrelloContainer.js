@@ -5,14 +5,16 @@ import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
 import DragAndDropContainer from './DragAndDropContainer';
-import SortableListView from 'react-native-sortable-listview';
+import SortableList from 'react-native-sortable-list';
 class TrelloContainer extends Component {
     constructor() {
         super();
         this.state = {
             modalAddCard: false,
             modalAddList: false,
+            modalEditItem : false,
             title: '',
+            indexItem : 0,
             index: 0,
             List: [
                 {
@@ -31,8 +33,10 @@ class TrelloContainer extends Component {
                     text: "Ideas",
                     data: ["1", "3", "4", "7"]
                 }
-            ]
+            ],
+            edit : '',
         }
+        this.openModalEditItem = this.openModalEditItem.bind(this);
     }
 
     componentWillMount() {
@@ -47,20 +51,22 @@ class TrelloContainer extends Component {
             this.setState({
                 modalAddList: false,
                 modalAddCard: false,
+                modalEditItem: false
             });
         }
     }
-    updatePosition(indexList, data, e, order){
-        let arr = [];
-        let List = this.state.List;
-        order.splice(e.to, 0, order.splice(e.from, 1)[0]);
-        for (let i = 0; i<order.length; i++){
-            arr.push(data[order[i]])
-        }
-        List[indexList].data = arr;
-        console.log(arr);
-        this.setState({List : List})
-    }
+    // updatePosition(indexList, data, e, order){
+    //     let arr = [];
+    //     let List = this.state.List;
+    //     order.splice(e.to, 0, order.splice(e.from, 1)[0]);
+    //     for (let i = 0; i<order.length; i++){
+    //         arr.push(data[order[i]])
+    //     }
+    //     List[indexList].data = arr;
+    //     console.log(arr);
+    //     this.setState({List : List})
+    // }
+
 
 
     setModalAddCard(visible) {
@@ -69,6 +75,9 @@ class TrelloContainer extends Component {
 
     setModalAddList(visible) {
         this.setState({modalAddList: visible});
+    }
+    setModalEditItem(visible){
+        this.setState({modalEditItem : visible});
     }
 
     addList(text) {
@@ -91,6 +100,12 @@ class TrelloContainer extends Component {
         this.setState({List: List});
         this.setModalAddCard(false);
     }
+    editItem(index, text){
+        let List = this.state.List;
+        List[index].data[this.state.indexItem] = text;
+        this.setState({List : List});
+        this.setModalEditItem(false)
+    }
 
     openModalAddList() {
         this.setModalAddList(true);
@@ -99,6 +114,13 @@ class TrelloContainer extends Component {
     openModalAddCard(index) {
         this.setModalAddCard(true);
         this.setState({index: index})
+    }
+    openModalEditItem(edit, key, index){
+        this.setModalEditItem(true);
+        this.setState({index : index});
+        this.setState({edit : edit});
+        let indexItem = Number(key);
+        this.setState({indexItem : indexItem});
     }
 
     render() {
@@ -133,8 +155,6 @@ class TrelloContainer extends Component {
                             {
                                 this.state.List.map((item, i) => {
                                     let data = this.toObject(item.data);
-                                    let order = Object.keys(data);
-                                    console.log(order);
                                     return (
                                         <View
                                             style={[general.wrapperCenter, general.marginLeftFar, general.shadow]}>
@@ -145,17 +165,14 @@ class TrelloContainer extends Component {
                                                     </Text>
                                                 </View>
                                                 <View style={general.contentTrello}>
-                                                    <SortableListView
-                                                        style={{ flex: 1, backgroundColor : 'rgb(192, 198, 209)' }}
+                                                    <SortableList
+                                                        style={{ flex: 1, backgroundColor : 'rgb(192, 198, 209)'}}
                                                         data={data}
-                                                        order={order}
-                                                        onRowMoved={e => {
-                                                           this.updatePosition(i, data, e, order)
-                                                        }}
-                                                        activeOpacity = {0.1}
-                                                        rowHasChanged ={() => {return true ;}}
-                                                        renderRow={row => <DragAndDropContainer item={row} sortHandlers = {this.props.sortHandlers}/>}
-                                                    />
+                                                        renderRow={({data, active, index}) =>
+                                                            {
+                                                                let indexItem = Number(index);
+                                                                return <DragAndDropContainer indexItem = {indexItem} openModalEditItem = {this.openModalEditItem} item={data} active={active} index = {i} />
+                                                        }} />
                                                 </View>
                                                 <View style={[general.bottomModal, general.haveBorderTop]}>
                                                     <TouchableOpacity onPress={() => this.openModalAddCard(i)}
@@ -251,6 +268,45 @@ class TrelloContainer extends Component {
                                 }}
                             >
                                 <Text style={general.textTitleCardBlue}>+ Add</Text>
+                            </TouchableOpacity>
+                        </View>
+                    </View>
+                </Modal>
+
+                <Modal
+                    presentationStyle="overFullScreen"
+                    animationType="fade"
+                    transparent={true}
+                    visible={this.state.modalEditItem}
+                >
+                    <View
+                        style={general.wrapperModal}
+                        {...this.panResponder.panHandlers}
+                    >
+                        <View style={general.modalCart}>
+                            <View style={[general.headerModal, general.haveBorderBottom]}>
+                                <Text style={general.textTitleCardDark}>
+                                    Edit Item
+                                </Text>
+                            </View>
+                            <View style={{flex: 1}}>
+                                <Item>
+                                    <Input
+                                        style={general.inputTheme}
+                                        onChangeText={(edit) => {
+                                            this.setState({edit})
+                                        }}
+                                        value = {this.state.edit}
+                                    />
+                                </Item>
+                            </View>
+                            <TouchableOpacity
+                                style={[general.bottomModal, general.haveBorderTop]}
+                                 onPress={() => {
+                                     this.editItem(this.state.index, this.state.edit)
+                                 }}
+                            >
+                                <Text style={general.textTitleCardBlue}>+ Edit</Text>
                             </TouchableOpacity>
                         </View>
                     </View>
