@@ -9,15 +9,16 @@ import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux'
-import general from '../../styles/generalStyle';
 import {Col, Row, Grid} from "react-native-easy-grid";
-import Communications from 'react-native-communications'
+import Communications from 'react-native-communications';
 class TeachContainer extends Component {
     constructor() {
         super();
         this.state = {
             tab: 0,
-            modal: false,
+            history: false,
+            modalRegister: false,
+            modalClass: false,
             register: {
                 name: '',
                 course_avatar_url: '',
@@ -33,6 +34,24 @@ class TeachContainer extends Component {
                     name: '',
                     color: '',
                 },
+            },
+            classes: {
+                name: '',
+                study_time: '',
+                total_paid: '',
+                total_register: '',
+                teacher: {
+                    name: '',
+                    color: ''
+                },
+                teacher_assistant: {
+                    name: '',
+                    color: ''
+                },
+                course: {
+                    name: '',
+                    icon_url: ''
+                }
             }
         }
     }
@@ -47,15 +66,16 @@ class TeachContainer extends Component {
     _onPanResponderGrant(event, gestureState) {
         if (event.nativeEvent.locationX === event.nativeEvent.pageX) {
             this.setState({
-                modal: false,
+                modalRegister: false,
+                modalClass: false,
             });
         }
     }
 
-    setModal(visible, item) {
+    setModalRegister(visible, item) {
         if (item.saler && item.campaign) {
             this.setState({
-                modal: visible,
+                modalRegister: visible,
                 register: {
                     name: item.name,
                     course_avatar_url: item.course_avatar_url,
@@ -71,11 +91,12 @@ class TeachContainer extends Component {
                         name: item.campaign.name,
                         color: item.campaign.color,
                     },
+
                 }
             })
         } else {
             this.setState({
-                modal: visible,
+                modalRegister: visible,
                 register: {
                     name: item.name,
                     course_avatar_url: item.course_avatar_url,
@@ -87,6 +108,50 @@ class TeachContainer extends Component {
             });
         }
 
+    }
+
+    setModalClass(visible, item) {
+        if (item.teacher && item.teacher_assistant) {
+            this.setState({
+                modalClass: visible,
+                classes: {
+                    name: item.name,
+                    study_time: item.study_time,
+                    total_paid: item.total_paid,
+                    total_register: item.total_register,
+                    teacher: {
+                        name: item.teacher.name,
+                        color: item.teacher.color
+                    },
+                    teacher_assistant: {
+                        name: item.teacher_assistant.name,
+                        color: item.teacher_assistant.color
+                    },
+                    course: {
+                        name: item.course.name,
+                        icon_url: item.course.icon_url
+                    }
+                }
+            })
+        } else {
+            this.setState({
+                modalClass: visible,
+                classes: {
+                    name: item.name,
+                    study_time: item.study_time,
+                    total_paid: item.total_paid,
+                    total_register: item.total_register,
+                    course: {
+                        name: item.course.name,
+                        icon_url: item.course.icon_url
+                    }
+                }
+            })
+        }
+    }
+
+    ViewHistoryClass() {
+        this.setState({history: !this.state.history})
     }
 
     ViewScheduleClass() {
@@ -126,23 +191,21 @@ class TeachContainer extends Component {
     }
 
     ShowTab() {
-        const {schedules, study_sessions, registers, gens, courses} = this.props;
+        const {schedules, study_sessions, registers, gens, courses, classInfo, classes, general} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
-                    <View style={{flex: 1, padding: 20}}>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={schedules}
-                            renderItem={({item}) =>
+                    <Content style={{flex: 1, padding: 20}}>
+                        {
+                            schedules.map((item) =>
                                 <TouchableOpacity
                                     style={[general.wrapperRowCenter, general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                     <Text style={general.textDescriptionCard}>{item.name}</Text>
                                 </TouchableOpacity>
-                            }
-                        />
+                            )
+                        }
                         <View style={general.wrapperBottomModule}/>
-                    </View>
+                    </Content>
                 );
             case 1:
                 return (
@@ -160,10 +223,8 @@ class TeachContainer extends Component {
                                 </Col>
                             </Grid>
                         </View>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={study_sessions}
-                            renderItem={({item}) =>
+                        {
+                            study_sessions.map((item) =>
                                 <Grid
                                     style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                     <Col>
@@ -176,8 +237,8 @@ class TeachContainer extends Component {
                                         <Text style={general.textDescriptionCard}>{item.end_time}</Text>
                                     </Col>
                                 </Grid>
-                            }
-                        />
+                            )
+                        }
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
@@ -188,17 +249,16 @@ class TeachContainer extends Component {
                             registers.map((item, i) =>
                                 <TouchableOpacity
                                     key={i}
-                                    onPress={() => this.setModal(true, item)}
-                                    style={[general.wrapperPeople, general.wrapperRowCenter]}>
-                                    <View style={general.imageCircleNormal}
-                                    >
+                                    onPress={() => this.setModalRegister(true, item)}
+                                    style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
+                                    <View style={[general.imageCircleNormal, general.shadow]}>
                                         <Image
                                             resizeMode={'cover'}
                                             source={{uri: item.course_avatar_url}}
                                             style={general.imageCircleNormal}
                                         />
                                         <View style={general.wrapperBadge}>
-                                            <Text style={general.textDescriptionCard}>{item.study_time}</Text>
+                                            <Text style={[general.textDescriptionCard, {color: '#FFFFFF'}]}>{item.study_time}</Text>
                                         </View>
                                     </View>
 
@@ -210,7 +270,7 @@ class TeachContainer extends Component {
                                         <Icon
                                             name={item.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
                                             size={30}
-                                            color={'#FFFFFF'}
+                                            style={general.iconStyle}
                                         />
                                     </TouchableOpacity>
                                 </TouchableOpacity>
@@ -220,7 +280,7 @@ class TeachContainer extends Component {
                             presentationStyle="overFullScreen"
                             animationType="fade"
                             transparent={true}
-                            visible={this.state.modal}
+                            visible={this.state.modalRegister}
                         >
                             <View
                                 style={general.wrapperModal}
@@ -255,7 +315,6 @@ class TeachContainer extends Component {
                                                     :
                                                     <Text/>
                                             }
-
                                         </View>
                                         <View style={general.paddingTop}>
                                             {
@@ -268,11 +327,10 @@ class TeachContainer extends Component {
                                                     <Text/>
                                             }
                                         </View>
-
                                     </View>
                                     <TouchableOpacity
                                         style={[general.bottomModal, general.wrapperRowCenter]}
-                                        onPress = {() => {Communications.text(this.state.register.phone, 'Chúc mọi điều tốt lành ')}}
+                                        onPress = {() => {Communications.text(this.state.register.phone, 'Hi')}}
                                     >
                                         <Icon
                                             name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
@@ -282,18 +340,7 @@ class TeachContainer extends Component {
                                         <Text
                                             style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.register.phone}</Text>
                                     </TouchableOpacity>
-                                    <TouchableOpacity
-                                        style={[general.bottomModal, general.wrapperRowCenter]}
-                                        onPress = {() => {Communications.phonecall(this.state.register.phone, true)}}
-                                    >
-                                        <Icon
-                                            name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
-                                            size={30}
-                                            color={'#FFFFFF'}
-                                        />
-                                        <Text
-                                            style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.register.phone}</Text>
-                                    </TouchableOpacity>
+
                                 </View>
                             </View>
                         </Modal>
@@ -306,21 +353,21 @@ class TeachContainer extends Component {
                     <Content style={{flex: 1, padding: 20}}>
                         <View>
                             <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
-                                <Col size={12}>
+                                <Col size={30}>
                                     <Text style={general.textTitleCard}>Name</Text>
                                 </Col>
-                                <Col size={20}  style={{alignItems:'center'}}>
+                                <Col size={35}>
                                     <Text style={general.textTitleCard}>Start</Text>
                                 </Col>
-                                <Col size={20}  style={{alignItems:'center'}}>
+                                <Col size={35}>
                                     <Text style={general.textTitleCard}>End</Text>
                                 </Col>
-                                <Col size={15}  style={{alignItems:'center'}}>
-                                    <Text style={general.textTitleCard}>Status</Text>
-                                </Col>
-                                <Col size={15}  style={{alignItems:'center'}}>
-                                    <Text style={general.textTitleCard}>Now</Text>
-                                </Col>
+                                {/*<Col size={15} style={{alignItems: 'center'}}>*/}
+                                {/*<Text style={general.textTitleCard}>Status</Text>*/}
+                                {/*</Col>*/}
+                                {/*<Col size={15} style={{alignItems: 'center'}}>*/}
+                                {/*<Text style={general.textTitleCard}>Now</Text>*/}
+                                {/*</Col>*/}
                             </Grid>
                         </View>
                         <FlatList
@@ -328,31 +375,31 @@ class TeachContainer extends Component {
                             data={gens}
                             renderItem={({item}) =>
                                 <Grid style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                    <Col size={15}>
-                                        <Text style={general.textDescriptionCard}>{item.name}</Text>
+                                    <Col size={30}>
+                                        <Text style={general.textDescriptionCardLight}>{item.name}</Text>
                                     </Col>
-                                    <Col size={22}>
-                                        <Text style={general.textDescriptionCard}>{item.start_time}</Text>
+                                    <Col size={35}>
+                                        <Text style={general.textDescriptionCardLight}>{item.start_time}</Text>
                                     </Col>
-                                    <Col size={22}>
-                                        <Text style={general.textDescriptionCard}>{item.end_time}</Text>
+                                    <Col size={35}>
+                                        <Text style={general.textDescriptionCardLight}>{item.end_time}</Text>
                                     </Col>
-                                    <Col size={15}>
-                                        <Switch
-                                            value={item.status == 0 ? false : true}
-                                            onValueChange={() => {
-                                            }}
-                                            onTintColor={'#C86AD9'}
-                                        />
-                                    </Col>
-                                    <Col size={15}>
-                                        <Switch
-                                            value={item.status == 0 ? false : true}
-                                            onValueChange={() => {
-                                            }}
-                                            onTintColor={'#C86AD9'}
-                                        />
-                                    </Col>
+                                    {/*<Col size={15}>*/}
+                                    {/*<Switch*/}
+                                    {/*value={item.status == 0 ? false : true}*/}
+                                    {/*onValueChange={() => {*/}
+                                    {/*}}*/}
+                                    {/*onTintColor={'#C86AD9'}*/}
+                                    {/*/>*/}
+                                    {/*</Col>*/}
+                                    {/*<Col size={15}>*/}
+                                    {/*<Switch*/}
+                                    {/*value={item.status == 0 ? false : true}*/}
+                                    {/*onValueChange={() => {*/}
+                                    {/*}}*/}
+                                    {/*onTintColor={'#C86AD9'}*/}
+                                    {/*/>*/}
+                                    {/*</Col>*/}
 
                                 </Grid>
                             }
@@ -371,13 +418,13 @@ class TeachContainer extends Component {
                                 <Col size={20}>
                                     <Text style={general.textTitleCard}>Name</Text>
                                 </Col>
-                                <Col size={18}  style={{alignItems:'center'}}>
-                                    <Text style={general.textTitleCard}>Classes</Text>
+                                <Col size={18} style={{alignItems: 'center'}}>
+                                    <Text style={general.textTitleCard}>Class</Text>
                                 </Col>
-                                <Col size={22}  style={{alignItems:'center'}}>
+                                <Col size={22} style={{alignItems: 'center'}}>
                                     <Text style={general.textTitleCard}>Duration</Text>
                                 </Col>
-                                <Col size={18}  style={{alignItems:'center'}}>
+                                <Col size={18} style={{alignItems: 'center'}}>
                                     <Text style={general.textTitleCard}>Price</Text>
                                 </Col>
                             </Grid>
@@ -388,15 +435,18 @@ class TeachContainer extends Component {
                             renderItem={({item}) =>
                                 <Grid style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                     <Col size={20}>
-                                        <Image
-                                            resizeMode={'cover'}
-                                            source={{uri: item.icon_url}}
-                                            style={general.imageCircleNormal}
-                                        />
+                                        <View style={[general.imageCircleNormal, general.shadow]}>
+                                            <Image
+                                                resizeMode={'cover'}
+                                                source={{uri: item.icon_url}}
+                                                style={general.imageCircleNormal}
+                                            />
+                                        </View>
+
                                     </Col>
                                     <Col size={25} style={{justifyContent: 'center'}}>
                                         <Text style={general.textDescriptionCard}>{item.name}</Text>
-                                    </Col >
+                                    </Col>
                                     <Col size={18} style={general.wrapperCenter}>
                                         <Text style={general.textDescriptionCard}>{item.num_classes}</Text>
                                     </Col>
@@ -404,7 +454,8 @@ class TeachContainer extends Component {
                                         <Text style={general.textDescriptionCard}>{item.duration}</Text>
                                     </Col>
                                     <Col size={20} style={general.wrapperCenter}>
-                                        <Text style={general.textDescriptionCard}>{item.price.toString().slice(0, item.price.toString().length - 3)}k</Text>
+                                        <Text
+                                            style={general.textDescriptionCard}>{item.price.toString().slice(0, item.price.toString().length - 3)}k</Text>
                                     </Col>
                                 </Grid>
                             }
@@ -416,8 +467,160 @@ class TeachContainer extends Component {
             case 5:
                 return (
                     <Content style={{flex: 1, padding: 20}}>
+                        {
+                            classes.map((item, i) =>
+                                <TouchableOpacity
+                                    key={i}
+                                    onPress={() => this.setModalClass(true, item)}
+                                    style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
+                                    <View style={[general.imageCircleNormal, general.shadow]}>
+                                        <Image
+                                            resizeMode={'cover'}
+                                            source={{uri: item.course.icon_url}}
+                                            style={general.imageCircleNormal}
+                                        />
+                                    </View>
 
+                                    <View style={[{flex: 1}, general.paddingLR]}>
+                                        <Text style={general.textIstActive}>{item.name}</Text>
+                                        <Text style={general.textDescriptionCard}>{item.created_at}</Text>
+                                    </View>
+                                    <Switch
+                                        value={item.status == 0 ? false : true}
+                                        onValueChange={() => {
+                                        }}
+                                        onTintColor={'#C86AD9'}
+                                    />
+                                </TouchableOpacity>
+                            )
+                        }
+                        <Modal
+                            presentationStyle="overFullScreen"
+                            animationType="fade"
+                            transparent={true}
+                            visible={this.state.modalClass}
+                        >
+                            <View
+                                style={general.wrapperModal}
+                                {...this.panResponder.panHandlers}
+                            >
+                                <View style={general.wrapperModalClass}>
+                                    <View style={[general.wrapperRowCenter, general.padding]}>
+                                        <View style={{flex: 1}}>
+                                            <Text style={general.textTitleCardLight}>{this.state.classes.name}</Text>
+                                            <Text
+                                                style={general.textDescriptionCardLight}>{this.state.classes.study_time}</Text>
+                                        </View>
+                                        <Image
+                                            resizeMode={'cover'}
+                                            source={{uri: this.state.classes.course.icon_url}}
+                                            style={general.imageCircleNormal}
+                                        />
+                                    </View>
+                                    <View style={[general.contentModal, general.padding, {paddingTop: 0}]}>
+                                        <View>
+                                            <Text style={general.textDescriptionCardLight}>
+                                                Teacher: <Text
+                                                style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${classInfo.teacher.color}`}]}>{classInfo.teacher.name}</Text></Text>
+
+                                        </View>
+                                        <View style={[general.paddingTopBottom, general.wrapperRowSpaceBetween]}>
+                                            <Text style={general.textDescriptionCardLight}>
+                                                Teacher Assistant: <Text
+                                                style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${classInfo.teacher_assistant.color}`}]}>{classInfo.teacher_assistant.name}</Text></Text>
+                                            <TouchableOpacity onPress={() => this.ViewHistoryClass()}>
+                                                <Icon
+                                                    name={'materialCommunity|history'}
+                                                    size={20}
+                                                    color={'#FFFFFF'}
+                                                />
+                                            </TouchableOpacity>
+                                        </View>
+                                        <View style={{flex: 1}}>
+                                            {
+                                                this.state.history
+                                                    ?
+                                                    <Content>
+                                                        <Text style={[general.paddingTopBottom, general.textIstActive]}>Attendance
+                                                            Class</Text>
+                                                        <FlatList
+                                                            showsVerticalScrollIndicator={false}
+                                                            data={classInfo.attendances}
+                                                            renderItem={({item}) =>
+                                                                <TouchableOpacity style={general.paddingTopBottom}>
+                                                                    <Text
+                                                                        style={general.textDescriptionCardLight}>{item.total_attendance}
+                                                                        / {registers.length}</Text>
+                                                                    <View style={general.wrapperProgressLight}>
+                                                                        <View
+                                                                            style={[general.progress, {width: (item.total_attendance / registers.length * (wid * 0.9 - 20))}]}/>
+                                                                    </View>
+                                                                </TouchableOpacity>
+                                                            }
+                                                        />
+                                                        <Text style={[general.paddingTopBottom, general.textIstActive]}>Attendance
+                                                            Teacher</Text>
+                                                        <FlatList
+                                                            showsVerticalScrollIndicator={false}
+                                                            data={classInfo.teacher.attendances}
+                                                            renderItem={({item}) =>
+                                                                <TouchableOpacity
+                                                                    style={general.wrapperRowSpaceBetween}>
+                                                                    <Text
+                                                                        style={general.textDescriptionCardLight}>Check
+                                                                        in: {item.start_teaching_time}</Text>
+                                                                    <Text
+                                                                        style={general.textDescriptionCardLight}>Check
+                                                                        in: {item.end_teaching_time}</Text>
+
+                                                                </TouchableOpacity>
+                                                            }
+                                                        />
+                                                    </Content>
+                                                    :
+                                                    <FlatList
+                                                        showsVerticalScrollIndicator={false}
+                                                        data={classInfo.registers}
+                                                        renderItem={({item}) =>
+                                                            <TouchableOpacity>
+                                                                <Grid
+                                                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                                                    <Col size={20}>
+                                                                        <View
+                                                                            style={[general.imageCircleNormal, general.shadow]}>
+                                                                            <Image
+                                                                                resizeMode={'cover'}
+                                                                                source={{uri: item.student.avatar_url}}
+                                                                                style={general.imageCircleNormal}
+                                                                            />
+                                                                        </View>
+                                                                    </Col>
+                                                                    <Col size={40} style={{justifyContent: 'center'}}>
+                                                                        <Text
+                                                                            style={general.textDescriptionCardLight}>{item.student.name}</Text>
+                                                                    </Col>
+                                                                    <Col size={10} style={general.wrapperCenter}>
+                                                                        <Text
+                                                                            style={general.textDescriptionCardLight}>{item.total_attendances}/{item.attendances.length}</Text>
+                                                                    </Col>
+                                                                    <Col size={30} style={general.wrapperCenter}>
+                                                                        <Text
+                                                                            style={general.textDescriptionCardLight}>{item.code}</Text>
+                                                                    </Col>
+                                                                </Grid>
+                                                            </TouchableOpacity>
+                                                        }
+                                                    />
+                                            }
+
+                                        </View>
+                                    </View>
+                                </View>
+                            </View>
+                        </Modal>
+                        <View style={general.wrapperBottomModule}/>
                     </Content>
+
                 );
 
             case 6:
@@ -613,7 +816,9 @@ function mapStateToProps(state) {
         study_sessions: state.home.study_sessions,
         registers: state.home.registers,
         gens: state.home.gens,
-        courses: state.home.courses
+        courses: state.home.courses,
+        classes: state.home.classes,
+        classInfo: state.home.classInfo,
     }
 }
 

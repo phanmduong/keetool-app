@@ -6,7 +6,6 @@ import com.facebook.react.ReactApplication;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.devfd.RNGeocoder.RNGeocoderPackage;
-import com.inprogress.reactnativeyoutube.ReactNativeYouTube;
 import com.brentvatne.react.ReactVideoPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
@@ -33,7 +32,6 @@ public class MainApplication extends Application implements ReactApplication {
             new RCTCameraPackage(),
             new MapsPackage(),
             new RNGeocoderPackage(),
-            new ReactNativeYouTube(),
             new ReactVideoPackage(),
             new VectorIconsPackage(),
             new LinearGradientPackage()

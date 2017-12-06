@@ -140,7 +140,6 @@ dependencies {
     compile project(':react-native-camera')
     compile project(':react-native-maps')
     compile project(':react-native-geocoder')
-    compile project(':react-native-youtube')
     compile project(':react-native-video')
     compile project(':react-native-vector-icons')
     compile project(':react-native-linear-gradient')

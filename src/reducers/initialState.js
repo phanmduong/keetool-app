@@ -30,6 +30,10 @@ export default {
         registers: [],
         gens:[],
         courses: [],
+        classes: [],
+        classInfo:{},
+        call_history: [],
+
     }
 
 }

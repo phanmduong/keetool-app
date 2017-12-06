@@ -279,6 +279,7 @@ function mapStateToProps(state) {
         colors: state.theme.colors,
         staff: state.home.staff,
         roles: state.home.roles,
+
     }
 }
 

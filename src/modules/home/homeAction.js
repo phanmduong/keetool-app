@@ -2297,3 +2297,2524 @@ export function getDataCourse() {
     }
 }
 
+export function getDataClasses() {
+    return {
+        type: types.GET_DATA_CLASSES,
+        classes: [
+            {
+                id: 1051,
+                name: "AI nhóm (SG)",
+                datestart: "24 Tháng M. hai, 2017",
+                datestart_en: "2017-12-24",
+                study_time: "(8h30-11h30 & 13h30-16h30) Chủ nhật",
+                description: "Đăng kí lớp cho nhóm của bạn",
+                status: 0,
+                activated: 0,
+                schedule_id: 17,
+                total_paid: 6,
+                target: 6,
+                total_register: 6,
+                regis_target: 6,
+                created_at: "08:41, 8 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 2,
+                    name: "Illustrator",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                room: {
+                    id: 20,
+                    name: "Tầng 5",
+                    base: "Cơ sở 3",
+                    address: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM",
+                    base_id: 6
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1050,
+                name: "PS nhóm (SG)",
+                datestart: "03 Tháng M. hai, 2017",
+                datestart_en: "2017-12-03",
+                study_time: "(8h30-11h30 & 13h30-16h30) Chủ nhật",
+                description: "Đăng kí lớp cho nhóm của bạn",
+                status: 0,
+                activated: 0,
+                schedule_id: 17,
+                total_paid: 6,
+                target: 6,
+                total_register: 6,
+                regis_target: 6,
+                created_at: "08:38, 8 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 1,
+                    name: "Photoshop",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                room: {
+                    id: 20,
+                    name: "Tầng 5",
+                    base: "Cơ sở 3",
+                    address: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM",
+                    base_id: 6
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1049,
+                name: "PT 31.2",
+                datestart: "12 Tháng M. hai, 2017",
+                datestart_en: "2017-12-12",
+                study_time: "(19h-21h) Thứ 3 - Thứ 5",
+                description: "Khai giảng ngày 12 tháng 12 năm 2017",
+                status: 1,
+                activated: 0,
+                schedule_id: 13,
+                total_paid: 2,
+                target: 10,
+                total_register: 8,
+                regis_target: 10,
+                created_at: "12:04, 7 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 4,
+                    name: "Photography",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg"
+                },
+                teacher: {
+                    id: 650,
+                    name: "Nguyễn Việt Anh",
+                    color: "ffeb3b"
+                },
+                teacher_assistant: {
+                    id: 40,
+                    name: " Đức Hoàng",
+                    color: "9c27b0"
+                },
+                room: {
+                    id: 8,
+                    name: "Studio Tầng 5",
+                    base: "Cơ sở 1",
+                    address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
+                    base_id: 3
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1048,
+                name: "PT 31.3",
+                datestart: "13 Tháng M. hai, 2017",
+                datestart_en: "2017-12-13",
+                study_time: "(19h-21h) Thứ 4 - Thứ 6",
+                description: "Khai giảng ngày 13 tháng 12 năm 2017",
+                status: 1,
+                activated: 0,
+                schedule_id: 16,
+                total_paid: 3,
+                target: 10,
+                total_register: 3,
+                regis_target: 10,
+                created_at: "12:04, 7 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 4,
+                    name: "Photography",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg"
+                },
+                teacher: {
+                    id: 650,
+                    name: "Nguyễn Việt Anh",
+                    color: "ffeb3b"
+                },
+                teacher_assistant: {
+                    id: 40,
+                    name: " Đức Hoàng",
+                    color: "9c27b0"
+                },
+                room: {
+                    id: 8,
+                    name: "Studio Tầng 5",
+                    base: "Cơ sở 1",
+                    address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
+                    base_id: 3
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1047,
+                name: "PT 31.4",
+                datestart: "16 Tháng M. hai, 2017",
+                datestart_en: "2017-12-16",
+                study_time: "(15h-17h) Thứ 7 - Chủ Nhật",
+                description: "Khai giảng ngày 16 tháng 12 năm 2017",
+                status: 1,
+                activated: 0,
+                schedule_id: 18,
+                total_paid: 5,
+                target: 10,
+                total_register: 8,
+                regis_target: 10,
+                created_at: "12:04, 7 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 4,
+                    name: "Photography",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg"
+                },
+                teacher: {
+                    id: 650,
+                    name: "Nguyễn Việt Anh",
+                    color: "ffeb3b"
+                },
+                teacher_assistant: {
+                    id: 40,
+                    name: " Đức Hoàng",
+                    color: "9c27b0"
+                },
+                room: {
+                    id: 8,
+                    name: "Studio Tầng 5",
+                    base: "Cơ sở 1",
+                    address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
+                    base_id: 3
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1046,
+                name: "PT 31.5",
+                datestart: "16 Tháng M. hai, 2017",
+                datestart_en: "2017-12-16",
+                study_time: "(9h-11h) Thứ 7 - Chủ Nhật",
+                description: "Khai giảng ngày 16 tháng 12 năm 2017",
+                status: 1,
+                activated: 0,
+                schedule_id: 17,
+                total_paid: 7,
+                target: 10,
+                total_register: 7,
+                regis_target: 10,
+                created_at: "12:04, 7 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 4,
+                    name: "Photography",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg"
+                },
+                teacher: {
+                    id: 650,
+                    name: "Nguyễn Việt Anh",
+                    color: "ffeb3b"
+                },
+                teacher_assistant: {
+                    id: 40,
+                    name: " Đức Hoàng",
+                    color: "9c27b0"
+                },
+                room: {
+                    id: 8,
+                    name: "Studio Tầng 5",
+                    base: "Cơ sở 1",
+                    address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
+                    base_id: 3
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1045,
+                name: "PR 31.2",
+                datestart: "13 Tháng M. hai, 2017",
+                datestart_en: "2017-12-13",
+                study_time: "(19h-21h) Thứ 4 - Thứ 6",
+                description: "Khai giảng ngày 13 tháng 12 năm 2017",
+                status: 1,
+                activated: 0,
+                schedule_id: 19,
+                total_paid: 7,
+                target: 20,
+                total_register: 11,
+                regis_target: 20,
+                created_at: "12:02, 7 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 5,
+                    name: "Premiere",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg"
+                },
+                teacher: {
+                    id: 650,
+                    name: "Nguyễn Việt Anh",
+                    color: "ffeb3b"
+                },
+                teacher_assistant: {
+                    id: 3269,
+                    name: "Trần Quang Vũ",
+                    color: "00bcd4"
+                },
+                room: {
+                    id: 19,
+                    name: "Tầng 3",
+                    base: "Cơ sở 4",
+                    address: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội",
+                    base_id: 8
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1044,
+                name: "PT - Khoá Sau (Danh Sách Chờ)",
+                datestart: "10 Tháng Mười, 2017",
+                datestart_en: "2017-10-10",
+                study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                description: "Nhận ưu đãi tốt nhất từ colorME",
+                status: 1,
+                activated: 0,
+                schedule_id: 0,
+                total_paid: 8,
+                target: 1,
+                total_register: 43,
+                regis_target: 1,
+                created_at: "11:58, 7 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 4,
+                    name: "Photography",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg"
+                },
+                teacher_assistant: {
+                    id: 1193,
+                    name: "Son Pham",
+                    color: "ff9800"
+                },
+                room: {
+                    id: 8,
+                    name: "Studio Tầng 5",
+                    base: "Cơ sở 1",
+                    address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
+                    base_id: 3
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1043,
+                name: "PR - Danh Sách Chờ (Cơ sở 4)",
+                datestart: "10 Tháng Mười, 2017",
+                datestart_en: "2017-10-10",
+                study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
+                description: "Nhận ưu đãi tốt nhất từ colorME",
+                status: 1,
+                activated: 0,
+                schedule_id: 0,
+                total_paid: 1,
+                target: 1,
+                total_register: 3,
+                regis_target: 1,
+                created_at: "11:58, 7 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 5,
+                    name: "Premiere",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg"
+                },
+                teacher_assistant: {
+                    id: 46,
+                    name: "Thu Trang",
+                    color: "2196f3"
+                },
+                room: {
+                    id: 19,
+                    name: "Tầng 3",
+                    base: "Cơ sở 4",
+                    address: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội",
+                    base_id: 8
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            },
+            {
+                id: 1042,
+                name: "PR 31.1",
+                datestart: "16 Tháng M. hai, 2017",
+                datestart_en: "2017-12-16",
+                study_time: "(19h-21h) Thứ 7 - Chủ Nhật",
+                description: "Khai giảng ngày 16 tháng 12 năm 2017",
+                status: 0,
+                activated: 0,
+                schedule_id: 19,
+                total_paid: 14,
+                target: 20,
+                total_register: 23,
+                regis_target: 20,
+                created_at: "11:58, 7 Tháng M. một, 2017",
+                gen: {
+                    id: 25,
+                    name: "31"
+                },
+                course: {
+                    id: 5,
+                    name: "Premiere",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg"
+                },
+                teacher: {
+                    id: 3269,
+                    name: "Trần Quang Vũ",
+                    color: "00bcd4"
+                },
+                teacher_assistant: {
+                    id: 3269,
+                    name: "Trần Quang Vũ",
+                    color: "00bcd4"
+                },
+                room: {
+                    id: 4,
+                    name: "Tầng 4",
+                    base: "Cơ sở 1",
+                    address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
+                    base_id: 3
+                },
+                edit_status: true,
+                is_delete_class: false,
+                is_duplicate: true
+            }
+        ],
+    }
+}
+
+
+export function getDataClass() {
+    return {
+        type: types.GET_DATA_CLASS,
+        classInfo: {
+            id: 948,
+            name: "AI 30.4",
+            datestart: "08 Tháng M. một, 2017",
+            datestart_en: "2017-11-08",
+            study_time: "(19h-21h) Thứ 4 - Thứ 6",
+            description: "Khai giảng ngày 8 tháng 11 năm 2017",
+            status: 0,
+            activated: 1,
+            schedule_id: 16,
+            total_paid: 20,
+            target: 20,
+            total_register: 21,
+            regis_target: 20,
+            created_at: "21:49, 10 Tháng Mười, 2017",
+            gen: {
+                id: 23,
+                name: "30"
+            },
+            course: {
+                id: 2,
+                name: "Illustrator",
+                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+            },
+            teacher: {
+                id: 4068,
+                name: "Ngọc Diệp",
+                color: "e91e63",
+                attendances: [
+                    {
+                        class_lesson_id: 7108,
+                        order: 1,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 4068,
+                            name: "Ngọc Diệp",
+                            phone: "01667525988",
+                            email: "Haraairi@gmail.com",
+                            color: "e91e63",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7110,
+                        order: 2,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 45,
+                            name: "Nguyen Mine Linh",
+                            phone: "01654085862",
+                            email: "mailinhnguyen.15@gmail.com",
+                            color: "cddc39",
+                            avatar_url: "http://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1457424670qC09gEUVo3hAYyb.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:24",
+                            check_out_time: "21:18"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7112,
+                        order: 3,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 4068,
+                            name: "Ngọc Diệp",
+                            phone: "01667525988",
+                            email: "Haraairi@gmail.com",
+                            color: "e91e63",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7114,
+                        order: 4,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 4068,
+                            name: "Ngọc Diệp",
+                            phone: "01667525988",
+                            email: "Haraairi@gmail.com",
+                            color: "e91e63",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7116,
+                        order: 5,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 4068,
+                            name: "Ngọc Diệp",
+                            phone: "01667525988",
+                            email: "Haraairi@gmail.com",
+                            color: "e91e63",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7118,
+                        order: 6,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 4068,
+                            name: "Ngọc Diệp",
+                            phone: "01667525988",
+                            email: "Haraairi@gmail.com",
+                            color: "e91e63",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7120,
+                        order: 7,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 4068,
+                            name: "Ngọc Diệp",
+                            phone: "01667525988",
+                            email: "Haraairi@gmail.com",
+                            color: "e91e63",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7122,
+                        order: 8,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 4068,
+                            name: "Ngọc Diệp",
+                            phone: "01667525988",
+                            email: "Haraairi@gmail.com",
+                            color: "e91e63",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
+                        }
+                    }
+                ]
+            },
+            teacher_assistant: {
+                id: 2233,
+                name: "Ngô Thị Thuỳ Duyên",
+                color: "ff5722",
+                attendances: [
+                    {
+                        class_lesson_id: 7108,
+                        order: 1,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 2233,
+                            name: "Ngô Thị Thuỳ Duyên",
+                            phone: "0989697347",
+                            email: "ngothuyduyen1997@gmail.com",
+                            color: "ff5722",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505480008UPHRqwk1K4UCwgE.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:20",
+                            check_out_time: "21:02"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7110,
+                        order: 2,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 2233,
+                            name: "Ngô Thị Thuỳ Duyên",
+                            phone: "0989697347",
+                            email: "ngothuyduyen1997@gmail.com",
+                            color: "ff5722",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505480008UPHRqwk1K4UCwgE.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:01",
+                            check_out_time: "21:13"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7112,
+                        order: 3,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 2233,
+                            name: "Ngô Thị Thuỳ Duyên",
+                            phone: "0989697347",
+                            email: "ngothuyduyen1997@gmail.com",
+                            color: "ff5722",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505480008UPHRqwk1K4UCwgE.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:39"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7114,
+                        order: 4,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 2233,
+                            name: "Ngô Thị Thuỳ Duyên",
+                            phone: "0989697347",
+                            email: "ngothuyduyen1997@gmail.com",
+                            color: "ff5722",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505480008UPHRqwk1K4UCwgE.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:36",
+                            check_out_time: "21:04"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7116,
+                        order: 5,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 2233,
+                            name: "Ngô Thị Thuỳ Duyên",
+                            phone: "0989697347",
+                            email: "ngothuyduyen1997@gmail.com",
+                            color: "ff5722",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505480008UPHRqwk1K4UCwgE.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:04",
+                            check_out_time: "21:01"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7118,
+                        order: 6,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 2233,
+                            name: "Ngô Thị Thuỳ Duyên",
+                            phone: "0989697347",
+                            email: "ngothuyduyen1997@gmail.com",
+                            color: "ff5722",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505480008UPHRqwk1K4UCwgE.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:29",
+                            check_out_time: "21:00"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7120,
+                        order: 7,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 2233,
+                            name: "Ngô Thị Thuỳ Duyên",
+                            phone: "0989697347",
+                            email: "ngothuyduyen1997@gmail.com",
+                            color: "ff5722",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505480008UPHRqwk1K4UCwgE.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:39",
+                            check_out_time: "21:04"
+                        }
+                    },
+                    {
+                        class_lesson_id: 7122,
+                        order: 8,
+                        start_teaching_time: "19:00:00",
+                        end_teaching_time: "21:00:00",
+                        is_change: false,
+                        staff: {
+                            id: 2233,
+                            name: "Ngô Thị Thuỳ Duyên",
+                            phone: "0989697347",
+                            email: "ngothuyduyen1997@gmail.com",
+                            color: "ff5722",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505480008UPHRqwk1K4UCwgE.jpg"
+                        },
+                        attendance: {
+                            check_in_time: "18:10",
+                            check_out_time: "21:45"
+                        }
+                    }
+                ]
+            },
+            room: {
+                id: 9,
+                name: "Tầng 2",
+                base: "Cơ sở 1",
+                address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
+                base_id: 3
+            },
+            registers: [
+                {
+                    id: 16080,
+                    money: 0,
+                    code: "CM30056",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "Ds chờ CCM28866",
+                    student: {
+                        id: 7293,
+                        name: "Phạm Mai Huơng",
+                        phone: "01654169458",
+                        email: "phammaihuongpmh@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507736051guzBkoSKaITF2Qq.jpg"
+                    },
+                    total_attendances: 8,
+                    attendances: [
+                        {
+                            id: 183674,
+                            status: 1
+                        },
+                        {
+                            id: 183675,
+                            status: 1
+                        },
+                        {
+                            id: 183676,
+                            status: 1
+                        },
+                        {
+                            id: 183677,
+                            status: 1
+                        },
+                        {
+                            id: 183678,
+                            status: 1
+                        },
+                        {
+                            id: 183679,
+                            status: 1
+                        },
+                        {
+                            id: 183680,
+                            status: 1
+                        },
+                        {
+                            id: 183681,
+                            status: 1
+                        }
+                    ]
+                },
+                {
+                    id: 16358,
+                    money: 0,
+                    code: "CM30175",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "ds chờ CCM28720",
+                    student: {
+                        id: 7007,
+                        name: "Quân",
+                        phone: "0942.345.861",
+                        email: "hquan1907@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507782399fk6FSXYwQnODrQ5.jpg"
+                    },
+                    total_attendances: 7,
+                    attendances: [
+                        {
+                            id: 185939,
+                            status: 1
+                        },
+                        {
+                            id: 185940,
+                            status: 1
+                        },
+                        {
+                            id: 185941,
+                            status: 1
+                        },
+                        {
+                            id: 185942,
+                            status: 1
+                        },
+                        {
+                            id: 185943,
+                            status: 1
+                        },
+                        {
+                            id: 185944,
+                            status: 1
+                        },
+                        {
+                            id: 185945,
+                            status: 1
+                        },
+                        {
+                            id: 185946,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 16375,
+                    money: 0,
+                    code: "CM30163",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "DSC CM29161",
+                    student: {
+                        id: 6667,
+                        name: "Bùi Khánh Linh",
+                        phone: "01692606682",
+                        email: "khanhlinh.marketer@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 4,
+                    attendances: [
+                        {
+                            id: 185759,
+                            status: 0
+                        },
+                        {
+                            id: 185760,
+                            status: 0
+                        },
+                        {
+                            id: 185761,
+                            status: 1
+                        },
+                        {
+                            id: 185762,
+                            status: 0
+                        },
+                        {
+                            id: 185763,
+                            status: 1
+                        },
+                        {
+                            id: 185764,
+                            status: 1
+                        },
+                        {
+                            id: 185765,
+                            status: 1
+                        },
+                        {
+                            id: 185766,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 16423,
+                    money: 0,
+                    code: "CM30195",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "DS chờ CCM28540",
+                    student: {
+                        id: 6743,
+                        name: "Nguyễn Gia Bảo",
+                        phone: "0976170799",
+                        email: "nguyenpopo1777@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 4,
+                    attendances: [
+                        {
+                            id: 186389,
+                            status: 1
+                        },
+                        {
+                            id: 186390,
+                            status: 1
+                        },
+                        {
+                            id: 186391,
+                            status: 1
+                        },
+                        {
+                            id: 186392,
+                            status: 1
+                        },
+                        {
+                            id: 186393,
+                            status: 0
+                        },
+                        {
+                            id: 186394,
+                            status: 0
+                        },
+                        {
+                            id: 186395,
+                            status: 0
+                        },
+                        {
+                            id: 186396,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 16541,
+                    money: 0,
+                    code: "CM30322",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "ds chờ CCM28717",
+                    student: {
+                        id: 7131,
+                        name: "Minh Khoa",
+                        phone: "0981.690.908",
+                        email: "domhkhoa@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507994672hV6Gw9k6N19VtI7.jpg"
+                    },
+                    total_attendances: 7,
+                    attendances: [
+                        {
+                            id: 189134,
+                            status: 1
+                        },
+                        {
+                            id: 189135,
+                            status: 0
+                        },
+                        {
+                            id: 189136,
+                            status: 1
+                        },
+                        {
+                            id: 189137,
+                            status: 1
+                        },
+                        {
+                            id: 189138,
+                            status: 1
+                        },
+                        {
+                            id: 189139,
+                            status: 1
+                        },
+                        {
+                            id: 189140,
+                            status: 1
+                        },
+                        {
+                            id: 189141,
+                            status: 1
+                        }
+                    ]
+                },
+                {
+                    id: 16584,
+                    money: 0,
+                    code: "CM30314",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "ds chờ CCM28627",
+                    student: {
+                        id: 5644,
+                        name: "Phan Đình Đức",
+                        phone: "0169.529.4021",
+                        email: "Ducpd.1192@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15108935879ppsg7uY1yNWp3W.jpg"
+                    },
+                    total_attendances: 8,
+                    attendances: [
+                        {
+                            id: 189014,
+                            status: 1
+                        },
+                        {
+                            id: 189015,
+                            status: 1
+                        },
+                        {
+                            id: 189016,
+                            status: 1
+                        },
+                        {
+                            id: 189017,
+                            status: 1
+                        },
+                        {
+                            id: 189018,
+                            status: 1
+                        },
+                        {
+                            id: 189019,
+                            status: 1
+                        },
+                        {
+                            id: 189020,
+                            status: 1
+                        },
+                        {
+                            id: 189021,
+                            status: 1
+                        }
+                    ]
+                },
+                {
+                    id: 16585,
+                    money: 0,
+                    code: "CM30313",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "ds chờ CCM28629",
+                    student: {
+                        id: 7445,
+                        name: "Hoàng Anh Thư",
+                        phone: "0982952518",
+                        email: "hoanganhthucnn121@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 7,
+                    attendances: [
+                        {
+                            id: 188999,
+                            status: 1
+                        },
+                        {
+                            id: 189000,
+                            status: 1
+                        },
+                        {
+                            id: 189001,
+                            status: 1
+                        },
+                        {
+                            id: 189002,
+                            status: 1
+                        },
+                        {
+                            id: 189003,
+                            status: 0
+                        },
+                        {
+                            id: 189004,
+                            status: 1
+                        },
+                        {
+                            id: 189005,
+                            status: 1
+                        },
+                        {
+                            id: 189006,
+                            status: 1
+                        }
+                    ]
+                },
+                {
+                    id: 16622,
+                    money: 0,
+                    code: "CM30409",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "bảo lưu học lại CM26454",
+                    student: {
+                        id: 4793,
+                        name: "Vũ Tố Uyên",
+                        phone: "01667099068",
+                        email: "vutouyen15121998@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 6,
+                    attendances: [
+                        {
+                            id: 190844,
+                            status: 1
+                        },
+                        {
+                            id: 190845,
+                            status: 1
+                        },
+                        {
+                            id: 190846,
+                            status: 1
+                        },
+                        {
+                            id: 190847,
+                            status: 0
+                        },
+                        {
+                            id: 190848,
+                            status: 1
+                        },
+                        {
+                            id: 190849,
+                            status: 1
+                        },
+                        {
+                            id: 190850,
+                            status: 1
+                        },
+                        {
+                            id: 190851,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 16625,
+                    money: 750000,
+                    code: "CM30348",
+                    paid_status: true,
+                    received_id_card: false,
+                    note: "combo 3",
+                    student: {
+                        id: 5316,
+                        name: "Nguyễn Thị Thảo",
+                        phone: "0971094145",
+                        email: "thaonguyen1816@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510290152no2CB1nvYMFh8p2.jpg"
+                    },
+                    total_attendances: 0,
+                    attendances: [
+                        {
+                            id: 189569,
+                            status: 0
+                        },
+                        {
+                            id: 189570,
+                            status: 0
+                        },
+                        {
+                            id: 189571,
+                            status: 0
+                        },
+                        {
+                            id: 189572,
+                            status: 0
+                        },
+                        {
+                            id: 189573,
+                            status: 0
+                        },
+                        {
+                            id: 189574,
+                            status: 0
+                        },
+                        {
+                            id: 189575,
+                            status: 0
+                        },
+                        {
+                            id: 189576,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 16648,
+                    money: 0,
+                    code: "CM30357",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "bảo lưu",
+                    student: {
+                        id: 4874,
+                        name: "Võ Minh Huyền",
+                        phone: "0165.754.7555",
+                        email: "huyen2998@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 6,
+                    attendances: [
+                        {
+                            id: 189749,
+                            status: 1
+                        },
+                        {
+                            id: 189750,
+                            status: 1
+                        },
+                        {
+                            id: 189751,
+                            status: 1
+                        },
+                        {
+                            id: 189752,
+                            status: 0
+                        },
+                        {
+                            id: 189753,
+                            status: 1
+                        },
+                        {
+                            id: 189754,
+                            status: 1
+                        },
+                        {
+                            id: 189755,
+                            status: 1
+                        },
+                        {
+                            id: 189756,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 16668,
+                    money: 0,
+                    code: "CM30332",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "ds chờ CM15264",
+                    student: {
+                        id: 2181,
+                        name: "Bùi Ánh Ngọc",
+                        phone: "01638349688",
+                        email: "buianhngoc8998@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 6,
+                    attendances: [
+                        {
+                            id: 189314,
+                            status: 0
+                        },
+                        {
+                            id: 189315,
+                            status: 1
+                        },
+                        {
+                            id: 189316,
+                            status: 1
+                        },
+                        {
+                            id: 189317,
+                            status: 1
+                        },
+                        {
+                            id: 189318,
+                            status: 1
+                        },
+                        {
+                            id: 189319,
+                            status: 1
+                        },
+                        {
+                            id: 189320,
+                            status: 1
+                        },
+                        {
+                            id: 189321,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 16697,
+                    money: 850000,
+                    code: "CM30396",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "hóm ba với Nguyễn Tiến Thiệu, Bùi Tuấn Anh, giảm 15%",
+                    student: {
+                        id: 7682,
+                        name: "Lê Thanh Tùng",
+                        phone: "0962444267",
+                        email: "thanhletungusth249@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 6,
+                    attendances: [
+                        {
+                            id: 190589,
+                            status: 1
+                        },
+                        {
+                            id: 190590,
+                            status: 1
+                        },
+                        {
+                            id: 190591,
+                            status: 1
+                        },
+                        {
+                            id: 190592,
+                            status: 0
+                        },
+                        {
+                            id: 190593,
+                            status: 1
+                        },
+                        {
+                            id: 190594,
+                            status: 0
+                        },
+                        {
+                            id: 190595,
+                            status: 1
+                        },
+                        {
+                            id: 190596,
+                            status: 1
+                        }
+                    ]
+                },
+                {
+                    id: 16874,
+                    money: 850000,
+                    code: "CM30459",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "combo 2",
+                    student: {
+                        id: 7758,
+                        name: "Nguyễn Hải Đăng ",
+                        phone: "0904504075",
+                        email: "Ngdang2410@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510067460n4XNvQJURuYZw0C.jpg"
+                    },
+                    total_attendances: 5,
+                    attendances: [
+                        {
+                            id: 192104,
+                            status: 1
+                        },
+                        {
+                            id: 192105,
+                            status: 1
+                        },
+                        {
+                            id: 192106,
+                            status: 0
+                        },
+                        {
+                            id: 192107,
+                            status: 1
+                        },
+                        {
+                            id: 192108,
+                            status: 1
+                        },
+                        {
+                            id: 192109,
+                            status: 0
+                        },
+                        {
+                            id: 192110,
+                            status: 1
+                        },
+                        {
+                            id: 192111,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 16882,
+                    money: 0,
+                    code: "CM30420",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "bảo lưu học lại CM24404",
+                    student: {
+                        id: 2496,
+                        name: "Chu Hà Phương",
+                        phone: "0989199659",
+                        email: "kimnguthuongthan149@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1478412362vaggZNUeYA99BYd.jpg"
+                    },
+                    total_attendances: 2,
+                    attendances: [
+                        {
+                            id: 191264,
+                            status: 1
+                        },
+                        {
+                            id: 191265,
+                            status: 1
+                        },
+                        {
+                            id: 191266,
+                            status: 0
+                        },
+                        {
+                            id: 191267,
+                            status: 0
+                        },
+                        {
+                            id: 191268,
+                            status: 0
+                        },
+                        {
+                            id: 191269,
+                            status: 0
+                        },
+                        {
+                            id: 191270,
+                            status: 0
+                        },
+                        {
+                            id: 191271,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 17024,
+                    money: 1000000,
+                    code: "CM30478",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "ck",
+                    student: {
+                        id: 7818,
+                        name: "Nguyễn Trọng Thuỷ",
+                        phone: "0968996863",
+                        email: "trongthuy.utc@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510296543PVi7jdqiWBJIVLB.jpg"
+                    },
+                    total_attendances: 7,
+                    attendances: [
+                        {
+                            id: 192464,
+                            status: 1
+                        },
+                        {
+                            id: 192465,
+                            status: 1
+                        },
+                        {
+                            id: 192466,
+                            status: 1
+                        },
+                        {
+                            id: 192467,
+                            status: 1
+                        },
+                        {
+                            id: 192468,
+                            status: 1
+                        },
+                        {
+                            id: 192469,
+                            status: 1
+                        },
+                        {
+                            id: 192470,
+                            status: 1
+                        },
+                        {
+                            id: 192471,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 17101,
+                    money: 750000,
+                    code: "CM30505",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "chưa có thẻ, ưu đãi giờ vàng ",
+                    student: {
+                        id: 7838,
+                        name: "Phạm Thị Thu Hà",
+                        phone: "0939100495",
+                        email: "phamha9095@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 3,
+                    attendances: [
+                        {
+                            id: 193094,
+                            status: 1
+                        },
+                        {
+                            id: 193095,
+                            status: 1
+                        },
+                        {
+                            id: 193096,
+                            status: 0
+                        },
+                        {
+                            id: 193097,
+                            status: 1
+                        },
+                        {
+                            id: 193098,
+                            status: 0
+                        },
+                        {
+                            id: 193099,
+                            status: 0
+                        },
+                        {
+                            id: 193100,
+                            status: 0
+                        },
+                        {
+                            id: 193101,
+                            status: 0
+                        }
+                    ]
+                },
+                {
+                    id: 17121,
+                    money: 900000,
+                    code: "CM30530",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "",
+                    student: {
+                        id: 4269,
+                        name: "Đặng Thị Lan Chi",
+                        phone: "0963432597",
+                        email: "gaoking2911@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 8,
+                    attendances: [
+                        {
+                            id: 193559,
+                            status: 1
+                        },
+                        {
+                            id: 193560,
+                            status: 1
+                        },
+                        {
+                            id: 193561,
+                            status: 1
+                        },
+                        {
+                            id: 193562,
+                            status: 1
+                        },
+                        {
+                            id: 193563,
+                            status: 1
+                        },
+                        {
+                            id: 193564,
+                            status: 1
+                        },
+                        {
+                            id: 193565,
+                            status: 1
+                        },
+                        {
+                            id: 193566,
+                            status: 1
+                        }
+                    ]
+                },
+                {
+                    id: 17135,
+                    money: 0,
+                    code: "",
+                    paid_status: false,
+                    received_id_card: false,
+                    note: "",
+                    student: {
+                        id: 7849,
+                        name: "Nguyễn Thị Thùy Linh",
+                        phone: "0973.232.395",
+                        email: "linhmon01@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 0,
+                    attendances: []
+                },
+                {
+                    id: 17152,
+                    money: 0,
+                    code: "CM30545",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "ds chờ CCCM28741",
+                    student: {
+                        id: 7114,
+                        name: "Nguyễn Trọng Quang Huy",
+                        phone: "01636723377",
+                        email: "quanghuy1998hn@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
+                    },
+                    total_attendances: 7,
+                    attendances: [
+                        {
+                            id: 193829,
+                            status: 1
+                        },
+                        {
+                            id: 193830,
+                            status: 1
+                        },
+                        {
+                            id: 193831,
+                            status: 1
+                        },
+                        {
+                            id: 193832,
+                            status: 1
+                        },
+                        {
+                            id: 193833,
+                            status: 1
+                        },
+                        {
+                            id: 193834,
+                            status: 1
+                        },
+                        {
+                            id: 193835,
+                            status: 0
+                        },
+                        {
+                            id: 193836,
+                            status: 1
+                        }
+                    ]
+                },
+                {
+                    id: 17153,
+                    money: 0,
+                    code: "CM30546",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "ds chờ CCM28744",
+                    student: {
+                        id: 7115,
+                        name: "Trần Hoàng Nam",
+                        phone: "01666881998",
+                        email: "namtran0798@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507828482gvct2ufTCSmLR2N.jpg"
+                    },
+                    total_attendances: 8,
+                    attendances: [
+                        {
+                            id: 193844,
+                            status: 1
+                        },
+                        {
+                            id: 193845,
+                            status: 1
+                        },
+                        {
+                            id: 193846,
+                            status: 1
+                        },
+                        {
+                            id: 193847,
+                            status: 1
+                        },
+                        {
+                            id: 193848,
+                            status: 1
+                        },
+                        {
+                            id: 193849,
+                            status: 1
+                        },
+                        {
+                            id: 193850,
+                            status: 1
+                        },
+                        {
+                            id: 193851,
+                            status: 1
+                        }
+                    ]
+                },
+                {
+                    id: 17198,
+                    money: 0,
+                    code: "CM31004",
+                    paid_status: true,
+                    received_id_card: true,
+                    note: "",
+                    student: {
+                        id: 3889,
+                        name: " Đoàn Ngọc Hiếu",
+                        phone: "0124.880.0896",
+                        email: "ngochieu.nhim261@gmail.com",
+                        avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510310076J03XM096YJjo53T.jpg"
+                    },
+                    total_attendances: 4,
+                    attendances: [
+                        {
+                            id: 194294,
+                            status: 1
+                        },
+                        {
+                            id: 194295,
+                            status: 1
+                        },
+                        {
+                            id: 194296,
+                            status: 1
+                        },
+                        {
+                            id: 194297,
+                            status: 0
+                        },
+                        {
+                            id: 194298,
+                            status: 0
+                        },
+                        {
+                            id: 194299,
+                            status: 1
+                        },
+                        {
+                            id: 194300,
+                            status: 0
+                        },
+                        {
+                            id: 194301,
+                            status: 0
+                        }
+                    ]
+                }
+            ],
+            attendances: [
+                {
+                    order: 1,
+                    total_attendance: 17,
+                    is_change: false,
+                    class_lesson_time: "2017-11-08",
+                    class_lesson_id: 7108
+                },
+                {
+                    order: 2,
+                    total_attendance: 17,
+                    is_change: false,
+                    class_lesson_time: "2017-11-10",
+                    class_lesson_id: 7110
+                },
+                {
+                    order: 3,
+                    total_attendance: 16,
+                    is_change: false,
+                    class_lesson_time: "2017-11-15",
+                    class_lesson_id: 7112
+                },
+                {
+                    order: 4,
+                    total_attendance: 13,
+                    is_change: false,
+                    class_lesson_time: "2017-11-17",
+                    class_lesson_id: 7114
+                },
+                {
+                    order: 5,
+                    total_attendance: 14,
+                    is_change: false,
+                    class_lesson_time: "2017-11-22",
+                    class_lesson_id: 7116
+                },
+                {
+                    order: 6,
+                    total_attendance: 14,
+                    is_change: false,
+                    class_lesson_time: "2017-11-24",
+                    class_lesson_id: 7118
+                },
+                {
+                    order: 7,
+                    total_attendance: 14,
+                    is_change: false,
+                    class_lesson_time: "2017-11-29",
+                    class_lesson_id: 7120
+                },
+                {
+                    order: 8,
+                    total_attendance: 8,
+                    is_change: false,
+                    class_lesson_time: "2017-12-01",
+                    class_lesson_id: 7122
+                }
+            ]
+        }
+    }
+}
+
+export function getDataCallHistory() {
+    return {
+        type: types.GET_DATA_CALL_HISTORY,
+        call_history: [
+            {
+                id: 17330,
+                student: {
+                    id: 8421,
+                    name: "Nguyễn Thuỳ Linh",
+                    email: "thuylinhnguyen5996@gmail.com",
+                    phone: "0983790190"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Trc 8/12 qua vp",
+                call_time: "5 Tháng M. hai, 2017, 11:23"
+            },
+            {
+                id: 17329,
+                student: {
+                    id: 8420,
+                    name: "Đỗ Thanh Như",
+                    email: "dothanhnhu@gmail.com",
+                    phone: "0904189975"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Trc 8/12 ck",
+                call_time: "5 Tháng M. hai, 2017, 11:18"
+            },
+            {
+                id: 17328,
+                student: {
+                    id: 3909,
+                    name: "Phạm Thị Quỳnh Trang",
+                    email: "hannietr203@gmail.com",
+                    phone: "0944428123"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Giảm 10% học viên cũ do kì kèo quá",
+                call_time: "5 Tháng M. hai, 2017, 11:17"
+            },
+            {
+                id: 17327,
+                student: {
+                    id: 6015,
+                    name: "Hoàng Anh Ngọc",
+                    email: "hoanganhngoc247@gmail.com",
+                    phone: "0969645978"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "Mess",
+                call_time: "5 Tháng M. hai, 2017, 11:08"
+            },
+            {
+                id: 17326,
+                student: {
+                    id: 7116,
+                    name: "Nguyễn Hà Linh ",
+                    email: "ngnhalinh.68@gmail.com",
+                    phone: "0941750608"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "Cf đi học",
+                call_time: "5 Tháng M. hai, 2017, 11:07"
+            },
+            {
+                id: 17325,
+                student: {
+                    id: 3755,
+                    name: "Nguyễn Hải Anh",
+                    email: "anhnguyen267.ulis@gmail.com",
+                    phone: "0945866395"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "Cf xác nhận",
+                call_time: "5 Tháng M. hai, 2017, 11:05"
+            },
+            {
+                id: 17324,
+                student: {
+                    id: 8003,
+                    name: "Nguyễn Văn Sơn",
+                    email: "vanson25798@gmail.com",
+                    phone: "01692108889"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Trc 8/12 ck",
+                call_time: "5 Tháng M. hai, 2017, 09:55"
+            },
+            {
+                id: 17323,
+                student: {
+                    id: 8406,
+                    name: "Hoàng Hoài Linh",
+                    email: "hoanglinhbro1701@gmail.com",
+                    phone: "01229271720"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Chiều qua vp, giảm 15%",
+                call_time: "5 Tháng M. hai, 2017, 09:48"
+            },
+            {
+                id: 17322,
+                student: {
+                    id: 8401,
+                    name: "Phạm Thanh Hường",
+                    email: "phth.huong92@gmail.com",
+                    phone: "0905041292"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "mai lên vp đóng tiền ưu đãi 15%",
+                call_time: "4 Tháng M. hai, 2017, 23:22"
+            },
+            {
+                id: 17321,
+                student: {
+                    id: 3486,
+                    name: "Ma Huyền Trang",
+                    email: "tan.kh0ngtuoc@gmail.com",
+                    phone: "01299312567"
+                },
+                call_status: "success",
+                caller: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 22:39"
+            },
+            {
+                id: 17320,
+                student: {
+                    id: 3486,
+                    name: "Ma Huyền Trang",
+                    email: "tan.kh0ngtuoc@gmail.com",
+                    phone: "01299312567"
+                },
+                call_status: "success",
+                caller: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                },
+                note: "Nghi vấn học hộ, đã hẹn buổi đầu mang chứng minh thư hoặc thẻ sinh viên để giảng viên kiểm tra",
+                call_time: "4 Tháng M. hai, 2017, 22:39"
+            },
+            {
+                id: 17319,
+                student: {
+                    id: 8390,
+                    name: "Hoàng Mai Linh",
+                    email: "linhbin18799@gmail.com",
+                    phone: "0964980070"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "đang cân nhắc xem có học PT không, sẽ báo lại",
+                call_time: "4 Tháng M. hai, 2017, 22:19"
+            },
+            {
+                id: 17318,
+                student: {
+                    id: 8389,
+                    name: "Trịnh Mai Hoa",
+                    email: "hoatm2501@gmail.com",
+                    phone: "0918420596"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "đang cân nhắc xem có học PT không, sẽ báo lại",
+                call_time: "4 Tháng M. hai, 2017, 22:19"
+            },
+            {
+                id: 17317,
+                student: {
+                    id: 8391,
+                    name: "Vũ Thị Thảo Nguyên",
+                    email: "vttnnguyen295@gmail.com",
+                    phone: "01697670653"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "đang cân nhắc xem có học PT không, sẽ báo lại",
+                call_time: "4 Tháng M. hai, 2017, 22:18"
+            },
+            {
+                id: 17316,
+                student: {
+                    id: 8392,
+                    name: "Đinh Phương Linh",
+                    email: "linhdinh812@gmail.com",
+                    phone: "0983633970"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                },
+                note: "Đang chơi event",
+                call_time: "4 Tháng M. hai, 2017, 21:09"
+            },
+            {
+                id: 17315,
+                student: {
+                    id: 3939,
+                    name: "Bùi Trung Kiên",
+                    email: "trungkienbui1998@gmail.com",
+                    phone: "0168.770.7575"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                },
+                note: "Trước mùng 8 qua vp",
+                call_time: "4 Tháng M. hai, 2017, 21:09"
+            },
+            {
+                id: 17314,
+                student: {
+                    id: 8388,
+                    name: "Đào Hà Phương",
+                    email: "thedove3110@gmail.com",
+                    phone: "01289340288"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                },
+                note: "Đang chơi event để được giảm. Giảm thì qua",
+                call_time: "4 Tháng M. hai, 2017, 21:08"
+            },
+            {
+                id: 17313,
+                student: {
+                    id: 8405,
+                    name: "Lê Văn Duy",
+                    email: "leduy22995@gmail.com",
+                    phone: "0969576695"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "trc 8/12 ck",
+                call_time: "4 Tháng M. hai, 2017, 20:52"
+            },
+            {
+                id: 17312,
+                student: {
+                    id: 8405,
+                    name: "Lê Văn Duy",
+                    email: "leduy22995@gmail.com",
+                    phone: "0969576695"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 20:49"
+            },
+            {
+                id: 17311,
+                student: {
+                    id: 8302,
+                    name: "Phạm Ngọc Chinh",
+                    email: "chinhngoc21@gmail.com",
+                    phone: "01683885992"
+                },
+                call_status: "success",
+                caller: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 16:14"
+            },
+            {
+                id: 17310,
+                student: {
+                    id: 8305,
+                    name: "Nguyễn Thạch Thảo",
+                    email: "sailorneoqueenmoon@gmail.com",
+                    phone: "01683986087"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 16:13"
+            },
+            {
+                id: 17309,
+                student: {
+                    id: 7433,
+                    name: "Trần Hương Giang",
+                    email: "tranhuonggiangkn@gmail.com",
+                    phone: "0168.330.3689"
+                },
+                call_status: "success",
+                caller: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "e81284"
+                },
+                note: "học viên cũ, 800k",
+                call_time: "4 Tháng M. hai, 2017, 15:57"
+            },
+            {
+                id: 17308,
+                student: {
+                    id: 8399,
+                    name: "Nguyễn Khắc Hiếu",
+                    email: "khachieu258@gmail.com",
+                    phone: "01257389555"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Nhóm 3 900, trc 8/12 đóng",
+                call_time: "4 Tháng M. hai, 2017, 14:51"
+            },
+            {
+                id: 17307,
+                student: {
+                    id: 8398,
+                    name: "Nguyễn Thanh Tùng",
+                    email: "th.tung.panda@gmail.com",
+                    phone: "0934579696"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Nhóm 3 900",
+                call_time: "4 Tháng M. hai, 2017, 14:51"
+            },
+            {
+                id: 17306,
+                student: {
+                    id: 8341,
+                    name: "Trịnh Nguyên Thảo",
+                    email: "nguyenthao22900@gmail.com",
+                    phone: "0978025166"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Trc 8/12 ck",
+                call_time: "4 Tháng M. hai, 2017, 14:34"
+            },
+            {
+                id: 17305,
+                student: {
+                    id: 8393,
+                    name: "Nguyễn Ngọc Diệp Yến",
+                    email: "diepyenng@gmail.com",
+                    phone: "0989363951"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Trc 8/12 qua vp",
+                call_time: "4 Tháng M. hai, 2017, 14:33"
+            },
+            {
+                id: 17304,
+                student: {
+                    id: 8393,
+                    name: "Nguyễn Ngọc Diệp Yến",
+                    email: "diepyenng@gmail.com",
+                    phone: "0989363951"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 14:29"
+            },
+            {
+                id: 17303,
+                student: {
+                    id: 8393,
+                    name: "Nguyễn Ngọc Diệp Yến",
+                    email: "diepyenng@gmail.com",
+                    phone: "0989363951"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 14:28"
+            },
+            {
+                id: 17302,
+                student: {
+                    id: 2802,
+                    name: "Ngô Minh",
+                    email: "minh.greencity@gmail.com",
+                    phone: "0962183335"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Nhầm máy?? Email",
+                call_time: "4 Tháng M. hai, 2017, 14:26"
+            },
+            {
+                id: 17301,
+                student: {
+                    id: 8394,
+                    name: "Lê Đặng Hoàng Tùng",
+                    email: "ledanghoangtung@gmail.com",
+                    phone: "01638595779"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Nhóm 3, 900k, trc 8/12 qua vp",
+                call_time: "4 Tháng M. hai, 2017, 14:23"
+            },
+            {
+                id: 17300,
+                student: {
+                    id: 5972,
+                    name: "Nguyễn Thị Hồng Hà",
+                    email: "1234glx@gmail.com",
+                    phone: "0868959480"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 13:57"
+            },
+            {
+                id: 17299,
+                student: {
+                    id: 7557,
+                    name: "Phạm Lê Ngọc Linh",
+                    email: "ngoclinhrobust26@gmail.com",
+                    phone: "01632361999"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "Mess",
+                call_time: "4 Tháng M. hai, 2017, 13:53"
+            },
+            {
+                id: 17298,
+                student: {
+                    id: 6992,
+                    name: "Đào Diễm Quỳnh",
+                    email: "nghoanganh0612@gmail.com",
+                    phone: "0985853689"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "Mess",
+                call_time: "4 Tháng M. hai, 2017, 13:50"
+            },
+            {
+                id: 17297,
+                student: {
+                    id: 7115,
+                    name: "Trần Hoàng Nam",
+                    email: "namtran0798@gmail.com",
+                    phone: "01666881998"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 13:49"
+            },
+            {
+                id: 17296,
+                student: {
+                    id: 7114,
+                    name: "Nguyễn Trọng Quang Huy",
+                    email: "quanghuy1998hn@gmail.com",
+                    phone: "01636723377"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 13:48"
+            },
+            {
+                id: 17295,
+                student: {
+                    id: 730,
+                    name: "Nguyễn Tuấn Hải",
+                    email: "lightningyb@gmail.com",
+                    phone: "0968085907"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "Đã mess",
+                call_time: "4 Tháng M. hai, 2017, 13:47"
+            },
+            {
+                id: 17294,
+                student: {
+                    id: 7709,
+                    name: "Phạm Hoàng Minh",
+                    email: "phamhoangminh82@gmail.com",
+                    phone: "0961.279.630"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 11:14"
+            },
+            {
+                id: 17293,
+                student: {
+                    id: 8185,
+                    name: "vũ nga",
+                    email: "ngabeo2002csp@gmail.com",
+                    phone: "01292576369"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                },
+                note: "vẫn k ck, đã remind",
+                call_time: "4 Tháng M. hai, 2017, 11:13"
+            },
+            {
+                id: 17292,
+                student: {
+                    id: 8185,
+                    name: "vũ nga",
+                    email: "ngabeo2002csp@gmail.com",
+                    phone: "01292576369"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                },
+                note: "",
+                call_time: "4 Tháng M. hai, 2017, 11:13"
+            },
+            {
+                id: 17291,
+                student: {
+                    id: 7888,
+                    name: "Hà Thị Thuỳ Linh",
+                    email: "Halinh.12061998@gmail.com",
+                    phone: "01643534549"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                },
+                note: "k nghe máy, đã ntin",
+                call_time: "4 Tháng M. hai, 2017, 11:12"
+            }
+        ],
+    }
+}
+

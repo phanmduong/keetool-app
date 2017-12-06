@@ -141,13 +141,6 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
-		187D7CEE1FCDBE5B006602AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A55C44AA8374430B791A25D /* RCTCamera.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
-			remoteInfo = RCTCamera;
-		};
 		18F3DD781FCDA4E600DF7C57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 71CB32E21B68405D84612A64 /* AirMaps.xcodeproj */;
@@ -358,6 +351,13 @@
 			remoteGlobalIDString = 00E356EE1AD99517003FC87E;
 			remoteInfo = rnpc_demoTests;
 		};
+		A766E12E1FD7BA5200172C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53A37AD042E14ABAB250AA15 /* RCTCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RCTCamera;
+		};
 		A76AC82D1FC8DA85007D09CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CACFC6363D71475B8C1930AF /* BVLinearGradient.xcodeproj */;
@@ -445,6 +445,7 @@
 		3534389ECD9F4EEE8D55EC78 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		44EDD6A9720A40CEBCB50600 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		44F4BAA46C5444B99FA96296 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		53A37AD042E14ABAB250AA15 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
 		56385D766C1B426CA9CA20A5 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		63A696FBFECE4E588A909E31 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
@@ -459,7 +460,6 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		92520E48C78647FF878E0402 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		99C96BC01A734472A3C1D47F /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
-		9A55C44AA8374430B791A25D /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
 		9AA67C3A55A9445E92304DB7 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		A1BC7AFD7C8F414AB3170BF5 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		A367686A657040D9A650746F /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -697,14 +697,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		187D7CE31FCDBE5B006602AE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				187D7CEF1FCDBE5B006602AE /* libRCTCamera.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		18F3DD731FCDA4E600DF7C57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -760,7 +752,7 @@
 				E8FCA3ECC3214EFAAC381288 /* rnpc_demo.xcodeproj */,
 				D8728E4E4D7941D39087F281 /* RNGeocoder.xcodeproj */,
 				71CB32E21B68405D84612A64 /* AirMaps.xcodeproj */,
-				9A55C44AA8374430B791A25D /* RCTCamera.xcodeproj */,
+				53A37AD042E14ABAB250AA15 /* RCTCamera.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -813,6 +805,14 @@
 			children = (
 				A74D256F1FCBCC4700055EB9 /* rnpc_demo.app */,
 				A74D25711FCBCC4700055EB9 /* rnpc_demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A766E1231FD7BA5100172C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A766E12F1FD7BA5200172C71 /* libRCTCamera.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -975,8 +975,8 @@
 					ProjectRef = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
 				},
 				{
-					ProductGroup = 187D7CE31FCDBE5B006602AE /* Products */;
-					ProjectRef = 9A55C44AA8374430B791A25D /* RCTCamera.xcodeproj */;
+					ProductGroup = A766E1231FD7BA5100172C71 /* Products */;
+					ProjectRef = 53A37AD042E14ABAB250AA15 /* RCTCamera.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -1096,13 +1096,6 @@
 			fileType = archive.ar;
 			path = libReact.a;
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		187D7CEF1FCDBE5B006602AE /* libRCTCamera.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTCamera.a;
-			remoteRef = 187D7CEE1FCDBE5B006602AE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		18F3DD791FCDA4E600DF7C57 /* libAirMaps.a */ = {
@@ -1306,6 +1299,13 @@
 			fileType = wrapper.cfbundle;
 			path = rnpc_demoTests.xctest;
 			remoteRef = A74D25701FCBCC4700055EB9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A766E12F1FD7BA5200172C71 /* libRCTCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTCamera.a;
+			remoteRef = A766E12E1FD7BA5200172C71 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		A76AC82E1FC8DA85007D09CB /* libBVLinearGradient.a */ = {
@@ -1537,6 +1537,7 @@
 					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 				);
 				INFOPLIST_FILE = keetoolTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1570,6 +1571,7 @@
 					"$(SRCROOT)/../node_modules/react-native-percentage-circle/rnpc_demo/ios/rnpc_demo",
 					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 				);
 				INFOPLIST_FILE = keetoolTests/Info.plist;
@@ -1606,6 +1608,7 @@
 					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 				);
 				INFOPLIST_FILE = keetool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1633,6 +1636,7 @@
 					"$(SRCROOT)/../node_modules/react-native-percentage-circle/rnpc_demo/ios/rnpc_demo",
 					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 				);
 				INFOPLIST_FILE = keetool/Info.plist;
@@ -1668,6 +1672,7 @@
 					"$(SRCROOT)/../node_modules/react-native-percentage-circle/rnpc_demo/ios/rnpc_demo",
 					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 				);
 				INFOPLIST_FILE = "keetool-tvOS/Info.plist";
@@ -1711,6 +1716,7 @@
 					"$(SRCROOT)/../node_modules/react-native-percentage-circle/rnpc_demo/ios/rnpc_demo",
 					"$(SRCROOT)/../node_modules/react-native-geocoder/ios/RNGeocoder",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
 				);
 				INFOPLIST_FILE = "keetool-tvOS/Info.plist";
