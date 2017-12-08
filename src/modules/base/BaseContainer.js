@@ -8,6 +8,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import {connect} from 'react-redux'
+import {Col, Row, Grid} from "react-native-easy-grid";
 
 class BaseContainer extends Component {
     constructor() {
@@ -22,12 +23,41 @@ class BaseContainer extends Component {
     }
 
     ShowTab() {
-        const {general, colors} = this.props;
+        const {general, colors, bases} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
                     <Content style={{flex: 1, padding: 20}}>
-
+                        <View>
+                            <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
+                                <Col size={20}>
+                                    <Text style={general.textTitleCard}>Name</Text>
+                                </Col>
+                                <Col size={60}>
+                                    <Text style={general.textTitleCard}>Address</Text>
+                                </Col>
+                                <Col size={20} style={general.marginLeft}>
+                                    <Text style={general.textTitleCard}>Create Time</Text>
+                                </Col>
+                            </Grid>
+                        </View>
+                        {
+                            bases.map((item) =>
+                                <Grid
+                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                    <Col size={20}>
+                                        <Text style={general.textDescriptionCard}>{item.name}</Text>
+                                    </Col>
+                                    <Col size={60}>
+                                        <Text style={general.textDescriptionCard}>{item.address}</Text>
+                                    </Col>
+                                    <Col size={20} style={general.marginLeft}>
+                                        <Text style={general.textDescriptionCard}>{item.created_at}</Text>
+                                    </Col>
+                                </Grid>
+                            )
+                        }
+                        <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
 
@@ -83,7 +113,8 @@ class BaseContainer extends Component {
 function mapStateToProps(state) {
     return {
         general: state.theme.general,
-        colors: state.theme.colors
+        colors: state.theme.colors,
+        bases: state.home.bases
     }
 }
 

@@ -33,7 +33,8 @@ export default {
         classes: [],
         classInfo:{},
         call_history: [],
-
+        bases: [],
+        moneyCollect: []
     }
 
 }

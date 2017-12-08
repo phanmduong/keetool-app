@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Linking, Platform, StyleSheet, TouchableOpacity, View, StatusBar} from 'react-native';
 import QRCodeScanner from 'react-native-qrcode-scanner';
-import part from '../../styles/partStyle';
 import {Container, Content, Item, Left, Right, Spinner, Text} from 'native-base';
 import {connect} from 'react-redux';
 import HamburgerButton from '../../commons/HamburgerButton';

@@ -80,6 +80,20 @@ export default function homeAction(state = initialState.data, action) {
                     call_history: action.call_history
                 }
             };
+        case types.GET_DATA_BASE:
+            return {
+                ...state,
+                ...{
+                    bases: action.bases
+                }
+            };
+        case types.GET_DATA_MONEY_COLLECT:
+            return {
+                ...state,
+                ...{
+                    moneyCollect: action.moneyCollect
+                }
+            };
         default:
             return state
     }

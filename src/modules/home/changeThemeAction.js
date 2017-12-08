@@ -1,5 +1,5 @@
 import * as types from '../../constants/actionTypes'
-import {StyleSheet} from 'react-native';
+import {StyleSheet, Platform} from 'react-native';
 import * as colorLight from '../../styles/colorLight';
 import * as colorDark from '../../styles/colorDark';
 import {hei, wid} from '../../styles/size';
@@ -18,7 +18,7 @@ export function changeThemeLight(){
             },
             wrapperHeader: {
                 height: 100,
-                paddingTop: 20,
+                paddingTop: Platform.OS === 'ios' ? 20 : 0,
                 flexDirection: 'row',
                 alignItems: 'center',
             },
@@ -363,8 +363,8 @@ export function changeThemeLight(){
                 borderRadius: 15,
             },
             imageSquareSmall: {
-                height: wid / 4 + 5,
-                width: wid / 4 + 5,
+                height: (wid - 60) / 3,
+                width: (wid - 60) / 3,
                 borderRadius: 15,
             },
             imageRectangleSmall: {
@@ -623,7 +623,7 @@ export function changeThemeDark(){
             },
             wrapperHeader: {
                 height: 100,
-                paddingTop: 20,
+                paddingTop: Platform.OS === 'ios' ? 20 : 0,
                 flexDirection: 'row',
                 alignItems: 'center',
             },
@@ -968,8 +968,8 @@ export function changeThemeDark(){
                 borderRadius: 15,
             },
             imageSquareSmall: {
-                height: wid / 4 + 5,
-                width: wid / 4 + 5,
+                height: (wid - 60) / 3,
+                width: (wid - 60) / 3,
                 borderRadius: 15,
             },
             imageRectangleSmall: {

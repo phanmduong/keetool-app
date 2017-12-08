@@ -9,7 +9,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import * as size from '../../styles/size';
 import {connect} from 'react-redux'
-
+import general from '../../styles/generalStyle';
 
 class HomeContainer extends Component {
     constructor() {
@@ -143,7 +143,7 @@ class HomeContainer extends Component {
 
                         </Content>
                         <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
-                            Gird
+                            Grid
                         </Text>
                         <View style={[{marginBottom: 20}, general.paddingLR]}>
                             <FlatList
@@ -163,6 +163,7 @@ class HomeContainer extends Component {
                                 }
                             />
                         </View>
+                        <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
             case 1:

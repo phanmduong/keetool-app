@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-    View, Text, TouchableOpacity, StatusBar, Switch
+    View, Text, TouchableOpacity, StatusBar, Switch, Platform
 } from 'react-native';
 import {
     Container, Content
@@ -36,6 +36,8 @@ class DrawerContainer extends Component {
         this.props.homeAction.getDataClasses();
         this.props.homeAction.getDataClass();
         this.props.homeAction.getDataCallHistory();
+        this.props.homeAction.getDataBase();
+        this.props.homeAction.getDataMoneyCollect();
     }
 
     changeTheme() {
@@ -49,13 +51,15 @@ class DrawerContainer extends Component {
 
     render() {
         const {navigate} = this.props.navigation;
+        const {general, colors} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
                     barStyle={this.props.theme ? "dark-content" : "light-content"}
+                    backgroundColor={this.props.theme ? "#FFFFFF" : "#7D9CEF"}
                 />
                 <LinearGradient
-                    colors={colors.colors}
+                    colors={colors}
                     style={general.linearGradientInDrawer}>
                     <View style={[general.wrapperLogoInDrawer]}>
                         <Text style={[general.textTitleHeader]}>
@@ -71,7 +75,7 @@ class DrawerContainer extends Component {
                         <Switch
                             value={this.state.setThemeDark}
                             onValueChange={() => this.changeTheme()}
-                            onTintColor={'#C86AD9'}
+                            onTintColor={Platform.OS === 'ios'  ? '#C86AD9' : undefined}
                         />
                     </TouchableOpacity>
                     <TouchableOpacity
@@ -370,6 +374,9 @@ class DrawerContainer extends Component {
 function mapStateToProps(state) {
     return {
         theme: state.theme.theme,
+        general: state.theme.general,
+        colors: state.theme.colors,
+
     }
 }
 

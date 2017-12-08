@@ -209,7 +209,7 @@ class BookStoreContainer extends Component {
                                         <Image
                                             resizeMode={'cover'}
                                             source={{uri: item.url}}
-                                            style={general.imageRectangle}
+                                             style={general.imageRectangle}
                                         />
                                         <Text style={[general.textTitleBig, general.marginTop]}>{feature.title}</Text>
                                         <Text style={general.textDescriptionCard}>{feature.description}</Text>
