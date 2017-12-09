@@ -89,6 +89,7 @@ class MapContainer extends Component {
     render() {
         const {navigate} = this.props.navigation;
         const {general, colors} = this.props;
+        console.log(this.state.Address);
         return (
             <Container style={general.wrapperContainer}>
                 <LinearGradient
