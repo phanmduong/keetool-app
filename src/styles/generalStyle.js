@@ -1,6 +1,4 @@
-import {StyleSheet} from 'react-native';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
+import {StyleSheet, Platform} from 'react-native';
 import * as colorDark from './colorDark';
 import * as colorLight from './colorLight';
 import * as size from './size';
@@ -24,7 +22,7 @@ export const style = {
     },
     wrapperHeader: {
         height: 100,
-        paddingTop: 20,
+        paddingTop: Platform.OS === 'ios' ? 20 : 0,
         flexDirection: 'row',
         alignItems: 'center',
     },
@@ -369,8 +367,8 @@ export const style = {
         borderRadius: 15,
     },
     imageSquareSmall: {
-        height: wid / 4 + 5,
-        width: wid / 4 + 5,
+        height: (wid - 60) / 3,
+        width: (wid - 60) / 3,
         borderRadius: 15,
     },
     imageRectangleSmall: {

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-    Text, TouchableOpacity, View, FlatList, Image, PanResponder, Modal, Switch, RefreshControl,
+    Text, TouchableOpacity, View, FlatList, Image, PanResponder, Modal, Switch, Platform,
 } from 'react-native';
 import {
     Container, Item, Left, Right, Spinner, Content
@@ -323,14 +323,14 @@ class TeachContainer extends Component {
                                                     <Text style={general.textDescriptionCardLight}>
                                                         Campaign: <Text
                                                         style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${this.state.register.campaign.color}`}]}>{this.state.register.campaign.name}</Text></Text>
-                                                    :
+                                 ,                   :
                                                     <Text/>
                                             }
                                         </View>
                                     </View>
                                     <TouchableOpacity
                                         style={[general.bottomModal, general.wrapperRowCenter]}
-                                        onPress = {() => {Communications.text(this.state.register.phone, 'Hi')}}
+                                        onPress = {()=>{Communications.phonecall(this.state.register.phone, true)}}
                                     >
                                         <Icon
                                             name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
@@ -489,7 +489,7 @@ class TeachContainer extends Component {
                                         value={item.status == 0 ? false : true}
                                         onValueChange={() => {
                                         }}
-                                        onTintColor={'#C86AD9'}
+                                        onTintColor={Platform.OS === 'ios'  ? '#C86AD9' : undefined}
                                     />
                                 </TouchableOpacity>
                             )

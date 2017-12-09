@@ -63,9 +63,6 @@ import Video from 'react-native-video';
     }
 
     nextSong(){
-        this.setState({
-            data: []
-        })
         if(this.state.index < 2) {
             this.setState({
                 index: this.state.index + 1,

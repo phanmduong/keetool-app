@@ -4818,3 +4818,1043 @@ export function getDataCallHistory() {
     }
 }
 
+export function getDataBase() {
+    return {
+        type: types.GET_DATA_BASE,
+        bases: [
+            {
+                id: 3,
+                name: "Cơ sở 1",
+                address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
+                created_at: "03/04/2016 20:39:06",
+                updated_at: "25/09/2017 14:56:31",
+                center: 1
+            },
+            {
+                id: 4,
+                name: "Cơ sở 2",
+                address: "Số 162 phố Phương Liệt ( số 83 Trường Chinh rẽ vào) - Thanh Xuân - Hà Nội",
+                created_at: "03/04/2016 20:39:39",
+                updated_at: "25/09/2017 14:54:33",
+                center: 0
+            },
+            {
+                id: 6,
+                name: "Cơ sở 3",
+                address: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM",
+                created_at: "11/03/2017 15:47:12",
+                updated_at: "09/11/2017 14:09:55",
+                center: 1
+            },
+            {
+                id: 8,
+                name: "Cơ sở 4",
+                address: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội",
+                created_at: "25/09/2017 10:10:17",
+                updated_at: "25/09/2017 14:57:12",
+                center: 0
+            }
+        ],
+
+    }
+}
+export function getDataMoneyCollect() {
+    return {
+        type: types.GET_DATA_MONEY_COLLECT,
+        moneyCollect: [
+            {
+                id: 37,
+                name: "Nguyễn Đức Hải",
+                avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1461512936HV2H3XuJ9XshHo6.jpg",
+                phone: "0903412544",
+                email: "haind53.hrc@gmail.com",
+                registers: [
+                    {
+                        id: 575,
+                        course: "Photoshop",
+                        class_name: "PS 10.5",
+                        class_type: "",
+                        register_time: "26/03/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 743,
+                        course: "Illustrator",
+                        class_name: "AI 10.4",
+                        class_type: "",
+                        register_time: "31/03/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 744,
+                        course: "After Effects",
+                        class_name: "AE 10.3",
+                        class_type: "",
+                        register_time: "31/03/2016",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 38,
+                name: "Trịnh Thanh Hà",
+                avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/146229259379k739AO8l3Ssyt.jpg",
+                phone: "01666575729",
+                email: "trinhthanhha1105@gmail.com",
+                registers: [
+                    {
+                        id: 735,
+                        course: "Photoshop",
+                        class_name: "PS 10.6",
+                        class_type: "",
+                        register_time: "30/03/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 736,
+                        course: "Photoshop",
+                        class_name: "PS 10.4",
+                        class_type: "",
+                        register_time: "30/03/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 2,
+                name: "Nguyễn Việt Hùng",
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                phone: "01684026343",
+                email: "thanghungkhi@gmail.com",
+                registers: [
+                    {
+                        id: 328,
+                        course: "Photoshop",
+                        class_name: "PS 9.4",
+                        class_type: "",
+                        register_time: "28/02/2016",
+                        code: "CM26573",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/06/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 336,
+                        course: "Photoshop",
+                        class_name: "PS 9.4",
+                        class_type: "",
+                        register_time: "29/02/2016",
+                        code: "CM29143",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "11/09/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 7419,
+                        course: "Photoshop",
+                        class_name: "PS 23.11 (Sài Gòn)",
+                        class_type: "",
+                        register_time: "29/03/2017",
+                        code: "CM21999",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 1,
+                        note: "Test",
+                        paid_time: "29/03/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 17028,
+                        course: "Photoshop",
+                        class_name: "PS - Danh Sách Chờ (Cơ sở 2)",
+                        class_type: "",
+                        register_time: "04/11/2017",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 1,
+                name: "Cao Anh Quan",
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                phone: "0978086530",
+                email: "aquancva@gmail.com",
+                registers: [
+                    {
+                        id: 77,
+                        course: "Photoshop",
+                        class_name: "PS 9.5",
+                        class_type: "",
+                        register_time: "16/02/2016",
+                        code: "CM01000",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 1,
+                        received_id_card: 1,
+                        note: "test",
+                        paid_time: "18/09/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 1433,
+                        course: "Illustrator",
+                        class_name: "AI 12.2",
+                        class_type: "",
+                        register_time: "01/06/2016",
+                        code: "CM000001",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 10000,
+                        received_id_card: 0,
+                        note: "test",
+                        paid_time: "04/09/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 1434,
+                        course: "After Effects",
+                        class_name: "AE 12.3",
+                        class_type: "",
+                        register_time: "01/06/2016",
+                        code: "CM00002",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 2000,
+                        received_id_card: 0,
+                        note: "tét sms nhé",
+                        paid_time: "04/09/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 2225,
+                        course: "After Effects",
+                        class_name: "AE 14.2",
+                        class_type: "",
+                        register_time: "11/07/2016",
+                        code: "CM01002",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 1,
+                        received_id_card: 0,
+                        note: "hihi",
+                        paid_time: "18/09/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 3584,
+                        course: "After Effects",
+                        class_name: "test",
+                        class_type: "",
+                        register_time: "25/09/2016",
+                        code: "CCM0077",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "123",
+                        paid_time: "04/12/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 3594,
+                        course: "After Effects",
+                        class_name: "AE 16.1",
+                        class_type: "",
+                        register_time: "26/09/2016",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "test",
+                        paid_time: "29/03/2017",
+                        is_paid: 0
+                    },
+                    {
+                        id: 4414,
+                        course: "Photoshop",
+                        class_name: "PS 18.7",
+                        class_type: "",
+                        register_time: "15/11/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "test",
+                        paid_time: "27/11/2016",
+                        is_paid: 0
+                    },
+                    {
+                        id: 11642,
+                        course: "After Effects",
+                        class_name: "AE - Danh Sách Chờ (Cơ sở 1)",
+                        class_type: "",
+                        register_time: "13/07/2017",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "chưa đưa thẻ, gá người quen: 750",
+                        paid_time: "04/08/2017",
+                        is_paid: 0
+                    },
+                    {
+                        id: 11948,
+                        course: "InDesign",
+                        class_name: "ID - Khoá Sau (Danh Sách Chờ)",
+                        class_type: "",
+                        register_time: "17/07/2017",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "ck",
+                        paid_time: "18/08/2017",
+                        is_paid: 0
+                    },
+                    {
+                        id: 18480,
+                        course: "After Effects",
+                        class_name: "AE - Danh Sách Chờ (Cơ sở 1)",
+                        class_type: "waiting",
+                        register_time: "02/12/2017",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 82,
+                name: "Nguyễn Hải Anh",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "01699181850",
+                email: "haianhnguyen224bmf@gmail.com",
+                registers: [
+                    {
+                        id: 71,
+                        course: "Photoshop",
+                        class_name: "PS 9.5",
+                        class_type: "",
+                        register_time: "16/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 88,
+                name: "Nguyễn Quốc đạt",
+                avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1459071689bbrg4J6eb2KRwaZ.jpg",
+                phone: "0962172776",
+                email: "dacvu18196@gmail.com",
+                registers: [
+                    {
+                        id: 78,
+                        course: "Illustrator",
+                        class_name: "AI 9.3",
+                        class_type: "",
+                        register_time: "16/02/2016",
+                        code: "CM09018",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 650000,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "17/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 85,
+                        course: "Illustrator",
+                        class_name: "AI 9.3",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 92,
+                name: "Nguyễn Quốc Sơn Lâm",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "0962 286 669 - 01255 187 568",
+                email: "sonlam2606@gmail.com",
+                registers: [
+                    {
+                        id: 82,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "16/02/2016",
+                        code: "CM09017",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 600000,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "17/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 89,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 97,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 96,
+                name: "Hà Thị Minh Hương",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "0983038625",
+                email: "haminhhuong7284@yahoo.com",
+                registers: [
+                    {
+                        id: 86,
+                        course: "Photoshop",
+                        class_name: "PS 9.1",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 98,
+                name: "Hà Thị Minh Hương",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "0983038625",
+                email: "huonghaminh7284@gmail.com",
+                registers: [
+                    {
+                        id: 88,
+                        course: "Photoshop",
+                        class_name: "PS 9.1",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 99,
+                name: "Vũ Thanh Thu ",
+                avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1457697272FgdosOgmJ8ZQTiF.jpg",
+                phone: "0936037765",
+                email: "vuthanhthu18091996@gmail.com",
+                registers: [
+                    {
+                        id: 90,
+                        course: "Photoshop",
+                        class_name: "PS 9.5",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "CM09040",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "học lại",
+                        paid_time: "18/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 92,
+                        course: "Illustrator",
+                        class_name: "AI 9.3",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "CM09041",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "học lại",
+                        paid_time: "18/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 94,
+                        course: "After Effects",
+                        class_name: "AE 9.2",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "CM09042",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 800000,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "18/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 95,
+                        course: "After Effects",
+                        class_name: "AE 9.2",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 103,
+                name: "Vũ Hằng Hà",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "0989985845",
+                email: "vuhanggha@gmail.com",
+                registers: [
+                    {
+                        id: 100,
+                        course: "After Effects",
+                        class_name: "AE 9.1",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "CM09057",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 800000,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "18/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 4324,
+                        course: "Photoshop",
+                        class_name: "PS 17.5",
+                        class_type: "",
+                        register_time: "04/11/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 125,
+                name: "Vũ Thị An Khanh",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "0904579538",
+                email: "ankhanhvu.1994@gmail.com",
+                registers: [
+                    {
+                        id: 121,
+                        course: "After Effects",
+                        class_name: "AE 9.1",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 133,
+                name: "Đặng Mai Hương",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "01246778789",
+                email: "thitgahamtonghop@gmail.com",
+                registers: [
+                    {
+                        id: 136,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 139,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 141,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 134,
+                name: "Lê Xuân Huy",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "01667187383",
+                email: "skydevil1102@gmail.com",
+                registers: [
+                    {
+                        id: 137,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "CM09102",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 600000,
+                        received_id_card: 0,
+                        note: "CK",
+                        paid_time: "19/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 138,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 138,
+                name: "Hà Kem",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "0963984995",
+                email: "hadaothu318@gmail.com",
+                registers: [
+                    {
+                        id: 144,
+                        course: "Photoshop",
+                        class_name: "PS 9.4",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "CM09178",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 500000,
+                        received_id_card: 0,
+                        note: "học bổng 50%",
+                        paid_time: "26/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 7306,
+                        course: "Premiere",
+                        class_name: "PR Dành riêng cho doanh nghiệp",
+                        class_type: "",
+                        register_time: "23/03/2017",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 146,
+                name: "Nguyễn Thị Vân Anh",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "01665599473",
+                email: "VanAnhNT95@gmail.com",
+                registers: [
+                    {
+                        id: 152,
+                        course: "After Effects",
+                        class_name: "AE 9.1",
+                        class_type: "",
+                        register_time: "17/02/2016",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 329,
+                        course: "After Effects",
+                        class_name: "AE 9.3",
+                        class_type: "",
+                        register_time: "28/02/2016",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 154,
+                name: "Vũ Minh Khánh",
+                avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1457583798LSNgA2WS9Ie67vP.jpg",
+                phone: "0969759697",
+                email: "minhkhanhsinhnam1997@gmail.com",
+                registers: [
+                    {
+                        id: 160,
+                        course: "Photoshop",
+                        class_name: "PS 9.1",
+                        class_type: "",
+                        register_time: "18/02/2016",
+                        code: "CM09063",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 750000,
+                        received_id_card: 0,
+                        note: "Repost",
+                        paid_time: "18/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 161,
+                        course: "Photoshop",
+                        class_name: "PS 9.1",
+                        class_type: "",
+                        register_time: "18/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 171,
+                name: "Đặng Cẩm Mai",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "0978725910",
+                email: "junedangw@gmail.com",
+                registers: [
+                    {
+                        id: 180,
+                        course: "Illustrator",
+                        class_name: "AI 9.3",
+                        class_type: "",
+                        register_time: "18/02/2016",
+                        code: "CM09070",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 600000,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "18/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 181,
+                        course: "Photoshop",
+                        class_name: "PS 9.2",
+                        class_type: "",
+                        register_time: "18/02/2016",
+                        code: "CM09071",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "Học Lại",
+                        paid_time: "18/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 2362,
+                        course: "Illustrator",
+                        class_name: "AI 14.2",
+                        class_type: "",
+                        register_time: "18/07/2016",
+                        code: "CM14193",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "Ai 9.3 học lại",
+                        paid_time: "18/07/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 2363,
+                        course: "Photoshop",
+                        class_name: "PS 14.2",
+                        class_type: "",
+                        register_time: "18/07/2016",
+                        code: "CM14194",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "Ps 9.2 học lại",
+                        paid_time: "18/07/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 3038,
+                        course: "Photoshop",
+                        class_name: "PS 15.6",
+                        class_type: "",
+                        register_time: "23/08/2016",
+                        code: "CM15245",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "PS 14.2 bảo lưu",
+                        paid_time: "23/08/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 6943,
+                        course: "Photoshop",
+                        class_name: "PS 23.2",
+                        class_type: "",
+                        register_time: "15/03/2017",
+                        code: "CM22017",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "học lại",
+                        paid_time: "16/03/2017",
+                        is_paid: 1
+                    },
+                    {
+                        id: 13023,
+                        course: "Photoshop",
+                        class_name: "PS - Danh Sách Chờ (Cơ sở 1)",
+                        class_type: "",
+                        register_time: "14/08/2017",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            },
+            {
+                id: 182,
+                name: "Nguyễn Thu Oanh",
+                avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1459940355DDfoHjMbCE4XAfd.jpg",
+                phone: "0166 6263 151",
+                email: "oanhnto1601@gmail.com",
+                registers: [
+                    {
+                        id: 194,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "19/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 213,
+                        course: "Illustrator",
+                        class_name: "AI 9.4",
+                        class_type: "",
+                        register_time: "21/02/2016",
+                        code: "CM09106",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 700000,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "21/02/2016",
+                        is_paid: 1
+                    }
+                ]
+            },
+            {
+                id: 184,
+                name: "Nghiêm Hồng Anh",
+                avatar_url: "http://manageapi.colorme.vn/img/user.png",
+                phone: "0934.650.218",
+                email: "nghiemhonganh182@gmail.com",
+                registers: [
+                    {
+                        id: 196,
+                        course: "Illustrator",
+                        class_name: "AI 9.4",
+                        class_type: "",
+                        register_time: "19/02/2016",
+                        code: "",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 216,
+                        course: "Illustrator",
+                        class_name: "AI 9.5",
+                        class_type: "",
+                        register_time: "21/02/2016",
+                        code: "CM09169",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        money: 750000,
+                        received_id_card: 0,
+                        note: "Share event",
+                        paid_time: "25/02/2016",
+                        is_paid: 1
+                    },
+                    {
+                        id: 17561,
+                        course: "Photography",
+                        class_name: "PT 30.4",
+                        class_type: "",
+                        register_time: "14/11/2017",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    },
+                    {
+                        id: 17842,
+                        course: "Photography",
+                        class_name: "PT - Khoá Sau (Danh Sách Chờ)",
+                        class_type: "waiting",
+                        register_time: "19/11/2017",
+                        code: "",
+                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
+                        money: 0,
+                        received_id_card: 0,
+                        note: "",
+                        paid_time: "30/11/-0001",
+                        is_paid: 0
+                    }
+                ]
+            }
+        ],
+
+    }
+}
