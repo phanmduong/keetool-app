@@ -323,7 +323,7 @@ class TeachContainer extends Component {
                                                     <Text style={general.textDescriptionCardLight}>
                                                         Campaign: <Text
                                                         style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${this.state.register.campaign.color}`}]}>{this.state.register.campaign.name}</Text></Text>
-                                 ,                   :
+                                                    :
                                                     <Text/>
                                             }
                                         </View>

@@ -11,7 +11,7 @@ import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
 import {connect} from 'react-redux'
 import Video from 'react-native-video';
-
+import MusicControl from 'react-native-music-control';
  class MusicPlayContainer extends Component {
     constructor() {
         super();
@@ -24,7 +24,7 @@ import Video from 'react-native-video';
             minuteDuration: 0,
             secondDuration: 0,
             temp: 0,
-            paused: false,
+            paused: true,
             index: 0,
             data: [
                 {
@@ -52,15 +52,50 @@ import Video from 'react-native-video';
         this.onProgress = this.onProgress.bind(this);
         this.onEnd = this.onEnd.bind(this);
         this.progressPress = this.progressPress.bind(this);
+        this.pauseTheSong = this.pauseTheSong.bind(this);
+        this.playTheSong = this.playTheSong.bind(this);
     }
 
-    toggleMusic() {
-        if (this.state.paused === true) {
-            this.setState({paused: false});
-        } else {
-            this.setState({paused: true});
-        }
-    }
+     playTheSong(index) {
+         this.setState({paused: false});
+         MusicControl.updatePlayback({
+             state: MusicControl.STATE_PLAYING
+         });
+         MusicControl.setNowPlaying({
+             title: this.state.data[index].name,
+             artwork: this.state.data[index].image_url, // URL or RN's image require()
+             artist: 'Michael Jackson',
+             album: 'Thriller',
+             genre: 'Post-disco, Rhythm and Blues, Funk, Dance-pop',
+             duration: this.state.duration, // (Seconds)
+             description: '', // Android Only
+             color: 0xFFFFFF, // Notification Color - Android Only
+             date: '1983-01-02T00:00:00Z', // Release Date (RFC 3339) - Android Only
+             rating: 84, // Android Only (Boolean or Number depending on the type)
+             notificationIcon: 'my_custom_icon' // Android Only (String), Android Drawable resource name for a custom notification icon
+         })
+         MusicControl.enableControl('play', true)
+         MusicControl.enableControl('pause', true)
+         MusicControl.enableControl('seekForward', true);
+         MusicControl.enableControl('seekBackward', true);
+         MusicControl.enableControl('nextTrack', true)
+         MusicControl.enableControl('previousTrack', true);
+         MusicControl.enableBackgroundMode(true);
+
+     }
+     pauseTheSong() {
+         this.setState({paused: true});
+         MusicControl.updatePlayback({
+             state: MusicControl.STATE_PAUSED
+         });
+         MusicControl.enableControl('play', true)
+         MusicControl.enableControl('pause', true)
+         MusicControl.enableControl('seekForward', true);
+         MusicControl.enableControl('seekBackward', true);
+         MusicControl.enableControl('nextTrack', true)
+         MusicControl.enableControl('previousTrack', true);
+         MusicControl.enableBackgroundMode(true);
+     }
 
     nextSong(){
         if(this.state.index < 2) {
@@ -134,7 +169,7 @@ import Video from 'react-native-video';
         })
     }
     progressPress(e){
-        const position = e.nativeEvent.locationX
+        const position = e.nativeEvent.locationX;
         const progress = ((position)/(size.wid - 20)) * this.state.duration
         this.player.seek(progress)
     }
@@ -196,7 +231,7 @@ import Video from 'react-native-video';
                         </TouchableOpacity>
                         <TouchableOpacity
                             style={[general.wrapperButtonPlay]}
-                            onPress={() => this.toggleMusic()}
+                            onPress={() => this.state.paused ? this.playTheSong(this.state.index) : this.pauseTheSong()}
                         >
                             <Icon
                                 name={this.state.paused ? "entypo|controller-play" : "entypo|controller-paus"}
@@ -257,6 +292,17 @@ import Video from 'react-native-video';
             </Container>
         );
     }
+     componentDidMount(){
+         MusicControl.enableBackgroundMode(true);
+         MusicControl.on('play', () => {this.playTheSong(this.state.index)})
+         MusicControl.on('pause', () => {this.pauseTheSong()})
+         MusicControl.on('nextTrack', ()=> {
+             this.nextSong();
+         })
+         MusicControl.on('previousTrack', ()=> {
+             this.previousSong();
+         })
+     }
 }
 function mapStateToProps(state) {
     return {
