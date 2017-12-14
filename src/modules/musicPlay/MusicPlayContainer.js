@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,
+    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,TouchableWithoutFeedback
 } from 'react-native';
 import {
     Container, Item, Left, Right, Spinner, Content
@@ -260,7 +260,7 @@ import MusicControl from 'react-native-music-control';
                         muted={false}                           // Mutes the audio entirely.
                         paused={paused}                          // Pauses playback entirely.
                         repeat={true}                           // Repeat forever.
-                        playInBackground={false}                // Audio continues to play when app entering background.
+                        playInBackground={true}                // Audio continues to play when app entering background.
                         playWhenInactive={false}                // [iOS] Video continues to play when control or notification center are shown.
                         ignoreSilentSwitch={"ignore"}           // [iOS] ignore | obey - When 'ignore', audio will still play with the iOS hard silent switch set to silent. When 'obey', audio will toggle with the switch. When not specified, will inherit audio settings as usual.
                         progressUpdateInterval={250.0}          // [iOS] Interval to fire onProgress (default to ~250ms)
@@ -270,15 +270,15 @@ import MusicControl from 'react-native-music-control';
                         style={{backgroundColor:color.none}}
                     />
                     <View style={general.wrapperProgress}>
-                        <TouchableOpacity style={{paddingTop: 10}}
-                                          activeOpacity={1}
+                        <TouchableWithoutFeedback style={{paddingTop: 10}}
+                                          activeOpacity={1} onLongPress = {this.progressPress}
                         >
                             <View style={general.wrapperDeadline}>
                                 <View
                                     style={[general.deadlineProgress, {width: widthDeadlineProgress}]}>
                                 </View>
                             </View>
-                        </TouchableOpacity>
+                        </TouchableWithoutFeedback>
                         <View style={[general.wrapperRowSpaceBetween, {marginTop: 5}]}>
                             <Text style={general.textNoteCard}>
                                 {this.state.minute}:{this.state.second < 10 ? '0' : ''}{this.state.second}

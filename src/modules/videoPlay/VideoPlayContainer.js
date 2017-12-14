@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,
+    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,TouchableWithoutFeedback
 } from 'react-native';
 import {
     Container, Item, Left, Right, Spinner, Content
@@ -35,8 +35,13 @@ import Video from 'react-native-video';
         this.onLoad = this.onLoad.bind(this);
         this.onProgress = this.onProgress.bind(this);
         this.onEnd = this.onEnd.bind(this);
+        this.progressPress = this.progressPress.bind(this);
     }
-
+     progressPress(e){
+         const position = e.nativeEvent.locationX;
+         const progress = ((position)/(size.wid - 20)) * this.state.duration
+         this.player.seek(progress)
+     }
     toggleVideo() {
         if (this.state.paused === true) {
             this.setState({paused: false});
@@ -145,15 +150,15 @@ import Video from 'react-native-video';
                                 style={[general.iconStyle, {color: '#FFFFFF'}, this.state.paused ? {paddingLeft: 5} : '']}
                             />
                             <View style={{position: 'absolute', bottom: 5}}>
-                                <TouchableOpacity style={{paddingTop: 10}}
-                                                  activeOpacity={1}
+                                <TouchableWithoutFeedback style={{paddingTop: 10}}
+                                                  activeOpacity={1} onLongPress = {this.progressPress}
                                 >
                                     <View style={general.wrapperDeadline}>
                                         <View
                                             style={[general.deadlineProgress, {width: widthDeadlineProgress, backgroundColor: '#FFFFFF'}]}>
                                         </View>
                                     </View>
-                                </TouchableOpacity>
+                                </TouchableWithoutFeedback>
                                 <View style={[general.wrapperRowSpaceBetween, {marginTop: 5}]}>
                                     <Text style={[general.textNoteCard, {color: color.textColor}]}>
                                         {this.state.minute}:{this.state.second < 10 ? '0' : ''}{this.state.second}
