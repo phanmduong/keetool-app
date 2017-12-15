@@ -10,7 +10,9 @@ export function changeThemeLight(){
     return {
         type : types.THEME_LIGHT,
         theme : true,
+        colorText: '#000000',
         colors : [color.colorGradient0, color.colorGradient1, color.colorGradient2],
+        colorsDrawer : [color.colorGradient0, color.colorGradient1],
         general : StyleSheet.create({
             wrapperContainer: {
                 flex: 1,
@@ -615,7 +617,9 @@ export function changeThemeDark(){
     return {
         type : types.THEME_DARK,
         theme : false,
+        colorText: '#FFFFFF',
         colors : [color.colorGradient0, color.colorGradient1, color.colorGradient2],
+        colorsDrawer : [color.colorGradient0, color.colorGradient1],
         general : StyleSheet.create({
             wrapperContainer: {
                 flex: 1,

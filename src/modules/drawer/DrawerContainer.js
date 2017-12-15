@@ -1,18 +1,12 @@
 import React, {Component} from 'react';
-import {
-    View, Text, TouchableOpacity, StatusBar, Switch, Platform
-} from 'react-native';
-import {
-    Container, Content
-} from 'native-base';
+import {Platform, StatusBar, Switch, Text, TouchableOpacity, View} from 'react-native';
+import {Container, Content} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
-import * as colors from '../../styles/generalStyle';
 import * as size from '../../styles/size';
 import * as changeThemeAction from '../home/changeThemeAction';
 import * as homeAction from '../home/homeAction';
 import {connect} from 'react-redux';
 import Icon from '../../commons/Icon';
-import general from '../../styles/generalStyle'
 import {bindActionCreators} from 'redux';
 
 class DrawerContainer extends Component {
@@ -24,8 +18,9 @@ class DrawerContainer extends Component {
         }
     }
 
-    componentWillMount(){
+    componentWillMount() {
         this.props.homeAction.getData();
+        this.props.homeAction.getDataPaidList();
         this.props.homeAction.getDataPeople();
         this.props.homeAction.getDataSchedules();
         this.props.homeAction.getDataRole();
@@ -37,11 +32,15 @@ class DrawerContainer extends Component {
         this.props.homeAction.getDataClass();
         this.props.homeAction.getDataCallHistory();
         this.props.homeAction.getDataBase();
+        this.props.homeAction.getDataBaseRoom();
         this.props.homeAction.getDataMoneyCollect();
+        this.props.homeAction.getDataTeleCall();
+        this.props.homeAction.getDataMarketingCampaign();
+
     }
 
     changeTheme() {
-        this.setState({setThemeDark : !this.state.setThemeDark})
+        this.setState({setThemeDark: !this.state.setThemeDark})
         this.props.theme || this.state.setThemeDark
             ?
             this.props.changeThemeAction.changeThemeDark()
@@ -51,7 +50,7 @@ class DrawerContainer extends Component {
 
     render() {
         const {navigate} = this.props.navigation;
-        const {general, colors} = this.props;
+        const {general, colors, colorsDrawer} = this.props;
         return (
             <Container style={general.wrapperContainer}>
                 <StatusBar
@@ -59,7 +58,7 @@ class DrawerContainer extends Component {
                     backgroundColor={this.props.theme ? "#FFFFFF" : "#7D9CEF"}
                 />
                 <LinearGradient
-                    colors={colors}
+                    colors={colorsDrawer}
                     style={general.linearGradientInDrawer}>
                     <View style={[general.wrapperLogoInDrawer]}>
                         <Text style={[general.textTitleHeader]}>
@@ -75,7 +74,7 @@ class DrawerContainer extends Component {
                         <Switch
                             value={this.state.setThemeDark}
                             onValueChange={() => this.changeTheme()}
-                            onTintColor={Platform.OS === 'ios'  ? '#C86AD9' : undefined}
+                            onTintColor={Platform.OS === 'ios' ? '#C86AD9' : undefined}
                         />
                     </TouchableOpacity>
                     <TouchableOpacity
@@ -168,36 +167,36 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Dashboard</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity
-                    style={general.itemTabInDrawer}
-                    onPress={() => navigate('Map')}
-                >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="material|map"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>Map</Text>
-                        </View>
-                </TouchableOpacity>
-                    <TouchableOpacity
-                        style={general.itemTabInDrawer}
-                        onPress={() => navigate('QRCode')}
-                    >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="fontawesome|qrcode"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>QRCODE</Text>
-                        </View>
-                    </TouchableOpacity>
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('Map')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="material|map"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>Map</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('QRCode')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="fontawesome|qrcode"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>QRCODE</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
                         onPress={() => navigate('Trello')}
@@ -243,21 +242,21 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Teach</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity
-                        style={general.itemTabInDrawer}
-                        onPress={() => navigate('Cart')}
-                    >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="materialCommunity|cart"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>Cart</Text>
-                        </View>
-                    </TouchableOpacity>
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('Cart')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="materialCommunity|cart"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>Cart</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
                         onPress={() => navigate('MarketingManagement')}
@@ -376,7 +375,7 @@ function mapStateToProps(state) {
         theme: state.theme.theme,
         general: state.theme.general,
         colors: state.theme.colors,
-
+        colorsDrawer: state.theme.colorsDrawer
     }
 }
 

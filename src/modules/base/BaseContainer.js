@@ -22,8 +22,12 @@ class BaseContainer extends Component {
         this.setState({tab: 0})
     }
 
+    ViewBasesRoomList() {
+        this.setState({tab: 1})
+    }
+
     ShowTab() {
-        const {general, colors, bases} = this.props;
+        const {general, colors, bases, rooms} = this.props;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -53,6 +57,41 @@ class BaseContainer extends Component {
                                     </Col>
                                     <Col size={20} style={general.marginLeft}>
                                         <Text style={general.textDescriptionCard}>{item.created_at}</Text>
+                                    </Col>
+                                </Grid>
+                            )
+                        }
+                        <View style={general.wrapperBottomModule}/>
+                    </Content>
+                );
+            case 1:
+                return (
+                    <Content style={{flex: 1, padding: 20}}>
+                        <View>
+                            <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
+                                <Col size={20}>
+                                    <Text style={general.textTitleCard}>Name</Text>
+                                </Col>
+                                <Col size={60}>
+                                    <Text style={general.textTitleCard}>Address</Text>
+                                </Col>
+                                <Col size={20} style={general.marginLeft}>
+                                    <Text style={general.textTitleCard}>Base</Text>
+                                </Col>
+                            </Grid>
+                        </View>
+                        {
+                            rooms.map((item) =>
+                                <Grid
+                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                    <Col size={20}>
+                                        <Text style={general.textDescriptionCard}>{item.name}</Text>
+                                    </Col>
+                                    <Col size={60}>
+                                        <Text style={general.textDescriptionCard}>{item.address}</Text>
+                                    </Col>
+                                    <Col size={20} style={general.marginLeft}>
+                                        <Text style={general.textDescriptionCard}>{item.base_name}</Text>
                                     </Col>
                                 </Grid>
                             )
@@ -98,6 +137,20 @@ class BaseContainer extends Component {
                                     </Text>
                                 </View>
                             </TouchableOpacity>
+                            <TouchableOpacity onPress={() => this.ViewBasesRoomList()}
+                                              style={{height: 30}}>
+                                <View style={
+                                    this.state.tab === 1
+                                        ?
+                                        general.wrapperMenuTextIsActive
+                                        :
+                                        general.wrapperMenuTextNotActive
+                                }>
+                                    <Text style={this.state.tab === 1 ? general.textIstActive : general.textNotActive}>
+                                        Room List
+                                    </Text>
+                                </View>
+                            </TouchableOpacity>
                         </Content>
                     </View>
 
@@ -114,7 +167,8 @@ function mapStateToProps(state) {
     return {
         general: state.theme.general,
         colors: state.theme.colors,
-        bases: state.home.bases
+        bases: state.home.bases,
+        rooms: state.home.rooms
     }
 }
 

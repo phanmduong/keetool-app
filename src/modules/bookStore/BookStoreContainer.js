@@ -8,11 +8,13 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import {connect} from 'react-redux';
+import Loading from '../../commons/Loading';
 
 class BookStoreContainer extends Component {
     constructor() {
         super();
         this.state = {
+            isLoading: false,
             tab: 0,
             feature: {
                 "url": "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508747154YLAM6FbWs0m11rc.jpg",
@@ -53,6 +55,15 @@ class BookStoreContainer extends Component {
                     },
                 ]
         }
+    }
+
+    componentWillMount() {
+        this.isLoading();
+    }
+
+    isLoading() {
+        this.setState({isLoading: true});
+        setTimeout(() => this.setState({isLoading: false}), 200);
     }
 
     ViewKnowledge() {

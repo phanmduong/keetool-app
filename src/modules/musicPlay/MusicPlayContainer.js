@@ -1,21 +1,19 @@
 import React, {Component} from 'react';
-import {
-    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,
-} from 'react-native';
-import {
-    Container, Item, Left, Right, Spinner, Content
-} from 'native-base';
+import {Image, Text, TouchableOpacity, View,} from 'react-native';
+import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from '../../commons/Icon';
 import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
 import {connect} from 'react-redux'
 import Video from 'react-native-video';
+import Loading from '../../commons/Loading';
 
- class MusicPlayContainer extends Component {
+class MusicPlayContainer extends Component {
     constructor() {
         super();
         this.state = {
+            isLoading: false,
             play: 1,
             duration: 0.0,
             currentTime: 0.0,
@@ -53,6 +51,15 @@ import Video from 'react-native-video';
         this.onEnd = this.onEnd.bind(this);
         this.progressPress = this.progressPress.bind(this);
     }
+
+    componentWillMount(){
+        this.isLoading();
+    }
+
+     isLoading(){
+         this.setState({isLoading: true});
+         setTimeout(() => this.setState({isLoading: false}), 200);
+     }
 
     toggleMusic() {
         if (this.state.paused === true) {
@@ -139,7 +146,7 @@ import Video from 'react-native-video';
         this.player.seek(progress)
     }
     render() {
-        const {data, index, play, paused} = this.state;
+        const {data, index, play, paused, isLoading} = this.state;
         const {navigate} = this.props.navigation;
         const {general, colors} = this.props;
         let temp = this.state.currentTime == 0 || this.state.duration == 0 ? 0 : this.state.currentTime / this.state.duration;
@@ -164,95 +171,103 @@ import Video from 'react-native-video';
                             </TouchableOpacity>
                         </Right>
                     </View>
-                    <View
-                        style={[general.wrapperImageSquareBig, general.marginTopBottom, general.shadow]}>
-                        <Image
-                            resizeMode={'cover'}
-                            source={{uri: data[index].image_url}}
-                            style={general.imageSquareBig}
-                        />
-                        <View style={[general.wrapperTextInImage, general.wrapperCenterLeftToRightRow]}>
-                            <View style={general.wrapperCenterLeftToRightColumn}>
-                                <Text style={[general.textTitleBig]}>{data[index].name}</Text>
-                                <Text style={general.textDescriptionCard}>{data[index].author}</Text>
-                            </View>
-                            <Icon
-                                name="fontawesome|star"
-                                size={size.iconGiant}
-                                style={general.iconStarStyle}
-                            />
-                        </View>
-                    </View>
-                    <View style={[general.wrapperCenterRow]}>
-                        <TouchableOpacity
-                            style={general.wrapperButtonNext}
-                            onPress={() => this.previousSong()}
-                        >
-                            <Icon
-                                name="entypo|controller-fast-backward"
-                                size={25}
-                                style={[general.iconStyle, {paddingRight: 3}]}
-                            />
-                        </TouchableOpacity>
-                        <TouchableOpacity
-                            style={[general.wrapperButtonPlay]}
-                            onPress={() => this.toggleMusic()}
-                        >
-                            <Icon
-                                name={this.state.paused ? "entypo|controller-play" : "entypo|controller-paus"}
-                                size={40}
-                                style={[general.iconStyle, this.state.paused ? {paddingLeft: 5} : '']}
-                            />
-                        </TouchableOpacity>
-                        <TouchableOpacity
-                            style={[general.wrapperButtonNext]}
-                            onPress={() => this.nextSong()}
-                        >
-                            <Icon
-                                name="entypo|controller-fast-forward"
-                                size={25}
-                                style={[general.iconStyle, {paddingLeft: 3}]}
-                            />
-                        </TouchableOpacity>
-                    </View>
-                    <Video
-                        ref={(ref) => {
-                            this.player = ref
-                        }}
-                        source={{uri: data[index].audio_url}}   // Can be a URL or a local file.
-                        rate={play}                              // 0 is paused, 1 is normal.
-                        volume={1}                            // 0 is muted, 1 is normal.
-                        muted={false}                           // Mutes the audio entirely.
-                        paused={paused}                          // Pauses playback entirely.
-                        repeat={true}                           // Repeat forever.
-                        playInBackground={false}                // Audio continues to play when app entering background.
-                        playWhenInactive={false}                // [iOS] Video continues to play when control or notification center are shown.
-                        ignoreSilentSwitch={"ignore"}           // [iOS] ignore | obey - When 'ignore', audio will still play with the iOS hard silent switch set to silent. When 'obey', audio will toggle with the switch. When not specified, will inherit audio settings as usual.
-                        progressUpdateInterval={250.0}          // [iOS] Interval to fire onProgress (default to ~250ms)
-                        onLoad={this.onLoad}    // Callback when video loads
-                        onProgress={this.onProgress}    // Callback every ~250ms with currentTime
-                        onEnd={this.onEnd}
-                        style={{backgroundColor:color.none}}
-                    />
-                    <View style={general.wrapperProgress}>
-                        <TouchableOpacity style={{paddingTop: 10}}
-                                          activeOpacity={1}
-                        >
-                            <View style={general.wrapperDeadline}>
+                    {
+                        isLoading
+                            ?
+                            <Loading/>
+                            :
+                            <View style={{flex: 1}}>
                                 <View
-                                    style={[general.deadlineProgress, {width: widthDeadlineProgress}]}>
+                                    style={[general.wrapperImageSquareBig, general.marginTopBottom, general.shadow]}>
+                                    <Image
+                                        resizeMode={'cover'}
+                                        source={{uri: data[index].image_url}}
+                                        style={general.imageSquareBig}
+                                    />
+                                    <View style={[general.wrapperTextInImage, general.wrapperCenterLeftToRightRow]}>
+                                        <View style={general.wrapperCenterLeftToRightColumn}>
+                                            <Text style={[general.textTitleBig]}>{data[index].name}</Text>
+                                            <Text style={general.textDescriptionCard}>{data[index].author}</Text>
+                                        </View>
+                                        <Icon
+                                            name="fontawesome|star"
+                                            size={size.iconGiant}
+                                            style={general.iconStarStyle}
+                                        />
+                                    </View>
+                                </View>
+                                <View style={[general.wrapperCenterRow]}>
+                                    <TouchableOpacity
+                                        style={general.wrapperButtonNext}
+                                        onPress={() => this.previousSong()}
+                                    >
+                                        <Icon
+                                            name="entypo|controller-fast-backward"
+                                            size={25}
+                                            style={[general.iconStyle, {paddingRight: 3}]}
+                                        />
+                                    </TouchableOpacity>
+                                    <TouchableOpacity
+                                        style={[general.wrapperButtonPlay]}
+                                        onPress={() => this.toggleMusic()}
+                                    >
+                                        <Icon
+                                            name={this.state.paused ? "entypo|controller-play" : "entypo|controller-paus"}
+                                            size={40}
+                                            style={[general.iconStyle, this.state.paused ? {paddingLeft: 5} : '']}
+                                        />
+                                    </TouchableOpacity>
+                                    <TouchableOpacity
+                                        style={[general.wrapperButtonNext]}
+                                        onPress={() => this.nextSong()}
+                                    >
+                                        <Icon
+                                            name="entypo|controller-fast-forward"
+                                            size={25}
+                                            style={[general.iconStyle, {paddingLeft: 3}]}
+                                        />
+                                    </TouchableOpacity>
+                                </View>
+                                <Video
+                                    ref={(ref) => {
+                                        this.player = ref
+                                    }}
+                                    source={{uri: data[index].audio_url}}   // Can be a URL or a local file.
+                                    rate={play}                              // 0 is paused, 1 is normal.
+                                    volume={1}                            // 0 is muted, 1 is normal.
+                                    muted={false}                           // Mutes the audio entirely.
+                                    paused={paused}                          // Pauses playback entirely.
+                                    repeat={true}                           // Repeat forever.
+                                    playInBackground={false}                // Audio continues to play when app entering background.
+                                    playWhenInactive={false}                // [iOS] Video continues to play when control or notification center are shown.
+                                    ignoreSilentSwitch={"ignore"}           // [iOS] ignore | obey - When 'ignore', audio will still play with the iOS hard silent switch set to silent. When 'obey', audio will toggle with the switch. When not specified, will inherit audio settings as usual.
+                                    progressUpdateInterval={250.0}          // [iOS] Interval to fire onProgress (default to ~250ms)
+                                    onLoad={this.onLoad}    // Callback when video loads
+                                    onProgress={this.onProgress}    // Callback every ~250ms with currentTime
+                                    onEnd={this.onEnd}
+                                    style={{backgroundColor:color.none}}
+                                />
+                                <View style={general.wrapperProgress}>
+                                    <TouchableOpacity style={{paddingTop: 10}}
+                                                      activeOpacity={1}
+                                    >
+                                        <View style={general.wrapperDeadline}>
+                                            <View
+                                                style={[general.deadlineProgress, {width: widthDeadlineProgress}]}>
+                                            </View>
+                                        </View>
+                                    </TouchableOpacity>
+                                    <View style={[general.wrapperRowSpaceBetween, {marginTop: 5}]}>
+                                        <Text style={general.textNoteCard}>
+                                            {this.state.minute}:{this.state.second < 10 ? '0' : ''}{this.state.second}
+                                        </Text>
+                                        <Text style={general.textNoteCard}>
+                                            {parseInt(this.state.duration / 60)}:{parseInt(this.state.duration % 60) < 10 ? '0' : ''}{parseInt(this.state.duration % 60)}
+                                        </Text>
+                                    </View>
                                 </View>
                             </View>
-                        </TouchableOpacity>
-                        <View style={[general.wrapperRowSpaceBetween, {marginTop: 5}]}>
-                            <Text style={general.textNoteCard}>
-                                {this.state.minute}:{this.state.second < 10 ? '0' : ''}{this.state.second}
-                            </Text>
-                            <Text style={general.textNoteCard}>
-                                {parseInt(this.state.duration / 60)}:{parseInt(this.state.duration % 60) < 10 ? '0' : ''}{parseInt(this.state.duration % 60)}
-                            </Text>
-                        </View>
-                    </View>
+                    }
                 </LinearGradient>
             </Container>
         );

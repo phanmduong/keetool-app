@@ -10,6 +10,28 @@ export default function homeAction(state = initialState.data, action) {
                     data: action.data
                 }
             };
+        case types.GET_DATA_PAID_LIST:
+            return {
+                ...state,
+                ...{
+                    paidList: action.paidList
+                }
+            };
+        case types.GET_DATA_TELE_CALL:
+            return {
+                ...state,
+                ...{
+                    tele_calls: action.tele_calls
+                }
+            };
+         case types.GET_DATA_MARKETING_CAMPAIGN:
+            return {
+                ...state,
+                ...{
+                    marketing_campaigns: action.marketing_campaigns
+                }
+            };
+
         case types.GET_DATA_PEOPLE:
             return {
                 ...state,
@@ -87,7 +109,21 @@ export default function homeAction(state = initialState.data, action) {
                     bases: action.bases
                 }
             };
+        case types.GET_DATA_BASE_ROOM:
+            return {
+                ...state,
+                ...{
+                    rooms: action.rooms
+                }
+            };
         case types.GET_DATA_MONEY_COLLECT:
+            return {
+                ...state,
+                ...{
+                    moneyCollect: action.moneyCollect
+                }
+            };
+        case types.GET_DATA_PAIDLIST:
             return {
                 ...state,
                 ...{

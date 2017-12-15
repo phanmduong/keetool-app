@@ -1,21 +1,19 @@
 import React, {Component} from 'react';
-import {
-    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,
-} from 'react-native';
-import {
-    Container, Item, Left, Right, Spinner, Content
-} from 'native-base';
+import {FlatList, Image, Text, TouchableOpacity, View,} from 'react-native';
+import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
+import Loading from '../../commons/Loading';
 import * as size from '../../styles/size';
 import {connect} from 'react-redux'
-import general from '../../styles/generalStyle';
+
 
 class HomeContainer extends Component {
     constructor() {
         super();
         this.state = {
             tab: 0,
+            isLoading: false,
             feature: {
                 "url": "https://images.unsplash.com/photo-1505906960586-b2f5793971ad?auto=format&fit=crop&w=707&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
                 "title": "THIS IS SAMPLE TEXT",
@@ -65,20 +63,29 @@ class HomeContainer extends Component {
         }
     }
 
+    isLoading() {
+        this.setState({isLoading: true});
+        setTimeout(() => this.setState({isLoading: false}), 200);
+    }
+
     ViewDashboard() {
-        this.setState({tab: 0})
+        this.isLoading();
+        this.setState({tab: 0});
     }
 
     ViewBlog() {
+        this.isLoading();
         this.setState({tab: 1})
     }
 
     ViewCard() {
+        this.isLoading();
         this.setState({tab: 2})
     }
 
     ShowTab() {
         const {data, general} = this.props;
+        const {isLoading} = this.state;
         switch (this.state.tab) {
             case 0:
                 return (
@@ -86,112 +93,147 @@ class HomeContainer extends Component {
                         showsVerticalScrollIndicator={false}
                         style={{flex: 1}}
                     >
-                        <TouchableOpacity
-                            activeOpacity={0.8}
-                            style={[general.wrapperImageFeature, general.marginTopBottom, general.shadow, general.paddingLR, {marginTop: 20}]}>
-                            <Image
-                                resizeMode={'cover'}
-                                source={{uri: this.state.feature.url}}
-                                style={general.imageFeature}
-                            />
-                        </TouchableOpacity>
-                        <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
-                            Album
-                        </Text>
-                        <FlatList
-                            horizontal={true}
-                            showsHorizontalScrollIndicator={false}
-                            data={data}
-                            renderItem={({item}) =>
-                                <TouchableOpacity
-                                    activeOpacity={0.8}
-                                    style={item == data[0] ? [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeftFar] : [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeft]}>
-                                    <Image
-                                        resizeMode={'cover'}
-                                        source={{uri: item.url}}
-                                        style={[general.imageSquare]}
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View>
+                                    <TouchableOpacity
+                                        activeOpacity={0.8}
+                                        style={[general.wrapperImageFeature, general.marginTopBottom, general.shadow, general.paddingLR, {marginTop: 20}]}>
+                                        <Image
+                                            resizeMode={'cover'}
+                                            source={{uri: this.state.feature.url}}
+                                            style={general.imageFeature}
+                                        />
+                                    </TouchableOpacity>
+                                    <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
+                                        Album
+                                    </Text>
+                                    <FlatList
+                                        horizontal={true}
+                                        showsHorizontalScrollIndicator={false}
+                                        data={data}
+                                        renderItem={({item}) =>
+                                            <TouchableOpacity
+                                                activeOpacity={0.8}
+                                                style={item == data[0] ? [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeftFar] : [general.wrapperImageSquare, general.marginTopBottom, general.shadow, general.marginLeft]}>
+                                                <Image
+                                                    resizeMode={'cover'}
+                                                    source={{uri: item.url}}
+                                                    style={[general.imageSquare]}
+                                                />
+                                            </TouchableOpacity>
+                                        }
                                     />
-                                </TouchableOpacity>
-                            }
-                        />
-                        <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
-                            Update
-                        </Text>
-                        <Content style={[{height: size.wid * 3 / 5 + 60}, general.paddingLR]}>
-                            {
-                                data.map((item, i) =>
-                                    <TouchableOpacity
-                                        key={i}
-                                        activeOpacity={0.8}
-                                        style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
-                                        <View
-                                            style={[general.imageSquareAvatar, general.shadow]}
-                                        >
-                                            <Image
-                                                resizeMode={'cover'}
-                                                source={{uri: item.url}}
-                                                style={general.imageSquareAvatar}
-                                            />
-                                        </View>
-                                        <View style={[general.marginLeft, general.wrapperCenterLeftToRightColumn]}>
-                                            <Text style={general.textTitleCard}>{item.title.toUpperCase()}</Text>
-                                            <Text style={general.textDescriptionCard}>{item.description}</Text>
-                                            <Text style={general.textNoteCard}>{item.created_at}</Text>
-                                        </View>
-                                    </TouchableOpacity>
-                                )}
+                                    <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
+                                        Update
+                                    </Text>
+                                    <Content style={[{height: size.wid * 3 / 5 + 60}, general.paddingLR]}>
+                                        {
+                                            data.map((item, i) =>
+                                                <TouchableOpacity
+                                                    key={i}
+                                                    activeOpacity={0.8}
+                                                    style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
+                                                    <View
+                                                        style={[general.imageSquareAvatar, general.shadow]}
+                                                    >
+                                                        <Image
+                                                            resizeMode={'cover'}
+                                                            source={{uri: item.url}}
+                                                            style={general.imageSquareAvatar}
+                                                        />
+                                                    </View>
+                                                    <View
+                                                        style={[general.marginLeft, general.wrapperCenterLeftToRightColumn]}>
+                                                        <Text
+                                                            style={general.textTitleCard}>{item.title.toUpperCase()}</Text>
+                                                        <Text
+                                                            style={general.textDescriptionCard}>{item.description}</Text>
+                                                        <Text style={general.textNoteCard}>{item.created_at}</Text>
+                                                    </View>
+                                                </TouchableOpacity>
+                                            )}
 
-                        </Content>
-                        <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
-                            Grid
-                        </Text>
-                        <View style={[{marginBottom: 20}, general.paddingLR]}>
-                            <FlatList
-                                showsVerticalScrollIndicator={false}
-                                data={data}
-                                numColumns={3}
-                                renderItem={({item}) =>
-                                    <TouchableOpacity
-                                        activeOpacity={0.8}
-                                        style={[general.marginTopBottom, general.wrapperCenter, general.noMarginBottom, general.marginRight]}>
-                                            <Image
-                                                resizeMode={'cover'}
-                                                source={{uri: item.url}}
-                                                style={general.imageSquareSmall}
-                                            />
-                                    </TouchableOpacity>
-                                }
-                            />
-                        </View>
-                        <View style={general.wrapperBottomModule}/>
+                                    </Content>
+                                    <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
+                                        Grid
+                                    </Text>
+                                    <View style={[{marginBottom: 20}, general.paddingLR]}>
+                                        <FlatList
+                                            showsVerticalScrollIndicator={false}
+                                            data={data}
+                                            numColumns={3}
+                                            renderItem={({item}) =>
+                                                <TouchableOpacity
+                                                    activeOpacity={0.8}
+                                                    style={[general.marginTopBottom, general.wrapperCenter, general.noMarginBottom, general.marginRight]}>
+                                                    <Image
+                                                        resizeMode={'cover'}
+                                                        source={{uri: item.url}}
+                                                        style={general.imageSquareSmall}
+                                                    />
+                                                </TouchableOpacity>
+                                            }
+                                        />
+                                    </View>
+                                    <View style={general.wrapperBottomModule}/>
+                                </View>
+
+                        }
                     </Content>
                 );
             case 1:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
+                    <Content
+                        showsVerticalScrollIndicator={false}
+                        style={{flex: 1}}>
                         {
-                            data.map((item, i) =>
-                                <TouchableOpacity
-                                    key={i}
-                                    activeOpacity={0.8}
-                                    style={[general.marginTopBottom, general.shadow, {marginTop: 20}]}>
-                                    <Image
-                                        resizeMode={'cover'}
-                                        source={{uri: item.url}}
-                                        style={general.imageFeature}
-                                    />
-                                    <View style={[general.marginTop, general.wrapperCenterLeftToRightColumn]}>
-                                        <Text style={general.textTitleCard}>{item.title.toUpperCase()}</Text>
-                                        <Text style={general.textDescriptionCard}>{item.description}</Text>
-                                        <Text style={general.textNoteCard}>{item.created_at}</Text>
-                                    </View>
-                                </TouchableOpacity>
-                            )}
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    {
+                                        data.map((item, i) =>
+                                            <TouchableOpacity
+                                                key={i}
+                                                activeOpacity={0.8}
+                                                style={[general.marginTopBottom, general.shadow, {marginTop: 20}]}>
+                                                <Image
+                                                    resizeMode={'cover'}
+                                                    source={{uri: item.url}}
+                                                    style={general.imageFeature}
+                                                />
+                                                <View style={[general.marginTop, general.wrapperCenterLeftToRightColumn]}>
+                                                    <Text style={general.textTitleCard}>{item.title.toUpperCase()}</Text>
+                                                    <Text style={general.textDescriptionCard}>{item.description}</Text>
+                                                    <Text style={general.textNoteCard}>{item.created_at}</Text>
+                                                </View>
+                                            </TouchableOpacity>
+                                        )
+                                    }
+
+                                </View>
+
+                        }
+
                     </Content>
                 );
             case 2:
                 return (
-                    <Content style={{flex: 1}}>
+                    <Content
+                        showsVerticalScrollIndicator={false}
+                        style={{flex: 1}}>
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View></View>
+                        }
                     </Content>
                 );
 

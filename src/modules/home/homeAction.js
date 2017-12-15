@@ -45,6 +45,3346 @@ export function getData() {
     }
 }
 
+export function getDataSummary() {
+    return {
+        type: types.GET_DATA_SUMMARY,
+        summary_marketing_campaign: [
+            {
+                total_registers: 132,
+                campaign: {
+                    id: 7,
+                    name: "Event",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 60,
+                campaign: {
+                    id: 7,
+                    name: "Event",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    color: "4caf50"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 7,
+                    name: "Event",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 438,
+                    name: "Dú",
+                    color: "00897b"
+                }
+            },
+            {
+                total_registers: 4,
+                campaign: {
+                    id: 7,
+                    name: "Event",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 4234,
+                    name: "Nghiêm Thanh Bình",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 10,
+                campaign: {
+                    id: 7,
+                    name: "Event",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 164,
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 34,
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                },
+                saler: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    color: "4caf50"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                },
+                saler: {
+                    id: 438,
+                    name: "Dú",
+                    color: "00897b"
+                }
+            },
+            {
+                total_registers: 16,
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                },
+                saler: {
+                    id: 4323,
+                    name: "Trần Phương Quỳnh",
+                    color: "d16100"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                },
+                saler: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                }
+            },
+            {
+                total_registers: 16,
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                },
+                saler: {
+                    id: 5064,
+                    name: "Nguyễn Thanh Thi",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 3,
+                campaign: {
+                    id: 8,
+                    name: "Fanpage",
+                    color: "7cb342"
+                },
+                saler: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 41,
+                campaign: {
+                    id: 9,
+                    name: "FB Ads",
+                    color: "f4511e"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 5,
+                campaign: {
+                    id: 9,
+                    name: "FB Ads",
+                    color: "f4511e"
+                },
+                saler: {
+                    id: 438,
+                    name: "Dú",
+                    color: "00897b"
+                }
+            },
+            {
+                total_registers: 9,
+                campaign: {
+                    id: 9,
+                    name: "FB Ads",
+                    color: "f4511e"
+                },
+                saler: {
+                    id: 4323,
+                    name: "Trần Phương Quỳnh",
+                    color: "d16100"
+                }
+            },
+            {
+                total_registers: 4,
+                campaign: {
+                    id: 9,
+                    name: "FB Ads",
+                    color: "f4511e"
+                },
+                saler: {
+                    id: 5064,
+                    name: "Nguyễn Thanh Thi",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 9,
+                    name: "FB Ads",
+                    color: "f4511e"
+                },
+                saler: {
+                    id: 6084,
+                    name: "Công Đức",
+                    color: "EC1E3E"
+                }
+            },
+            {
+                total_registers: 826,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 171,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 275,
+                    name: "Vũ Thùy Dung",
+                    color: "1e88e5"
+                }
+            },
+            {
+                total_registers: 192,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 438,
+                    name: "Dú",
+                    color: "00897b"
+                }
+            },
+            {
+                total_registers: 56,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                }
+            },
+            {
+                total_registers: 299,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 2957,
+                    name: "Trần Thu Trang",
+                    color: "9a30b2"
+                }
+            },
+            {
+                total_registers: 194,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                }
+            },
+            {
+                total_registers: 353,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                total_registers: 6,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 4253,
+                    name: "Trần Ngọc",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 213,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 4323,
+                    name: "Trần Phương Quỳnh",
+                    color: "d16100"
+                }
+            },
+            {
+                total_registers: 69,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 267,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            },
+            {
+                total_registers: 10,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 7,
+                campaign: {
+                    id: 10,
+                    name: "Inbox",
+                    color: "fbc02d"
+                },
+                saler: {
+                    id: 7699,
+                    name: "Lê thị Như Quỳnh",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 351,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 185,
+                    name: "Nguyễn Ngọc Diễm",
+                    color: "fb8c00"
+                }
+            },
+            {
+                total_registers: 38,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 275,
+                    name: "Vũ Thùy Dung",
+                    color: "1e88e5"
+                }
+            },
+            {
+                total_registers: 13,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 438,
+                    name: "Dú",
+                    color: "00897b"
+                }
+            },
+            {
+                total_registers: 835,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                }
+            },
+            {
+                total_registers: 131,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                }
+            },
+            {
+                total_registers: 9,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                total_registers: 83,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 4253,
+                    name: "Trần Ngọc",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 6,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                }
+            },
+            {
+                total_registers: 43,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                }
+            },
+            {
+                total_registers: 14,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 6082,
+                    name: "Đào Đỗ Hoài Nam",
+                    color: "12134F"
+                }
+            },
+            {
+                total_registers: 16,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            },
+            {
+                total_registers: 15,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 6084,
+                    name: "Công Đức",
+                    color: "EC1E3E"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 11,
+                    name: "Telesale",
+                    color: "ffa000"
+                },
+                saler: {
+                    id: 7699,
+                    name: "Lê thị Như Quỳnh",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 136,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 124,
+                    name: "Nguyễn Anh Đức",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 41,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 275,
+                    name: "Vũ Thùy Dung",
+                    color: "1e88e5"
+                }
+            },
+            {
+                total_registers: 10,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    color: "4caf50"
+                }
+            },
+            {
+                total_registers: 30,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 438,
+                    name: "Dú",
+                    color: "00897b"
+                }
+            },
+            {
+                total_registers: 64,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 787,
+                    name: "Nguyễn Anh Kiệt",
+                    color: "7cb342"
+                }
+            },
+            {
+                total_registers: 83,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                }
+            },
+            {
+                total_registers: 41,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 2957,
+                    name: "Trần Thu Trang",
+                    color: "9a30b2"
+                }
+            },
+            {
+                total_registers: 63,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                }
+            },
+            {
+                total_registers: 37,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 4122,
+                    name: "Thái Phương Linh",
+                    color: "795548"
+                }
+            },
+            {
+                total_registers: 42,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 4253,
+                    name: "Trần Ngọc",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 50,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 4323,
+                    name: "Trần Phương Quỳnh",
+                    color: "d16100"
+                }
+            },
+            {
+                total_registers: 37,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 3,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 5006,
+                    name: "Nguyễn Thị Minh Châu",
+                    color: "ff9800"
+                }
+            },
+            {
+                total_registers: 5,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                }
+            },
+            {
+                total_registers: 7,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 5064,
+                    name: "Nguyễn Thanh Thi",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 15,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                }
+            },
+            {
+                total_registers: 16,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 6082,
+                    name: "Đào Đỗ Hoài Nam",
+                    color: "12134F"
+                }
+            },
+            {
+                total_registers: 23,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            },
+            {
+                total_registers: 3,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 6084,
+                    name: "Công Đức",
+                    color: "EC1E3E"
+                }
+            },
+            {
+                total_registers: 3,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 7490,
+                    name: "Nguyễn Như Nguyễn",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 6,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 6,
+                campaign: {
+                    id: 12,
+                    name: "Văn phòng",
+                    color: "fb8c00"
+                },
+                saler: {
+                    id: 7699,
+                    name: "Lê thị Như Quỳnh",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 13,
+                    name: "Youtube",
+                    color: "0288d1"
+                },
+                saler: {
+                    id: 5064,
+                    name: "Nguyễn Thanh Thi",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 14,
+                    name: "Email ",
+                    color: "00acc1"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 5,
+                campaign: {
+                    id: 14,
+                    name: "Email ",
+                    color: "00acc1"
+                },
+                saler: {
+                    id: 275,
+                    name: "Vũ Thùy Dung",
+                    color: "1e88e5"
+                }
+            },
+            {
+                total_registers: 5,
+                campaign: {
+                    id: 14,
+                    name: "Email ",
+                    color: "00acc1"
+                },
+                saler: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 14,
+                    name: "Email ",
+                    color: "00acc1"
+                },
+                saler: {
+                    id: 5064,
+                    name: "Nguyễn Thanh Thi",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 12,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 438,
+                    name: "Dú",
+                    color: "00897b"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 787,
+                    name: "Nguyễn Anh Kiệt",
+                    color: "7cb342"
+                }
+            },
+            {
+                total_registers: 3,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                }
+            },
+            {
+                total_registers: 9,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                total_registers: 4,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 4122,
+                    name: "Thái Phương Linh",
+                    color: "795548"
+                }
+            },
+            {
+                total_registers: 9,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 5,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 6082,
+                    name: "Đào Đỗ Hoài Nam",
+                    color: "12134F"
+                }
+            },
+            {
+                total_registers: 12,
+                campaign: {
+                    id: 15,
+                    name: "Offline",
+                    color: "00897b"
+                },
+                saler: {
+                    id: 7490,
+                    name: "Nguyễn Như Nguyễn",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 5,
+                campaign: {
+                    id: 16,
+                    name: "Instagram",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 16,
+                    name: "Instagram",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 2957,
+                    name: "Trần Thu Trang",
+                    color: "9a30b2"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 16,
+                    name: "Instagram",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                }
+            },
+            {
+                total_registers: 30,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 124,
+                    name: "Nguyễn Anh Đức",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 4,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 275,
+                    name: "Vũ Thùy Dung",
+                    color: "1e88e5"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 438,
+                    name: "Dú",
+                    color: "00897b"
+                }
+            },
+            {
+                total_registers: 21,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                }
+            },
+            {
+                total_registers: 12,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 2957,
+                    name: "Trần Thu Trang",
+                    color: "9a30b2"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                }
+            },
+            {
+                total_registers: 6,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                total_registers: 10,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 4122,
+                    name: "Thái Phương Linh",
+                    color: "795548"
+                }
+            },
+            {
+                total_registers: 11,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 4253,
+                    name: "Trần Ngọc",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 7,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 4323,
+                    name: "Trần Phương Quỳnh",
+                    color: "d16100"
+                }
+            },
+            {
+                total_registers: 4,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                total_registers: 8,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 5064,
+                    name: "Nguyễn Thanh Thi",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 6,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                }
+            },
+            {
+                total_registers: 24,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 6082,
+                    name: "Đào Đỗ Hoài Nam",
+                    color: "12134F"
+                }
+            },
+            {
+                total_registers: 3,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 17,
+                    name: "Khác",
+                    color: "795548"
+                },
+                saler: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 4,
+                campaign: {
+                    id: 18,
+                    name: "DS Chờ",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 4,
+                campaign: {
+                    id: 18,
+                    name: "DS Chờ",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 787,
+                    name: "Nguyễn Anh Kiệt",
+                    color: "7cb342"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 18,
+                    name: "DS Chờ",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 4253,
+                    name: "Trần Ngọc",
+                    color: "e91e63"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 18,
+                    name: "DS Chờ",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 18,
+                    name: "DS Chờ",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 6082,
+                    name: "Đào Đỗ Hoài Nam",
+                    color: "12134F"
+                }
+            },
+            {
+                total_registers: 1,
+                campaign: {
+                    id: 18,
+                    name: "DS Chờ",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            },
+            {
+                total_registers: 4,
+                campaign: {
+                    id: 18,
+                    name: "DS Chờ",
+                    color: "43a047"
+                },
+                saler: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                }
+            },
+            {
+                total_registers: 49,
+                campaign: {
+                    id: 19,
+                    name: "B2B",
+                    color: "8bc34a"
+                },
+                saler: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                }
+            },
+            {
+                total_registers: 13,
+                campaign: {
+                    id: 19,
+                    name: "B2B",
+                    color: "8bc34a"
+                },
+                saler: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                }
+            },
+            {
+                total_registers: 2,
+                campaign: {
+                    id: 19,
+                    name: "B2B",
+                    color: "8bc34a"
+                },
+                saler: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            }
+        ]
+    }
+}
+
+export function getDataPaidList() {
+    return {
+        type: types.GET_DATA_PAID_LIST,
+        paidList: [
+            {
+                id: 17903,
+                student: {
+                    id: 6139,
+                    name: "Trần Ngọc Minh Anh",
+                    email: "bibiminhanh02@gmail.com",
+                    phone: "0967763902"
+                },
+                money: 0,
+                code: "CM31719",
+                note: "dsc CCM280323",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 21:34",
+                course_money: 1000000,
+                class: {
+                    id: 1054,
+                    name: "AI 31.14",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 7699,
+                    name: "Lê thị Như Quỳnh",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18687,
+                student: {
+                    id: 8475,
+                    name: "Hồ Nhật Quang ",
+                    email: "honhatquang272@gmail.com",
+                    phone: "0968520601"
+                },
+                money: 1200000,
+                code: "CM31718",
+                note: "",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 19:04",
+                course_money: 1200000,
+                class: {
+                    id: 1035,
+                    name: "AE 31.2",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png"
+                },
+                collector: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                }
+            },
+            {
+                id: 18912,
+                student: {
+                    id: 4899,
+                    name: "Hà Hồng Nhung",
+                    email: "hahongnhung.570@gmail.com",
+                    phone: "0988461295"
+                },
+                money: 900000,
+                code: "CM31717",
+                note: "hưong giảm 900",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 18:57",
+                course_money: 1000000,
+                class: {
+                    id: 1016,
+                    name: "ID 31.1",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                },
+                collector: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                }
+            },
+            {
+                id: 18926,
+                student: {
+                    id: 6681,
+                    name: "Vũ Thanh Quỳnh",
+                    email: "tet4455@gmail.com",
+                    phone: "01882088976"
+                },
+                money: 0,
+                code: "CM31716",
+                note: "ds chờ CM28600",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 18:55",
+                course_money: 1000000,
+                class: {
+                    id: 1088,
+                    name: "AI 32.2",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                }
+            },
+            {
+                id: 18914,
+                student: {
+                    id: 2039,
+                    name: "Nguyễn Thị Diệu Hương",
+                    email: "boo.huong@gmail.com",
+                    phone: "01665738446"
+                },
+                money: 0,
+                code: "CM31715",
+                note: "",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 18:48",
+                course_money: 1000000,
+                class: {
+                    id: 1024,
+                    name: "AI 31.3",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                }
+            },
+            {
+                id: 18915,
+                student: {
+                    id: 7596,
+                    name: "Lưu Khánh Chi",
+                    email: "mir.nosora@gmail.com",
+                    phone: "123"
+                },
+                money: 0,
+                code: "CM31714",
+                note: "ds chờ",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 18:11",
+                course_money: 1000000,
+                class: {
+                    id: 1024,
+                    name: "AI 31.3",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                }
+            },
+            {
+                id: 18931,
+                student: {
+                    id: 5364,
+                    name: "Vũ Khánh Phượng",
+                    email: "khanhphuongvu311@gmail.com",
+                    phone: "0947045011"
+                },
+                money: 0,
+                code: "CM31713",
+                note: "GV học",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 17:40",
+                course_money: 1000000,
+                class: {
+                    id: 1052,
+                    name: "ID 31.2",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18930,
+                student: {
+                    id: 4092,
+                    name: "Nguyễn Huỳnh Vĩ Hòa",
+                    email: "Nguyenhuynhvihoa@gmail.com",
+                    phone: "0906878704"
+                },
+                money: 0,
+                code: "CM31712",
+                note: "GV học",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 17:38",
+                course_money: 1000000,
+                class: {
+                    id: 1052,
+                    name: "ID 31.2",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18925,
+                student: {
+                    id: 8238,
+                    name: "Lê Thị Thảo Phương",
+                    email: "Lethaophuong0605@gmail.com",
+                    phone: "0931427404"
+                },
+                money: 0,
+                code: "CCM3625",
+                note: "DS chờ CM31531",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 15:22",
+                course_money: 1000000,
+                class: {
+                    id: 1075,
+                    name: "PS 32.14 (Sài Gòn)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18848,
+                student: {
+                    id: 8575,
+                    name: "Trương Đình Luân ",
+                    email: "Dinhluan.sn1316@gmail.com",
+                    phone: "0984184141"
+                },
+                money: 700000,
+                code: "CCM3624",
+                note: "giữ ưu đãi flashsale 30%",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 15:21",
+                course_money: 1000000,
+                class: {
+                    id: 990,
+                    name: "PS - Danh Sách Chờ (Cơ sở 4)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                id: 18847,
+                student: {
+                    id: 8575,
+                    name: "Trương Đình Luân ",
+                    email: "Dinhluan.sn1316@gmail.com",
+                    phone: "0984184141"
+                },
+                money: 700000,
+                code: "CM31711",
+                note: "giữ ưu đãi flashsale 30%",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 15:21",
+                course_money: 1000000,
+                class: {
+                    id: 1024,
+                    name: "AI 31.3",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                id: 18924,
+                student: {
+                    id: 4954,
+                    name: "Lê Hà Huỳnh Như",
+                    email: "lenhu07100710@gmail.com",
+                    phone: "01252092294"
+                },
+                money: 0,
+                code: "CM31710",
+                note: "chuyển học id lại",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 15:19",
+                course_money: 1000000,
+                class: {
+                    id: 1052,
+                    name: "ID 31.2",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18905,
+                student: {
+                    id: 8682,
+                    name: "Trần Hoa Lẫm",
+                    email: "tranhoalam09@gmail.com",
+                    phone: "0945839852"
+                },
+                money: 1020000,
+                code: "CCM3623",
+                note: "combo 3",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 14:40",
+                course_money: 1200000,
+                class: {
+                    id: 1086,
+                    name: "AE 32.3 (Sài Gòn)",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18904,
+                student: {
+                    id: 8682,
+                    name: "Trần Hoa Lẫm",
+                    email: "tranhoalam09@gmail.com",
+                    phone: "0945839852"
+                },
+                money: 850000,
+                code: "CCM3622",
+                note: "combo 3",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 14:40",
+                course_money: 1000000,
+                class: {
+                    id: 1080,
+                    name: "AI 32.12 (Sài Gòn)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18903,
+                student: {
+                    id: 8682,
+                    name: "Trần Hoa Lẫm",
+                    email: "tranhoalam09@gmail.com",
+                    phone: "0945839852"
+                },
+                money: 850000,
+                code: "CCM3621",
+                note: "combo 3",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 14:40",
+                course_money: 1000000,
+                class: {
+                    id: 1077,
+                    name: "PS 32.12 (Sài Gòn)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18922,
+                student: {
+                    id: 3841,
+                    name: "Phạm Ngọc Trâm Anh",
+                    email: "anhpnt@thschool.edu.vn",
+                    phone: "0942925885"
+                },
+                money: 0,
+                code: "CM31709",
+                note: "học bổng minigame AI 21.3, xác nhận qua inbox fanpage",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 13:59",
+                course_money: 1000000,
+                class: {
+                    id: 1042,
+                    name: "PR 31.1",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg"
+                },
+                collector: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                id: 18920,
+                student: {
+                    id: 7327,
+                    name: "Nguyễn Trang Thư",
+                    email: "trangthu3010.tt@gmail.com",
+                    phone: "0908.252.147"
+                },
+                money: 0,
+                code: "CCM3620",
+                note: "DSC CCM28897",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 11:51",
+                course_money: 1000000,
+                class: {
+                    id: 1080,
+                    name: "AI 32.12 (Sài Gòn)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                }
+            },
+            {
+                id: 18913,
+                student: {
+                    id: 7402,
+                    name: "Phạm Thị Mai Phương",
+                    email: "maiphuongpham2411@gmail.com",
+                    phone: "0888396838"
+                },
+                money: 0,
+                code: "CM31708",
+                note: "bảo lưu học lại CM30286",
+                paid_status: true,
+                paid_time: "2017-12-13",
+                paid_time_full: "13 Tháng M. hai, 2017, 10:16",
+                course_money: 1000000,
+                class: {
+                    id: 1042,
+                    name: "PR 31.1",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg"
+                },
+                collector: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                id: 18877,
+                student: {
+                    id: 8668,
+                    name: "Lại Đình Quang ",
+                    email: "quangdinh0411@gmail.com",
+                    phone: "01695160943"
+                },
+                money: 900000,
+                code: "CM31707",
+                note: "bạn chị KH",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 18:46",
+                course_money: 1200000,
+                class: {
+                    id: 1049,
+                    name: "PT 31.2",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg"
+                },
+                collector: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            },
+            {
+                id: 17795,
+                student: {
+                    id: 328,
+                    name: "Vũ Thị Ngọc Mai",
+                    email: "ngocmailyon3@gmail.com",
+                    phone: "0964.236.182"
+                },
+                money: 0,
+                code: "CM31706",
+                note: "học lại ",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 18:44",
+                course_money: 1000000,
+                class: {
+                    id: 1025,
+                    name: "AI 31.2",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18900,
+                student: {
+                    id: 7987,
+                    name: "Nguyễn Thị Phi Hậu",
+                    email: "nguyenphihau26@gmail.com",
+                    phone: "0163.562.5669"
+                },
+                money: 0,
+                code: "CCM3619",
+                note: "ds chờ",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 18:27",
+                course_money: 1000000,
+                class: {
+                    id: 1081,
+                    name: "AI 32.11 (Sài Gòn)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18759,
+                student: {
+                    id: 8501,
+                    name: "Phạm Trung Kiên",
+                    email: "kienpham01189@gmail.com",
+                    phone: "0904355903"
+                },
+                money: 1200000,
+                code: "CM31705",
+                note: "",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 18:23",
+                course_money: 1200000,
+                class: {
+                    id: 1036,
+                    name: "AE 31.1",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png"
+                },
+                collector: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18448,
+                student: {
+                    id: 2216,
+                    name: "Dư Thị Vân Anh",
+                    email: "gm.lovee@gmail.com",
+                    phone: "0919822636"
+                },
+                money: 800000,
+                code: "CM31704",
+                note: "Ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 17:32",
+                course_money: 1000000,
+                class: {
+                    id: 1014,
+                    name: "AI 31.8",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18768,
+                student: {
+                    id: 8506,
+                    name: "Hoàng Thùy Ninh",
+                    email: "thuyninh054@gmail.com",
+                    phone: "0904620612"
+                },
+                money: 850000,
+                code: "CM31703",
+                note: "Ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 17:20",
+                course_money: 1000000,
+                class: {
+                    id: 1007,
+                    name: "PS 31.4",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18856,
+                student: {
+                    id: 6924,
+                    name: "An Chau",
+                    email: "chauphucan1711@gmail.com",
+                    phone: "0906630121"
+                },
+                money: 850000,
+                code: "CM31702",
+                note: "15%",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 17:12",
+                course_money: 1000000,
+                class: {
+                    id: 1054,
+                    name: "AI 31.14",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 17462,
+                student: {
+                    id: 6349,
+                    name: "Nguyễn Thị Thanh Vy",
+                    email: "vynguyen.2191@gmail.com",
+                    phone: "0934859032"
+                },
+                money: 1000000,
+                code: "CCM3618",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 16:11",
+                course_money: 1000000,
+                class: {
+                    id: 1061,
+                    name: "ID - Khoá Sau (Danh Sách Chờ cơ sở 3)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18878,
+                student: {
+                    id: 8669,
+                    name: "Nguyễn Trung Dũng",
+                    email: "gerrard@tclfreight.com.vn",
+                    phone: "0934444044"
+                },
+                money: 1000000,
+                code: "CM31700",
+                note: "",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 15:16",
+                course_money: 1000000,
+                class: {
+                    id: 1004,
+                    name: "PS 31.1",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                }
+            },
+            {
+                id: 18895,
+                student: {
+                    id: 7576,
+                    name: "Nguyễn Thị Dung ",
+                    email: "ndung31899@gmail.com",
+                    phone: "0994214645"
+                },
+                money: 0,
+                code: "CM31701",
+                note: "dsc CCM28906	",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 15:07",
+                course_money: 1000000,
+                class: {
+                    id: 1025,
+                    name: "AI 31.2",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                id: 17717,
+                student: {
+                    id: 8069,
+                    name: "Nguyễn Danh Khiêm",
+                    email: "khiemnguyen.hvnh@gmail.com",
+                    phone: "01644649907"
+                },
+                money: 800000,
+                code: "CM31699",
+                note: "",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 14:43",
+                course_money: 1000000,
+                class: {
+                    id: 1004,
+                    name: "PS 31.1",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                }
+            },
+            {
+                id: 18893,
+                student: {
+                    id: 8678,
+                    name: "Nguyễn Thị Phương Thảo",
+                    email: "no3bie@gmail.com",
+                    phone: "0905327723"
+                },
+                money: 0,
+                code: "CM31698",
+                note: "em anh Hùng",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 14:40",
+                course_money: 1200000,
+                class: {
+                    id: 1049,
+                    name: "PT 31.2",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg"
+                },
+                collector: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    color: "4caf50"
+                }
+            },
+            {
+                id: 18862,
+                student: {
+                    id: 7767,
+                    name: "Châu Thị Phương Trinh",
+                    email: "chinykiu@gmail.com",
+                    phone: "0128.719.9872"
+                },
+                money: 0,
+                code: "CM31697",
+                note: "DS chờ CM30517",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 12:34",
+                course_money: 1000000,
+                class: {
+                    id: 1059,
+                    name: "PS 31.17 (Sài Gòn)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 4324,
+                    name: "Minh Hân",
+                    color: "9c27b0"
+                }
+            },
+            {
+                id: 18871,
+                student: {
+                    id: 8665,
+                    name: "Nguyễn Minh Châu",
+                    email: "minhchaunguyen291@gmail.com",
+                    phone: "0915585552"
+                },
+                money: 700000,
+                code: "CM31696",
+                note: "giữ ưu đãi 30% flashsales ",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 11:52",
+                course_money: 1000000,
+                class: {
+                    id: 999,
+                    name: "PS 31.9",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                }
+            },
+            {
+                id: 18682,
+                student: {
+                    id: 8469,
+                    name: "Phạm Thị Thanh An",
+                    email: "thanhanvcu@gmail.com",
+                    phone: "0974936493"
+                },
+                money: 850000,
+                code: "CM31695",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 10:38",
+                course_money: 1000000,
+                class: {
+                    id: 1014,
+                    name: "AI 31.8",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18681,
+                student: {
+                    id: 8468,
+                    name: "Đinh Thị Thúy Nga ",
+                    email: "ngadt@getflycrm.com",
+                    phone: "01689730012"
+                },
+                money: 850000,
+                code: "CM31694",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 10:38",
+                course_money: 1000000,
+                class: {
+                    id: 1014,
+                    name: "AI 31.8",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18667,
+                student: {
+                    id: 8460,
+                    name: "Nguyễn Thị Huyền ",
+                    email: "Huyennguyent.jm@gmail.com",
+                    phone: "0978258795"
+                },
+                money: 800000,
+                code: "CM31693",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 10:27",
+                course_money: 1000000,
+                class: {
+                    id: 1006,
+                    name: "PS 31.3",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18874,
+                student: {
+                    id: 8484,
+                    name: "Nghiêm Quang Huy",
+                    email: "huynghiem99@gmail.com",
+                    phone: "0969609970"
+                },
+                money: 700000,
+                code: "CM31692",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 10:27",
+                course_money: 1000000,
+                class: {
+                    id: 1013,
+                    name: "AI 31.6",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18853,
+                student: {
+                    id: 8653,
+                    name: "Đỗ Ngọc Anh",
+                    email: "dongocanh79@gmail.com",
+                    phone: "01669556688"
+                },
+                money: 850000,
+                code: "CM31691",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 10:27",
+                course_money: 1000000,
+                class: {
+                    id: 1008,
+                    name: "PS 31.5",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18852,
+                student: {
+                    id: 8653,
+                    name: "Đỗ Ngọc Anh",
+                    email: "dongocanh79@gmail.com",
+                    phone: "01669556688"
+                },
+                money: 850000,
+                code: "CM31690",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 10:27",
+                course_money: 1000000,
+                class: {
+                    id: 1042,
+                    name: "PR 31.1",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18718,
+                student: {
+                    id: 1773,
+                    name: "Trần Thu Thuỷ",
+                    email: "thuyttt2910@gmail.com",
+                    phone: "01693205585"
+                },
+                money: 700000,
+                code: "CCM3617",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 10:27",
+                course_money: 1000000,
+                class: {
+                    id: 1019,
+                    name: "AI - Danh Sách Chờ (Cơ sở 1)",
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            },
+            {
+                id: 18717,
+                student: {
+                    id: 1773,
+                    name: "Trần Thu Thuỷ",
+                    email: "thuyttt2910@gmail.com",
+                    phone: "01693205585"
+                },
+                money: 950000,
+                code: "CCM3616",
+                note: "ck",
+                paid_status: true,
+                paid_time: "2017-12-12",
+                paid_time_full: "12 Tháng M. hai, 2017, 10:27",
+                course_money: 1200000,
+                class: {
+                    id: 1033,
+                    name: "AE - Danh Sách Chờ (Cơ sở 1)",
+                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png"
+                },
+                collector: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    color: "009688"
+                }
+            }
+        ],
+    }
+}
+
+export function getDataMarketingCampaign() {
+    return {
+        type: types.GET_DATA_MARKETING_CAMPAIGN,
+        marketing_campaigns: [
+            {
+                id: 22,
+                name: "Hotline",
+                color: "9c27b0"
+            },
+            {
+                id: 21,
+                name: "Đối tác Antoree test",
+                color: "607d8b"
+            },
+            {
+                id: 20,
+                name: "Google Adwords",
+                color: "f44336"
+            },
+            {
+                id: 19,
+                name: "B2B",
+                color: "8bc34a"
+            },
+            {
+                id: 18,
+                name: "DS Chờ",
+                color: "43a047"
+            },
+            {
+                id: 17,
+                name: "Khác",
+                color: "795548"
+            },
+            {
+                id: 16,
+                name: "Instagram",
+                color: "43a047"
+            },
+            {
+                id: 15,
+                name: "Offline",
+                color: "00897b"
+            },
+            {
+                id: 14,
+                name: "Email ",
+                color: "00acc1"
+            },
+            {
+                id: 13,
+                name: "Youtube",
+                color: "0288d1"
+            },
+            {
+                id: 12,
+                name: "Văn phòng",
+                color: "fb8c00"
+            },
+            {
+                id: 11,
+                name: "Telesale",
+                color: "ffa000"
+            },
+            {
+                id: 10,
+                name: "Inbox",
+                color: "fbc02d"
+            },
+            {
+                id: 9,
+                name: "FB Ads",
+                color: "f4511e"
+            },
+            {
+                id: 8,
+                name: "Fanpage",
+                color: "7cb342"
+            },
+            {
+                id: 7,
+                name: "Event",
+                color: "43a047"
+            }
+        ],
+    }
+}
+
+export function getDataTeleCall() {
+    return {
+        type: types.GET_DATA_TELE_CALL,
+        tele_calls: [
+            {
+                id: 17786,
+                student: {
+                    id: 7629,
+                    name: "Cao Thu Trang",
+                    email: "thutrangcao0403@gmail.com",
+                    phone: "01669697868"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                },
+                note: "",
+                call_time: "12 Tháng M. hai, 2017, 11:03"
+            },
+            {
+                id: 17785,
+                student: {
+                    id: 8668,
+                    name: "Lại Đình Quang ",
+                    email: "quangdinh0411@gmail.com",
+                    phone: "01695160943"
+                },
+                call_status: "success",
+                caller: {
+                    id: 26,
+                    name: "Yến Nhi",
+                    color: "e91e63"
+                },
+                note: "",
+                call_time: "12 Tháng M. hai, 2017, 10:32"
+            },
+            {
+                id: 17784,
+                student: {
+                    id: 4102,
+                    name: "Mã Phúc Quỳnh",
+                    email: "phucquynh61@gmail.com",
+                    phone: "01632147020"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3290,
+                    name: "Nguyễn Mỹ Linh",
+                    color: "c0ca33"
+                },
+                note: "thuê bao",
+                call_time: "12 Tháng M. hai, 2017, 10:32"
+            },
+            {
+                id: 17783,
+                student: {
+                    id: 8350,
+                    name: "Bùi Mai Anh",
+                    email: "peishimeiying@gmail.com",
+                    phone: "0964168846"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "Chiều nay 6h đến, vẫn giảm 15% nhóm 3 người",
+                call_time: "12 Tháng M. hai, 2017, 10:23"
+            },
+            {
+                id: 17782,
+                student: {
+                    id: 8350,
+                    name: "Bùi Mai Anh",
+                    email: "peishimeiying@gmail.com",
+                    phone: "0964168846"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "",
+                call_time: "12 Tháng M. hai, 2017, 10:22"
+            },
+            {
+                id: 17781,
+                student: {
+                    id: 5483,
+                    name: "Đồng Đức Hiệp",
+                    email: "duchiep1091@gmail.com",
+                    phone: "0919078996"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "Huỷ đky vì đợt này bận",
+                call_time: "12 Tháng M. hai, 2017, 10:20"
+            },
+            {
+                id: 17780,
+                student: {
+                    id: 780,
+                    name: "Phạm Quốc Chính",
+                    email: "thanrua.chichi@gmail.com",
+                    phone: "0917.646.389"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Ậm ừ gọi toàn bảo gọi lại sau mess k rep",
+                call_time: "12 Tháng M. hai, 2017, 10:18"
+            },
+            {
+                id: 17779,
+                student: {
+                    id: 8492,
+                    name: "Nguyễn Thu Huyền ",
+                    email: "huyennt0198@gmail.com",
+                    phone: "01258283479"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "",
+                call_time: "12 Tháng M. hai, 2017, 10:18"
+            },
+            {
+                id: 17778,
+                student: {
+                    id: 8575,
+                    name: "Trương Đình Luân ",
+                    email: "Dinhluan.sn1316@gmail.com",
+                    phone: "0984184141"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "K nghe máy mess",
+                call_time: "12 Tháng M. hai, 2017, 10:16"
+            },
+            {
+                id: 17777,
+                student: {
+                    id: 2148,
+                    name: "Nguyễn Thị Khánh Huyền",
+                    email: "huyen.hsph.157@gmail.com",
+                    phone: "0962925283"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 6079,
+                    name: "Phương Thảo",
+                    color: "8bc34a"
+                },
+                note: "Đã mess",
+                call_time: "12 Tháng M. hai, 2017, 10:14"
+            },
+            {
+                id: 17776,
+                student: {
+                    id: 8673,
+                    name: "TRẦN THỊ BÍCH DIỆP",
+                    email: "bongvit98@gmail.com",
+                    phone: "01682474907"
+                },
+                call_status: "success",
+                caller: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                },
+                note: "17/12, đang đăng kí Beyo",
+                call_time: "12 Tháng M. hai, 2017, 10:03"
+            },
+            {
+                id: 17775,
+                student: {
+                    id: 8670,
+                    name: "NGUYỄN THỊ KỲ ANH",
+                    email: "kyanh22598@gmail.com",
+                    phone: "01627781100"
+                },
+                call_status: "success",
+                caller: {
+                    id: 5063,
+                    name: "Lê Khánh Linh",
+                    color: "00bcd4"
+                },
+                note: "ưu đãi 17/12, quan tâm",
+                call_time: "12 Tháng M. hai, 2017, 10:02"
+            },
+            {
+                id: 17774,
+                student: {
+                    id: 8501,
+                    name: "Phạm Trung Kiên",
+                    email: "kienpham01189@gmail.com",
+                    phone: "0904355903"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Tối đi học đóng",
+                call_time: "12 Tháng M. hai, 2017, 09:56"
+            },
+            {
+                id: 17773,
+                student: {
+                    id: 8666,
+                    name: "Hồng Ngọc Nguyễn",
+                    email: "hongngock55neu@gmail.com",
+                    phone: "0965074605"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "",
+                call_time: "12 Tháng M. hai, 2017, 09:53"
+            },
+            {
+                id: 17772,
+                student: {
+                    id: 8668,
+                    name: "Lại Đình Quang ",
+                    email: "quangdinh0411@gmail.com",
+                    phone: "01695160943"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Tối đi học đóng 900",
+                call_time: "12 Tháng M. hai, 2017, 09:51"
+            },
+            {
+                id: 17771,
+                student: {
+                    id: 8671,
+                    name: "Nguyễn Bá Thằng",
+                    email: "bathang294@gmail.com",
+                    phone: "0966514398"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Có lịch t1 báo",
+                call_time: "12 Tháng M. hai, 2017, 09:49"
+            },
+            {
+                id: 17770,
+                student: {
+                    id: 8196,
+                    name: "Vũ Kiều Loan",
+                    email: "loanhp681998@gmail.com",
+                    phone: "01282273923"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Thuê bao",
+                call_time: "12 Tháng M. hai, 2017, 09:49"
+            },
+            {
+                id: 17769,
+                student: {
+                    id: 8069,
+                    name: "Nguyễn Danh Khiêm",
+                    email: "khiemnguyen.hvnh@gmail.com",
+                    phone: "01644649907"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "K nghe mess",
+                call_time: "12 Tháng M. hai, 2017, 09:35"
+            },
+            {
+                id: 17768,
+                student: {
+                    id: 8669,
+                    name: "Nguyễn Trung Dũng",
+                    email: "gerrard@tclfreight.com.vn",
+                    phone: "0934444044"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "Chiều đi học đóng 1tr",
+                call_time: "12 Tháng M. hai, 2017, 09:22"
+            },
+            {
+                id: 17767,
+                student: {
+                    id: 8668,
+                    name: "Lại Đình Quang ",
+                    email: "quangdinh0411@gmail.com",
+                    phone: "01695160943"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    color: "4caf50"
+                },
+                note: "Bạn Khánh Huyền, ưu đãi 25%",
+                call_time: "12 Tháng M. hai, 2017, 00:03"
+            },
+            {
+                id: 17766,
+                student: {
+                    id: 8484,
+                    name: "Nghiêm Quang Huy",
+                    email: "huynghiem99@gmail.com",
+                    phone: "0969609970"
+                },
+                call_status: "success",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "đã ck",
+                call_time: "11 Tháng M. hai, 2017, 21:47"
+            },
+            {
+                id: 17765,
+                student: {
+                    id: 8665,
+                    name: "Nguyễn Minh Châu",
+                    email: "minhchaunguyen291@gmail.com",
+                    phone: "0915585552"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "giữ ưu đãi 30% 700k flashsale do đăng ký muộn quá không ck được. Đưa học phí cho giảng viên vào sáng mai",
+                call_time: "11 Tháng M. hai, 2017, 20:47"
+            },
+            {
+                id: 17764,
+                student: {
+                    id: 8492,
+                    name: "Nguyễn Thu Huyền ",
+                    email: "huyennt0198@gmail.com",
+                    phone: "01258283479"
+                },
+                call_status: "success",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "chỉ học một khoá PS, giữ ưu đãi 15% sáng mai đến hoàn thành học phí",
+                call_time: "11 Tháng M. hai, 2017, 20:16"
+            },
+            {
+                id: 17763,
+                student: {
+                    id: 2148,
+                    name: "Nguyễn Thị Khánh Huyền",
+                    email: "huyen.hsph.157@gmail.com",
+                    phone: "0962925283"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 3331,
+                    name: "Lý Nguyệt Thu",
+                    color: "F62359"
+                },
+                note: "",
+                call_time: "11 Tháng M. hai, 2017, 20:13"
+            },
+            {
+                id: 17762,
+                student: {
+                    id: 8121,
+                    name: "Nguyễn Minh Tâm",
+                    email: "Tamnmgdh17491@fpt.edu.vn",
+                    phone: "0962759790"
+                },
+                call_status: "success",
+                caller: {
+                    id: 6083,
+                    name: "Phạm Hà Thu",
+                    color: "009688"
+                },
+                note: "1tr550. Mai qua vp",
+                call_time: "11 Tháng M. hai, 2017, 19:24"
+            },
+            {
+                id: 17761,
+                student: {
+                    id: 7901,
+                    name: "Trần Thương Nguyên Thảo",
+                    email: "khi020496@gmail.com",
+                    phone: "01226662975"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "thuê bao nhiều lần, đã mes remind",
+                call_time: "11 Tháng M. hai, 2017, 18:47"
+            },
+            {
+                id: 17760,
+                student: {
+                    id: 7433,
+                    name: "Trần Hương Giang",
+                    email: "tranhuonggiangkn@gmail.com",
+                    phone: "0168.330.3689"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "đi học đóng tiền",
+                call_time: "11 Tháng M. hai, 2017, 18:32"
+            },
+            {
+                id: 17759,
+                student: {
+                    id: 7645,
+                    name: "Nguyễn Hồng Anh Tuấn",
+                    email: "camap1033@gmail.com",
+                    phone: "0932703410"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "không học, tự chủ động ll",
+                call_time: "11 Tháng M. hai, 2017, 18:28"
+            },
+            {
+                id: 17758,
+                student: {
+                    id: 6349,
+                    name: "Nguyễn Thị Thanh Vy",
+                    email: "vynguyen.2191@gmail.com",
+                    phone: "0934859032"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "ngày mai ck, học tháng 1",
+                call_time: "11 Tháng M. hai, 2017, 18:24"
+            },
+            {
+                id: 17757,
+                student: {
+                    id: 8334,
+                    name: "Hoàng Lê Khánh Ngân",
+                    email: "khanhnganhoang94@gmail.com",
+                    phone: "0938692875"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "đợi đủ tất cả các khoá mới học, chủ động liên hệ lại",
+                call_time: "11 Tháng M. hai, 2017, 18:20"
+            },
+            {
+                id: 17756,
+                student: {
+                    id: 8401,
+                    name: "Phạm Thanh Hường",
+                    email: "phth.huong92@gmail.com",
+                    phone: "0905041292"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "bạn sẽ tự chủ động liên hệ",
+                call_time: "11 Tháng M. hai, 2017, 18:20"
+            },
+            {
+                id: 17755,
+                student: {
+                    id: 7594,
+                    name: "Lý Tuấn Khiêm",
+                    email: "khiemly208@gmail.com",
+                    phone: "0972689714"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "không gọi đc, đã mess",
+                call_time: "11 Tháng M. hai, 2017, 18:15"
+            },
+            {
+                id: 17754,
+                student: {
+                    id: 8333,
+                    name: "Trần Hải Yến ",
+                    email: "annayentran2106@gmail.com",
+                    phone: "01277810787"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "khi nào lên học đóng tiền",
+                call_time: "11 Tháng M. hai, 2017, 18:10"
+            },
+            {
+                id: 17753,
+                student: {
+                    id: 8333,
+                    name: "Trần Hải Yến ",
+                    email: "annayentran2106@gmail.com",
+                    phone: "01277810787"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "chuyển lịch học t1",
+                call_time: "11 Tháng M. hai, 2017, 18:10"
+            },
+            {
+                id: 17752,
+                student: {
+                    id: 5955,
+                    name: "Nguyễn Hồ Bảo Chấn",
+                    email: "baochan98@gmail.com",
+                    phone: "01225451261"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "khai giảng lên đóng học phí",
+                call_time: "11 Tháng M. hai, 2017, 18:07"
+            },
+            {
+                id: 17751,
+                student: {
+                    id: 8663,
+                    name: "Quach Hien",
+                    email: "hoanghien97@gmail.com",
+                    phone: "0986781771"
+                },
+                call_status: "failed",
+                caller: {
+                    id: 1947,
+                    name: "Lan Hương",
+                    color: "78CEFF"
+                },
+                note: "",
+                call_time: "11 Tháng M. hai, 2017, 18:04"
+            },
+            {
+                id: 17750,
+                student: {
+                    id: 7628,
+                    name: "Huỳnh Vũ Phương Thảo",
+                    email: "hvpthao@gmail.com",
+                    phone: "0938250083"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "không có thời gian, t1 học",
+                call_time: "11 Tháng M. hai, 2017, 17:59"
+            },
+            {
+                id: 17749,
+                student: {
+                    id: 8051,
+                    name: "Nguyễn Thị Yến Nhi",
+                    email: "yenhi.nt@gmail.com",
+                    phone: "0983035000"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "đang ở quê, không học được, chuyển sang năm sau",
+                call_time: "11 Tháng M. hai, 2017, 17:56"
+            },
+            {
+                id: 17748,
+                student: {
+                    id: 8127,
+                    name: "Phu Ngan Han",
+                    email: "nganhan3004@gmail.com",
+                    phone: "0938152468"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "không có time, chuyển qua năm sau",
+                call_time: "11 Tháng M. hai, 2017, 17:54"
+            },
+            {
+                id: 17747,
+                student: {
+                    id: 6766,
+                    name: "Trần Nhật Duy",
+                    email: "trannhatduy.lawyer@gmail.com",
+                    phone: "0127.846.6608"
+                },
+                call_status: "success",
+                caller: {
+                    id: 7698,
+                    name: "Nguyễn Thanh Ngân",
+                    color: ""
+                },
+                note: "không muốn học nữa",
+                call_time: "11 Tháng M. hai, 2017, 17:52"
+            }
+        ],
+    }
+}
+
 export function getDataPeople() {
     return {
         type: types.GET_DATA_PEOPLE,
@@ -833,7 +4173,6 @@ export function getDataPeople() {
     }
 }
 
-
 export function getDataSchedules() {
     return {
         type: types.GET_DATA_SCHEDULES,
@@ -964,7 +4303,6 @@ export function getDataSchedules() {
         ]
     }
 }
-
 
 export function getDataRole() {
     return {
@@ -2724,7 +6062,6 @@ export function getDataClasses() {
         ],
     }
 }
-
 
 export function getDataClass() {
     return {
@@ -4858,6 +8195,95 @@ export function getDataBase() {
 
     }
 }
+
+export function getDataBaseRoom() {
+    return {
+        type: types.GET_DATA_BASE_ROOM,
+        rooms: [
+            {
+                id: 4,
+                name: "Tầng 4",
+                base_id: 3,
+                base_name: "Cơ sở 1",
+                address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+            },
+            {
+                id: 6,
+                name: "Tầng 5",
+                base_id: 3,
+                base_name: "Cơ sở 1",
+                address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+            },
+            {
+                id: 8,
+                name: "Studio Tầng 5",
+                base_id: 3,
+                base_name: "Cơ sở 1",
+                address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+            },
+            {
+                id: 9,
+                name: "Tầng 2",
+                base_id: 3,
+                base_name: "Cơ sở 1",
+                address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+            },
+            {
+                id: 14,
+                name: "Tầng 5",
+                base_id: 4,
+                base_name: "Cơ sở 2",
+                address: "Số 162 phố Phương Liệt ( số 83 Trường Chinh rẽ vào) - Thanh Xuân - Hà Nội"
+            },
+            {
+                id: 15,
+                name: "Tầng 5",
+                base_id: 4,
+                base_name: "Cơ sở 2",
+                address: "Số 162 phố Phương Liệt ( số 83 Trường Chinh rẽ vào) - Thanh Xuân - Hà Nội"
+            },
+            {
+                id: 16,
+                name: "Tầng 4",
+                base_id: 6,
+                base_name: "Cơ sở 3",
+                address: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM"
+            },
+            {
+                id: 17,
+                name: "Tầng 3",
+                base_id: 3,
+                base_name: "Cơ sở 1",
+                address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+            },
+            {
+                id: 18,
+                name: "Tầng 2",
+                base_id: 8,
+                base_name: "Cơ sở 4",
+                address: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội"
+            },
+            {
+                id: 19,
+                name: "Tầng 3",
+                base_id: 8,
+                base_name: "Cơ sở 4",
+                address: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội"
+            },
+            {
+                id: 20,
+                name: "Tầng 5",
+                base_id: 6,
+                base_name: "Cơ sở 3",
+                address: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM"
+            }
+        ],
+
+    }
+}
+
+
+
 export function getDataMoneyCollect() {
     return {
         type: types.GET_DATA_MONEY_COLLECT,

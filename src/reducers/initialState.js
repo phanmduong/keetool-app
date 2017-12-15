@@ -16,7 +16,9 @@ export default {
     },
     theme: {
         theme: false,
+        colorText: '#FFFFFF',
         colors: [color.colorGradient0, color.colorGradient1, color.colorGradient2],
+        colorsDrawer: [color.colorGradient0, color.colorGradient1],
         general:
             StyleSheet.create(style.style)
 
@@ -34,7 +36,12 @@ export default {
         classInfo:{},
         call_history: [],
         bases: [],
-        moneyCollect: []
+        moneyCollect: [],
+        tele_calls: [],
+        marketing_campaigns: [],
+        summary_marketing_campaign: [],
+        paidList: [],
+        rooms: [],
     }
 
 }

@@ -1,21 +1,21 @@
 import React, {Component} from 'react';
-import {
-    Text, TouchableOpacity, View, FlatList, Image, PanResponder, Modal, Switch, Platform,
-} from 'react-native';
-import {
-    Container, Item, Left, Right, Spinner, Content
-} from 'native-base';
+import {FlatList, Image, Modal, PanResponder, Platform, Switch, Text, TouchableOpacity, View,} from 'react-native';
+import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import Icon from '../../commons/Icon';
+import {wid} from '../../styles/size';
 import {connect} from 'react-redux'
-import {Col, Row, Grid} from "react-native-easy-grid";
+import {Col, Grid} from "react-native-easy-grid";
 import Communications from 'react-native-communications';
+import Loading from '../../commons/Loading';
+
 class TeachContainer extends Component {
     constructor() {
         super();
         this.state = {
             tab: 0,
+            isLoading: false,
             history: false,
             modalRegister: false,
             modalClass: false,
@@ -150,132 +150,180 @@ class TeachContainer extends Component {
         }
     }
 
+    isLoading() {
+        this.setState({isLoading: true});
+        setTimeout(() => this.setState({isLoading: false}), 200);
+    }
+
     ViewHistoryClass() {
         this.setState({history: !this.state.history})
     }
 
     ViewScheduleClass() {
+        this.isLoading()
         this.setState({tab: 0})
     }
 
     ViewStudyLesson() {
+        this.isLoading()
         this.setState({tab: 1})
     }
 
     ViewRegisterList() {
+        this.isLoading()
         this.setState({tab: 2})
     }
 
     ViewGens() {
+        this.isLoading()
         this.setState({tab: 3})
     }
 
     ViewCourses() {
+        this.isLoading()
         this.setState({tab: 4})
     }
 
     ViewClasses() {
+        this.isLoading()
         this.setState({tab: 5})
     }
 
     ViewAttendance() {
+        this.isLoading()
         this.setState({tab: 6})
     }
 
     ViewPersonalRating() {
+        this.isLoading()
         this.setState({tab: 7})
     }
 
     ViewWaitList() {
+        this.isLoading()
         this.setState({tab: 8})
     }
 
     ShowTab() {
         const {schedules, study_sessions, registers, gens, courses, classInfo, classes, general} = this.props;
+        const {isLoading} = this.state;
         switch (this.state.tab) {
             case 0:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
+                    <Content style={{flex: 1}}>
                         {
-                            schedules.map((item) =>
-                                <TouchableOpacity
-                                    style={[general.wrapperRowCenter, general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                    <Text style={general.textDescriptionCard}>{item.name}</Text>
-                                </TouchableOpacity>
-                            )
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    {
+                                        schedules.map((item) =>
+                                            <TouchableOpacity
+                                                style={[general.wrapperRowCenter, general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                                <Text style={general.textDescriptionCard}>{item.name}</Text>
+                                            </TouchableOpacity>
+                                        )
+                                    }
+                                </View>
+
                         }
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
             case 1:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
-                        <View>
-                            <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
-                                <Col>
-                                    <Text style={general.textTitleCard}>Weekday</Text>
-                                </Col>
-                                <Col>
-                                    <Text style={general.textTitleCard}>Start Time</Text>
-                                </Col>
-                                <Col>
-                                    <Text style={general.textTitleCard}>End Time</Text>
-                                </Col>
-                            </Grid>
-                        </View>
+                    <Content style={{flex: 1}}>
                         {
-                            study_sessions.map((item) =>
-                                <Grid
-                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                    <Col>
-                                        <Text style={general.textDescriptionCard}>{item.weekday}</Text>
-                                    </Col>
-                                    <Col>
-                                        <Text style={general.textDescriptionCard}>{item.start_time}</Text>
-                                    </Col>
-                                    <Col>
-                                        <Text style={general.textDescriptionCard}>{item.end_time}</Text>
-                                    </Col>
-                                </Grid>
-                            )
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    <View>
+                                        <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
+                                            <Col>
+                                                <Text style={general.textTitleCard}>Weekday</Text>
+                                            </Col>
+                                            <Col>
+                                                <Text style={general.textTitleCard}>Start Time</Text>
+                                            </Col>
+                                            <Col>
+                                                <Text style={general.textTitleCard}>End Time</Text>
+                                            </Col>
+                                        </Grid>
+                                    </View>
+                                    {
+                                        study_sessions.map((item) =>
+                                            <Grid
+                                                style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                                <Col>
+                                                    <Text style={general.textDescriptionCard}>{item.weekday}</Text>
+                                                </Col>
+                                                <Col>
+                                                    <Text style={general.textDescriptionCard}>{item.start_time}</Text>
+                                                </Col>
+                                                <Col>
+                                                    <Text style={general.textDescriptionCard}>{item.end_time}</Text>
+                                                </Col>
+                                            </Grid>
+                                        )
+                                    }
+                                </View>
+
                         }
+
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
             case 2:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
+                    <Content style={{flex: 1}}>
                         {
-                            registers.map((item, i) =>
-                                <TouchableOpacity
-                                    key={i}
-                                    onPress={() => this.setModalRegister(true, item)}
-                                    style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
-                                    <View style={[general.imageCircleNormal, general.shadow]}>
-                                        <Image
-                                            resizeMode={'cover'}
-                                            source={{uri: item.course_avatar_url}}
-                                            style={general.imageCircleNormal}
-                                        />
-                                        <View style={general.wrapperBadge}>
-                                            <Text style={[general.textDescriptionCard, {color: '#FFFFFF'}]}>{item.study_time}</Text>
-                                        </View>
-                                    </View>
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    {
+                                        registers.map((item, i) =>
+                                            <TouchableOpacity
+                                                key={i}
+                                                onPress={() => this.setModalRegister(true, item)}
+                                                style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
+                                                <View style={[general.imageCircleNormal, general.shadow]}>
+                                                    <Image
+                                                        resizeMode={'cover'}
+                                                        source={{uri: item.course_avatar_url}}
+                                                        style={general.imageCircleNormal}
+                                                    />
+                                                    <View style={general.wrapperBadge}>
+                                                        <Text
+                                                            style={[general.textDescriptionCard, {color: '#FFFFFF'}]}>{item.study_time}</Text>
+                                                    </View>
+                                                </View>
 
-                                    <View style={[{flex: 1}, general.paddingLR]}>
-                                        <Text style={general.textIstActive}>{item.name}</Text>
-                                        <Text style={general.textDescriptionCard}>{item.phone}</Text>
-                                    </View>
-                                    <TouchableOpacity onPress = {()=>{Communications.phonecall(item.phone, true)}}>
-                                        <Icon
-                                            name={item.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
-                                            size={30}
-                                            style={general.iconStyle}
-                                        />
-                                    </TouchableOpacity>
-                                </TouchableOpacity>
-                            )
+                                                <View style={[{flex: 1}, general.paddingLR]}>
+                                                    <Text style={general.textIstActive}>{item.name}</Text>
+                                                    <Text style={general.textDescriptionCard}>{item.phone}</Text>
+                                                </View>
+                                                <TouchableOpacity onPress={() => {
+                                                    Communications.phonecall(item.phone, true)
+                                                }}>
+                                                    <Icon
+                                                        name={item.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
+                                                        size={30}
+                                                        style={general.iconStyle}
+                                                    />
+                                                </TouchableOpacity>
+                                            </TouchableOpacity>
+                                        )
+                                    }
+                                </View>
+
                         }
+
+
                         <Modal
                             presentationStyle="overFullScreen"
                             animationType="fade"
@@ -323,14 +371,16 @@ class TeachContainer extends Component {
                                                     <Text style={general.textDescriptionCardLight}>
                                                         Campaign: <Text
                                                         style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${this.state.register.campaign.color}`}]}>{this.state.register.campaign.name}</Text></Text>
-                                 ,                   :
+                                                    :
                                                     <Text/>
                                             }
                                         </View>
                                     </View>
                                     <TouchableOpacity
                                         style={[general.bottomModal, general.wrapperRowCenter]}
-                                        onPress = {()=>{Communications.phonecall(this.state.register.phone, true)}}
+                                        onPress={() => {
+                                            Communications.phonecall(this.state.register.phone, true)
+                                        }}
                                     >
                                         <Icon
                                             name={this.state.register.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
@@ -350,150 +400,164 @@ class TeachContainer extends Component {
 
             case 3:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
-                        <View>
-                            <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
-                                <Col size={30}>
-                                    <Text style={general.textTitleCard}>Name</Text>
-                                </Col>
-                                <Col size={35}>
-                                    <Text style={general.textTitleCard}>Start</Text>
-                                </Col>
-                                <Col size={35}>
-                                    <Text style={general.textTitleCard}>End</Text>
-                                </Col>
-                                {/*<Col size={15} style={{alignItems: 'center'}}>*/}
-                                {/*<Text style={general.textTitleCard}>Status</Text>*/}
-                                {/*</Col>*/}
-                                {/*<Col size={15} style={{alignItems: 'center'}}>*/}
-                                {/*<Text style={general.textTitleCard}>Now</Text>*/}
-                                {/*</Col>*/}
-                            </Grid>
-                        </View>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={gens}
-                            renderItem={({item}) =>
-                                <Grid style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                    <Col size={30}>
-                                        <Text style={general.textDescriptionCardLight}>{item.name}</Text>
-                                    </Col>
-                                    <Col size={35}>
-                                        <Text style={general.textDescriptionCardLight}>{item.start_time}</Text>
-                                    </Col>
-                                    <Col size={35}>
-                                        <Text style={general.textDescriptionCardLight}>{item.end_time}</Text>
-                                    </Col>
-                                    {/*<Col size={15}>*/}
-                                    {/*<Switch*/}
-                                    {/*value={item.status == 0 ? false : true}*/}
-                                    {/*onValueChange={() => {*/}
-                                    {/*}}*/}
-                                    {/*onTintColor={'#C86AD9'}*/}
-                                    {/*/>*/}
-                                    {/*</Col>*/}
-                                    {/*<Col size={15}>*/}
-                                    {/*<Switch*/}
-                                    {/*value={item.status == 0 ? false : true}*/}
-                                    {/*onValueChange={() => {*/}
-                                    {/*}}*/}
-                                    {/*onTintColor={'#C86AD9'}*/}
-                                    {/*/>*/}
-                                    {/*</Col>*/}
+                    <Content style={{flex: 1}}>
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    <View>
+                                        <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
+                                            <Col size={30}>
+                                                <Text style={general.textTitleCard}>Name</Text>
+                                            </Col>
+                                            <Col size={35}>
+                                                <Text style={general.textTitleCard}>Start</Text>
+                                            </Col>
+                                            <Col size={35}>
+                                                <Text style={general.textTitleCard}>End</Text>
+                                            </Col>
+                                            {/*<Col size={15} style={{alignItems: 'center'}}>*/}
+                                            {/*<Text style={general.textTitleCard}>Status</Text>*/}
+                                            {/*</Col>*/}
+                                            {/*<Col size={15} style={{alignItems: 'center'}}>*/}
+                                            {/*<Text style={general.textTitleCard}>Now</Text>*/}
+                                            {/*</Col>*/}
+                                        </Grid>
+                                    </View>
+                                    <FlatList
+                                        showsVerticalScrollIndicator={false}
+                                        data={gens}
+                                        renderItem={({item}) =>
+                                            <Grid
+                                                style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                                <Col size={30}>
+                                                    <Text style={general.textDescriptionCardLight}>{item.name}</Text>
+                                                </Col>
+                                                <Col size={35}>
+                                                    <Text
+                                                        style={general.textDescriptionCardLight}>{item.start_time}</Text>
+                                                </Col>
+                                                <Col size={35}>
+                                                    <Text
+                                                        style={general.textDescriptionCardLight}>{item.end_time}</Text>
+                                                </Col>
+                                            </Grid>
+                                        }
+                                    />
+                                </View>
+                        }
 
-                                </Grid>
-                            }
-                        />
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
 
             case 4:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
-                        <View>
-                            <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
-                                <Col size={20}>
-                                </Col>
-                                <Col size={20}>
-                                    <Text style={general.textTitleCard}>Name</Text>
-                                </Col>
-                                <Col size={18} style={{alignItems: 'center'}}>
-                                    <Text style={general.textTitleCard}>Class</Text>
-                                </Col>
-                                <Col size={22} style={{alignItems: 'center'}}>
-                                    <Text style={general.textTitleCard}>Duration</Text>
-                                </Col>
-                                <Col size={18} style={{alignItems: 'center'}}>
-                                    <Text style={general.textTitleCard}>Price</Text>
-                                </Col>
-                            </Grid>
-                        </View>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={courses}
-                            renderItem={({item}) =>
-                                <Grid style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                    <Col size={20}>
-                                        <View style={[general.imageCircleNormal, general.shadow]}>
-                                            <Image
-                                                resizeMode={'cover'}
-                                                source={{uri: item.icon_url}}
-                                                style={general.imageCircleNormal}
-                                            />
-                                        </View>
+                    <Content style={{flex: 1}}>
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    <View>
+                                        <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
+                                            <Col size={20}>
+                                            </Col>
+                                            <Col size={20}>
+                                                <Text style={general.textTitleCard}>Name</Text>
+                                            </Col>
+                                            <Col size={18} style={{alignItems: 'center'}}>
+                                                <Text style={general.textTitleCard}>Class</Text>
+                                            </Col>
+                                            <Col size={22} style={{alignItems: 'center'}}>
+                                                <Text style={general.textTitleCard}>Duration</Text>
+                                            </Col>
+                                            <Col size={18} style={{alignItems: 'center'}}>
+                                                <Text style={general.textTitleCard}>Price</Text>
+                                            </Col>
+                                        </Grid>
+                                    </View>
+                                    <FlatList
+                                        showsVerticalScrollIndicator={false}
+                                        data={courses}
+                                        renderItem={({item}) =>
+                                            <Grid
+                                                style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                                <Col size={20}>
+                                                    <View style={[general.imageCircleNormal, general.shadow]}>
+                                                        <Image
+                                                            resizeMode={'cover'}
+                                                            source={{uri: item.icon_url}}
+                                                            style={general.imageCircleNormal}
+                                                        />
+                                                    </View>
+                                                </Col>
+                                                <Col size={25} style={{justifyContent: 'center'}}>
+                                                    <Text style={general.textDescriptionCard}>{item.name}</Text>
+                                                </Col>
+                                                <Col size={18} style={general.wrapperCenter}>
+                                                    <Text style={general.textDescriptionCard}>{item.num_classes}</Text>
+                                                </Col>
+                                                <Col size={18} style={general.wrapperCenter}>
+                                                    <Text style={general.textDescriptionCard}>{item.duration}</Text>
+                                                </Col>
+                                                <Col size={20} style={general.wrapperCenter}>
+                                                    <Text
+                                                        style={general.textDescriptionCard}>{item.price.toString().slice(0, item.price.toString().length - 3)}k</Text>
+                                                </Col>
+                                            </Grid>
+                                        }
+                                    />
+                                </View>
+                        }
 
-                                    </Col>
-                                    <Col size={25} style={{justifyContent: 'center'}}>
-                                        <Text style={general.textDescriptionCard}>{item.name}</Text>
-                                    </Col>
-                                    <Col size={18} style={general.wrapperCenter}>
-                                        <Text style={general.textDescriptionCard}>{item.num_classes}</Text>
-                                    </Col>
-                                    <Col size={18} style={general.wrapperCenter}>
-                                        <Text style={general.textDescriptionCard}>{item.duration}</Text>
-                                    </Col>
-                                    <Col size={20} style={general.wrapperCenter}>
-                                        <Text
-                                            style={general.textDescriptionCard}>{item.price.toString().slice(0, item.price.toString().length - 3)}k</Text>
-                                    </Col>
-                                </Grid>
-                            }
-                        />
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
 
             case 5:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
+                    <Content style={{flex: 1}}>
                         {
-                            classes.map((item, i) =>
-                                <TouchableOpacity
-                                    key={i}
-                                    onPress={() => this.setModalClass(true, item)}
-                                    style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
-                                    <View style={[general.imageCircleNormal, general.shadow]}>
-                                        <Image
-                                            resizeMode={'cover'}
-                                            source={{uri: item.course.icon_url}}
-                                            style={general.imageCircleNormal}
-                                        />
-                                    </View>
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    {
+                                        classes.map((item, i) =>
+                                            <TouchableOpacity
+                                                key={i}
+                                                onPress={() => this.setModalClass(true, item)}
+                                                style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
+                                                <View style={[general.imageCircleNormal, general.shadow]}>
+                                                    <Image
+                                                        resizeMode={'cover'}
+                                                        source={{uri: item.course.icon_url}}
+                                                        style={general.imageCircleNormal}
+                                                    />
+                                                </View>
 
-                                    <View style={[{flex: 1}, general.paddingLR]}>
-                                        <Text style={general.textIstActive}>{item.name}</Text>
-                                        <Text style={general.textDescriptionCard}>{item.created_at}</Text>
-                                    </View>
-                                    <Switch
-                                        value={item.status == 0 ? false : true}
-                                        onValueChange={() => {
-                                        }}
-                                        onTintColor={Platform.OS === 'ios'  ? '#C86AD9' : undefined}
-                                    />
-                                </TouchableOpacity>
-                            )
+                                                <View style={[{flex: 1}, general.paddingLR]}>
+                                                    <Text style={general.textIstActive}>{item.name}</Text>
+                                                    <Text style={general.textDescriptionCard}>{item.created_at}</Text>
+                                                </View>
+                                                <Switch
+                                                    value={item.status == 0 ? false : true}
+                                                    onValueChange={() => {
+                                                    }}
+                                                    onTintColor={Platform.OS === 'ios' ? '#C86AD9' : undefined}
+                                                />
+                                            </TouchableOpacity>
+                                        )
+                                    }
+                                </View>
                         }
+
+
                         <Modal
                             presentationStyle="overFullScreen"
                             animationType="fade"
@@ -625,22 +689,40 @@ class TeachContainer extends Component {
 
             case 6:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
-
+                    <Content style={{flex: 1}}>
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View/>
+                        }
                     </Content>
                 );
 
             case 7:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
-
+                    <Content style={{flex: 1}}>
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View/>
+                        }
                     </Content>
                 );
 
             case 8:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
-
+                    <Content style={{flex: 1}}>
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View/>
+                        }
                     </Content>
                 );
 
