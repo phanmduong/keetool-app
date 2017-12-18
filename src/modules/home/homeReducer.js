@@ -10,6 +10,60 @@ export default function homeAction(state = initialState.data, action) {
                     data: action.data
                 }
             };
+        case types.GET_DATA_SHIFT_REGISTER:
+            return {
+                ...state,
+                ...{
+                    shift_register: action.shift_register
+                }
+            };
+
+        case types.GET_DATA_SHIFT_SESSION:
+            return {
+                ...state,
+                ...{
+                    shift_sessions: action.shift_sessions
+                }
+            };
+
+        case types.GET_DATA_EMAIL_FORM:
+            return {
+                ...state,
+                ...{
+                    email_forms: action.email_forms
+                }
+            };
+
+        case types.GET_DATA_EMAIL_TEMPLATE:
+            return {
+                ...state,
+                ...{
+                    email_templates: action.email_templates
+                }
+            };
+         case types.GET_DATA_CAMPAIGN:
+            return {
+                ...state,
+                ...{
+                    campaigns: action.campaigns
+                }
+            };
+
+        case types.GET_DATA_SUBSCRIBER_LIST:
+            return {
+                ...state,
+                ...{
+                    subscribers_list: action.subscribers_list
+                }
+            };
+       case types.GET_DATA_SUBSCRIBER:
+            return {
+                ...state,
+                ...{
+                    subscriber: action.subscriber
+                }
+            };
+
         case types.GET_DATA_PAID_LIST:
             return {
                 ...state,

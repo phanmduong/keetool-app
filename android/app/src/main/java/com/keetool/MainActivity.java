@@ -1,7 +1,7 @@
 package com.keetool;
 
 import com.facebook.react.ReactActivity;
-
+import com.tanguyantoine.react.MusicControl;
 public class MainActivity extends ReactActivity {
 
     /**
@@ -12,4 +12,5 @@ public class MainActivity extends ReactActivity {
     protected String getMainComponentName() {
         return "keetool";
     }
+
 }

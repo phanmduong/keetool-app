@@ -42,6 +42,13 @@ export default {
         summary_marketing_campaign: [],
         paidList: [],
         rooms: [],
+        subscribers_list: [],
+        subscriber: [],
+        campaigns:[],
+        email_templates:[],
+        email_forms:[],
+        shift_sessions: [],
+        shift_register: [],
     }
 
 }

@@ -190,27 +190,30 @@ class FinanceManagementContainer extends Component {
                                 {...this.panResponder.panHandlers}
                             >
                                 <View style={general.wrapperModalClass}>
-                                    {
-                                        this.state.registers.map((item, i) =>
-                                            <TouchableOpacity
-                                                key={i}
-                                                style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom, {padding: 5}]}>
-                                                <View style={[general.imageCircleNormal, general.shadow]}>
-                                                    <Image
-                                                        resizeMode={'cover'}
-                                                        source={{uri: item.icon_url}}
-                                                        style={general.imageCircleNormal}
-                                                    />
-                                                </View>
+                                    <Content>
+                                        {
+                                            this.state.registers.map((item, i) =>
+                                                <TouchableOpacity
+                                                    key={i}
+                                                    style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom, {padding: 5}]}>
+                                                    <View style={[general.imageCircleNormal, general.shadow]}>
+                                                        <Image
+                                                            resizeMode={'cover'}
+                                                            source={{uri: item.icon_url}}
+                                                            style={general.imageCircleNormal}
+                                                        />
+                                                    </View>
 
-                                                <View style={[{flex: 1}, general.paddingLR]}>
-                                                    <Text style={general.textIstActive}>{item.course}</Text>
-                                                    <Text style={general.textDescriptionCard}>{item.class_name}</Text>
-                                                </View>
-                                                <Text style={[general.textDescriptionCard]}>{item.money == 0 ? 'Chưa nộp tiền' : item.money}</Text>
-                                            </TouchableOpacity>
-                                        )
-                                    }
+                                                    <View style={[{flex: 1}, general.paddingLR]}>
+                                                        <Text style={general.textIstActive}>{item.course}</Text>
+                                                        <Text style={general.textDescriptionCard}>{item.class_name}</Text>
+                                                    </View>
+                                                    <Text style={[general.textDescriptionCard]}>{item.money == 0 ? 'Chưa nộp tiền' : item.money + "k"}</Text>
+                                                </TouchableOpacity>
+                                            )
+                                        }
+                                    </Content>
+
                                 </View>
                             </View>
                         </Modal>
@@ -408,38 +411,38 @@ class FinanceManagementContainer extends Component {
                                 </View>
                             </TouchableOpacity>
 
-                            <TouchableOpacity onPress={() => this.ViewSendMoney()}>
-                                <View style={
-                                    this.state.tab === 1
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                            {/*<TouchableOpacity onPress={() => this.ViewSendMoney()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 1*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 1 ? general.textIstActive : general.textNotActive}>
-                                        Send Money
-                                    </Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 1 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Send Money*/}
+                                    {/*</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={() => this.ViewKeepMoney()}>
-                                <View style={
-                                    this.state.tab === 2
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
+                            {/*<TouchableOpacity onPress={() => this.ViewKeepMoney()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 2*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>
-                                        Keep Money
-                                    </Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Keep Money*/}
+                                    {/*</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
                             <TouchableOpacity onPress={() => this.ViewPaidList()}>
                                 <View style={
                                     this.state.tab === 3
@@ -457,54 +460,54 @@ class FinanceManagementContainer extends Component {
                                 </View>
                             </TouchableOpacity>
 
-                            <TouchableOpacity onPress={() => this.ViewSpendMoney()}>
-                                <View style={
-                                    this.state.tab === 4
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                            {/*<TouchableOpacity onPress={() => this.ViewSpendMoney()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 4*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>
-                                        Spend Money
-                                    </Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Spend Money*/}
+                                    {/*</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
 
-                            <TouchableOpacity onPress={() => this.ViewSpendList()}>
-                                <View style={
-                                    this.state.tab === 5
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                            {/*<TouchableOpacity onPress={() => this.ViewSpendList()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 5*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>
-                                        Spend List
-                                    </Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Spend List*/}
+                                    {/*</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
 
-                            <TouchableOpacity onPress={() => this.ViewExpenseIncome()}>
-                                <View style={
-                                    this.state.tab === 6
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
-                                    <Text
-                                        style={this.state.tab === 6 ? general.textIstActive : general.textNotActive}>
-                                        Expense Income
-                                    </Text>
-                                </View>
-                            </TouchableOpacity>
+                            {/*<TouchableOpacity onPress={() => this.ViewExpenseIncome()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 6*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 6 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Expense Income*/}
+                                    {/*</Text>*/}
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
 
 
                         </Content>

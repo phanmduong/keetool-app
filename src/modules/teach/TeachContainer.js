@@ -835,49 +835,49 @@ class TeachContainer extends Component {
 
                                 </View>
                             </TouchableOpacity>
-                            <TouchableOpacity onPress={() => this.ViewAttendance()}>
-                                <View style={
-                                    this.state.tab === 6
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                            {/*<TouchableOpacity onPress={() => this.ViewAttendance()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 6*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 6 ? general.textIstActive : general.textNotActive}>Attendance</Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 6 ? general.textIstActive : general.textNotActive}>Attendance</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={() => this.ViewPersonalRating()}>
-                                <View style={
-                                    this.state.tab === 7
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
+                            {/*<TouchableOpacity onPress={() => this.ViewPersonalRating()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 7*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 7 ? general.textIstActive : general.textNotActive}>Rating</Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 7 ? general.textIstActive : general.textNotActive}>Rating</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={() => this.ViewWaitList()}>
-                                <View style={
-                                    this.state.tab === 8
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
+                            {/*<TouchableOpacity onPress={() => this.ViewWaitList()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 8*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 8 ? general.textIstActive : general.textNotActive}>Wait
-                                        List</Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 8 ? general.textIstActive : general.textNotActive}>Wait*/}
+                                        {/*List</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
                         </Content>
                     </View>
 

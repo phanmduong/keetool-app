@@ -337,20 +337,20 @@ class MarketingManagementContainer extends Component {
                     <View style={general.wrapperMenuHome}>
                         <Content horizontal={true}
                                  showsHorizontalScrollIndicator={false}>
-                            <TouchableOpacity onPress={() => this.ViewTeleSale()}
-                                              style={{height: 30}}>
-                                <View style={
-                                    this.state.tab === 0
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
-                                    <Text style={this.state.tab === 0 ? general.textIstActive : general.textNotActive}>
-                                        Telesale
-                                    </Text>
-                                </View>
-                            </TouchableOpacity>
+                            {/*<TouchableOpacity onPress={() => this.ViewTeleSale()}*/}
+                                              {/*style={{height: 30}}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 0*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
+                                    {/*<Text style={this.state.tab === 0 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Telesale*/}
+                                    {/*</Text>*/}
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
 
                             <TouchableOpacity onPress={() => this.ViewTeleSaleHistory()}
                                               style={{height: 30}}>
@@ -367,22 +367,22 @@ class MarketingManagementContainer extends Component {
                                 </View>
                             </TouchableOpacity>
 
-                            <TouchableOpacity onPress={() => this.ViewStudents()}>
-                                <View style={
-                                    this.state.tab === 2
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                            {/*<TouchableOpacity onPress={() => this.ViewStudents()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 2*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>
-                                        Students
-                                    </Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Students*/}
+                                    {/*</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
                             <TouchableOpacity onPress={() => this.ViewCampaigns()}>
                                 <View style={
                                     this.state.tab === 3
@@ -399,38 +399,38 @@ class MarketingManagementContainer extends Component {
 
                                 </View>
                             </TouchableOpacity>
-                            <TouchableOpacity onPress={() => this.ViewSales()}>
-                                <View style={
-                                    this.state.tab === 4
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                            {/*<TouchableOpacity onPress={() => this.ViewSales()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 4*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>
-                                        Sales
-                                    </Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Sales*/}
+                                    {/*</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
-                            <TouchableOpacity onPress={() => this.ViewSummary()}>
-                                <View style={
-                                    this.state.tab === 5
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
+                            {/*<TouchableOpacity onPress={() => this.ViewSummary()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 5*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>
-                                        Summary
-                                    </Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*Summary*/}
+                                    {/*</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
                         </Content>
                     </View>
                     <View style={general.wrapperFullWidth}>

@@ -45,6 +45,2913 @@ export function getData() {
     }
 }
 
+
+export function getDataShiftRegister() {
+    return {
+        type: types.GET_DATA_SHIFT_REGISTER,
+        shift_register: [
+            {
+                date: "Thứ hai - 18/12/2017",
+                shifts: [
+                    {
+                        id: 4883,
+                        name: "Ca 1",
+                        user: {
+                            id: 3331,
+                            name: "Lý Nguyệt Thu",
+                            color: "F62359",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                        },
+                        date: "Thứ hai - 18/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "09:00",
+                        end_time: "12:00"
+                    },
+                    {
+                        id: 4884,
+                        name: "Ca 2",
+                        user: {
+                            id: 1947,
+                            name: "Lan Hương",
+                            color: "78CEFF",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                        },
+                        date: "Thứ hai - 18/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "12:00",
+                        end_time: "14:00"
+                    },
+                    {
+                        id: 4885,
+                        name: "Ca 3",
+                        user: {
+                            id: 1947,
+                            name: "Lan Hương",
+                            color: "78CEFF",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                        },
+                        date: "Thứ hai - 18/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "14:00",
+                        end_time: "17:00"
+                    },
+                    {
+                        id: 4886,
+                        name: "Ca 4",
+                        user: {
+                            id: 1947,
+                            name: "Lan Hương",
+                            color: "78CEFF",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                        },
+                        date: "Thứ hai - 18/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "17:00",
+                        end_time: "19:00"
+                    },
+                    {
+                        id: 4887,
+                        name: "Ca 5",
+                        user: {
+                            id: 5063,
+                            name: "Lê Khánh Linh",
+                            color: "00bcd4",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
+                        },
+                        date: "Thứ hai - 18/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "19:00",
+                        end_time: "21:00"
+                    }
+                ]
+            },
+            {
+                date: "Thứ ba - 19/12/2017",
+                shifts: [
+                    {
+                        id: 4893,
+                        name: "Ca 1",
+                        user: {
+                            id: 3331,
+                            name: "Lý Nguyệt Thu",
+                            color: "F62359",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                        },
+                        date: "Thứ ba - 19/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "09:00",
+                        end_time: "12:00"
+                    },
+                    {
+                        id: 4894,
+                        name: "Ca 2",
+                        user: {
+                            id: 3331,
+                            name: "Lý Nguyệt Thu",
+                            color: "F62359",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                        },
+                        date: "Thứ ba - 19/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "12:00",
+                        end_time: "14:00"
+                    },
+                    {
+                        id: 4895,
+                        name: "Ca 3",
+                        user: {
+                            id: 3331,
+                            name: "Lý Nguyệt Thu",
+                            color: "F62359",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                        },
+                        date: "Thứ ba - 19/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "14:00",
+                        end_time: "17:00"
+                    },
+                    {
+                        id: 4896,
+                        name: "Ca 4",
+                        user: {
+                            id: 3331,
+                            name: "Lý Nguyệt Thu",
+                            color: "F62359",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                        },
+                        date: "Thứ ba - 19/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "17:00",
+                        end_time: "19:00"
+                    },
+                    {
+                        id: 4897,
+                        name: "Ca 5",
+                        user: {
+                            id: 6082,
+                            name: "Đào Đỗ Hoài Nam",
+                            color: "12134F",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510080062ft9a7VvbQaW49Zz.jpg"
+                        },
+                        date: "Thứ ba - 19/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "19:00",
+                        end_time: "21:00"
+                    }
+                ]
+            },
+            {
+                date: "Thứ tư - 20/12/2017",
+                shifts: [
+                    {
+                        id: 4903,
+                        name: "Ca 1",
+                        user: {
+                            id: 6083,
+                            name: "Phạm Hà Thu",
+                            color: "009688",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                        },
+                        date: "Thứ tư - 20/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "09:00",
+                        end_time: "12:00"
+                    },
+                    {
+                        id: 4904,
+                        name: "Ca 2",
+                        user: {
+                            id: 6083,
+                            name: "Phạm Hà Thu",
+                            color: "009688",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                        },
+                        date: "Thứ tư - 20/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "12:00",
+                        end_time: "14:00"
+                    },
+                    {
+                        id: 4905,
+                        name: "Ca 3",
+                        user: {
+                            id: 6083,
+                            name: "Phạm Hà Thu",
+                            color: "009688",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                        },
+                        date: "Thứ tư - 20/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "14:00",
+                        end_time: "17:00"
+                    },
+                    {
+                        id: 4906,
+                        name: "Ca 4",
+                        user: {
+                            id: 1947,
+                            name: "Lan Hương",
+                            color: "78CEFF",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                        },
+                        date: "Thứ tư - 20/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "17:00",
+                        end_time: "19:00"
+                    },
+                    {
+                        id: 4907,
+                        name: "Ca 5",
+                        user: {
+                            id: 6082,
+                            name: "Đào Đỗ Hoài Nam",
+                            color: "12134F",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510080062ft9a7VvbQaW49Zz.jpg"
+                        },
+                        date: "Thứ tư - 20/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "19:00",
+                        end_time: "21:00"
+                    }
+                ]
+            },
+            {
+                date: "Thứ năm - 21/12/2017",
+                shifts: [
+                    {
+                        id: 4913,
+                        name: "Ca 1",
+                        user: {
+                            id: 3290,
+                            name: "Nguyễn Mỹ Linh",
+                            color: "c0ca33",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                        },
+                        date: "Thứ năm - 21/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "09:00",
+                        end_time: "12:00"
+                    },
+                    {
+                        id: 4914,
+                        name: "Ca 2",
+                        user: {
+                            id: 3290,
+                            name: "Nguyễn Mỹ Linh",
+                            color: "c0ca33",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                        },
+                        date: "Thứ năm - 21/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "12:00",
+                        end_time: "14:00"
+                    },
+                    {
+                        id: 4915,
+                        name: "Ca 3",
+                        user: {
+                            id: 3290,
+                            name: "Nguyễn Mỹ Linh",
+                            color: "c0ca33",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                        },
+                        date: "Thứ năm - 21/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "14:00",
+                        end_time: "17:00"
+                    },
+                    {
+                        id: 4916,
+                        name: "Ca 4",
+                        user: {
+                            id: 3290,
+                            name: "Nguyễn Mỹ Linh",
+                            color: "c0ca33",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                        },
+                        date: "Thứ năm - 21/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "17:00",
+                        end_time: "19:00"
+                    },
+                    {
+                        id: 4917,
+                        name: "Ca 5",
+                        user: {
+                            id: 3290,
+                            name: "Nguyễn Mỹ Linh",
+                            color: "c0ca33",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                        },
+                        date: "Thứ năm - 21/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "19:00",
+                        end_time: "21:00"
+                    }
+                ]
+            },
+            {
+                date: "Thứ sáu - 22/12/2017",
+                shifts: [
+                    {
+                        id: 4923,
+                        name: "Ca 1",
+                        user: {
+                            id: 3290,
+                            name: "Nguyễn Mỹ Linh",
+                            color: "c0ca33",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                        },
+                        date: "Thứ sáu - 22/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "09:00",
+                        end_time: "12:00"
+                    },
+                    {
+                        id: 4924,
+                        name: "Ca 2",
+                        user: {
+                            id: 6083,
+                            name: "Phạm Hà Thu",
+                            color: "009688",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                        },
+                        date: "Thứ sáu - 22/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "12:00",
+                        end_time: "14:00"
+                    },
+                    {
+                        id: 4925,
+                        name: "Ca 3",
+                        user: {
+                            id: 6083,
+                            name: "Phạm Hà Thu",
+                            color: "009688",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                        },
+                        date: "Thứ sáu - 22/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "14:00",
+                        end_time: "17:00"
+                    },
+                    {
+                        id: 4926,
+                        name: "Ca 4",
+                        user: {
+                            id: 6083,
+                            name: "Phạm Hà Thu",
+                            color: "009688",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                        },
+                        date: "Thứ sáu - 22/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "17:00",
+                        end_time: "19:00"
+                    },
+                    {
+                        id: 4927,
+                        name: "Ca 5",
+                        user: {
+                            id: 3331,
+                            name: "Lý Nguyệt Thu",
+                            color: "F62359",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                        },
+                        date: "Thứ sáu - 22/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "19:00",
+                        end_time: "21:00"
+                    }
+                ]
+            },
+            {
+                date: "Thứ bảy - 23/12/2017",
+                shifts: [
+                    {
+                        id: 4933,
+                        name: "Ca 1",
+                        user: {
+                            id: 1947,
+                            name: "Lan Hương",
+                            color: "78CEFF",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                        },
+                        date: "Thứ bảy - 23/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "09:00",
+                        end_time: "12:00"
+                    },
+                    {
+                        id: 4934,
+                        name: "Ca 2",
+                        user: {
+                            id: 1947,
+                            name: "Lan Hương",
+                            color: "78CEFF",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                        },
+                        date: "Thứ bảy - 23/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "12:00",
+                        end_time: "14:00"
+                    },
+                    {
+                        id: 4935,
+                        name: "Ca 3",
+                        user: {
+                            id: 6079,
+                            name: "Phương Thảo",
+                            color: "8bc34a",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                        },
+                        date: "Thứ bảy - 23/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "14:00",
+                        end_time: "17:00"
+                    },
+                    {
+                        id: 4936,
+                        name: "Ca 4",
+                        user: {
+                            id: 6079,
+                            name: "Phương Thảo",
+                            color: "8bc34a",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                        },
+                        date: "Thứ bảy - 23/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "17:00",
+                        end_time: "19:00"
+                    },
+                    {
+                        id: 4937,
+                        name: "Ca 5",
+                        user: {
+                            id: 6079,
+                            name: "Phương Thảo",
+                            color: "8bc34a",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                        },
+                        date: "Thứ bảy - 23/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "19:00",
+                        end_time: "21:00"
+                    }
+                ]
+            },
+            {
+                date: "Chủ nhật - 24/12/2017",
+                shifts: [
+                    {
+                        id: 4943,
+                        name: "Ca 1",
+                        user: {
+                            id: 6079,
+                            name: "Phương Thảo",
+                            color: "8bc34a",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                        },
+                        date: "Chủ nhật - 24/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "09:00",
+                        end_time: "12:00"
+                    },
+                    {
+                        id: 4944,
+                        name: "Ca 2",
+                        user: {
+                            id: 6079,
+                            name: "Phương Thảo",
+                            color: "8bc34a",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                        },
+                        date: "Chủ nhật - 24/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "12:00",
+                        end_time: "14:00"
+                    },
+                    {
+                        id: 4945,
+                        name: "Ca 3",
+                        user: {
+                            id: 6079,
+                            name: "Phương Thảo",
+                            color: "8bc34a",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                        },
+                        date: "Chủ nhật - 24/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "14:00",
+                        end_time: "17:00"
+                    },
+                    {
+                        id: 4946,
+                        name: "Ca 4",
+                        user: {
+                            id: 5063,
+                            name: "Lê Khánh Linh",
+                            color: "00bcd4",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
+                        },
+                        date: "Chủ nhật - 24/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "17:00",
+                        end_time: "19:00"
+                    },
+                    {
+                        id: 4947,
+                        name: "Ca 5",
+                        user: {
+                            id: 5063,
+                            name: "Lê Khánh Linh",
+                            color: "00bcd4",
+                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
+                        },
+                        date: "Chủ nhật - 24/12/2017",
+                        week: 1,
+                        gen: {
+                            name: "32"
+                        },
+                        base: {
+                            name: "Cơ sở 1",
+                            address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
+                        },
+                        start_time: "19:00",
+                        end_time: "21:00"
+                    }
+                ]
+            }
+        ],
+    }
+}
+
+export function getDataShiftSession() {
+    return {
+        type: types.GET_DATA_SHIFT_SESSION,
+        shift_sessions: [
+            {
+                id: 1,
+                name: "Ca 1",
+                start_time: "09:00:00",
+                end_time: "12:00:00",
+                active: 1
+            },
+            {
+                id: 2,
+                name: "Ca 2",
+                start_time: "12:00:00",
+                end_time: "14:00:00",
+                active: 1
+            },
+            {
+                id: 3,
+                name: "Ca 3",
+                start_time: "14:00:00",
+                end_time: "17:00:00",
+                active: 1
+            },
+            {
+                id: 4,
+                name: "Ca 4",
+                start_time: "17:00:00",
+                end_time: "19:00:00",
+                active: 1
+            },
+            {
+                id: 5,
+                name: "Ca 5",
+                start_time: "19:00:00",
+                end_time: "21:00:00",
+                active: 1
+            }
+        ]
+    }
+}
+
+export function getDataEmailForm() {
+    return {
+        type: types.GET_DATA_EMAIL_FORM,
+        email_forms: [
+            {
+                id: 3,
+                name: "Xác nhận đăng kí thành công khoá học Photoshop",
+                title: "Xác nhận đăng kí thành công khoá học Photoshop",
+                subtitle: "SHARE TÀI LIỆU",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506587484zaOHLgWzZEAB4Yv.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506751231dsvj6oT3iDmJAAm.jpg",
+                title_button: "Tải sách ngay",
+                link_button: "https://drive.google.com/drive/u/1/my-drive",
+                status: 1,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 5,
+                name: "Email Marketing",
+                title: "Chia sẻ kiến thức về Logo",
+                subtitle: "Logo là một hình ảnh đại diện cho thương hiệu",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15067537391BLbwNJ6LbagbbP.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506754222JRYnycSolpqMJI3.jpg",
+                title_button: "Xem thêm",
+                link_button: "http://colorme.vn/post/khi-nao-can-thiet-ke-lai-logo-22092",
+                status: 1,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 6,
+                name: "Từ anh Hùng - Cảm ơn Hoà vì sự cố gắng không ngừng",
+                title: "Từ anh Hùng - Cảm ơn Hoà vì sự cố gắng không ngừng",
+                subtitle: "Bấm vào nút dưới để nghe bài hát trong lúc đọc email nhé",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506913668Gp2avFqSKCSi7oC.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506913773oivBuTSvfiBqgyo.jpg",
+                title_button: "Nghe bài hát",
+                link_button: "https://www.youtube.com/watch?v=NVOTHBjk-MM",
+                status: 0,
+                hide: 1,
+                can_delete: true
+            },
+            {
+                id: 7,
+                name: "Từ anh Hùng - Cố lên Mine Linh nhé",
+                title: "Từ anh Hùng - Cố lên Mine Linh nhé",
+                subtitle: "Bấm vào nút dưới để nghe bài hát trong lúc đọc email nhé",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15069154199QBWNeSyvVbsfh2.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15069154240u8ErIljau12QML.jpg",
+                title_button: "Nghe bài hát",
+                link_button: "https://www.youtube.com/watch?v=la0-5QFLr14",
+                status: 0,
+                hide: 1,
+                can_delete: true
+            },
+            {
+                id: 8,
+                name: "Từ Hùng - Cảm ơn Nhân vì đã đưa colorME đến ngày hôm nay",
+                title: "Từ Hùng - Cảm ơn Nhân vì đã đưa colorME đến ngày hôm nay",
+                subtitle: "Bấm vào nút dưới để nghe bài hát trong lúc đọc email nhé",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506917139XUSzgJDMBsO8Tf7.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506917144vqaBt89gOC6TruQ.jpg",
+                title_button: "Nghe bài hát",
+                link_button: "https://www.youtube.com/watch?v=6gRiWWcBKvs",
+                status: 0,
+                hide: 1,
+                can_delete: true
+            },
+            {
+                id: 9,
+                name: "Từ Hùng - Xin lỗi Nhi, vì chưa bao giờ cảm ơn Nhi",
+                title: "Từ Hùng - Xin lỗi Nhi, vì chưa bao giờ cảm ơn Nhi",
+                subtitle: "Click nút bên dưới để nghe bài hát này khi đọc email nhé",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506919250jQHWDs9ALpZFmm3.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506919256sGUWAft6f6dqoNg.jpg",
+                title_button: "Nghe bài hát này nhé",
+                link_button: "https://www.youtube.com/watch?v=acvIVA9-FMQ",
+                status: 0,
+                hide: 1,
+                can_delete: true
+            },
+            {
+                id: 10,
+                name: "Eligh book",
+                title: "[Họ và tên KH]-[Elight] Xác nhận đăng kí mua sách TIẾNG ANH CƠ BẢN ",
+                subtitle: "Xác nhận đặt mua sách Tiếng Anh Cơ Bản của hệ thống giáo dục Elight Education.",
+                logo_url: "http://",
+                creator: {
+                    id: 1,
+                    name: "Cao Anh Quan",
+                    email: "aquancva@gmail.com",
+                    created_at: "2016-02-13 10:35:54",
+                    updated_at: "2017-12-04 10:27:45",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage",
+                    description: "",
+                    university: "Quan Cao Anh",
+                    work: "0969785925",
+                    address: "22 Trần Quốc Toản",
+                    username: "caoquan",
+                    phone: "0978086530",
+                    how_know: "",
+                    facebook: "",
+                    dob: "2016-12-13",
+                    gender: "1",
+                    money: 10012,
+                    status: 0,
+                    avatar_name: "/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                    cover_name: null,
+                    order: 0,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 130,
+                    color: "f44336",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://",
+                title_button: "",
+                link_button: "",
+                status: 0,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 11,
+                name: "",
+                title: "",
+                subtitle: "",
+                logo_url: "http://",
+                creator: {
+                    id: 1,
+                    name: "Cao Anh Quan",
+                    email: "aquancva@gmail.com",
+                    created_at: "2016-02-13 10:35:54",
+                    updated_at: "2017-12-04 10:27:45",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage",
+                    description: "",
+                    university: "Quan Cao Anh",
+                    work: "0969785925",
+                    address: "22 Trần Quốc Toản",
+                    username: "caoquan",
+                    phone: "0978086530",
+                    how_know: "",
+                    facebook: "",
+                    dob: "2016-12-13",
+                    gender: "1",
+                    money: 10012,
+                    status: 0,
+                    avatar_name: "/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                    cover_name: null,
+                    order: 0,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 130,
+                    color: "f44336",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://",
+                title_button: "",
+                link_button: "",
+                status: 0,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 12,
+                name: "",
+                title: "",
+                subtitle: "",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508045693CUzWgD125Smb3ba.jpg",
+                creator: {
+                    id: 1,
+                    name: "Cao Anh Quan",
+                    email: "aquancva@gmail.com",
+                    created_at: "2016-02-13 10:35:54",
+                    updated_at: "2017-12-04 10:27:45",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage",
+                    description: "",
+                    university: "Quan Cao Anh",
+                    work: "0969785925",
+                    address: "22 Trần Quốc Toản",
+                    username: "caoquan",
+                    phone: "0978086530",
+                    how_know: "",
+                    facebook: "",
+                    dob: "2016-12-13",
+                    gender: "1",
+                    money: 10012,
+                    status: 0,
+                    avatar_name: "/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                    cover_name: null,
+                    order: 0,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 130,
+                    color: "f44336",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150804570973tDaWciEPzbng5.jpg",
+                title_button: "",
+                link_button: "",
+                status: 0,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 13,
+                name: "form dang ki mua sach",
+                title: "Xác nhận đơn đặt mua sách",
+                subtitle: "Xác nhận đơn đặt mua sách",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508151517tPwvu2VZMUOiBhd.jpg",
+                creator: {
+                    id: 1,
+                    name: "Cao Anh Quan",
+                    email: "aquancva@gmail.com",
+                    created_at: "2016-02-13 10:35:54",
+                    updated_at: "2017-12-04 10:27:45",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage",
+                    description: "",
+                    university: "Quan Cao Anh",
+                    work: "0969785925",
+                    address: "22 Trần Quốc Toản",
+                    username: "caoquan",
+                    phone: "0978086530",
+                    how_know: "",
+                    facebook: "",
+                    dob: "2016-12-13",
+                    gender: "1",
+                    money: 10012,
+                    status: 0,
+                    avatar_name: "/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                    cover_name: null,
+                    order: 0,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 130,
+                    color: "f44336",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508151807PTVWntrCOCdbQV9.jpg",
+                title_button: "Xác nhận đơn đặt mua sách",
+                link_button: "Xác nhận đơn đặt mua sách",
+                status: 1,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 14,
+                name: "[Share Ebook] [Color] 24.10.2017",
+                title: "COLOR - MÀU SẮC TRONG THIẾT KẾ",
+                subtitle: "ColorME thân tặng bạn cuốn Ebook",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508815396lGVacwMDjJMMm5m.jpg",
+                creator: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    email: "huyentrang@colorme.vn",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2017-11-05 18:15:20",
+                    role: 2,
+                    code: "",
+                    avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
+                    cover_url: "",
+                    description: "",
+                    university: "Đại học Ngoại Thương",
+                    work: "",
+                    address: "185 Chùa Láng Đống Đa, Hà Nội",
+                    username: "hohuyentrang258",
+                    phone: "0949587867",
+                    how_know: "Người quen",
+                    facebook: "Facebook.com/Sunnyni.7",
+                    dob: "1997-08-25",
+                    gender: "2",
+                    money: 0,
+                    status: 0,
+                    avatar_name: null,
+                    cover_name: null,
+                    order: 0,
+                    role_id: 18,
+                    is_request_cv: 0,
+                    cv_url: "",
+                    cv_id: 0,
+                    color: "4caf50",
+                    base_id: 3,
+                    marital: 1,
+                    homeland: "",
+                    literacy: 1,
+                    start_company: "2017-02-13 00:00:00",
+                    age: 20,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508816963wUqKY5YztkWlCcb.jpg",
+                title_button: "DOWNLOAD EBOOK TẠI ĐÂY",
+                link_button: "https://drive.google.com/file/d/0B9UX3t-2bCx0WnRsTzZRT0J3cDA/view",
+                status: 1,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 15,
+                name: "[Share Ebook] [Cải thiện thiết kế slide] 5.11.2017",
+                title: "EBOOK: CẢI THIỆN THIẾT KẾ SLIDE",
+                subtitle: "ColorME thân gửi tặng bạn cuốn Ebook",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510030238qqfWUz84gS8rpNg.jpg",
+                creator: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    email: "huyentrang@colorme.vn",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2017-11-05 18:15:20",
+                    role: 2,
+                    code: "",
+                    avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
+                    cover_url: "",
+                    description: "",
+                    university: "Đại học Ngoại Thương",
+                    work: "",
+                    address: "185 Chùa Láng Đống Đa, Hà Nội",
+                    username: "hohuyentrang258",
+                    phone: "0949587867",
+                    how_know: "Người quen",
+                    facebook: "Facebook.com/Sunnyni.7",
+                    dob: "1997-08-25",
+                    gender: "2",
+                    money: 0,
+                    status: 0,
+                    avatar_name: null,
+                    cover_name: null,
+                    order: 0,
+                    role_id: 18,
+                    is_request_cv: 0,
+                    cv_url: "",
+                    cv_id: 0,
+                    color: "4caf50",
+                    base_id: 3,
+                    marital: 1,
+                    homeland: "",
+                    literacy: 1,
+                    start_company: "2017-02-13 00:00:00",
+                    age: 20,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510030311fPhEncnEgEY0Mdh.jpg",
+                title_button: "Download tại đây",
+                link_button: "https://drive.google.com/file/d/0B6YVK1HvpsNtMnpsVnRaWm80cDQ/view?usp=sharing",
+                status: 1,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 16,
+                name: "[Share Ebook] [Bộ 5000 slides] 18.11.2017",
+                title: "BỘ TEMPLATE 5000 SLIDES",
+                subtitle: "ColorME thân gửi tặng bạn",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15109763912qKQFUR0gY14X75.jpg",
+                creator: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    email: "huyentrang@colorme.vn",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2017-11-05 18:15:20",
+                    role: 2,
+                    code: "",
+                    avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
+                    cover_url: "",
+                    description: "",
+                    university: "Đại học Ngoại Thương",
+                    work: "",
+                    address: "185 Chùa Láng Đống Đa, Hà Nội",
+                    username: "hohuyentrang258",
+                    phone: "0949587867",
+                    how_know: "Người quen",
+                    facebook: "Facebook.com/Sunnyni.7",
+                    dob: "1997-08-25",
+                    gender: "2",
+                    money: 0,
+                    status: 0,
+                    avatar_name: null,
+                    cover_name: null,
+                    order: 0,
+                    role_id: 18,
+                    is_request_cv: 0,
+                    cv_url: "",
+                    cv_id: 0,
+                    color: "4caf50",
+                    base_id: 3,
+                    marital: 1,
+                    homeland: "",
+                    literacy: 1,
+                    start_company: "2017-02-13 00:00:00",
+                    age: 20,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510976572NUqR9mVVrlaAind.jpg",
+                title_button: "TÌM HIỂU THÊM",
+                link_button: "colorme.vn/courses/313/14",
+                status: 1,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 17,
+                name: "Xác nhận đăng kí thành công khoá học",
+                title: "Xác nhận đăng kí thành công khoá học [[COURSE_NAME]]",
+                subtitle: "Chào mừng bạn đến với khoá học [[COURSE_NAME]] của colorME",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511690494mYbt69vkMgKI5hn.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511755890mC9pdXqGTaiZSZD.jpg",
+                title_button: "Trang chủ",
+                link_button: "http://colorme.vn",
+                status: 1,
+                hide: 0,
+                can_delete: false
+            },
+            {
+                id: 18,
+                name: "Xác nhận đơn đặt hàng mua sách",
+                title: "Xác nhận đơn đặt hàng mua sách",
+                subtitle: "Xác nhận đơn đặt hàng mua sách",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511691076sROSLI5Z6DDsJHw.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511691081ICPM5QrYUBWGofQ.jpg",
+                title_button: " ",
+                link_button: " ",
+                status: 1,
+                hide: 0,
+                can_delete: false
+            },
+            {
+                id: 19,
+                name: "Xác nhận thanh toán khoá học thành công",
+                title: "Xác nhận thanh toán khoá học thành công khoá học [[COURSE_NAME]]",
+                subtitle: "Chào mừng [[USER_NAME]] đến với colorME",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511692061LYwngcAE9sfch3q.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511757698tQssKHPf93MoVYl.jpg",
+                title_button: "Trang chủ",
+                link_button: "http://colorme.vn",
+                status: 1,
+                hide: 0,
+                can_delete: false
+            },
+            {
+                id: 20,
+                name: "Thư chào tạm biệt",
+                title: "Thư chào tạm biệt học viên [[USER_NAME]]",
+                subtitle: "Chúng ta sẽ còn gặp lại nhau nữa, [[USER_NAME]] nhé!",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511692237uzVTd9jwgBVhbIs.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15117598387qIvfli0GYNqlKr.jpg",
+                title_button: "Trang chủ",
+                link_button: "http://colorme.vn",
+                status: 1,
+                hide: 0,
+                can_delete: false
+            },
+            {
+                id: 21,
+                name: "Thông báo khai giảng lớp học",
+                title: "Thông báo khai giảng lớp học [[CLASS_NAME]]",
+                subtitle: "Sắp đến ngày khai giảng khoá học [[COURSE_NAME]] rồi, [[USER_NAME]] đã sẵn sàng chưa!",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15116923825UnzEghpOzKlmp7.jpg",
+                creator: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    email: "thanghungkhi@gmail.com",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2017-12-16 14:32:21",
+                    role: 2,
+                    code: "",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    description: "",
+                    university: "FPT University",
+                    work: "1684026343",
+                    address: "Dong Da",
+                    username: "thanghungkhi",
+                    phone: "01684026343",
+                    how_know: "",
+                    facebook: ".",
+                    dob: "2017-09-14",
+                    gender: "1",
+                    money: 1745161000,
+                    status: 0,
+                    avatar_name: "/images/1503369355g3nTaVigDKKyjUQ.jpg",
+                    cover_name: "/images/1466096090IsWXNOeHvMIhpMT.jpg",
+                    order: 2,
+                    role_id: 9,
+                    is_request_cv: 1,
+                    cv_url: "",
+                    cv_id: 103,
+                    color: "009688",
+                    base_id: 3,
+                    marital: 0,
+                    homeland: "",
+                    literacy: 0,
+                    start_company: "0000-00-00 00:00:00",
+                    age: 0,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511759278kgkriCyEXKRIUNb.jpg",
+                title_button: "Xem khoá học",
+                link_button: "[[COURSE_URL]]",
+                status: 1,
+                hide: 0,
+                can_delete: false
+            },
+            {
+                id: 23,
+                name: "[Share Ebook] [Thiết kế Tập sự ] 2.12.2017",
+                title: "THIẾT KẾ TẬP SỰ",
+                subtitle: "ColorME thân gửi tặng bạn",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512212430kY8KdUnyPKmnAMZ.jpg",
+                creator: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    email: "huyentrang@colorme.vn",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2017-11-05 18:15:20",
+                    role: 2,
+                    code: "",
+                    avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
+                    cover_url: "",
+                    description: "",
+                    university: "Đại học Ngoại Thương",
+                    work: "",
+                    address: "185 Chùa Láng Đống Đa, Hà Nội",
+                    username: "hohuyentrang258",
+                    phone: "0949587867",
+                    how_know: "Người quen",
+                    facebook: "Facebook.com/Sunnyni.7",
+                    dob: "1997-08-25",
+                    gender: "2",
+                    money: 0,
+                    status: 0,
+                    avatar_name: null,
+                    cover_name: null,
+                    order: 0,
+                    role_id: 18,
+                    is_request_cv: 0,
+                    cv_url: "",
+                    cv_id: 0,
+                    color: "4caf50",
+                    base_id: 3,
+                    marital: 1,
+                    homeland: "",
+                    literacy: 1,
+                    start_company: "2017-02-13 00:00:00",
+                    age: 20,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512212443MSY5Gc2E3PSwpUg.jpg",
+                title_button: "TÌM HIỂU THÊM",
+                link_button: "colorme.vn/courses/313/14",
+                status: 1,
+                hide: 0,
+                can_delete: true
+            },
+            {
+                id: 24,
+                name: "[Share Ebook] [Câu chuyện về Logo ] 8.12.2017",
+                title: "EBOOK CÂU CHUYỆN VỀ LOGO",
+                subtitle: "ColorME thân gửi tặng bạn",
+                logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512662708Uy4MnGajZSZF8Tw.jpg",
+                creator: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    email: "huyentrang@colorme.vn",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2017-11-05 18:15:20",
+                    role: 2,
+                    code: "",
+                    avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
+                    cover_url: "",
+                    description: "",
+                    university: "Đại học Ngoại Thương",
+                    work: "",
+                    address: "185 Chùa Láng Đống Đa, Hà Nội",
+                    username: "hohuyentrang258",
+                    phone: "0949587867",
+                    how_know: "Người quen",
+                    facebook: "Facebook.com/Sunnyni.7",
+                    dob: "1997-08-25",
+                    gender: "2",
+                    money: 0,
+                    status: 0,
+                    avatar_name: null,
+                    cover_name: null,
+                    order: 0,
+                    role_id: 18,
+                    is_request_cv: 0,
+                    cv_url: "",
+                    cv_id: 0,
+                    color: "4caf50",
+                    base_id: 3,
+                    marital: 1,
+                    homeland: "",
+                    literacy: 1,
+                    start_company: "2017-02-13 00:00:00",
+                    age: 20,
+                    deleted_at: null,
+                    type: null,
+                    department_id: 0
+                },
+                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512662712aIpmJVj3JlryGiK.jpg",
+                title_button: "TÌM HIỂU THÊM",
+                link_button: "colorme.vn/courses/313/14",
+                status: 1,
+                hide: 0,
+                can_delete: true
+            }
+        ],
+    }
+}
+
+export function getDataCampaign() {
+    return {
+        type: types.GET_DATA_CAMPAIGN,
+        campaigns: [
+            {
+                id: 149,
+                name: "SHARE EBOOK - NHỮNG CONCEPT THIẾT KẾ SLIDES",
+                subject: "[ColorME] SHARE EBOOK NHỮNG CONCEPT THIẾT KẾ SLIDES",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 36,
+                sended: 70,
+                complaint: 0,
+                delivery: 69,
+                hide: 0,
+                timer: "2017-12-15 13:01:00",
+                form_id: 25,
+                subscribers_list_ids: [
+                    157
+                ],
+                total: 70
+            },
+            {
+                id: 148,
+                name: "EBOOK CÂU CHUYỆN VỀ LOGO",
+                subject: "ColorME gửi tặng Ebook Câu Chuyện về Logo",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 145,
+                sended: 224,
+                complaint: 0,
+                delivery: 218,
+                hide: 0,
+                timer: "2017-12-08 00:25:00",
+                form_id: 24,
+                subscribers_list_ids: [
+                    156
+                ],
+                total: 224
+            },
+            {
+                id: 147,
+                name: "SHARE EBOOK - THIẾT KẾ TẬP SỰ",
+                subject: "ColorME gửi tặng Ebook Thiết kế Tập sự",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 319,
+                sended: 499,
+                complaint: 0,
+                delivery: 482,
+                hide: 0,
+                timer: "2017-12-02 23:45:00",
+                form_id: 23,
+                subscribers_list_ids: [
+                    155
+                ],
+                total: 499
+            },
+            {
+                id: 146,
+                name: "[Share Ebook] [Bộ 5000 slides] 18.11.2017",
+                subject: "[ColorME] SHARE BỘ 5000 SLIDE TEMPLATES",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 911,
+                sended: 1242,
+                complaint: 0,
+                delivery: 1213,
+                hide: 0,
+                timer: "2017-11-18 11:51:00",
+                form_id: 16,
+                subscribers_list_ids: [
+                    153
+                ],
+                total: 1242
+            },
+            {
+                id: 145,
+                name: "[Share Ebook] [Cải thiện thiết kế slide] 5.11.2017",
+                subject: "[ColorME] SHARE EBOOK CẢI THIỆN THIẾT KẾ SLIDE",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 114,
+                sended: 165,
+                complaint: 0,
+                delivery: 159,
+                hide: 0,
+                timer: "2017-11-09 08:12:00",
+                form_id: 15,
+                subscribers_list_ids: [
+                    152
+                ],
+                total: 165
+            },
+            {
+                id: 144,
+                name: "[Share Ebook] [Cải thiện thiết kế slide] 5.11.2017",
+                subject: "[ColorME] SHARE EBOOK CẢI THIỆN THIẾT KẾ SLIDE",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 858,
+                sended: 1266,
+                complaint: 0,
+                delivery: 1231,
+                hide: 0,
+                timer: "2017-11-07 12:05:00",
+                form_id: 15,
+                subscribers_list_ids: [
+                    151
+                ],
+                total: 1266
+            },
+            {
+                id: 142,
+                name: "[Share Ebook] [Color] 24.10.2017 - LẦN 2",
+                subject: "[ColorME] SHARE EBOOK COLOR - MÀU SẮC TRONG THIẾT KẾ",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 215,
+                sended: 305,
+                complaint: 0,
+                delivery: 293,
+                hide: 0,
+                timer: "2017-10-29 11:48:00",
+                form_id: 14,
+                subscribers_list_ids: [
+                    149
+                ],
+                total: 305
+            },
+            {
+                id: 140,
+                name: "Share Ebook] [Color] 24.10.2017",
+                subject: "Share Ebook] [Color] 24.10.2017",
+                owner: {
+                    id: 1966,
+                    name: "Phan Minh Dương",
+                    phone: "0965189796",
+                    email: "phanminhduong@hotmail.com",
+                    color: "ff9800",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
+                },
+                send_status: 1,
+                open: 803,
+                sended: 1084,
+                complaint: 0,
+                delivery: 1050,
+                hide: 0,
+                timer: "2017-10-24 17:03:00",
+                form_id: 14,
+                subscribers_list_ids: [
+                    141
+                ],
+                total: 1084
+            },
+            {
+                id: 139,
+                name: "[Share Ebook] [Color] 24.10.2017 (Lần 4)",
+                subject: "[Share Ebook] [Color] 24.10.2017",
+                owner: {
+                    id: 1966,
+                    name: "Phan Minh Dương",
+                    phone: "0965189796",
+                    email: "phanminhduong@hotmail.com",
+                    color: "ff9800",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
+                },
+                send_status: 1,
+                open: 97,
+                sended: 310,
+                complaint: 0,
+                delivery: 294,
+                hide: 0,
+                timer: "2017-10-24 16:49:00",
+                form_id: 14,
+                subscribers_list_ids: [
+                    148
+                ],
+                total: 155
+            },
+            {
+                id: 138,
+                name: "[Share Ebook] [Color] 24.10.2017 (Lần 4)",
+                subject: "[Share Ebook] [Color] 24.10.2017",
+                owner: {
+                    id: 1966,
+                    name: "Phan Minh Dương",
+                    phone: "0965189796",
+                    email: "phanminhduong@hotmail.com",
+                    color: "ff9800",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
+                },
+                send_status: 1,
+                open: 71,
+                sended: 525,
+                complaint: 0,
+                delivery: 510,
+                hide: 0,
+                timer: "2017-10-24 15:09:00",
+                form_id: 14,
+                subscribers_list_ids: [
+                    147
+                ],
+                total: 501
+            },
+            {
+                id: 137,
+                name: "[Share Ebook] [Color] 24.10.2017 (Lần 3)",
+                subject: "[Share Ebook] [Color] 24.10.2017",
+                owner: {
+                    id: 1966,
+                    name: "Phan Minh Dương",
+                    phone: "0965189796",
+                    email: "phanminhduong@hotmail.com",
+                    color: "ff9800",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
+                },
+                send_status: 1,
+                open: 81,
+                sended: 1242,
+                complaint: 0,
+                delivery: 1232,
+                hide: 0,
+                timer: "2017-10-24 14:45:00",
+                form_id: 14,
+                subscribers_list_ids: [
+                    146
+                ],
+                total: 786
+            },
+            {
+                id: 136,
+                name: "[Share Ebook] [Color] 24.10.2017 (Lần 2)",
+                subject: "[Share Ebook] [Color] 24.10.2017",
+                owner: {
+                    id: 1966,
+                    name: "Phan Minh Dương",
+                    phone: "0965189796",
+                    email: "phanminhduong@hotmail.com",
+                    color: "ff9800",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
+                },
+                send_status: 1,
+                open: 143,
+                sended: 675,
+                complaint: 0,
+                delivery: 673,
+                hide: 0,
+                timer: "2017-10-24 14:19:00",
+                form_id: 14,
+                subscribers_list_ids: [
+                    143
+                ],
+                total: 928
+            },
+            {
+                id: 135,
+                name: "Test email ",
+                subject: "test thử email",
+                owner: {
+                    id: 1966,
+                    name: "Phan Minh Dương",
+                    phone: "0965189796",
+                    email: "phanminhduong@hotmail.com",
+                    color: "ff9800",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
+                },
+                send_status: 1,
+                open: 1,
+                sended: 1,
+                complaint: 0,
+                delivery: 1,
+                hide: 0,
+                timer: "2017-10-24 13:42:00",
+                form_id: 14,
+                subscribers_list_ids: [
+                    142
+                ],
+                total: 1
+            },
+            {
+                id: 134,
+                name: "[Share Ebook] [Color] 24.10.2017",
+                subject: "[ColorME] SHARE EBOOK COLOR - MÀU SẮC TRONG THIẾT KẾ",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 146,
+                sended: 2826,
+                complaint: 0,
+                delivery: 2794,
+                hide: 0,
+                timer: "2017-10-24 12:40:00",
+                form_id: 14,
+                subscribers_list_ids: [
+                    141
+                ],
+                total: 1084
+            },
+            {
+                id: 131,
+                name: "chiến dịch 1",
+                subject: "Share ebook 1",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    phone: "01684026343",
+                    email: "thanghungkhi@gmail.com",
+                    color: "009688",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg"
+                },
+                send_status: 1,
+                open: 3,
+                sended: 16,
+                complaint: 0,
+                delivery: 16,
+                hide: 0,
+                timer: "2017-10-09 20:22:00",
+                form_id: 3,
+                subscribers_list_ids: [
+                    140
+                ],
+                total: 4
+            },
+            {
+                id: 130,
+                name: "hello",
+                subject: "TEST EMAIL",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng",
+                    phone: "01684026343",
+                    email: "thanghungkhi@gmail.com",
+                    color: "009688",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg"
+                },
+                send_status: 1,
+                open: 3,
+                sended: 4,
+                complaint: 0,
+                delivery: 4,
+                hide: 0,
+                timer: "2017-10-05 10:40:00",
+                form_id: 3,
+                subscribers_list_ids: [
+                    140
+                ],
+                total: 4
+            },
+            {
+                id: 129,
+                name: "Test email 3",
+                subject: "[colorME] test gửi email3",
+                owner: {
+                    id: 1,
+                    name: "Cao Anh Quan",
+                    phone: "0978086530",
+                    email: "aquancva@gmail.com",
+                    color: "f44336",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg"
+                },
+                send_status: 0,
+                open: 3,
+                sended: 46,
+                complaint: 0,
+                delivery: 46,
+                hide: 0,
+                timer: "2017-10-07 15:00:00",
+                form_id: 5,
+                subscribers_list_ids: [
+                    140
+                ],
+                total: 4
+            },
+            {
+                id: 128,
+                name: "Test email 2",
+                subject: "test thử email 2",
+                owner: {
+                    id: 1966,
+                    name: "Phan Minh Dương",
+                    phone: "0965189796",
+                    email: "phanminhduong@hotmail.com",
+                    color: "ff9800",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
+                },
+                send_status: 1,
+                open: 2,
+                sended: 90,
+                complaint: 0,
+                delivery: 90,
+                hide: 0,
+                timer: "2017-10-04 02:35:00",
+                form_id: 5,
+                subscribers_list_ids: [
+                    140
+                ],
+                total: 4
+            },
+            {
+                id: 127,
+                name: "Test email ",
+                subject: "[colorME] test gửi email",
+                owner: {
+                    id: 1966,
+                    name: "Phan Minh Dương",
+                    phone: "0965189796",
+                    email: "phanminhduong@hotmail.com",
+                    color: "ff9800",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
+                },
+                send_status: 0,
+                open: 0,
+                sended: 0,
+                complaint: 0,
+                delivery: 0,
+                hide: 0,
+                timer: "2017-10-04 01:51:00",
+                form_id: 5,
+                subscribers_list_ids: [
+                    140
+                ],
+                total: 4
+            },
+            {
+                id: 120,
+                name: "[Share Ebook] [Những concept trong Thiết kế Slide] 25/9/2017",
+                subject: "[ColorME] TẶNG BẠN EBOOK: NHỮNG CONCEPT TRONG THIẾT KẾ SLIDE",
+                owner: {
+                    id: 313,
+                    name: "Hồ Huyền Trang",
+                    phone: "0949587867",
+                    email: "huyentrang@colorme.vn",
+                    color: "4caf50",
+                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
+                },
+                send_status: 1,
+                open: 740,
+                sended: 971,
+                complaint: 0,
+                delivery: 961,
+                hide: 0,
+                timer: null,
+                form_id: 0,
+                subscribers_list_ids: [
+                    139
+                ],
+                total: 972
+            }
+        ],
+    }
+}
+
+export function getDataEmailTemplate() {
+    return {
+        type: types.GET_DATA_EMAIL_TEMPLATE,
+        email_templates: [
+            {
+                id: 1,
+                name: "Simple White",
+                thumbnail_url: "http://s3-ap-southeast-1.amazonaws.com/keetool/emailTemplate/email1.jpg",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng"
+                }
+            },
+            {
+                id: 2,
+                name: "Rounded Header",
+                thumbnail_url: "http://s3-ap-southeast-1.amazonaws.com/keetool/emailTemplate/email2.jpg",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng"
+                }
+            },
+            {
+                id: 3,
+                name: "Ueno",
+                thumbnail_url: "http://s3-ap-southeast-1.amazonaws.com/keetool/emailTemplate/email3.jpg",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng"
+                }
+            },
+            {
+                id: 4,
+                name: "Uber",
+                thumbnail_url: "http://s3-ap-southeast-1.amazonaws.com/keetool/emailTemplate/email4.jpg",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng"
+                }
+            },
+            {
+                id: 5,
+                name: "Soapbox",
+                thumbnail_url: "http://s3-ap-southeast-1.amazonaws.com/keetool/emailTemplate/email5.jpg",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng"
+                }
+            },
+            {
+                id: 6,
+                name: "Digital Ocean",
+                thumbnail_url: "http://s3-ap-southeast-1.amazonaws.com/keetool/emailTemplate/email6.jpg",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng"
+                }
+            },
+            {
+                id: 7,
+                name: "Handbook",
+                thumbnail_url: "http://s3-ap-southeast-1.amazonaws.com/keetool/emailTemplate/email7.jpg",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng"
+                }
+            },
+            {
+                id: 8,
+                name: "Live",
+                thumbnail_url: "http://s3-ap-southeast-1.amazonaws.com/keetool/emailTemplate/email8.jpg",
+                owner: {
+                    id: 2,
+                    name: "Nguyễn Việt Hùng"
+                }
+            }
+        ],
+    }
+}
+
+export function getDataSubscribersList() {
+    return {
+        type: types.GET_DATA_SUBSCRIBER_LIST,
+        subscribers_list: [
+            {
+                id: 157,
+                name: "EBOOK NHỮNG CONCEPT THIẾT KẾ SLIDES",
+                created_at: "12:32, 15 Tháng M. hai, 2017",
+                updated_at: "12:32, 15 Tháng M. hai, 2017",
+                total_subscribers: 70
+            },
+            {
+                id: 156,
+                name: "SHARE EBOOK - CÂU CHUYỆN LOGO",
+                created_at: "00:15, 8 Tháng M. hai, 2017",
+                updated_at: "00:15, 8 Tháng M. hai, 2017",
+                total_subscribers: 224
+            },
+            {
+                id: 155,
+                name: "SHARE EBOOK - THIẾT KẾ TẬP SỰ",
+                created_at: "18:10, 2 Tháng M. hai, 2017",
+                updated_at: "18:10, 2 Tháng M. hai, 2017",
+                total_subscribers: 499
+            },
+            {
+                id: 154,
+                name: "Share tài liệu giao tiếp căn bản",
+                created_at: "15:24, 25 Tháng M. một, 2017",
+                updated_at: "15:24, 25 Tháng M. một, 2017",
+                total_subscribers: 2
+            },
+            {
+                id: 153,
+                name: "[Share Ebook] [Bộ 5000 slides] 18.11.2017",
+                created_at: "10:15, 18 Tháng M. một, 2017",
+                updated_at: "10:15, 18 Tháng M. một, 2017",
+                total_subscribers: 1242
+            },
+            {
+                id: 152,
+                name: "[Share Ebook] [Sài gòn] [Cải thiện thiết kế slide] 5.11.2017",
+                created_at: "08:03, 9 Tháng M. một, 2017",
+                updated_at: "08:03, 9 Tháng M. một, 2017",
+                total_subscribers: 165
+            },
+            {
+                id: 151,
+                name: "[Share Ebook] [Cải thiện thiết kế slide] 5.11.2017",
+                created_at: "16:49, 6 Tháng M. một, 2017",
+                updated_at: "16:49, 6 Tháng M. một, 2017",
+                total_subscribers: 1266
+            },
+            {
+                id: 149,
+                name: "Share ebook lần 2 - color",
+                created_at: "09:50, 28 Tháng Mười, 2017",
+                updated_at: "09:50, 28 Tháng Mười, 2017",
+                total_subscribers: 305
+            },
+            {
+                id: 148,
+                name: "[Share Ebook] [Color] 24.10.2017 (Lần 5)",
+                created_at: "15:20, 24 Tháng Mười, 2017",
+                updated_at: "15:20, 24 Tháng Mười, 2017",
+                total_subscribers: 155
+            },
+            {
+                id: 147,
+                name: "[Share Ebook] [Color] 24.10.2017 (Lần 4)",
+                created_at: "15:06, 24 Tháng Mười, 2017",
+                updated_at: "15:06, 24 Tháng Mười, 2017",
+                total_subscribers: 501
+            },
+            {
+                id: 146,
+                name: "[Share Ebook] [Color] 24.10.2017 (Lần 3)",
+                created_at: "14:42, 24 Tháng Mười, 2017",
+                updated_at: "14:42, 24 Tháng Mười, 2017",
+                total_subscribers: 786
+            },
+            {
+                id: 143,
+                name: "[Share Ebook] [Color] 24.10.2017 (Lần 2)",
+                created_at: "14:05, 24 Tháng Mười, 2017",
+                updated_at: "14:05, 24 Tháng Mười, 2017",
+                total_subscribers: 928
+            },
+            {
+                id: 142,
+                name: "Test email 3",
+                created_at: "13:31, 24 Tháng Mười, 2017",
+                updated_at: "13:31, 24 Tháng Mười, 2017",
+                total_subscribers: 1
+            },
+            {
+                id: 141,
+                name: "[Share Ebook] [Color] 24.10.2017",
+                created_at: "10:11, 24 Tháng Mười, 2017",
+                updated_at: "10:11, 24 Tháng Mười, 2017",
+                total_subscribers: 1084
+            },
+            {
+                id: 140,
+                name: "test",
+                created_at: "12:08, 3 Tháng Mười, 2017",
+                updated_at: "12:08, 3 Tháng Mười, 2017",
+                total_subscribers: 4
+            },
+            {
+                id: 139,
+                name: "[Share Ebook] [Những concept trong Thiết kế Slide] 25/9/2017",
+                created_at: "11:38, 25 Tháng Chín, 2017",
+                updated_at: "11:38, 25 Tháng Chín, 2017",
+                total_subscribers: 972
+            },
+            {
+                id: 137,
+                name: "[SHARE] EBOOK LAYOUT 10/9",
+                created_at: "12:21, 11 Tháng Chín, 2017",
+                updated_at: "12:21, 11 Tháng Chín, 2017",
+                total_subscribers: 511
+            },
+            {
+                id: 136,
+                name: "Quan Cao Anh",
+                created_at: "20:40, 5 Tháng Chín, 2017",
+                updated_at: "20:40, 5 Tháng Chín, 2017",
+                total_subscribers: 1
+            },
+            {
+                id: 135,
+                name: "[SHARE] Ebook ngày 5/9/2017",
+                created_at: "19:36, 5 Tháng Chín, 2017",
+                updated_at: "19:36, 5 Tháng Chín, 2017",
+                total_subscribers: 1637
+            },
+            {
+                id: 134,
+                name: "[SHARE] Tạp chí Graphics đợt 2 01/08/2017 (2)",
+                created_at: "12:49, 1 Tháng Tám, 2017",
+                updated_at: "12:49, 1 Tháng Tám, 2017",
+                total_subscribers: 183
+            }
+        ],
+    }
+}
+
+export function getDataSubscriber() {
+    return {
+        type: types.GET_DATA_SUBSCRIBER,
+        subscriber: [
+            {
+                id: 49172,
+                email: "vuminhtriet2901@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49180,
+                email: "queanhnguyenha811@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49164,
+                email: "nguyenquocthuy123@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49173,
+                email: "Nguyentien05072001@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49181,
+                email: "vohoang2411@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49165,
+                email: "thhuytien234@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49166,
+                email: "vhcanhkiengiang@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49174,
+                email: "nguyenvykg2002@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49182,
+                email: "luuviethuy1999@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49167,
+                email: "nguyen.phuongtu1006@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49175,
+                email: "baohantranhuynh@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49183,
+                email: "duongraphic@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49168,
+                email: "hungfreeruner@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49176,
+                email: "Hoangthuytien22@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49184,
+                email: "cukien2709@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49160,
+                email: "dinhhoangtien211099@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49169,
+                email: "manhdatmata@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49177,
+                email: "Kimthanh.dhkt@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49185,
+                email: "duongnobi9x@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49161,
+                email: "tuongminh1106@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49170,
+                email: "Thienphu167@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49178,
+                email: "ibestzed@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49162,
+                email: "joshuang.hcm@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49171,
+                email: "hdung249@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49179,
+                email: "nhlanhuong281@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49163,
+                email: "quachcongluc@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49157,
+                email: "Hoatran.hvnh@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49158,
+                email: "hanhngan1702@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49159,
+                email: "vonguyentuanbao@gmail.com",
+                name: null,
+                created_at: "12:33, 15 Tháng M. hai, 2017",
+                updated_at: "12:33, 15 Tháng M. hai, 2017"
+            },
+            {
+                id: 49013,
+                email: "abbymorgan1d@gmail.com",
+                name: null,
+                created_at: "18:11, 2 Tháng M. hai, 2017",
+                updated_at: "18:11, 2 Tháng M. hai, 2017"
+            },
+            {
+                id: 48997,
+                email: "Tahonghanh99@gmail.com",
+                name: null,
+                created_at: "18:11, 2 Tháng M. hai, 2017",
+                updated_at: "18:11, 2 Tháng M. hai, 2017"
+            },
+            {
+                id: 48733,
+                email: "vyngotuong0110@gmail.com",
+                name: null,
+                created_at: "10:16, 18 Tháng M. một, 2017",
+                updated_at: "10:16, 18 Tháng M. một, 2017"
+            },
+            {
+                id: 48395,
+                email: "minhtuan12041999@gmail.com",
+                name: null,
+                created_at: "10:16, 18 Tháng M. một, 2017",
+                updated_at: "10:16, 18 Tháng M. một, 2017"
+            },
+            {
+                id: 48415,
+                email: "lynkliz27@gmail.com",
+                name: null,
+                created_at: "10:16, 18 Tháng M. một, 2017",
+                updated_at: "10:16, 18 Tháng M. một, 2017"
+            },
+            {
+                id: 48341,
+                email: "haiduongcu@gmail.com",
+                name: null,
+                created_at: "10:16, 18 Tháng M. một, 2017",
+                updated_at: "10:16, 18 Tháng M. một, 2017"
+            },
+            {
+                id: 48178,
+                email: "linhct1230@gmail.com",
+                name: null,
+                created_at: "10:16, 18 Tháng M. một, 2017",
+                updated_at: "10:16, 18 Tháng M. một, 2017"
+            },
+            {
+                id: 48016,
+                email: "phuchungviup@gmail.com",
+                name: null,
+                created_at: "16:51, 6 Tháng M. một, 2017",
+                updated_at: "16:51, 6 Tháng M. một, 2017"
+            },
+            {
+                id: 47964,
+                email: "h.phongg.ygjm2010@gmail.com",
+                name: null,
+                created_at: "16:51, 6 Tháng M. một, 2017",
+                updated_at: "16:51, 6 Tháng M. một, 2017"
+            },
+            {
+                id: 47926,
+                email: "kieutrinh.nguyen1234@gmail.com",
+                name: null,
+                created_at: "16:51, 6 Tháng M. một, 2017",
+                updated_at: "16:51, 6 Tháng M. một, 2017"
+            }
+        ],
+    }
+}
+
 export function getDataSummary() {
     return {
         type: types.GET_DATA_SUMMARY,
@@ -8281,8 +11188,6 @@ export function getDataBaseRoom() {
 
     }
 }
-
-
 
 export function getDataMoneyCollect() {
     return {

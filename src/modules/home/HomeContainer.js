@@ -219,7 +219,6 @@ class HomeContainer extends Component {
                                 </View>
 
                         }
-
                     </Content>
                 );
             case 2:

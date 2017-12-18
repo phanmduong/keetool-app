@@ -592,7 +592,11 @@ export const style = {
         flex: 1,
         backgroundColor : 'rgb(192, 198, 209)'
     },
-
+    wrapperItem: {
+        width: wid * 0.9 - 40,
+        height: 70,
+        backgroundColor: '#FFF'
+    },
     itemInCardTrello: {
         width: wid * 0.8,
         backgroundColor: '#ffffff',

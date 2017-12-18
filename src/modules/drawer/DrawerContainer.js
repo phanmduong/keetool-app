@@ -36,6 +36,13 @@ class DrawerContainer extends Component {
         this.props.homeAction.getDataMoneyCollect();
         this.props.homeAction.getDataTeleCall();
         this.props.homeAction.getDataMarketingCampaign();
+        this.props.homeAction.getDataSubscribersList();
+        this.props.homeAction.getDataSubscriber();
+        this.props.homeAction.getDataCampaign();
+        this.props.homeAction.getDataEmailTemplate();
+        this.props.homeAction.getDataEmailForm();
+        this.props.homeAction.getDataShiftSession();
+        this.props.homeAction.getDataShiftRegister();
 
     }
 
@@ -167,36 +174,36 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Dashboard</Text>
                         </View>
                     </TouchableOpacity>
-                    {/*<TouchableOpacity*/}
-                        {/*style={general.itemTabInDrawer}*/}
-                        {/*onPress={() => navigate('Map')}*/}
-                    {/*>*/}
-                        {/*<View style={general.wrapperRowCenter}>*/}
-                            {/*<View style={general.wrapperIconDrawer}>*/}
-                                {/*<Icon*/}
-                                    {/*name="material|map"*/}
-                                    {/*size={size.iconBig}*/}
-                                    {/*style={general.colorDark}*/}
-                                {/*/>*/}
-                            {/*</View>*/}
-                            {/*<Text style={general.textInDrawer}>Map</Text>*/}
-                        {/*</View>*/}
-                    {/*</TouchableOpacity>*/}
-                    {/*<TouchableOpacity*/}
-                        {/*style={general.itemTabInDrawer}*/}
-                        {/*onPress={() => navigate('QRCode')}*/}
-                    {/*>*/}
-                        {/*<View style={general.wrapperRowCenter}>*/}
-                            {/*<View style={general.wrapperIconDrawer}>*/}
-                                {/*<Icon*/}
-                                    {/*name="fontawesome|qrcode"*/}
-                                    {/*size={size.iconBig}*/}
-                                    {/*style={general.colorDark}*/}
-                                {/*/>*/}
-                            {/*</View>*/}
-                            {/*<Text style={general.textInDrawer}>QRCODE</Text>*/}
-                        {/*</View>*/}
-                    {/*</TouchableOpacity>*/}
+                    <TouchableOpacity
+                        style={general.itemTabInDrawer}
+                        onPress={() => navigate('Map')}
+                    >
+                        <View style={general.wrapperRowCenter}>
+                            <View style={general.wrapperIconDrawer}>
+                                <Icon
+                                    name="material|map"
+                                    size={size.iconBig}
+                                    style={general.colorDark}
+                                />
+                            </View>
+                            <Text style={general.textInDrawer}>Map</Text>
+                        </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={general.itemTabInDrawer}
+                        onPress={() => navigate('QRCode')}
+                    >
+                        <View style={general.wrapperRowCenter}>
+                            <View style={general.wrapperIconDrawer}>
+                                <Icon
+                                    name="fontawesome|qrcode"
+                                    size={size.iconBig}
+                                    style={general.colorDark}
+                                />
+                            </View>
+                            <Text style={general.textInDrawer}>QRCODE</Text>
+                        </View>
+                    </TouchableOpacity>
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
                         onPress={() => navigate('Trello')}
@@ -302,21 +309,21 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Bases</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity
-                        style={general.itemTabInDrawer}
-                        onPress={() => navigate('ExerciseAndPost')}
-                    >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="material|dashboard"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>Exercise And Post</Text>
-                        </View>
-                    </TouchableOpacity>
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('ExerciseAndPost')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="material|dashboard"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>Exercise And Post</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
                         onPress={() => navigate('Email')}
@@ -332,34 +339,49 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Email</Text>
                         </View>
                     </TouchableOpacity>
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('Contact')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="material|textsms"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>Contact</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('Event')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="material|event"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>Events</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
-                        onPress={() => navigate('Contact')}
+                        onPress={() => navigate('Register')}
                     >
                         <View style={general.wrapperRowCenter}>
                             <View style={general.wrapperIconDrawer}>
                                 <Icon
-                                    name="material|textsms"
+                                    name="material|dns"
                                     size={size.iconBig}
                                     style={general.colorDark}
                                 />
                             </View>
-                            <Text style={general.textInDrawer}>Contact</Text>
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                        style={general.itemTabInDrawer}
-                        onPress={() => navigate('Event')}
-                    >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="material|event"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>Events</Text>
+                            <Text style={general.textInDrawer}>Register</Text>
                         </View>
                     </TouchableOpacity>
                     <View style={general.wrapperBottomModule}/>
