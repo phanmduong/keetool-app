@@ -217,6 +217,7 @@ import MusicControl from 'react-native-music-control';
     progressPress(e){
         const position = e.nativeEvent.locationX;
         const progress = ((position)/(size.wid - 20)) * this.state.duration;
+        this.setState({currentTime : progress});
         this.player.seek(progress);
     }
     render() {

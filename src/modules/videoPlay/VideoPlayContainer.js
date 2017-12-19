@@ -26,6 +26,7 @@ import Video from 'react-native-video';
             temp: 0,
             paused: true,
             index: 0,
+            position : 0,
             data: [
                 {
                     "url": "http://d1j8r0kxyu9tj8.cloudfront.net/videos/1510501494f219f070e733934d3194166dc1904071a266dd800cf53e7c1beb9bf53e6489a3.mp4"
@@ -39,7 +40,8 @@ import Video from 'react-native-video';
     }
      progressPress(e){
          const position = e.nativeEvent.locationX;
-         const progress = ((position)/(size.wid - 20)) * this.state.duration
+         const progress = ((position)/(size.wid - 20)) * this.state.duration;
+         this.setState({currentTime : progress})
          this.player.seek(progress)
      }
     toggleVideo() {
@@ -91,7 +93,7 @@ import Video from 'react-native-video';
         const {play, paused} = this.state;
         const {general, colors} = this.props;
         let temp = this.state.currentTime == 0 || this.state.duration == 0 ? 0 : this.state.currentTime / this.state.duration;
-        let widthDeadlineProgress = (size.wid - 20) * temp;
+        let widthDeadlineProgress =  (size.wid - 20) * temp;
         return (
             <Container style={general.wrapperContainer}>
                 <LinearGradient
