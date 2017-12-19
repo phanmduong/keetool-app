@@ -151,7 +151,7 @@ import Video from 'react-native-video';
                             />
                             <View style={{position: 'absolute', bottom: 5}}>
                                 <TouchableWithoutFeedback style={{paddingTop: 10}}
-                                                  activeOpacity={1} onLongPress = {this.progressPress}
+                                                  activeOpacity={1} onPress = {this.progressPress}
                                 >
                                     <View style={general.wrapperDeadline}>
                                         <View
