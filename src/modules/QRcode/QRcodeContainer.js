@@ -5,7 +5,7 @@ import {Container, Content, Item, Left, Right, Spinner, Text} from 'native-base'
 import {connect} from 'react-redux';
 import HamburgerButton from '../../commons/HamburgerButton';
 import LinearGradient from 'react-native-linear-gradient';
-
+import * as size from '../../styles/size';
 class QRcodeContainer extends Component {
     onSuccess(e) {
         Linking
@@ -21,26 +21,28 @@ class QRcodeContainer extends Component {
                 <LinearGradient
                     colors={colors}
                     style={general.linearGradient}>
-                    <View style={general.wrapperHeader}>
-                        <Text style={[general.textTitleHeader]}>
-                            WIFI CHECKIN
-                        </Text>
-                        <Right>
-                            <HamburgerButton navigate={navigate}/>
-                        </Right>
-                    </View>
-                    <View style={general.wrapperFullWidth}>
-                        <View style={general.marginTop}>
-                            <QRCodeScanner onRead={this.onSuccess.bind(this)}/>
-                        </View>
-                        <View style={styles.buttonQR}>
-                            <TouchableOpacity style={styles.buttonTouchable}>
-                                <View style={styles.radius}>
-                                    <View style={styles.marker}/>
-                                </View>
-                            </TouchableOpacity>
-                        </View>
-                    </View>
+                    <QRCodeScanner
+                        onRead={this.onSuccess.bind(this)}
+                        topContent={(
+                            <View style={general.wrapperHeader}>
+                                <Text style={[general.textTitleHeader]}>
+                                   QR CODE
+                                </Text>
+                                <Left style = {{marginLeft: size.wid / 2}}>
+                                    <HamburgerButton navigate={navigate}/>
+                                </Left>
+                            </View>
+                        )}
+                        bottomContent={(
+                            <View style={{justifyContent : 'center', marginRight : 30}}>
+                                <TouchableOpacity >
+                                    <View style={styles.radius}>
+                                        <View style={styles.marker}/>
+                                    </View>
+                                </TouchableOpacity>
+                            </View>
+                        )}
+                    />
                 </LinearGradient>
             </Container>
 

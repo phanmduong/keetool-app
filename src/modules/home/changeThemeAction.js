@@ -19,7 +19,7 @@ export function changeThemeLight(){
                 backgroundColor: color.none,
             },
             wrapperHeader: {
-                height: 100,
+                height: 50,
                 paddingTop: Platform.OS === 'ios' ? 20 : 0,
                 flexDirection: 'row',
                 alignItems: 'center',

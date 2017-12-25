@@ -3,14 +3,14 @@ import {
     Text, TouchableOpacity, View, FlatList, Image, Modal, PanResponder
 } from 'react-native';
 import {
-    Container, Item, Left, Right, Spinner, Content
+    Container, Item, Left, Right, Spinner, Content,Input
 } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import {connect} from 'react-redux'
 import {Col, Grid} from "react-native-easy-grid";
 import Loading from '../../commons/Loading';
-
+import Communications from 'react-native-communications'
 class EmailContainer extends Component {
     constructor() {
         super();
@@ -18,6 +18,9 @@ class EmailContainer extends Component {
             tab: 0,
             isLoading: false,
             modalMoneySubscriber: false,
+            modalContactEmail : false,
+            email : '',
+            bodyEmail : '',
         }
     }
 
@@ -66,6 +69,17 @@ class EmailContainer extends Component {
             modalMoneySubscriber: visible,
         })
     }
+    setModalContactEmail(visible, email){
+        this.setState({
+            modalContactEmail: visible,
+            email : email
+        })
+    }
+    modalEmailEndContact () {
+        this.setState({modalContactEmail : false});
+        Communications.email([this.state.email],null,null,'My Subject',this.state.bodyEmail);
+    }
+
 
 
     ShowTab() {
@@ -131,6 +145,7 @@ class EmailContainer extends Component {
                                             subscriber.map((item, i) =>
                                                 <TouchableOpacity
                                                     key={i}
+                                                    onPress = {() => this.setModalContactEmail(true, item.email)}
                                                     style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
                                                     <View style={[{flex: 1}, general.paddingLR]}>
                                                         <Text style={general.textIstActive}>{item.email}</Text>
@@ -142,7 +157,83 @@ class EmailContainer extends Component {
 
                                 </View>
                             </View>
+                            <Modal
+                                presentationStyle="overFullScreen"
+                                animationType="fade"
+                                transparent={true}
+                                visible={this.state.modalContactEmail}
+                            >
+                                <View
+                                    style={general.wrapperModal}
+                                    {...this.panResponder.panHandlers}
+                                >
+                                    <View style={general.modalCart}>
+                                        <View style={[general.headerModal, general.haveBorderBottom]}>
+                                            <Text style={general.textTitleCardDark}>
+                                                CONTACT
+                                            </Text>
+                                        </View>
+                                        <View style={{flex: 1}}>
+                                            <Item>
+                                                <Input
+                                                    style={general.inputTheme}
+                                                    onChangeText={(bodyEmail) => {
+                                                        this.setState({bodyEmail})
+                                                    }}
+                                                    placeholder="content"
+                                                />
+                                            </Item>
+                                        </View>
+                                        <TouchableOpacity
+                                            style={[general.bottomModal, general.haveBorderTop]}
+                                            onPress={() => {
+                                                this.modalEmailEndContact()
+                                            }}
+                                        >
+                                            <Text style={general.textTitleCardBlue}>+ Add</Text>
+                                        </TouchableOpacity>
+                                    </View>
+                                </View>
+                            </Modal>
                         </Modal>
+                        {/*<Modal*/}
+                            {/*presentationStyle="overFullScreen"*/}
+                            {/*animationType="fade"*/}
+                            {/*transparent={true}*/}
+                            {/*visible={this.state.modalContactEmail}*/}
+                        {/*>*/}
+                            {/*<View*/}
+                                {/*style={general.wrapperModal}*/}
+                                {/*{...this.panResponder.panHandlers}*/}
+                            {/*>*/}
+                                {/*<View style={general.modalCart}>*/}
+                                    {/*<View style={[general.headerModal, general.haveBorderBottom]}>*/}
+                                        {/*<Text style={general.textTitleCardDark}>*/}
+                                            {/*CONTACT*/}
+                                        {/*</Text>*/}
+                                    {/*</View>*/}
+                                    {/*<View style={{flex: 1}}>*/}
+                                        {/*<Item>*/}
+                                            {/*<Input*/}
+                                                {/*style={general.inputTheme}*/}
+                                                {/*onChangeText={(bodyEmail) => {*/}
+                                                    {/*this.setState({bodyEmail})*/}
+                                                {/*}}*/}
+                                                {/*placeholder="content"*/}
+                                            {/*/>*/}
+                                        {/*</Item>*/}
+                                    {/*</View>*/}
+                                    {/*<TouchableOpacity*/}
+                                        {/*style={[general.bottomModal, general.haveBorderTop]}*/}
+                                        {/*onPress={() => {*/}
+                                                {/*this.modalEmailEndContact()*/}
+                                        {/*}}*/}
+                                    {/*>*/}
+                                        {/*<Text style={general.textTitleCardBlue}>+ Add</Text>*/}
+                                    {/*</TouchableOpacity>*/}
+                                {/*</View>*/}
+                            {/*</View>*/}
+                        {/*</Modal>*/}
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
