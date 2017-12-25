@@ -12,11 +12,13 @@ import * as color from '../../styles/colorDark';
 import * as size from '../../styles/size';
 import PercentageCircle from 'react-native-percentage-circle';
 import {connect} from 'react-redux';
+import Loading from '../../commons/Loading';
 
  class DashboardContainer extends Component {
     constructor() {
         super();
         this.state = {
+            isLoading: false,
             tab: 0,
             feature: {
                 "url": "https://images.unsplash.com/photo-1505906960586-b2f5793971ad?auto=format&fit=crop&w=707&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
@@ -70,81 +72,137 @@ import {connect} from 'react-redux';
         }
     }
 
+     isLoading() {
+         this.setState({isLoading: true});
+         setTimeout(() => this.setState({isLoading: false}), 200);
+     }
+
     ViewDashboard() {
+        this.isLoading();
         this.setState({tab: 0})
     }
 
     ViewBlog() {
+        this.isLoading();
         this.setState({tab: 1})
     }
 
     ViewCard() {
+        this.isLoading();
         this.setState({tab: 2})
     }
 
     ShowTab() {
         const {general, colors} = this.props;
+        const {isLoading} = this.state;
         switch (this.state.tab) {
             case 0:
                 return (
                     <Content
                         showsVerticalScrollIndicator={false}
-                        style={{flex: 1}}>
-                        {/*<ScrollView horizontal={true}>*/}
-                        <View
-                            style={[general.wrapperRevenue, general.paddingBottom, general.marginTopBottom, general.shadow, {marginTop: 20}]}>
-                            <ScrollView
-                                showsHorizontalScrollIndicator={false}
-                                horizontal={true}
-                                style={general.marginBottom}>
-                                <View style={{alignItems: 'flex-end', flexDirection: 'row'}}>
-                                    {
-                                        this.state.chart.map((item) => {
-                                            return (
-                                                <View
-                                                    style={[general.columnChart, general.marginLR, {height: (item / 100) * (size.hei / 3 - 30), backgroundColor: '#FFFFFF'}]}/>
-                                            )
-                                        })
-                                    }
-                                </View>
+                        style={{flex: 1}}
+                    >
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <Content style={{flex: 1}}>
+                                    <View
+                                        style={[general.wrapperRevenue, general.paddingBottom, general.marginTopBottom, general.shadow, {marginTop: 20}]}>
+                                        <ScrollView
+                                            showsHorizontalScrollIndicator={false}
+                                            horizontal={true}
+                                            style={general.marginBottom}>
+                                            <View style={{alignItems: 'flex-end', flexDirection: 'row'}}>
+                                                {
+                                                    this.state.chart.map((item) => {
+                                                        return (
+                                                            <View
+                                                                style={[general.columnChart, general.marginLR, {height: (item / 100) * (size.hei / 3 - 30), backgroundColor: '#FFFFFF'}]}/>
+                                                        )
+                                                    })
+                                                }
+                                            </View>
 
-                            </ScrollView>
-                            <View style={general.line}/>
-                            <View style={[general.wrapperBottomChart]}>
-                                <Text style={[general.textChart, general.colorTextLight]}>+20%</Text>
-                                <View style={{flexDirection: 'row', alignItems: 'center'}}>
-                                    <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
-                                    <Icon
-                                        name="fontawesome|chevron-circle-right"
-                                        size={12}
-                                        style={[general.iconStyle, general.colorTextLight]}
-                                    />
-                                </View>
-                            </View>
-                        </View>
+                                        </ScrollView>
+                                        <View style={general.line}/>
+                                        <View style={[general.wrapperBottomChart]}>
+                                            <Text style={[general.textChart, general.colorTextLight]}>+20%</Text>
+                                            <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                                                <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
+                                                <Icon
+                                                    name="fontawesome|chevron-circle-right"
+                                                    size={12}
+                                                    style={[general.iconStyle, general.colorTextLight]}
+                                                />
+                                            </View>
+                                        </View>
+                                    </View>
 
-                        <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-                            <View
-                                style={[general.wrapperRevenueSquare, general.paddingBottom, general.marginTopBottom, general.shadow, {backgroundColor: '#AA46E8'}]}>
-                                <View style={[general.padding]}>
-                                    <Text style={[general.textTitleChart, general.colorTextLight]}>Phân tích tỉ lệ</Text>
-                                </View>
-                                <View style={general.wrapperCenter}>
-                                    <PercentageCircle
-                                        radius={30}
-                                        percent={60}
-                                        innerColor={'#AA46E8'}
-                                        bgcolor={color.textColorNotActive}
-                                        color={color.textColor}
-                                        borderWidth={7}
-                                        children={<Text style={[general.textTitleChart, general.colorTextLight]}>60%</Text>}
-                                    />
-                                </View>
-                                <View>
-                                    <View style={general.line}/>
-                                    <View style={[general.wrapperBottomChart]}>
-                                        <Text style={[general.textChart, general.colorTextLight]}>+20%</Text>
+                                    <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+                                        <View
+                                            style={[general.wrapperRevenueSquare, general.paddingBottom, general.marginTopBottom, general.shadow, {backgroundColor: '#AA46E8'}]}>
+                                            <View style={[general.padding]}>
+                                                <Text style={[general.textTitleChart, general.colorTextLight]}>Phân tích tỉ lệ</Text>
+                                            </View>
+                                            <View style={general.wrapperCenter}>
+                                                <PercentageCircle
+                                                    radius={30}
+                                                    percent={60}
+                                                    innerColor={'#AA46E8'}
+                                                    bgcolor={color.textColorNotActive}
+                                                    color={color.textColor}
+                                                    borderWidth={7}
+                                                    children={<Text style={[general.textTitleChart, general.colorTextLight]}>60%</Text>}
+                                                />
+                                            </View>
+                                            <View>
+                                                <View style={general.line}/>
+                                                <View style={[general.wrapperBottomChart]}>
+                                                    <Text style={[general.textChart, general.colorTextLight]}>+20%</Text>
+                                                    <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                                                        <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
+                                                        <Icon
+                                                            name="fontawesome|chevron-circle-right"
+                                                            size={12}
+                                                            style={[general.iconStyle, general.colorTextLight]}
+                                                        />
+                                                    </View>
+                                                </View>
+                                            </View>
+                                        </View>
+                                        <View
+                                            style={[general.wrapperRevenueSquare, general.paddingBottom, general.marginTopBottom, general.shadow, {backgroundColor: '#F57629'}]}>
+                                            <View style={[general.padding]}>
+                                                <Text style={[general.textTitleChart, general.colorTextLight]}>Phân tích tỉ lệ</Text>
+                                            </View>
+                                            <View style={general.wrapperCenter}>
+                                                <Text style={[general.textNumberChart, general.colorTextLight]}>+48%</Text>
+                                            </View>
+                                            <View>
+                                                <View style={general.line}/>
+                                                <View style={[general.wrapperBottomChart]}>
+                                                    <Text style={[general.textChart, general.colorTextLight]}>+20%</Text>
+                                                    <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                                                        <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
+                                                        <Icon
+                                                            name="fontawesome|chevron-circle-right"
+                                                            size={12}
+                                                            style={[general.iconStyle, general.colorTextLight]}
+                                                        />
+                                                    </View>
+                                                </View>
+                                            </View>
+                                        </View>
+                                    </View>
+                                    <View
+                                        style={[general.wrapperRevenueLine, general.marginTopBottom, general.shadow]}>
                                         <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                                            <Text style={[general.textTitleChart, general.colorTextLight]}>Doanh thu</Text>
+                                            <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>12.232.564.000đ</Text>
+                                        </View>
+                                        <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
                                             <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
                                             <Icon
                                                 name="fontawesome|chevron-circle-right"
@@ -153,21 +211,13 @@ import {connect} from 'react-redux';
                                             />
                                         </View>
                                     </View>
-                                </View>
-                            </View>
-                            <View
-                                style={[general.wrapperRevenueSquare, general.paddingBottom, general.marginTopBottom, general.shadow, {backgroundColor: '#F57629'}]}>
-                                <View style={[general.padding]}>
-                                    <Text style={[general.textTitleChart, general.colorTextLight]}>Phân tích tỉ lệ</Text>
-                                </View>
-                                <View style={general.wrapperCenter}>
-                                    <Text style={[general.textNumberChart, general.colorTextLight]}>+48%</Text>
-                                </View>
-                                <View>
-                                    <View style={general.line}/>
-                                    <View style={[general.wrapperBottomChart]}>
-                                        <Text style={[general.textChart, general.colorTextLight]}>+20%</Text>
+                                    <View
+                                        style={[general.wrapperRevenueLine, general.marginTopBottom, general.shadow, {backgroundColor: '#F57629'}]}>
                                         <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                                            <Text style={[general.textTitleChart, general.colorTextLight]}>Doanh thu</Text>
+                                            <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>12.232.564.000đ</Text>
+                                        </View>
+                                        <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
                                             <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
                                             <Icon
                                                 name="fontawesome|chevron-circle-right"
@@ -176,65 +226,49 @@ import {connect} from 'react-redux';
                                             />
                                         </View>
                                     </View>
-                                </View>
-                            </View>
-                        </View>
-                        <View
-                            style={[general.wrapperRevenueLine, general.marginTopBottom, general.shadow]}>
-                            <View style={{flexDirection: 'row', alignItems: 'center'}}>
-                                <Text style={[general.textTitleChart, general.colorTextLight]}>Doanh thu</Text>
-                                <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>12.232.564.000đ</Text>
-                            </View>
-                            <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
-                                <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
-                                <Icon
-                                    name="fontawesome|chevron-circle-right"
-                                    size={12}
-                                    style={[general.iconStyle, general.colorTextLight]}
-                                />
-                            </View>
-                        </View>
-                        <View
-                            style={[general.wrapperRevenueLine, general.marginTopBottom, general.shadow, {backgroundColor: '#F57629'}]}>
-                            <View style={{flexDirection: 'row', alignItems: 'center'}}>
-                                <Text style={[general.textTitleChart, general.colorTextLight]}>Doanh thu</Text>
-                                <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>12.232.564.000đ</Text>
-                            </View>
-                            <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
-                                <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
-                                <Icon
-                                    name="fontawesome|chevron-circle-right"
-                                    size={12}
-                                    style={[general.iconStyle, general.colorTextLight]}
-                                />
-                            </View>
-                        </View>
-                        <View
-                            style={[general.wrapperRevenueLine, general.marginTopBottom, general.shadow, {backgroundColor: '#AA46E8'}]}>
-                            <View style={{flexDirection: 'row', alignItems: 'center'}}>
-                                <Text style={[general.textTitleChart, general.colorTextLight]}>Doanh thu</Text>
-                                <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>12.232.564.000đ</Text>
-                            </View>
-                            <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
-                                <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
-                                <Icon
-                                    name="fontawesome|chevron-circle-right"
-                                    size={12}
-                                    style={[general.iconStyle, general.colorTextLight]}
-                                />
-                            </View>
-                        </View>
+                                    <View
+                                        style={[general.wrapperRevenueLine, general.marginTopBottom, general.shadow, {backgroundColor: '#AA46E8'}]}>
+                                        <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                                            <Text style={[general.textTitleChart, general.colorTextLight]}>Doanh thu</Text>
+                                            <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>12.232.564.000đ</Text>
+                                        </View>
+                                        <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
+                                            <Text style={[general.textChart, general.marginLR, general.colorTextLight]}>Xem thêm</Text>
+                                            <Icon
+                                                name="fontawesome|chevron-circle-right"
+                                                size={12}
+                                                style={[general.iconStyle, general.colorTextLight]}
+                                            />
+                                        </View>
+                                    </View>
+                                </Content>
 
+                        }
+                        <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
             case 1:
                 return (
                     <Content style={{flex: 1}}>
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View></View>
+                        }
                     </Content>
                 );
             case 2:
                 return (
                     <Content style={{flex: 1}}>
+                        {
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View></View>
+                        }
                     </Content>
                 );
 

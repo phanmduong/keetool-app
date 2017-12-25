@@ -11,6 +11,8 @@ export default class keetool extends Component {
 }
 
 console.disableYellowBox = true;
+console.disableRedBox = true;
+
 AppRegistry.registerComponent('keetool', () => keetool);
 
 

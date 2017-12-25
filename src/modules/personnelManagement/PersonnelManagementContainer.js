@@ -10,10 +10,13 @@ import HamburgerButton from '../../commons/HamburgerButton';
 import Icon from '../../commons/Icon';
 import {connect} from 'react-redux';
 import Comunications from 'react-native-communications'
+import Loading from '../../commons/Loading';
+
 class PersonnelManagementContainer extends Component {
     constructor() {
         super();
         this.state = {
+            isLoading: false,
             tab: 0,
             modal: false,
             staff: {
@@ -60,11 +63,18 @@ class PersonnelManagementContainer extends Component {
         });
     }
 
+    isLoading() {
+        this.setState({isLoading: true});
+        setTimeout(() => this.setState({isLoading: false}), 200);
+    }
+
     ViewEmployee() {
+        this.isLoading();
         this.setState({tab: 0})
     }
 
     ViewRole() {
+        this.isLoading();
         this.setState({tab: 1})
     }
 
@@ -113,33 +123,45 @@ class PersonnelManagementContainer extends Component {
     }
     ShowTab() {
         const {staff, roles, general} = this.props;
+        const {isLoading} = this.state;
         switch (this.state.tab) {
             case 0:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
+                    <Content style={{flex: 1}}>
                         {
-                            staff.map((item, i) =>
-                                <TouchableOpacity
-                                    key={i}
-                                    onPress={() => this.setModal(true, item)}
-                                    style={[general.wrapperPeople, general.wrapperRowCenter]}>
-                                    <Image
-                                        resizeMode={'cover'}
-                                        source={{uri: item.avatar_url}}
-                                        style={general.imageCircleNormal}
-                                    />
-                                    <View style={[{flex: 1}, general.paddingLR]}>
-                                        <Text style={general.textIstActive}>{item.name}</Text>
-                                        <Text style={general.textDescriptionCard}
-                                              numberOfLines={1}>{item.email}</Text>
-                                    </View>
-                                    <View style={{width: 50}}>
-                                        <Text numberOfLines={1}
-                                              style={general.textIstActive}>{this.Role(item.role_id)}</Text>
-                                    </View>
-                                </TouchableOpacity>
-                            )
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    {
+                                        staff.map((item, i) =>
+                                            <TouchableOpacity
+                                                key={i}
+                                                onPress={() => this.setModal(true, item)}
+                                                style={[general.wrapperPeople, general.wrapperRowCenter]}>
+                                                <Image
+                                                    resizeMode={'cover'}
+                                                    source={{uri: item.avatar_url}}
+                                                    style={general.imageCircleNormal}
+                                                />
+                                                <View style={[{flex: 1}, general.paddingLR]}>
+                                                    <Text style={general.textIstActive}>{item.name}</Text>
+                                                    <Text style={general.textDescriptionCard}
+                                                          numberOfLines={1}>{item.email}</Text>
+                                                </View>
+                                                <View style={{width: 50}}>
+                                                    <Text numberOfLines={1}
+                                                          style={general.textIstActive}>{this.Role(item.role_id)}</Text>
+                                                </View>
+                                            </TouchableOpacity>
+                                        )
+                                    }
+                                </View>
+
+
                         }
+
 
                         <Modal
                             presentationStyle="overFullScreen"
@@ -200,20 +222,30 @@ class PersonnelManagementContainer extends Component {
                 );
             case 1:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
-                        <View style={[general.wrapperRowSpaceBetween, general.paddingBottom, general.haveBorderBottom]}>
-                            <Text style={general.textTitleCard}>Role</Text>
-                            <Text style={general.textTitleCard}>Authorities</Text>
-                        </View>
+                    <Content style={{flex: 1}}>
                         {
-                            roles.map((item, i) =>
-                                <View key={i}
-                                      style={[general.wrapperRowSpaceBetween, general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                    <Text style={general.textDescriptionCard}>{item.role_title}</Text>
-                                    <Text style={general.textDescriptionCard}>{item.num_tabs}</Text>
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <View style={{padding: 20}}>
+                                    <View style={[general.wrapperRowSpaceBetween, general.paddingBottom, general.haveBorderBottom]}>
+                                        <Text style={general.textTitleCard}>Role</Text>
+                                        <Text style={general.textTitleCard}>Authorities</Text>
+                                    </View>
+                                    {
+                                        roles.map((item, i) =>
+                                            <View key={i}
+                                                  style={[general.wrapperRowSpaceBetween, general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
+                                                <Text style={general.textDescriptionCard}>{item.role_title}</Text>
+                                                <Text style={general.textDescriptionCard}>{item.num_tabs}</Text>
+                                            </View>
+                                        )
+                                    }
                                 </View>
-                            )
+
                         }
+
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
