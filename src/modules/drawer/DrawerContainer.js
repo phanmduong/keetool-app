@@ -174,36 +174,36 @@ class DrawerContainer extends Component {
                             <Text style={general.textInDrawer}>Dashboard</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity
-                        style={general.itemTabInDrawer}
-                        onPress={() => navigate('Map')}
-                    >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="material|map"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>Map</Text>
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                        style={general.itemTabInDrawer}
-                        onPress={() => navigate('QRCode')}
-                    >
-                        <View style={general.wrapperRowCenter}>
-                            <View style={general.wrapperIconDrawer}>
-                                <Icon
-                                    name="fontawesome|qrcode"
-                                    size={size.iconBig}
-                                    style={general.colorDark}
-                                />
-                            </View>
-                            <Text style={general.textInDrawer}>QRCODE</Text>
-                        </View>
-                    </TouchableOpacity>
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('Map')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="material|map"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>Map</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
+                    {/*<TouchableOpacity*/}
+                        {/*style={general.itemTabInDrawer}*/}
+                        {/*onPress={() => navigate('QRCode')}*/}
+                    {/*>*/}
+                        {/*<View style={general.wrapperRowCenter}>*/}
+                            {/*<View style={general.wrapperIconDrawer}>*/}
+                                {/*<Icon*/}
+                                    {/*name="fontawesome|qrcode"*/}
+                                    {/*size={size.iconBig}*/}
+                                    {/*style={general.colorDark}*/}
+                                {/*/>*/}
+                            {/*</View>*/}
+                            {/*<Text style={general.textInDrawer}>QRCODE</Text>*/}
+                        {/*</View>*/}
+                    {/*</TouchableOpacity>*/}
                     <TouchableOpacity
                         style={general.itemTabInDrawer}
                         onPress={() => navigate('Trello')}
