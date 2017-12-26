@@ -9,7 +9,30 @@ class DragAndDropContainer extends Component {
     constructor() {
         super()
         this._active = new Animated.Value(0);
-
+        this.state = {
+            showDraggable: true,
+            dropZoneValues: null,
+            pan: new Animated.ValueXY()
+        }
+        this.panResponder = PanResponder.create({
+            onStartShouldSetPanResponder    : () => true,
+            onPanResponderMove              : Animated.event([null,{
+                dx  : this.state.pan.x,
+                dy  : this.state.pan.y
+            }]),
+            onPanResponderRelease           : (e, gesture) => {
+                if(this.isDropZone(gesture)){
+                    this.setState({
+                        showDraggable : false
+                    });
+                }else{
+                    Animated.spring(
+                        this.state.pan,
+                        {toValue:{x:0,y:0}}
+                    ).start();
+                }
+            }
+        });
         this._style = {
             ...Platform.select({
                 ios: {
@@ -49,12 +72,21 @@ class DragAndDropContainer extends Component {
             }).start();
         }
     }
-
+    isDropZone(gesture){
+        var dz = this.state.dropZoneValues;
+        return gesture.moveY > dz.y && gesture.moveY < dz.y + dz.height;
+    }
+    // setDropZoneValues(event){
+    //     this.setState({
+    //         dropZoneValues : event.nativeEvent.layout
+    //     });
+    // }
     render (){
          const {item, active, indexItem, index} = this.props;
 
         return (
         <Animated.View
+           
             style={[general.wrapperCenter, this._style]}>
             <Animated.View
                 style={[general.itemInCardTrello, general.shadow,
