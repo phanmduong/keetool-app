@@ -1,14 +1,10 @@
 import React, {Component} from 'react';
-import {
-    Text, TouchableOpacity, View, FlatList, Image, Platform, Animated, StatusBar, RefreshControl,
-} from 'react-native';
-import {
-    Container, Item, Left, Right, Spinner, Content
-} from 'native-base';
+import {Image, Text, TouchableOpacity, View,} from 'react-native';
+import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
-import {connect} from 'react-redux';
 import Loading from '../../commons/Loading';
+import {connect} from 'react-redux';
 
 class BookStoreContainer extends Component {
     constructor() {
@@ -63,34 +59,35 @@ class BookStoreContainer extends Component {
 
     isLoading() {
         this.setState({isLoading: true});
-        setTimeout(() => this.setState({isLoading: false}), 200);
+        setTimeout(() => this.setState({isLoading: false}), 12200);
     }
 
     ViewKnowledge() {
+        this.isLoading();
         this.setState({tab: 0})
     }
 
     ViewTravel() {
+        this.isLoading();
         this.setState({tab: 1})
     }
 
     ViewComic() {
+        this.isLoading();
         this.setState({tab: 2})
     }
 
     ShowTab() {
-
         const {general, colors} = this.props;
+        const {isLoading} = this.state;
         switch (this.state.tab) {
             case 0:
                 return (
                     <View>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={this.state.data}
-                            renderItem={({item}) =>
-                                <TouchableOpacity
-                                    style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
+                        {
+                            this.state.data.map((item, i) =>
+                                <TouchableOpacity key={i}
+                                                  style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
                                     <View
                                         style={[general.imageRectangleSmall, general.shadow]}
                                     >
@@ -106,19 +103,17 @@ class BookStoreContainer extends Component {
                                         <Text style={general.textNoteCard}>{item.created_at}</Text>
                                     </View>
                                 </TouchableOpacity>
-                            }
-                        />
+                            )
+                        }
                     </View>
                 );
             case 1:
                 return (
                     <View>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={this.state.data}
-                            renderItem={({item}) =>
-                                <TouchableOpacity
-                                    style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
+                        {
+                            this.state.data.map((item, i) =>
+                                <TouchableOpacity key={i}
+                                                  style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
                                     <View
                                         style={[general.imageRectangleSmall, general.shadow]}
                                     >
@@ -134,19 +129,17 @@ class BookStoreContainer extends Component {
                                         <Text style={general.textNoteCard}>{item.created_at}</Text>
                                     </View>
                                 </TouchableOpacity>
-                            }
-                        />
+                            )
+                        }
                     </View>
                 );
             case 2:
                 return (
                     <View>
-                        <FlatList
-                            showsVerticalScrollIndicator={false}
-                            data={this.state.data}
-                            renderItem={({item}) =>
-                                <TouchableOpacity
-                                    style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
+                        {
+                            this.state.data.map((item, i) =>
+                                <TouchableOpacity key={i}
+                                                  style={[general.marginTopBottom, general.wrapperCenterLeftToRightRow]}>
                                     <View
                                         style={[general.imageRectangleSmall, general.shadow]}
                                     >
@@ -162,8 +155,8 @@ class BookStoreContainer extends Component {
                                         <Text style={general.textNoteCard}>{item.created_at}</Text>
                                     </View>
                                 </TouchableOpacity>
-                            }
-                        />
+                            )
+                        }
                     </View>
                 );
 
@@ -191,7 +184,8 @@ class BookStoreContainer extends Component {
                     <Content showsVerticalScrollIndicator={false}
                              style={general.wrapperFullWidth}
                     >
-                        <View style={[general.marginTopBottom, general.wrapperFeatureBook, general.paddingBottom, general.paddingLR]}>
+                        <View
+                            style={[general.marginTopBottom, general.wrapperFeatureBook, general.paddingBottom, general.paddingLR]}>
                             <View style={[general.shadow, general.wrapperImageRectangle]}>
                                 <Image
                                     resizeMode={'cover'}
@@ -209,25 +203,24 @@ class BookStoreContainer extends Component {
                         <Text style={[general.textIstActive, general.marginTopBottom, general.paddingLR]}>
                             We pick for you
                         </Text>
-                        <View style={{flex: 1}}>
-                            <FlatList
-                                horizontal={true}
-                                showsHorizontalScrollIndicator={false}
-                                data={data}
-                                renderItem={({item}) =>
-                                    <TouchableOpacity
-                                        style={[general.wrapperImageRectangle, general.marginLeft, general.marginTopBottom, general.shadow]}>
+                        <Content style={{flex: 1}} showsHorizontalScrollIndicator={false}
+                                 horizontal={true}
+                        >
+                            {
+                                data.map((item, i) =>
+                                    <TouchableOpacity key={i}
+                                                      style={[general.wrapperImageRectangle, general.marginLeft, general.marginTopBottom, general.shadow]}>
                                         <Image
                                             resizeMode={'cover'}
                                             source={{uri: item.url}}
-                                             style={general.imageRectangle}
+                                            style={general.imageRectangle}
                                         />
                                         <Text style={[general.textTitleBig, general.marginTop]}>{feature.title}</Text>
                                         <Text style={general.textDescriptionCard}>{feature.description}</Text>
                                     </TouchableOpacity>
-                                }
-                            />
-                        </View>
+                                )
+                            }
+                        </Content>
                         <View style={[general.wrapperMenuHome, general.marginTopBottom, general.paddingLR]}>
                             <TouchableOpacity onPress={() => this.ViewKnowledge()}>
                                 <View style={
@@ -281,8 +274,9 @@ class BookStoreContainer extends Component {
 
 function mapStateToProps(state) {
     return {
-        general : state.theme.general,
+        general: state.theme.general,
         colors: state.theme.colors,
     }
 }
+
 export default connect(mapStateToProps)(BookStoreContainer)

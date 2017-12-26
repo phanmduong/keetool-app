@@ -14,7 +14,7 @@ class MarketingManagementContainer extends Component {
     constructor() {
         super();
         this.state = {
-            tab: 0,
+            tab: 1,
             isLoading: false,
             modalTeleSaleHistory: false,
             tele_calls: {
@@ -159,7 +159,10 @@ class MarketingManagementContainer extends Component {
                                                     style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                                     <Col style={general.paddingRight}>
                                                         <Text><Text
-                                                            style={[general.textDescriptionCardLight, {backgroundColor: `#${item.caller.color}`}]}>{item.caller.name}</Text></Text>
+                                                            style={[general.textDescriptionCardLight,
+                                                                // {backgroundColor: `#${item.caller.color}`}
+                                                                ]}
+                                                        >{item.caller.name}</Text></Text>
                                                     </Col>
                                                     <Col>
                                                         <Text
@@ -261,13 +264,14 @@ class MarketingManagementContainer extends Component {
                                         data={marketing_campaigns}
                                         renderItem={({item}) =>
                                             <TouchableOpacity
-                                                onPress={() => this.setModalTeleSaleHistory(true, item)}
                                             >
                                                 <Grid
                                                     style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                                     <Col style={general.paddingRight}>
                                                         <Text><Text
-                                                            style={[general.textDescriptionCardLight, {backgroundColor: `#${item.color}`}]}>{item.name}</Text></Text>
+                                                            style={[general.textDescriptionCardLight,
+                                                                // {backgroundColor: `#${item.color}`}
+                                                                ]}>{item.name}</Text></Text>
                                                     </Col>
                                                 </Grid>
                                             </TouchableOpacity>

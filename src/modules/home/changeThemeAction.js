@@ -19,7 +19,7 @@ export function changeThemeLight(){
                 backgroundColor: color.none,
             },
             wrapperHeader: {
-                height: 50,
+                height: 100,
                 paddingTop: Platform.OS === 'ios' ? 20 : 0,
                 flexDirection: 'row',
                 alignItems: 'center',
@@ -590,7 +590,11 @@ export function changeThemeLight(){
                 flex: 1,
                 backgroundColor : 'rgb(192, 198, 209)'
             },
-
+            wrapperItem: {
+                width: wid * 0.9 - 40,
+                height: 70,
+                backgroundColor: '#FFF'
+            },
             itemInCardTrello: {
                 width: wid * 0.8,
                 backgroundColor: '#ffffff',
@@ -1197,7 +1201,11 @@ export function changeThemeDark(){
                 flex: 1,
                 backgroundColor : 'rgb(192, 198, 209)'
             },
-
+            wrapperItem: {
+                width: wid * 0.9 - 40,
+                height: 70,
+                backgroundColor: '#FFF'
+            },
             itemInCardTrello: {
                 width: wid * 0.8,
                 backgroundColor: '#ffffff',
@@ -1216,7 +1224,8 @@ export function changeThemeDark(){
                 borderRadius: 5,
             }
 
-        }),
+        }
+        ),
 
     }
 }

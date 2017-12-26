@@ -299,7 +299,7 @@ class TeachContainer extends Component {
                                                     />
                                                     <View style={general.wrapperBadge}>
                                                         <Text
-                                                            style={[general.textDescriptionCard, {color: '#FFFFFF'}]}>{item.study_time}</Text>
+                                                            style={[general.textDescriptionCardLight]}>{item.study_time}</Text>
                                                     </View>
                                                 </View>
 
@@ -359,7 +359,9 @@ class TeachContainer extends Component {
                                                     ?
                                                     <Text style={general.textDescriptionCardLight}>
                                                         Saler: <Text
-                                                        style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${this.state.register.saler.color}`}]}>{this.state.register.saler.name}</Text></Text>
+                                                        style={[general.textDescriptionCardLight, general.buttonUser,
+                                                            // {backgroundColor: `#${this.state.register.saler.color}`}
+                                                            ]}>{this.state.register.saler.name}</Text></Text>
                                                     :
                                                     <Text/>
                                             }
@@ -370,7 +372,9 @@ class TeachContainer extends Component {
                                                     ?
                                                     <Text style={general.textDescriptionCardLight}>
                                                         Campaign: <Text
-                                                        style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${this.state.register.campaign.color}`}]}>{this.state.register.campaign.name}</Text></Text>
+                                                        style={[general.textDescriptionCardLight, general.buttonUser,
+                                                            // {backgroundColor: `#${this.state.register.campaign.color}`}
+                                                            ]}>{this.state.register.campaign.name}</Text></Text>
                                                     :
                                                     <Text/>
                                             }
@@ -585,13 +589,17 @@ class TeachContainer extends Component {
                                         <View>
                                             <Text style={general.textDescriptionCardLight}>
                                                 Teacher: <Text
-                                                style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${classInfo.teacher.color}`}]}>{classInfo.teacher.name}</Text></Text>
+                                                style={[general.textDescriptionCardLight, general.buttonUser,
+                                                    // {backgroundColor: `#${classInfo.teacher.color}`}
+                                                    ]}>{classInfo.teacher.name}</Text></Text>
 
                                         </View>
                                         <View style={[general.paddingTopBottom, general.wrapperRowSpaceBetween]}>
                                             <Text style={general.textDescriptionCardLight}>
                                                 Teacher Assistant: <Text
-                                                style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${classInfo.teacher_assistant.color}`}]}>{classInfo.teacher_assistant.name}</Text></Text>
+                                                style={[general.textDescriptionCardLight, general.buttonUser,
+                                                    // {backgroundColor: `#${classInfo.teacher_assistant.color}`}
+                                                    ]}>{classInfo.teacher_assistant.name}</Text></Text>
                                             <TouchableOpacity onPress={() => this.ViewHistoryClass()}>
                                                 <Icon
                                                     name={'materialCommunity|history'}

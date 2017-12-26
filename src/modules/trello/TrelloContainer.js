@@ -19,19 +19,19 @@ class TrelloContainer extends Component {
             List: [
                 {
                     text: "Done",
-                    data: ["Design landing page", "Party", "Tomorrow", "LastNight"]
+                    data: ["HTML", "CSS", "Jquery", "JSON"]
                 },
                 {
                     text: "Doing",
-                    data: ["1", "3", "4", "7"]
+                    data: ["PHP", "Laravel", "React", "GoLang"]
                 },
                 {
                     text: "This Week",
-                    data: ["1", "2", "3", "4"]
+                    data: ["C++", "C", "C#", "Javascript"]
                 },
                 {
                     text: "Ideas",
-                    data: ["1", "3", "4", "7"]
+                    data: ["Kotlin", "Android", "iOS", "React Native"]
                 }
             ],
             edit : '',

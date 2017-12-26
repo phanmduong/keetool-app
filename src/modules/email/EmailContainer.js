@@ -186,9 +186,6 @@ class EmailContainer extends Component {
                                         </View>
                                         <TouchableOpacity
                                             style={[general.bottomModal, general.haveBorderTop]}
-                                            onPress={() => {
-                                                this.modalEmailEndContact()
-                                            }}
                                         >
                                             <Text style={general.textTitleCardBlue}>+ Add</Text>
                                         </TouchableOpacity>
@@ -317,7 +314,6 @@ class EmailContainer extends Component {
                         }
                     </Content>
                 );
-
             case 3:
                 return (
                     <Content style={{flex: 1}}>
@@ -489,7 +485,6 @@ class EmailContainer extends Component {
 
                         </Content>
                     </View>
-
                     <View style={general.wrapperFullWidth}>
                         {this.ShowTab()}
                     </View>

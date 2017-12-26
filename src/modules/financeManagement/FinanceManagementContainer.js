@@ -205,10 +205,12 @@ class FinanceManagementContainer extends Component {
                                                     </View>
 
                                                     <View style={[{flex: 1}, general.paddingLR]}>
-                                                        <Text style={general.textIstActive}>{item.course}</Text>
-                                                        <Text style={general.textDescriptionCard}>{item.class_name}</Text>
+                                                        <Text style={general.textTitleCardLight}>{item.course}</Text>
+                                                        <Text
+                                                            style={general.textDescriptionCardLight}>{item.class_name}</Text>
                                                     </View>
-                                                    <Text style={[general.textDescriptionCard]}>{item.money == 0 ? 'Chưa nộp tiền' : item.money + "k"}</Text>
+                                                    <Text
+                                                        style={[general.textDescriptionCardLight]}>{item.money == 0 ? 'Chưa nộp tiền' : item.money + "k"}</Text>
                                                 </TouchableOpacity>
                                             )
                                         }
@@ -248,32 +250,42 @@ class FinanceManagementContainer extends Component {
 
             case 3:
                 return (
-                    <Content style={{flex: 1, padding: 20}}>
+                    <View style={{flex: 1}}>
                         {
-                            paidList.map((item, i) =>
-                                <TouchableOpacity
-                                    key={i}
-                                    onPress={() => this.setModalPaidList(true, item)}
-                                    style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
-                                    <View style={[general.imageCircleNormal, general.shadow]}>
-                                        <Image
-                                            resizeMode={'cover'}
-                                            source={{uri: item.class.icon_url}}
-                                            style={general.imageCircleNormal}
-                                        />
-                                    </View>
+                            isLoading
+                                ?
+                                <Loading/>
+                                :
+                                <Content style={{padding: 20}}>
+                                    {
+                                        paidList.map((item, i) =>
+                                            <TouchableOpacity
+                                                key={i}
+                                                onPress={() => this.setModalPaidList(true, item)}
+                                                style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
+                                                <View style={[general.imageCircleNormal, general.shadow]}>
+                                                    <Image
+                                                        resizeMode={'cover'}
+                                                        source={{uri: item.class.icon_url}}
+                                                        style={general.imageCircleNormal}
+                                                    />
+                                                </View>
 
-                                    <View style={[{flex: 1}, general.paddingLR]}>
-                                        <Text style={general.textIstActive}>{item.student.name}</Text>
-                                        <Text style={general.textDescriptionCard}>{item.student.phone}</Text>
-                                    </View>
-                                    <Text>
-                                        <Text
-                                            style={general.textDescriptionCard}>
-                                            {item.money == '' ? '0' : item.money.toString().slice(0, item.money.toString().length - 3)}k</Text>
-                                    </Text>
-                                </TouchableOpacity>
-                            )
+                                                <View style={[{flex: 1}, general.paddingLR]}>
+                                                    <Text style={general.textIstActive}>{item.student.name}</Text>
+                                                    <Text
+                                                        style={general.textDescriptionCard}>{item.student.phone}</Text>
+                                                </View>
+                                                <Text>
+                                                    <Text
+                                                        style={general.textDescriptionCard}>
+                                                        {item.money == '' ? '0' : item.money.toString().slice(0, item.money.toString().length - 3)}k</Text>
+                                                </Text>
+                                            </TouchableOpacity>
+                                        )
+                                    }
+                                </Content>
+
                         }
                         <Modal
                             presentationStyle="overFullScreen"
@@ -295,19 +307,21 @@ class FinanceManagementContainer extends Component {
                                                 style={general.textDescriptionCardLight}>{paidCallItem.student.phone}</Text>
                                         </View>
                                         <Image
-                                                                                           resizeMode={'cover'}
+                                            resizeMode={'cover'}
                                             source={{uri: paidCallItem.class.icon_url}}
                                             style={general.imageCircleNormal}
                                         />
                                     </View>
                                     <View style={[general.contentModal, general.padding]}>
                                         <View>
-                                              {
+                                            {
                                                 paidCallItem
                                                     ?
                                                     <Text style={general.textDescriptionCardLight}>
                                                         Collector: <Text
-                                                        style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${paidCallItem.collector.color}`}]}>{paidCallItem.collector.name}</Text></Text>
+                                                        style={[general.textDescriptionCardLight, general.buttonUser,
+                                                            // {backgroundColor: `#${paidCallItem.collector.color}`}
+                                                            ]}>{paidCallItem.collector.name}</Text></Text>
                                                     :
                                                     <Text/>
                                             }
@@ -335,7 +349,7 @@ class FinanceManagementContainer extends Component {
                             </View>
                         </Modal>
 
-                    </Content>
+                    </View>
                 );
 
             case 4:
@@ -410,38 +424,37 @@ class FinanceManagementContainer extends Component {
                                     </Text>
                                 </View>
                             </TouchableOpacity>
-
                             {/*<TouchableOpacity onPress={() => this.ViewSendMoney()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 1*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 1*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 1 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Send Money*/}
-                                    {/*</Text>*/}
+                            {/*<Text*/}
+                            {/*style={this.state.tab === 1 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Send Money*/}
+                            {/*</Text>*/}
 
-                                {/*</View>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
                             {/*<TouchableOpacity onPress={() => this.ViewKeepMoney()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 2*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 2*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Keep Money*/}
-                                    {/*</Text>*/}
+                            {/*<Text*/}
+                            {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Keep Money*/}
+                            {/*</Text>*/}
 
-                                {/*</View>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
                             <TouchableOpacity onPress={() => this.ViewPaidList()}>
                                 <View style={
@@ -451,68 +464,65 @@ class FinanceManagementContainer extends Component {
                                         :
                                         general.wrapperMenuTextNotActive
                                 }>
-
                                     <Text
                                         style={this.state.tab === 3 ? general.textIstActive : general.textNotActive}>
                                         Paid List
                                     </Text>
-
                                 </View>
                             </TouchableOpacity>
 
                             {/*<TouchableOpacity onPress={() => this.ViewSpendMoney()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 4*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 4*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Spend Money*/}
-                                    {/*</Text>*/}
+                            {/*<Text*/}
+                            {/*style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Spend Money*/}
+                            {/*</Text>*/}
 
-                                {/*</View>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
 
                             {/*<TouchableOpacity onPress={() => this.ViewSpendList()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 5*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 5*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Spend List*/}
-                                    {/*</Text>*/}
+                            {/*<Text*/}
+                            {/*style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Spend List*/}
+                            {/*</Text>*/}
 
-                                {/*</View>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
 
                             {/*<TouchableOpacity onPress={() => this.ViewExpenseIncome()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 6*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 6 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Expense Income*/}
-                                    {/*</Text>*/}
-                                {/*</View>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 6*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
+                            {/*<Text*/}
+                            {/*style={this.state.tab === 6 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Expense Income*/}
+                            {/*</Text>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
 
 
                         </Content>
                     </View>
-
                     <View style={general.wrapperFullWidth}>
                         {this.ShowTab()}
                     </View>
