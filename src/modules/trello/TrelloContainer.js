@@ -15,6 +15,7 @@ class TrelloContainer extends Component {
             modalEditItem : false,
             title: '',
             indexItem : 0,
+            dropZoneValues : null,
             index: 0,
             List: [
                 {
@@ -55,6 +56,11 @@ class TrelloContainer extends Component {
             });
         }
     }
+     setDropZoneValues(event){
+         this.setState({
+             dropZoneValues : event.nativeEvent.layout
+         });
+     }
     // updatePosition(indexList, data, e, order){
     //     let arr = [];
     //     let List = this.state.List;
@@ -166,12 +172,13 @@ class TrelloContainer extends Component {
                                                 </View>
                                                 <View style={general.contentTrello}>
                                                     <SortableList
-                                                        style={{ flex: 1, backgroundColor : 'rgb(192, 198, 209)'}}
+                                                        style={[{ flex: 1, backgroundColor : 'rgb(192, 198, 209)'}]}
+
                                                         data={data}
                                                         renderRow={({data, active, index}) =>
                                                             {
                                                                 let indexItem = Number(index);
-                                                                return <DragAndDropContainer indexItem = {indexItem} openModalEditItem = {this.openModalEditItem} item={data} active={active} index = {i} />
+                                                                return <DragAndDropContainer  indexItem = {indexItem} openModalEditItem = {this.openModalEditItem} item={data} active={active} index = {i} />
                                                         }} />
                                                 </View>
                                                 <View style={[general.bottomModal, general.haveBorderTop]}>

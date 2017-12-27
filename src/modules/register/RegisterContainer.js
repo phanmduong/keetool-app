@@ -111,7 +111,6 @@ class RegisterContainer extends Component {
 
                                                 </Grid>
                                             </TouchableOpacity>
-
                                         }
                                     />
                                 </View>

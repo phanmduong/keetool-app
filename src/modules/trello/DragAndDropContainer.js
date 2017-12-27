@@ -11,7 +11,6 @@ class DragAndDropContainer extends Component {
         this._active = new Animated.Value(0);
         this.state = {
             showDraggable: true,
-            dropZoneValues: null,
             pan: new Animated.ValueXY()
         }
         this.panResponder = PanResponder.create({
@@ -73,7 +72,7 @@ class DragAndDropContainer extends Component {
         }
     }
     isDropZone(gesture){
-        var dz = this.state.dropZoneValues;
+        var dz = this.props.dropZoneValues;
         return gesture.moveY > dz.y && gesture.moveY < dz.y + dz.height;
     }
     // setDropZoneValues(event){
@@ -86,11 +85,10 @@ class DragAndDropContainer extends Component {
 
         return (
         <Animated.View
-           
             style={[general.wrapperCenter, this._style]}>
             <Animated.View
                 style={[general.itemInCardTrello, general.shadow,
-                    general.marginTop]}>
+                    general.marginTop,]}>
                 <View style={general.wrapperRowSpaceBetween}>
                     <Text>{item}</Text>
                     <Icon name="fontawesome|pencil"

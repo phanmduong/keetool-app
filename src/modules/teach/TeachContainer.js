@@ -394,6 +394,18 @@ class TeachContainer extends Component {
                                         <Text
                                             style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.register.phone}</Text>
                                     </TouchableOpacity>
+                                    <TouchableOpacity
+                                        style={[general.bottomModal, general.wrapperRowCenter]}
+                                        onPress = {() => Comunications.text(this.state.register.phone, 'chúc mọi sự tốt lành')}
+                                    >
+                                        <Icon
+                                            name="material|sms"
+                                            size={30}
+                                            color={'#FFFFFF'}
+                                        />
+                                        <Text
+                                            style={[general.textTitleBigLight, general.paddingLeft]}>{this.state.register.phone}</Text>
+                                    </TouchableOpacity>
 
                                 </View>
                             </View>

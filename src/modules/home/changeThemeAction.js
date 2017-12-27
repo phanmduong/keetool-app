@@ -134,7 +134,7 @@ export function changeThemeLight(){
                 width: wid * 0.9,
                 height: hei * 0.8,
                 borderRadius: 10,
-                backgroundColor: 'rgba(47, 24, 71, 0.8)'
+                backgroundColor: 'rgb(255,255,255)'
             },
             textTitleHeader: {
                 fontFamily: 'Montserrat-SemiBold',
