@@ -51,7 +51,7 @@ export function getDataShiftRegister() {
         type: types.GET_DATA_SHIFT_REGISTER,
         shift_register: [
             {
-                date: "Thứ hai - 18/12/208",
+                date: "Thứ hai - 18/12/2016",
                 shifts: [
                     {
                         id: 4883,
@@ -62,7 +62,7 @@ export function getDataShiftRegister() {
                             color: "F62359",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
                         },
-                        date: "Thứ hai - 18/12/208",
+                        date: "Thứ hai - 18/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -83,7 +83,7 @@ export function getDataShiftRegister() {
                             color: "78CEFF",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
                         },
-                        date: "Thứ hai - 18/12/208",
+                        date: "Thứ hai - 18/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -104,7 +104,7 @@ export function getDataShiftRegister() {
                             color: "78CEFF",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
                         },
-                        date: "Thứ hai - 18/12/208",
+                        date: "Thứ hai - 18/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -125,7 +125,7 @@ export function getDataShiftRegister() {
                             color: "78CEFF",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
                         },
-                        date: "Thứ hai - 18/12/208",
+                        date: "Thứ hai - 18/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -146,7 +146,7 @@ export function getDataShiftRegister() {
                             color: "00bcd4",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
                         },
-                        date: "Thứ hai - 18/12/208",
+                        date: "Thứ hai - 18/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -161,7 +161,7 @@ export function getDataShiftRegister() {
                 ]
             },
             {
-                date: "Thứ ba - 19/12/208",
+                date: "Thứ ba - 19/12/2016",
                 shifts: [
                     {
                         id: 4893,
@@ -172,7 +172,7 @@ export function getDataShiftRegister() {
                             color: "F62359",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
                         },
-                        date: "Thứ ba - 19/12/208",
+                        date: "Thứ ba - 19/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -193,7 +193,7 @@ export function getDataShiftRegister() {
                             color: "F62359",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
                         },
-                        date: "Thứ ba - 19/12/208",
+                        date: "Thứ ba - 19/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -214,7 +214,7 @@ export function getDataShiftRegister() {
                             color: "F62359",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
                         },
-                        date: "Thứ ba - 19/12/208",
+                        date: "Thứ ba - 19/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -235,7 +235,7 @@ export function getDataShiftRegister() {
                             color: "F62359",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
                         },
-                        date: "Thứ ba - 19/12/208",
+                        date: "Thứ ba - 19/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -256,7 +256,7 @@ export function getDataShiftRegister() {
                             color: "12134F",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510080062ft9a7VvbQaW49Zz.jpg"
                         },
-                        date: "Thứ ba - 19/12/208",
+                        date: "Thứ ba - 19/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -271,7 +271,7 @@ export function getDataShiftRegister() {
                 ]
             },
             {
-                date: "Thứ tư - 20/12/208",
+                date: "Thứ tư - 20/12/2016",
                 shifts: [
                     {
                         id: 4903,
@@ -282,7 +282,7 @@ export function getDataShiftRegister() {
                             color: "009688",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
                         },
-                        date: "Thứ tư - 20/12/208",
+                        date: "Thứ tư - 20/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -303,7 +303,7 @@ export function getDataShiftRegister() {
                             color: "009688",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
                         },
-                        date: "Thứ tư - 20/12/208",
+                        date: "Thứ tư - 20/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -324,7 +324,7 @@ export function getDataShiftRegister() {
                             color: "009688",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
                         },
-                        date: "Thứ tư - 20/12/208",
+                        date: "Thứ tư - 20/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -345,7 +345,7 @@ export function getDataShiftRegister() {
                             color: "78CEFF",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
                         },
-                        date: "Thứ tư - 20/12/208",
+                        date: "Thứ tư - 20/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -366,7 +366,7 @@ export function getDataShiftRegister() {
                             color: "12134F",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510080062ft9a7VvbQaW49Zz.jpg"
                         },
-                        date: "Thứ tư - 20/12/208",
+                        date: "Thứ tư - 20/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -381,7 +381,7 @@ export function getDataShiftRegister() {
                 ]
             },
             {
-                date: "Thứ năm - 21/12/208",
+                date: "Thứ năm - 21/12/2016",
                 shifts: [
                     {
                         id: 4913,
@@ -392,7 +392,7 @@ export function getDataShiftRegister() {
                             color: "c0ca33",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
                         },
-                        date: "Thứ năm - 21/12/208",
+                        date: "Thứ năm - 21/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -413,7 +413,7 @@ export function getDataShiftRegister() {
                             color: "c0ca33",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
                         },
-                        date: "Thứ năm - 21/12/208",
+                        date: "Thứ năm - 21/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -434,7 +434,7 @@ export function getDataShiftRegister() {
                             color: "c0ca33",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
                         },
-                        date: "Thứ năm - 21/12/208",
+                        date: "Thứ năm - 21/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -455,7 +455,7 @@ export function getDataShiftRegister() {
                             color: "c0ca33",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
                         },
-                        date: "Thứ năm - 21/12/208",
+                        date: "Thứ năm - 21/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -476,7 +476,7 @@ export function getDataShiftRegister() {
                             color: "c0ca33",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
                         },
-                        date: "Thứ năm - 21/12/208",
+                        date: "Thứ năm - 21/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -491,7 +491,7 @@ export function getDataShiftRegister() {
                 ]
             },
             {
-                date: "Thứ sáu - 22/12/208",
+                date: "Thứ sáu - 22/12/2016",
                 shifts: [
                     {
                         id: 4923,
@@ -502,7 +502,7 @@ export function getDataShiftRegister() {
                             color: "c0ca33",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
                         },
-                        date: "Thứ sáu - 22/12/208",
+                        date: "Thứ sáu - 22/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -523,7 +523,7 @@ export function getDataShiftRegister() {
                             color: "009688",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
                         },
-                        date: "Thứ sáu - 22/12/208",
+                        date: "Thứ sáu - 22/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -544,7 +544,7 @@ export function getDataShiftRegister() {
                             color: "009688",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
                         },
-                        date: "Thứ sáu - 22/12/208",
+                        date: "Thứ sáu - 22/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -565,7 +565,7 @@ export function getDataShiftRegister() {
                             color: "009688",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
                         },
-                        date: "Thứ sáu - 22/12/208",
+                        date: "Thứ sáu - 22/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -586,7 +586,7 @@ export function getDataShiftRegister() {
                             color: "F62359",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
                         },
-                        date: "Thứ sáu - 22/12/208",
+                        date: "Thứ sáu - 22/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -601,7 +601,7 @@ export function getDataShiftRegister() {
                 ]
             },
             {
-                date: "Thứ bảy - 23/12/208",
+                date: "Thứ bảy - 23/12/2016",
                 shifts: [
                     {
                         id: 4933,
@@ -612,7 +612,7 @@ export function getDataShiftRegister() {
                             color: "78CEFF",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
                         },
-                        date: "Thứ bảy - 23/12/208",
+                        date: "Thứ bảy - 23/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -633,7 +633,7 @@ export function getDataShiftRegister() {
                             color: "78CEFF",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
                         },
-                        date: "Thứ bảy - 23/12/208",
+                        date: "Thứ bảy - 23/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -654,7 +654,7 @@ export function getDataShiftRegister() {
                             color: "8bc34a",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
                         },
-                        date: "Thứ bảy - 23/12/208",
+                        date: "Thứ bảy - 23/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -675,7 +675,7 @@ export function getDataShiftRegister() {
                             color: "8bc34a",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
                         },
-                        date: "Thứ bảy - 23/12/208",
+                        date: "Thứ bảy - 23/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -696,7 +696,7 @@ export function getDataShiftRegister() {
                             color: "8bc34a",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
                         },
-                        date: "Thứ bảy - 23/12/208",
+                        date: "Thứ bảy - 23/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -711,7 +711,7 @@ export function getDataShiftRegister() {
                 ]
             },
             {
-                date: "Chủ nhật - 24/12/208",
+                date: "Chủ nhật - 24/12/2016",
                 shifts: [
                     {
                         id: 4943,
@@ -722,7 +722,7 @@ export function getDataShiftRegister() {
                             color: "8bc34a",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
                         },
-                        date: "Chủ nhật - 24/12/208",
+                        date: "Chủ nhật - 24/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -743,7 +743,7 @@ export function getDataShiftRegister() {
                             color: "8bc34a",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
                         },
-                        date: "Chủ nhật - 24/12/208",
+                        date: "Chủ nhật - 24/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -764,7 +764,7 @@ export function getDataShiftRegister() {
                             color: "8bc34a",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
                         },
-                        date: "Chủ nhật - 24/12/208",
+                        date: "Chủ nhật - 24/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -785,7 +785,7 @@ export function getDataShiftRegister() {
                             color: "00bcd4",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
                         },
-                        date: "Chủ nhật - 24/12/208",
+                        date: "Chủ nhật - 24/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -806,7 +806,7 @@ export function getDataShiftRegister() {
                             color: "00bcd4",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
                         },
-                        date: "Chủ nhật - 24/12/208",
+                        date: "Chủ nhật - 24/12/2016",
                         week: 1,
                         gen: {
                             name: "32"
@@ -881,8 +881,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -892,10 +892,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -934,8 +934,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -945,10 +945,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -987,8 +987,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -998,10 +998,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1040,8 +1040,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -1051,10 +1051,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1093,8 +1093,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -1104,10 +1104,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1146,8 +1146,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -1157,10 +1157,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1191,7 +1191,7 @@ export function getDataEmailForm() {
             },
             {
                 id: 15,
-                name: " [Cải thiện thiết kế slide] 5.11.208",
+                name: " [Cải thiện thiết kế slide] 5.11.2016",
                 title: "EBOOK: CẢI THIỆN THIẾT KẾ SLIDE",
                 subtitle: "ColorME thân gửi tặng bạn cuốn Ebook",
                 logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1510030238qqfWUz84gS8rpNg.jpg",
@@ -1199,8 +1199,8 @@ export function getDataEmailForm() {
                     id: 313,
                     name: "Huyền Trang",
                     email: "huyentrang@colorme.vn",
-                    created_at: "208-02-28 22:56:05",
-                    updated_at: "208-11-05 18:15:20",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2016-11-05 18:15:20",
                     role: 2,
                     code: "",
                     avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
@@ -1229,7 +1229,7 @@ export function getDataEmailForm() {
                     marital: 1,
                     homeland: "",
                     literacy: 1,
-                    start_company: "208-02-13 00:00:00",
+                    start_company: "2016-02-13 00:00:00",
                     age: 20,
                     deleted_at: null,
                     type: null,
@@ -1244,7 +1244,7 @@ export function getDataEmailForm() {
             },
             {
                 id: 16,
-                name: " [Bộ 5000 slides] 18.11.208",
+                name: " [Bộ 5000 slides] 18.11.2016",
                 title: "BỘ TEMPLATE 5000 SLIDES",
                 subtitle: "ColorME thân gửi tặng bạn",
                 logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15109763912qKQFUR0gY14X75.jpg",
@@ -1252,8 +1252,8 @@ export function getDataEmailForm() {
                     id: 313,
                     name: "Huyền Trang",
                     email: "huyentrang@colorme.vn",
-                    created_at: "208-02-28 22:56:05",
-                    updated_at: "208-11-05 18:15:20",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2016-11-05 18:15:20",
                     role: 2,
                     code: "",
                     avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
@@ -1282,7 +1282,7 @@ export function getDataEmailForm() {
                     marital: 1,
                     homeland: "",
                     literacy: 1,
-                    start_company: "208-02-13 00:00:00",
+                    start_company: "2016-02-13 00:00:00",
                     age: 20,
                     deleted_at: null,
                     type: null,
@@ -1305,8 +1305,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -1316,10 +1316,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1358,8 +1358,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -1369,10 +1369,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1411,8 +1411,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -1422,10 +1422,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1464,8 +1464,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -1475,10 +1475,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1517,8 +1517,8 @@ export function getDataEmailForm() {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
                     email: "hung@hotmail.com",
-                    created_at: "208-02-11 04:03:36",
-                    updated_at: "208-12-16 14:32:21",
+                    created_at: "2016-02-11 04:03:36",
+                    updated_at: "2016-12-16 14:32:21",
                     role: 2,
                     code: "",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -1528,10 +1528,10 @@ export function getDataEmailForm() {
                     work: "1684026343",
                     address: "Dong Da",
                     username: "hung",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     how_know: "",
                     facebook: ".",
-                    dob: "208-09-14",
+                    dob: "2016-09-14",
                     gender: "1",
                     money: 1745161000,
                     status: 0,
@@ -1562,7 +1562,7 @@ export function getDataEmailForm() {
             },
             {
                 id: 23,
-                name: " [Thiết kế Tập sự ] 2.12.208",
+                name: " [Thiết kế Tập sự ] 2.12.2016",
                 title: "THIẾT KẾ TẬP SỰ",
                 subtitle: "ColorME thân gửi tặng bạn",
                 logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512212430kY8KdUnyPKmnAMZ.jpg",
@@ -1570,8 +1570,8 @@ export function getDataEmailForm() {
                     id: 313,
                     name: "Huyền Trang",
                     email: "huyentrang@colorme.vn",
-                    created_at: "208-02-28 22:56:05",
-                    updated_at: "208-11-05 18:15:20",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2016-11-05 18:15:20",
                     role: 2,
                     code: "",
                     avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
@@ -1600,7 +1600,7 @@ export function getDataEmailForm() {
                     marital: 1,
                     homeland: "",
                     literacy: 1,
-                    start_company: "208-02-13 00:00:00",
+                    start_company: "2016-02-13 00:00:00",
                     age: 20,
                     deleted_at: null,
                     type: null,
@@ -1615,7 +1615,7 @@ export function getDataEmailForm() {
             },
             {
                 id: 24,
-                name: " [Câu chuyện về Logo ] 8.12.208",
+                name: " [Câu chuyện về Logo ] 8.12.2016",
                 title: "EBOOK CÂU CHUYỆN VỀ LOGO",
                 subtitle: "ColorME thân gửi tặng bạn",
                 logo_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512662708Uy4MnGajZSZF8Tw.jpg",
@@ -1623,8 +1623,8 @@ export function getDataEmailForm() {
                     id: 313,
                     name: "Huyền Trang",
                     email: "huyentrang@colorme.vn",
-                    created_at: "208-02-28 22:56:05",
-                    updated_at: "208-11-05 18:15:20",
+                    created_at: "2016-02-28 22:56:05",
+                    updated_at: "2016-11-05 18:15:20",
                     role: 2,
                     code: "",
                     avatar_url: "d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
@@ -1653,7 +1653,7 @@ export function getDataEmailForm() {
                     marital: 1,
                     homeland: "",
                     literacy: 1,
-                    start_company: "208-02-13 00:00:00",
+                    start_company: "2016-02-13 00:00:00",
                     age: 20,
                     deleted_at: null,
                     type: null,
@@ -1692,7 +1692,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 69,
                 hide: 0,
-                timer: "208-12-15 13:01:00",
+                timer: "2016-12-15 13:01:00",
                 form_id: 25,
                 subscribers_list_ids: [
                     157
@@ -1717,7 +1717,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 218,
                 hide: 0,
-                timer: "208-12-08 00:25:00",
+                timer: "2016-12-08 00:25:00",
                 form_id: 24,
                 subscribers_list_ids: [
                     156
@@ -1742,7 +1742,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 482,
                 hide: 0,
-                timer: "208-12-02 23:45:00",
+                timer: "2016-12-02 23:45:00",
                 form_id: 23,
                 subscribers_list_ids: [
                     155
@@ -1751,7 +1751,7 @@ export function getDataCampaign() {
             },
             {
                 id: 146,
-                name: " [Bộ 5000 slides] 18.11.208",
+                name: " [Bộ 5000 slides] 18.11.2016",
                 subject: " SHARE BỘ 5000 SLIDE TEMPLATES",
                 owner: {
                     id: 313,
@@ -1767,7 +1767,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 1213,
                 hide: 0,
-                timer: "208-11-18 11:51:00",
+                timer: "2016-11-18 11:51:00",
                 form_id: 16,
                 subscribers_list_ids: [
                     153
@@ -1776,7 +1776,7 @@ export function getDataCampaign() {
             },
             {
                 id: 145,
-                name: " [Cải thiện thiết kế slide] 5.11.208",
+                name: " [Cải thiện thiết kế slide] 5.11.2016",
                 subject: "CẢI THIỆN THIẾT KẾ SLIDE",
                 owner: {
                     id: 313,
@@ -1792,7 +1792,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 159,
                 hide: 0,
-                timer: "208-11-09 08:12:00",
+                timer: "2016-11-09 08:12:00",
                 form_id: 15,
                 subscribers_list_ids: [
                     152
@@ -1801,7 +1801,7 @@ export function getDataCampaign() {
             },
             {
                 id: 144,
-                name: " [Cải thiện thiết kế slide] 5.11.208",
+                name: " [Cải thiện thiết kế slide] 5.11.2016",
                 subject: "CẢI THIỆN THIẾT KẾ SLIDE",
                 owner: {
                     id: 313,
@@ -1817,7 +1817,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 1231,
                 hide: 0,
-                timer: "208-11-07 12:05:00",
+                timer: "2016-11-07 12:05:00",
                 form_id: 15,
                 subscribers_list_ids: [
                     151
@@ -1826,7 +1826,7 @@ export function getDataCampaign() {
             },
             {
                 id: 142,
-                name: "24.10.208 - LẦN 2",
+                name: "24.10.2016 - LẦN 2",
                 subject: "COLOR - MÀU SẮC TRONG THIẾT KẾ",
                 owner: {
                     id: 313,
@@ -1842,7 +1842,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 293,
                 hide: 0,
-                timer: "208-10-29 11:48:00",
+                timer: "2016-10-29 11:48:00",
                 form_id: 14,
                 subscribers_list_ids: [
                     149
@@ -1851,8 +1851,8 @@ export function getDataCampaign() {
             },
             {
                 id: 140,
-                name: "Share Ebook]24.10.208",
-                subject: "Share Ebook]24.10.208",
+                name: "Share Ebook]24.10.2016",
+                subject: "Share Ebook]24.10.2016",
                 owner: {
                     id: 1966,
                     name: "Phan Minh Dương",
@@ -1867,7 +1867,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 1050,
                 hide: 0,
-                timer: "208-10-24 17:03:00",
+                timer: "2016-10-24 17:03:00",
                 form_id: 14,
                 subscribers_list_ids: [
                     141
@@ -1876,8 +1876,8 @@ export function getDataCampaign() {
             },
             {
                 id: 139,
-                name: "24.10.208 (Lần 4)",
-                subject: "24.10.208",
+                name: "24.10.2016 (Lần 4)",
+                subject: "24.10.2016",
                 owner: {
                     id: 1966,
                     name: "Phan Minh Dương",
@@ -1892,7 +1892,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 294,
                 hide: 0,
-                timer: "208-10-24 16:49:00",
+                timer: "2016-10-24 16:49:00",
                 form_id: 14,
                 subscribers_list_ids: [
                     148
@@ -1901,8 +1901,8 @@ export function getDataCampaign() {
             },
             {
                 id: 138,
-                name: "24.10.208 (Lần 4)",
-                subject: "24.10.208",
+                name: "24.10.2016 (Lần 4)",
+                subject: "24.10.2016",
                 owner: {
                     id: 1966,
                     name: "Phan Minh Dương",
@@ -1917,7 +1917,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 510,
                 hide: 0,
-                timer: "208-10-24 15:09:00",
+                timer: "2016-10-24 15:09:00",
                 form_id: 14,
                 subscribers_list_ids: [
                     147
@@ -1926,8 +1926,8 @@ export function getDataCampaign() {
             },
             {
                 id: 137,
-                name: "24.10.208 (Lần 3)",
-                subject: "24.10.208",
+                name: "24.10.2016 (Lần 3)",
+                subject: "24.10.2016",
                 owner: {
                     id: 1966,
                     name: "Phan Minh Dương",
@@ -1942,7 +1942,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 1232,
                 hide: 0,
-                timer: "208-10-24 14:45:00",
+                timer: "2016-10-24 14:45:00",
                 form_id: 14,
                 subscribers_list_ids: [
                     146
@@ -1951,8 +1951,8 @@ export function getDataCampaign() {
             },
             {
                 id: 136,
-                name: "24.10.208 (Lần 2)",
-                subject: "24.10.208",
+                name: "24.10.2016 (Lần 2)",
+                subject: "24.10.2016",
                 owner: {
                     id: 1966,
                     name: "Phan Minh Dương",
@@ -1967,7 +1967,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 673,
                 hide: 0,
-                timer: "208-10-24 14:19:00",
+                timer: "2016-10-24 14:19:00",
                 form_id: 14,
                 subscribers_list_ids: [
                     143
@@ -1976,7 +1976,7 @@ export function getDataCampaign() {
             },
             {
                 id: 134,
-                name: "24.10.208",
+                name: "24.10.2016",
                 subject: "COLOR - MÀU SẮC TRONG THIẾT KẾ",
                 owner: {
                     id: 313,
@@ -1992,7 +1992,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 2794,
                 hide: 0,
-                timer: "208-10-24 12:40:00",
+                timer: "2016-10-24 12:40:00",
                 form_id: 14,
                 subscribers_list_ids: [
                     141
@@ -2006,7 +2006,7 @@ export function getDataCampaign() {
                 owner: {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     email: "hung@hotmail.com",
                     color: "009688",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg"
@@ -2017,7 +2017,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 16,
                 hide: 0,
-                timer: "208-10-09 20:22:00",
+                timer: "2016-10-09 20:22:00",
                 form_id: 3,
                 subscribers_list_ids: [
                     140
@@ -2031,7 +2031,7 @@ export function getDataCampaign() {
                 owner: {
                     id: 2,
                     name: "Nguyễn Việt Hùng",
-                    phone: "0884026343",
+                    phone: "01684026343",
                     email: "hung@hotmail.com",
                     color: "009688",
                     avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg"
@@ -2042,7 +2042,7 @@ export function getDataCampaign() {
                 complaint: 0,
                 delivery: 4,
                 hide: 0,
-                timer: "208-10-05 10:40:00",
+                timer: "2016-10-05 10:40:00",
                 form_id: 3,
                 subscribers_list_ids: [
                     140
@@ -2051,7 +2051,7 @@ export function getDataCampaign() {
             },
             {
                 id: 120,
-                name: " [Những concept trong Thiết kế Slide] 25/9/208",
+                name: " [Những concept trong Thiết kế Slide] 25/9/2016",
                 subject: " TẶNG BẠN EBOOK: NHỮNG CONCEPT TRONG THIẾT KẾ SLIDE",
                 owner: {
                     id: 313,
@@ -2165,135 +2165,135 @@ export function getDataSubscribersList() {
             {
                 id: 157,
                 name: "EBOOK NHỮNG CONCEPT THIẾT KẾ SLIDES",
-                created_at: "12:32, 15 Tháng M. hai, 208",
-                updated_at: "12:32, 15 Tháng M. hai, 208",
+                created_at: "12:32, 15 Tháng M. hai, 2016",
+                updated_at: "12:32, 15 Tháng M. hai, 2016",
                 total_subscribers: 70
             },
             {
                 id: 156,
                 name: "CÂU CHUYỆN LOGO",
-                created_at: "00:15, 8 Tháng M. hai, 208",
-                updated_at: "00:15, 8 Tháng M. hai, 208",
+                created_at: "00:15, 8 Tháng M. hai, 2016",
+                updated_at: "00:15, 8 Tháng M. hai, 2016",
                 total_subscribers: 224
             },
             {
                 id: 155,
                 name: "THIẾT KẾ TẬP SỰ",
-                created_at: "18:10, 2 Tháng M. hai, 208",
-                updated_at: "18:10, 2 Tháng M. hai, 208",
+                created_at: "18:10, 2 Tháng M. hai, 2016",
+                updated_at: "18:10, 2 Tháng M. hai, 2016",
                 total_subscribers: 499
             },
             {
                 id: 154,
                 name: "Share tài liệu giao tiếp căn bản",
-                created_at: "15:24, 25 Tháng M. một, 208",
-                updated_at: "15:24, 25 Tháng M. một, 208",
+                created_at: "15:24, 25 Tháng M. một, 2016",
+                updated_at: "15:24, 25 Tháng M. một, 2016",
                 total_subscribers: 2
             },
             {
                 id: 153,
-                name: " [Bộ 5000 slides] 18.11.208",
-                created_at: "10:15, 18 Tháng M. một, 208",
-                updated_at: "10:15, 18 Tháng M. một, 208",
+                name: " [Bộ 5000 slides] 18.11.2016",
+                created_at: "10:15, 18 Tháng M. một, 2016",
+                updated_at: "10:15, 18 Tháng M. một, 2016",
                 total_subscribers: 1242
             },
             {
                 id: 152,
-                name: " [Sài gòn] [Cải thiện thiết kế slide] 5.11.208",
-                created_at: "08:03, 9 Tháng M. một, 208",
-                updated_at: "08:03, 9 Tháng M. một, 208",
+                name: " [Sài gòn] [Cải thiện thiết kế slide] 5.11.2016",
+                created_at: "08:03, 9 Tháng M. một, 2016",
+                updated_at: "08:03, 9 Tháng M. một, 2016",
                 total_subscribers: 165
             },
             {
                 id: 151,
-                name: " [Cải thiện thiết kế slide] 5.11.208",
-                created_at: "16:49, 6 Tháng M. một, 208",
-                updated_at: "16:49, 6 Tháng M. một, 208",
+                name: " [Cải thiện thiết kế slide] 5.11.2016",
+                created_at: "16:49, 6 Tháng M. một, 2016",
+                updated_at: "16:49, 6 Tháng M. một, 2016",
                 total_subscribers: 1266
             },
             {
                 id: 149,
                 name: "Share ebook lần 2 - color",
-                created_at: "09:50, 28 Tháng Mười, 208",
-                updated_at: "09:50, 28 Tháng Mười, 208",
+                created_at: "09:50, 28 Tháng Mười, 2016",
+                updated_at: "09:50, 28 Tháng Mười, 2016",
                 total_subscribers: 305
             },
             {
                 id: 148,
-                name: "24.10.208 (Lần 5)",
-                created_at: "15:20, 24 Tháng Mười, 208",
-                updated_at: "15:20, 24 Tháng Mười, 208",
+                name: "24.10.2016 (Lần 5)",
+                created_at: "15:20, 24 Tháng Mười, 2016",
+                updated_at: "15:20, 24 Tháng Mười, 2016",
                 total_subscribers: 155
             },
             {
                 id: 147,
-                name: "24.10.208 (Lần 4)",
-                created_at: "15:06, 24 Tháng Mười, 208",
-                updated_at: "15:06, 24 Tháng Mười, 208",
+                name: "24.10.2016 (Lần 4)",
+                created_at: "15:06, 24 Tháng Mười, 2016",
+                updated_at: "15:06, 24 Tháng Mười, 2016",
                 total_subscribers: 501
             },
             {
                 id: 146,
-                name: "24.10.208 (Lần 3)",
-                created_at: "14:42, 24 Tháng Mười, 208",
-                updated_at: "14:42, 24 Tháng Mười, 208",
+                name: "24.10.2016 (Lần 3)",
+                created_at: "14:42, 24 Tháng Mười, 2016",
+                updated_at: "14:42, 24 Tháng Mười, 2016",
                 total_subscribers: 786
             },
             {
                 id: 143,
-                name: "24.10.208 (Lần 2)",
-                created_at: "14:05, 24 Tháng Mười, 208",
-                updated_at: "14:05, 24 Tháng Mười, 208",
+                name: "24.10.2016 (Lần 2)",
+                created_at: "14:05, 24 Tháng Mười, 2016",
+                updated_at: "14:05, 24 Tháng Mười, 2016",
                 total_subscribers: 928
             },
             {
                 id: 141,
-                name: "24.10.208",
-                created_at: "10:11, 24 Tháng Mười, 208",
-                updated_at: "10:11, 24 Tháng Mười, 208",
+                name: "24.10.2016",
+                created_at: "10:11, 24 Tháng Mười, 2016",
+                updated_at: "10:11, 24 Tháng Mười, 2016",
                 total_subscribers: 1084
             },
             {
                 id: 140,
                 name: "test",
-                created_at: "12:08, 3 Tháng Mười, 208",
-                updated_at: "12:08, 3 Tháng Mười, 208",
+                created_at: "12:08, 3 Tháng Mười, 2016",
+                updated_at: "12:08, 3 Tháng Mười, 2016",
                 total_subscribers: 4
             },
             {
                 id: 139,
-                name: " [Những concept trong Thiết kế Slide] 25/9/208",
-                created_at: "11:38, 25 Tháng Chín, 208",
-                updated_at: "11:38, 25 Tháng Chín, 208",
+                name: " [Những concept trong Thiết kế Slide] 25/9/2016",
+                created_at: "11:38, 25 Tháng Chín, 2016",
+                updated_at: "11:38, 25 Tháng Chín, 2016",
                 total_subscribers: 972
             },
             {
                 id: 137,
                 name: "[SHARE] EBOOK LAYOUT 10/9",
-                created_at: "12:21, 11 Tháng Chín, 208",
-                updated_at: "12:21, 11 Tháng Chín, 208",
+                created_at: "12:21, 11 Tháng Chín, 2016",
+                updated_at: "12:21, 11 Tháng Chín, 2016",
                 total_subscribers: 511
             },
             {
                 id: 136,
                 name: "Quan Ca",
-                created_at: "20:40, 5 Tháng Chín, 208",
-                updated_at: "20:40, 5 Tháng Chín, 208",
+                created_at: "20:40, 5 Tháng Chín, 2016",
+                updated_at: "20:40, 5 Tháng Chín, 2016",
                 total_subscribers: 1
 
             },
             {
                 id: 135,
-                name: "[SHARE] Ebook ngày 5/9/208",
-                created_at: "19:36, 5 Tháng Chín, 208",
-                updated_at: "19:36, 5 Tháng Chín, 208",
+                name: "[SHARE] Ebook ngày 5/9/2016",
+                created_at: "19:36, 5 Tháng Chín, 2016",
+                updated_at: "19:36, 5 Tháng Chín, 2016",
                 total_subscribers: 1637
             },
             {
                 id: 134,
-                name: "[SHARE] Tạp chí Graphics đợt 2 01/08/208 (2)",
-                created_at: "12:49, 1 Tháng Tám, 208",
-                updated_at: "12:49, 1 Tháng Tám, 208",
+                name: "[SHARE] Tạp chí Graphics đợt 2 01/08/2016 (2)",
+                created_at: "12:49, 1 Tháng Tám, 2016",
+                updated_at: "12:49, 1 Tháng Tám, 2016",
                 total_subscribers: 183
             }
         ],
@@ -2308,274 +2308,274 @@ export function getDataSubscriber() {
                 id: 49172,
                 email: "vuminhtriet2901@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49180,
                 email: "queanhvuha811@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49164,
                 email: "vuquocthuy123@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49173,
                 email: "Nguyentiennn05072001@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49181,
                 email: "vohoang2411@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49165,
                 email: "thhuytiennn234@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49166,
                 email: "vhcanhkiengiang@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49174,
                 email: "vuvykg2002@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49182,
                 email: "luuviethuy1999@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49167,
                 email: "vu.phuongtu1006@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49175,
                 email: "baohantranhuynh@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49183,
                 email: "duongraphic@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49168,
                 email: "hungfreeruner@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49176,
                 email: "Hoangthuytiennn22@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49184,
                 email: "cukien2709@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49160,
                 email: "dinhhoangtiennn211099@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49169,
                 email: "manhdatmata@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49177,
                 email: "Kimthanh.dhkt@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49185,
                 email: "duongnobi9x@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49161,
                 email: "tuongminh1106@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49170,
                 email: "Thienphu167@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49178,
                 email: "ibestzed@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49162,
                 email: "joshuang.hcm@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49171,
                 email: "hdung249@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49179,
                 email: "nhlanhuong281@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49163,
                 email: "quachcongluc@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49157,
                 email: "Hoatran.hvnh@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49158,
                 email: "hanhngan1702@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49159,
                 email: "vovutuanbao@hotmail.com",
                 name: null,
-                created_at: "12:33, 15 Tháng M. hai, 208",
-                updated_at: "12:33, 15 Tháng M. hai, 208"
+                created_at: "12:33, 15 Tháng M. hai, 2016",
+                updated_at: "12:33, 15 Tháng M. hai, 2016"
             },
             {
                 id: 49013,
                 email: "abbymorgan1d@hotmail.com",
                 name: null,
-                created_at: "18:11, 2 Tháng M. hai, 208",
-                updated_at: "18:11, 2 Tháng M. hai, 208"
+                created_at: "18:11, 2 Tháng M. hai, 2016",
+                updated_at: "18:11, 2 Tháng M. hai, 2016"
             },
             {
                 id: 48997,
                 email: "Tahonghanh99@hotmail.com",
                 name: null,
-                created_at: "18:11, 2 Tháng M. hai, 208",
-                updated_at: "18:11, 2 Tháng M. hai, 208"
+                created_at: "18:11, 2 Tháng M. hai, 2016",
+                updated_at: "18:11, 2 Tháng M. hai, 2016"
             },
             {
                 id: 48733,
                 email: "vyngotuong0110@hotmail.com",
                 name: null,
-                created_at: "10:16, 18 Tháng M. một, 208",
-                updated_at: "10:16, 18 Tháng M. một, 208"
+                created_at: "10:16, 18 Tháng M. một, 2016",
+                updated_at: "10:16, 18 Tháng M. một, 2016"
             },
             {
                 id: 48395,
                 email: "minhtuan12041999@hotmail.com",
                 name: null,
-                created_at: "10:16, 18 Tháng M. một, 208",
-                updated_at: "10:16, 18 Tháng M. một, 208"
+                created_at: "10:16, 18 Tháng M. một, 2016",
+                updated_at: "10:16, 18 Tháng M. một, 2016"
             },
             {
                 id: 48415,
                 email: "lynkliz27@hotmail.com",
                 name: null,
-                created_at: "10:16, 18 Tháng M. một, 208",
-                updated_at: "10:16, 18 Tháng M. một, 208"
+                created_at: "10:16, 18 Tháng M. một, 2016",
+                updated_at: "10:16, 18 Tháng M. một, 2016"
             },
             {
                 id: 48341,
                 email: "haiduongcu@hotmail.com",
                 name: null,
-                created_at: "10:16, 18 Tháng M. một, 208",
-                updated_at: "10:16, 18 Tháng M. một, 208"
+                created_at: "10:16, 18 Tháng M. một, 2016",
+                updated_at: "10:16, 18 Tháng M. một, 2016"
             },
             {
                 id: 48178,
                 email: "linhct1230@hotmail.com",
                 name: null,
-                created_at: "10:16, 18 Tháng M. một, 208",
-                updated_at: "10:16, 18 Tháng M. một, 208"
+                created_at: "10:16, 18 Tháng M. một, 2016",
+                updated_at: "10:16, 18 Tháng M. một, 2016"
             },
             {
-                id: 4808,
+                id: 48016,
                 email: "phuchungviup@hotmail.com",
                 name: null,
-                created_at: "16:51, 6 Tháng M. một, 208",
-                updated_at: "16:51, 6 Tháng M. một, 208"
+                created_at: "16:51, 6 Tháng M. một, 2016",
+                updated_at: "16:51, 6 Tháng M. một, 2016"
             },
             {
                 id: 47964,
                 email: "h.phongg.ygjm2010@hotmail.com",
                 name: null,
-                created_at: "16:51, 6 Tháng M. một, 208",
-                updated_at: "16:51, 6 Tháng M. một, 208"
+                created_at: "16:51, 6 Tháng M. một, 2016",
+                updated_at: "16:51, 6 Tháng M. một, 2016"
             },
             {
                 id: 47926,
                 email: "kieutrinh.vu1234@hotmail.com",
                 name: null,
-                created_at: "16:51, 6 Tháng M. một, 208",
-                updated_at: "16:51, 6 Tháng M. một, 208"
+                created_at: "16:51, 6 Tháng M. một, 2016",
+                updated_at: "16:51, 6 Tháng M. một, 2016"
             }
         ],
     }
@@ -4113,8 +4113,8 @@ export function getDataPaidList() {
                 code: "CM31719",
                 note: "dsc CCM280323",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 21:34",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 21:34",
                 course_money: 1000000,
                 class: {
                     id: 1054,
@@ -4139,8 +4139,8 @@ export function getDataPaidList() {
                 code: "CM31718",
                 note: "",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 19:04",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 19:04",
                 course_money: 1200000,
                 class: {
                     id: 1035,
@@ -4165,13 +4165,13 @@ export function getDataPaidList() {
                 code: "CM31717",
                 note: "hưong giảm 900",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 18:57",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 18:57",
                 course_money: 1000000,
                 class: {
-                    id: 108,
+                    id: 1016,
                     name: "ID 31.1",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/148144089SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
                 },
                 collector: {
                     id: 3290,
@@ -4191,8 +4191,8 @@ export function getDataPaidList() {
                 code: "CM31716",
                 note: "ds chờ CM28600",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 18:55",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 18:55",
                 course_money: 1000000,
                 class: {
                     id: 1088,
@@ -4211,14 +4211,14 @@ export function getDataPaidList() {
                     id: 2039,
                     name: "Nguyễn Thị Diệu Hương",
                     email: "boo.huong@hotmail.com",
-                    phone: "0865738446"
+                    phone: "01665738446"
                 },
                 money: 0,
                 code: "CM31715",
                 note: "",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 18:48",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 18:48",
                 course_money: 1000000,
                 class: {
                     id: 1024,
@@ -4243,8 +4243,8 @@ export function getDataPaidList() {
                 code: "CM31714",
                 note: "ds chờ",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 18:11",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 18:11",
                 course_money: 1000000,
                 class: {
                     id: 1024,
@@ -4269,13 +4269,13 @@ export function getDataPaidList() {
                 code: "CM31713",
                 note: "GV học",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 17:40",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 17:40",
                 course_money: 1000000,
                 class: {
                     id: 1052,
                     name: "ID 31.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/148144089SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
                 },
                 collector: {
                     id: 4324,
@@ -4295,13 +4295,13 @@ export function getDataPaidList() {
                 code: "CM31712",
                 note: "GV học",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 17:38",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 17:38",
                 course_money: 1000000,
                 class: {
                     id: 1052,
                     name: "ID 31.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/148144089SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
                 },
                 collector: {
                     id: 4324,
@@ -4321,8 +4321,8 @@ export function getDataPaidList() {
                 code: "CCM3625",
                 note: "DS chờ CM31531",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 15:22",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 15:22",
                 course_money: 1000000,
                 class: {
                     id: 1075,
@@ -4347,8 +4347,8 @@ export function getDataPaidList() {
                 code: "CCM3624",
                 note: "giữ ưu đãi flashsale 30%",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 15:21",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 15:21",
                 course_money: 1000000,
                 class: {
                     id: 990,
@@ -4373,8 +4373,8 @@ export function getDataPaidList() {
                 code: "CM31711",
                 note: "giữ ưu đãi flashsale 30%",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 15:21",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 15:21",
                 course_money: 1000000,
                 class: {
                     id: 1024,
@@ -4399,13 +4399,13 @@ export function getDataPaidList() {
                 code: "CM31710",
                 note: "chuyển học id lại",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 15:19",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 15:19",
                 course_money: 1000000,
                 class: {
                     id: 1052,
                     name: "ID 31.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/148144089SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
                 },
                 collector: {
                     id: 4324,
@@ -4425,8 +4425,8 @@ export function getDataPaidList() {
                 code: "CCM3623",
                 note: "combo 3",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 14:40",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 14:40",
                 course_money: 1200000,
                 class: {
                     id: 1086,
@@ -4451,8 +4451,8 @@ export function getDataPaidList() {
                 code: "CCM3622",
                 note: "combo 3",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 14:40",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 14:40",
                 course_money: 1000000,
                 class: {
                     id: 1080,
@@ -4477,8 +4477,8 @@ export function getDataPaidList() {
                 code: "CCM3621",
                 note: "combo 3",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 14:40",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 14:40",
                 course_money: 1000000,
                 class: {
                     id: 1077,
@@ -4503,8 +4503,8 @@ export function getDataPaidList() {
                 code: "CM31709",
                 note: "học bổng minigame AI 21.3, xác nhận qua inbox fanpage",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 13:59",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 13:59",
                 course_money: 1000000,
                 class: {
                     id: 1042,
@@ -4529,8 +4529,8 @@ export function getDataPaidList() {
                 code: "CCM3620",
                 note: "DSC CCM28897",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 11:51",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 11:51",
                 course_money: 1000000,
                 class: {
                     id: 1080,
@@ -4555,8 +4555,8 @@ export function getDataPaidList() {
                 code: "CM31708",
                 note: "bảo lưu học lại CM30286",
                 paid_status: true,
-                paid_time: "208-12-13",
-                paid_time_full: "13 Tháng M. hai, 208, 10:16",
+                paid_time: "2016-12-13",
+                paid_time_full: "13 Tháng M. hai, 2016, 10:16",
                 course_money: 1000000,
                 class: {
                     id: 1042,
@@ -4575,14 +4575,14 @@ export function getDataPaidList() {
                     id: 8668,
                     name: "Lại Đình Quang ",
                     email: "quangdinh0411@hotmail.com",
-                    phone: "0895160943"
+                    phone: "01695160943"
                 },
                 money: 900000,
                 code: "CM31707",
                 note: "bạn chị KH",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 18:46",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 18:46",
                 course_money: 1200000,
                 class: {
                     id: 1049,
@@ -4607,8 +4607,8 @@ export function getDataPaidList() {
                 code: "CM31706",
                 note: "học lại ",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 18:44",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 18:44",
                 course_money: 1000000,
                 class: {
                     id: 1025,
@@ -4627,14 +4627,14 @@ export function getDataPaidList() {
                     id: 7987,
                     name: "Nguyễn Thị Phi Hậu",
                     email: "vuphihau26@hotmail.com",
-                    phone: "083.562.5669"
+                    phone: "0163.562.5669"
                 },
                 money: 0,
                 code: "CCM3619",
                 note: "ds chờ",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 18:27",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 18:27",
                 course_money: 1000000,
                 class: {
                     id: 1081,
@@ -4659,8 +4659,8 @@ export function getDataPaidList() {
                 code: "CM31705",
                 note: "",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 18:23",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 18:23",
                 course_money: 1200000,
                 class: {
                     id: 1036,
@@ -4685,8 +4685,8 @@ export function getDataPaidList() {
                 code: "CM31704",
                 note: "Ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 17:32",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 17:32",
                 course_money: 1000000,
                 class: {
                     id: 1014,
@@ -4711,8 +4711,8 @@ export function getDataPaidList() {
                 code: "CM31703",
                 note: "Ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 17:20",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 17:20",
                 course_money: 1000000,
                 class: {
                     id: 1007,
@@ -4737,8 +4737,8 @@ export function getDataPaidList() {
                 code: "CM31702",
                 note: "15%",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 17:12",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 17:12",
                 course_money: 1000000,
                 class: {
                     id: 1054,
@@ -4763,13 +4763,13 @@ export function getDataPaidList() {
                 code: "CCM3618",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 16:11",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 16:11",
                 course_money: 1000000,
                 class: {
                     id: 1061,
                     name: "ID - Khoá Sau (Danh Sách Chờ cơ sở 3)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/148144089SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
                 },
                 collector: {
                     id: 2,
@@ -4789,8 +4789,8 @@ export function getDataPaidList() {
                 code: "CM31700",
                 note: "",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 15:16",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 15:16",
                 course_money: 1000000,
                 class: {
                     id: 1004,
@@ -4815,8 +4815,8 @@ export function getDataPaidList() {
                 code: "CM31701",
                 note: "dsc CCM28906	",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 15:07",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 15:07",
                 course_money: 1000000,
                 class: {
                     id: 1025,
@@ -4835,14 +4835,14 @@ export function getDataPaidList() {
                     id: 8069,
                     name: "Nguyễn Danh Khiêm",
                     email: "khiemvu.hvnh@hotmail.com",
-                    phone: "0844649907"
+                    phone: "01644649907"
                 },
                 money: 800000,
                 code: "CM31699",
                 note: "",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 14:43",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 14:43",
                 course_money: 1000000,
                 class: {
                     id: 1004,
@@ -4867,8 +4867,8 @@ export function getDataPaidList() {
                 code: "CM31698",
                 note: "em anh Hùng",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 14:40",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 14:40",
                 course_money: 1200000,
                 class: {
                     id: 1049,
@@ -4893,8 +4893,8 @@ export function getDataPaidList() {
                 code: "CM31697",
                 note: "DS chờ CM30517",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 12:34",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 12:34",
                 course_money: 1000000,
                 class: {
                     id: 1059,
@@ -4919,8 +4919,8 @@ export function getDataPaidList() {
                 code: "CM31696",
                 note: "giữ ưu đãi 30% flashsales ",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 11:52",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 11:52",
                 course_money: 1000000,
                 class: {
                     id: 999,
@@ -4945,8 +4945,8 @@ export function getDataPaidList() {
                 code: "CM31695",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 10:38",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 10:38",
                 course_money: 1000000,
                 class: {
                     id: 1014,
@@ -4965,14 +4965,14 @@ export function getDataPaidList() {
                     id: 8468,
                     name: "Đinh Thị Thúy Nga ",
                     email: "ngadt@getflycrm.com",
-                    phone: "0889730012"
+                    phone: "01689730012"
                 },
                 money: 850000,
                 code: "CM31694",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 10:38",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 10:38",
                 course_money: 1000000,
                 class: {
                     id: 1014,
@@ -4997,8 +4997,8 @@ export function getDataPaidList() {
                 code: "CM31693",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 10:27",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 10:27",
                 course_money: 1000000,
                 class: {
                     id: 1006,
@@ -5023,8 +5023,8 @@ export function getDataPaidList() {
                 code: "CM31692",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 10:27",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 10:27",
                 course_money: 1000000,
                 class: {
                     id: 1013,
@@ -5043,14 +5043,14 @@ export function getDataPaidList() {
                     id: 8653,
                     name: "Đỗ Thanh Anh",
                     email: "dongocanh79@hotmail.com",
-                    phone: "0869556688"
+                    phone: "01669556688"
                 },
                 money: 850000,
                 code: "CM31691",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 10:27",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 10:27",
                 course_money: 1000000,
                 class: {
                     id: 1008,
@@ -5069,14 +5069,14 @@ export function getDataPaidList() {
                     id: 8653,
                     name: "Đỗ Thanh Anh",
                     email: "dongocanh79@hotmail.com",
-                    phone: "0869556688"
+                    phone: "01669556688"
                 },
                 money: 850000,
                 code: "CM31690",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 10:27",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 10:27",
                 course_money: 1000000,
                 class: {
                     id: 1042,
@@ -5095,14 +5095,14 @@ export function getDataPaidList() {
                     id: 1773,
                     name: "Trần Thu Thuỷ",
                     email: "thuyttt2910@hotmail.com",
-                    phone: "0893205585"
+                    phone: "01693205585"
                 },
                 money: 700000,
                 code: "CCM3617",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 10:27",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 10:27",
                 course_money: 1000000,
                 class: {
                     id: 1019,
@@ -5121,14 +5121,14 @@ export function getDataPaidList() {
                     id: 1773,
                     name: "Trần Thu Thuỷ",
                     email: "thuyttt2910@hotmail.com",
-                    phone: "0893205585"
+                    phone: "01693205585"
                 },
                 money: 950000,
                 code: "CCM3616",
                 note: "ck",
                 paid_status: true,
-                paid_time: "208-12-12",
-                paid_time_full: "12 Tháng M. hai, 208, 10:27",
+                paid_time: "2016-12-12",
+                paid_time_full: "12 Tháng M. hai, 2016, 10:27",
                 course_money: 1200000,
                 class: {
                     id: 1033,
@@ -5243,7 +5243,7 @@ export function getDataTeleCall() {
                     id: 7629,
                     name: "Cao Thu Trang",
                     email: "thutrangcao0403@hotmail.com",
-                    phone: "0869697868"
+                    phone: "01669697868"
                 },
                 call_status: "success",
                 caller: {
@@ -5252,7 +5252,7 @@ export function getDataTeleCall() {
                     color: "c0ca33"
                 },
                 note: "",
-                call_time: "12 Tháng M. hai, 208, 11:03"
+                call_time: "12 Tháng M. hai, 2016, 11:03"
             },
             {
                 id: 17785,
@@ -5260,7 +5260,7 @@ export function getDataTeleCall() {
                     id: 8668,
                     name: "Lại Đình Quang ",
                     email: "quangdinh0411@hotmail.com",
-                    phone: "0895160943"
+                    phone: "01695160943"
                 },
                 call_status: "success",
                 caller: {
@@ -5269,7 +5269,7 @@ export function getDataTeleCall() {
                     color: "e91e63"
                 },
                 note: "",
-                call_time: "12 Tháng M. hai, 208, 10:32"
+                call_time: "12 Tháng M. hai, 2016, 10:32"
             },
             {
                 id: 17784,
@@ -5277,7 +5277,7 @@ export function getDataTeleCall() {
                     id: 4102,
                     name: "Mã Phúc Quỳnh",
                     email: "phucquynh61@hotmail.com",
-                    phone: "0832147020"
+                    phone: "01632147020"
                 },
                 call_status: "success",
                 caller: {
@@ -5286,7 +5286,7 @@ export function getDataTeleCall() {
                     color: "c0ca33"
                 },
                 note: "thuê bao",
-                call_time: "12 Tháng M. hai, 208, 10:32"
+                call_time: "12 Tháng M. hai, 2016, 10:32"
             },
             {
                 id: 17783,
@@ -5303,7 +5303,7 @@ export function getDataTeleCall() {
                     color: "F62359"
                 },
                 note: "Chiều nay 6h đến, vẫn giảm 15% nhóm 3 người",
-                call_time: "12 Tháng M. hai, 208, 10:23"
+                call_time: "12 Tháng M. hai, 2016, 10:23"
             },
             {
                 id: 17782,
@@ -5320,7 +5320,7 @@ export function getDataTeleCall() {
                     color: "F62359"
                 },
                 note: "",
-                call_time: "12 Tháng M. hai, 208, 10:22"
+                call_time: "12 Tháng M. hai, 2016, 10:22"
             },
             {
                 id: 17781,
@@ -5337,7 +5337,7 @@ export function getDataTeleCall() {
                     color: "F62359"
                 },
                 note: "Huỷ đky vì đợt này bận",
-                call_time: "12 Tháng M. hai, 208, 10:20"
+                call_time: "12 Tháng M. hai, 2016, 10:20"
             },
             {
                 id: 17780,
@@ -5354,7 +5354,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "Ậm ừ gọi toàn bảo gọi lại sau mess k rep",
-                call_time: "12 Tháng M. hai, 208, 10:18"
+                call_time: "12 Tháng M. hai, 2016, 10:18"
             },
             {
                 id: 17779,
@@ -5371,7 +5371,7 @@ export function getDataTeleCall() {
                     color: "F62359"
                 },
                 note: "",
-                call_time: "12 Tháng M. hai, 208, 10:18"
+                call_time: "12 Tháng M. hai, 2016, 10:18"
             },
             {
                 id: 17778,
@@ -5388,7 +5388,7 @@ export function getDataTeleCall() {
                     color: "F62359"
                 },
                 note: "K nghe máy mess",
-                call_time: "12 Tháng M. hai, 208, 10:16"
+                call_time: "12 Tháng M. hai, 2016, 10:16"
             },
             {
                 id: 17777,
@@ -5405,7 +5405,7 @@ export function getDataTeleCall() {
                     color: "8bc34a"
                 },
                 note: "Đã mess",
-                call_time: "12 Tháng M. hai, 208, 10:14"
+                call_time: "12 Tháng M. hai, 2016, 10:14"
             },
             {
                 id: 17776,
@@ -5413,7 +5413,7 @@ export function getDataTeleCall() {
                     id: 8673,
                     name: "TRẦN THỊ BÍCH DIỆP",
                     email: "bongvit98@hotmail.com",
-                    phone: "0882474907"
+                    phone: "01682474907"
                 },
                 call_status: "success",
                 caller: {
@@ -5422,7 +5422,7 @@ export function getDataTeleCall() {
                     color: "00bcd4"
                 },
                 note: "17/12, đang đăng kí Beyo",
-                call_time: "12 Tháng M. hai, 208, 10:03"
+                call_time: "12 Tháng M. hai, 2016, 10:03"
             },
             {
                 id: 17775,
@@ -5430,7 +5430,7 @@ export function getDataTeleCall() {
                     id: 8670,
                     name: "NGUYỄN THỊ KỲ ANH",
                     email: "kyanh22598@hotmail.com",
-                    phone: "0827781100"
+                    phone: "01627781100"
                 },
                 call_status: "success",
                 caller: {
@@ -5439,7 +5439,7 @@ export function getDataTeleCall() {
                     color: "00bcd4"
                 },
                 note: "ưu đãi 17/12, quan tâm",
-                call_time: "12 Tháng M. hai, 208, 10:02"
+                call_time: "12 Tháng M. hai, 2016, 10:02"
             },
             {
                 id: 17774,
@@ -5456,7 +5456,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "Tối đi học đóng",
-                call_time: "12 Tháng M. hai, 208, 09:56"
+                call_time: "12 Tháng M. hai, 2016, 09:56"
             },
             {
                 id: 17773,
@@ -5473,7 +5473,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "",
-                call_time: "12 Tháng M. hai, 208, 09:53"
+                call_time: "12 Tháng M. hai, 2016, 09:53"
             },
             {
                 id: 17772,
@@ -5481,7 +5481,7 @@ export function getDataTeleCall() {
                     id: 8668,
                     name: "Lại Đình Quang ",
                     email: "quangdinh0411@hotmail.com",
-                    phone: "0895160943"
+                    phone: "01695160943"
                 },
                 call_status: "success",
                 caller: {
@@ -5490,7 +5490,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "Tối đi học đóng 900",
-                call_time: "12 Tháng M. hai, 208, 09:51"
+                call_time: "12 Tháng M. hai, 2016, 09:51"
             },
             {
                 id: 17771,
@@ -5507,7 +5507,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "Có lịch t1 báo",
-                call_time: "12 Tháng M. hai, 208, 09:49"
+                call_time: "12 Tháng M. hai, 2016, 09:49"
             },
             {
                 id: 17770,
@@ -5524,7 +5524,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "Thuê bao",
-                call_time: "12 Tháng M. hai, 208, 09:49"
+                call_time: "12 Tháng M. hai, 2016, 09:49"
             },
             {
                 id: 17769,
@@ -5532,7 +5532,7 @@ export function getDataTeleCall() {
                     id: 8069,
                     name: "Nguyễn Danh Khiêm",
                     email: "khiemvu.hvnh@hotmail.com",
-                    phone: "0844649907"
+                    phone: "01644649907"
                 },
                 call_status: "failed",
                 caller: {
@@ -5541,7 +5541,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "K nghe mess",
-                call_time: "12 Tháng M. hai, 208, 09:35"
+                call_time: "12 Tháng M. hai, 2016, 09:35"
             },
             {
                 id: 17768,
@@ -5558,7 +5558,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "Chiều đi học đóng 1tr",
-                call_time: "12 Tháng M. hai, 208, 09:22"
+                call_time: "12 Tháng M. hai, 2016, 09:22"
             },
             {
                 id: 17767,
@@ -5566,7 +5566,7 @@ export function getDataTeleCall() {
                     id: 8668,
                     name: "Lại Đình Quang ",
                     email: "quangdinh0411@hotmail.com",
-                    phone: "0895160943"
+                    phone: "01695160943"
                 },
                 call_status: "failed",
                 caller: {
@@ -5575,7 +5575,7 @@ export function getDataTeleCall() {
                     color: "4caf50"
                 },
                 note: "Bạn Khánh Huyền, ưu đãi 25%",
-                call_time: "12 Tháng M. hai, 208, 00:03"
+                call_time: "12 Tháng M. hai, 2016, 00:03"
             },
             {
                 id: 17766,
@@ -5592,7 +5592,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "đã ck",
-                call_time: "11 Tháng M. hai, 208, 21:47"
+                call_time: "11 Tháng M. hai, 2016, 21:47"
             },
             {
                 id: 17765,
@@ -5609,7 +5609,7 @@ export function getDataTeleCall() {
                     color: "F62359"
                 },
                 note: "giữ ưu đãi 30% 700k flashsale do đăng ký muộn quá không ck được. Đưa học phí cho giảng viên vào sáng mai",
-                call_time: "11 Tháng M. hai, 208, 20:47"
+                call_time: "11 Tháng M. hai, 2016, 20:47"
             },
             {
                 id: 17764,
@@ -5626,7 +5626,7 @@ export function getDataTeleCall() {
                     color: "F62359"
                 },
                 note: "chỉ học một khoá PS, giữ ưu đãi 15% sáng mai đến hoàn thành học phí",
-                call_time: "11 Tháng M. hai, 208, 20:16"
+                call_time: "11 Tháng M. hai, 2016, 20:16"
             },
             {
                 id: 17763,
@@ -5643,7 +5643,7 @@ export function getDataTeleCall() {
                     color: "F62359"
                 },
                 note: "",
-                call_time: "11 Tháng M. hai, 208, 20:13"
+                call_time: "11 Tháng M. hai, 2016, 20:13"
             },
             {
                 id: 17762,
@@ -5660,7 +5660,7 @@ export function getDataTeleCall() {
                     color: "009688"
                 },
                 note: "1tr550. Mai qua vp",
-                call_time: "11 Tháng M. hai, 208, 19:24"
+                call_time: "11 Tháng M. hai, 2016, 19:24"
             },
             {
                 id: 17761,
@@ -5677,7 +5677,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "thuê bao nhiều lần, đã mes remind",
-                call_time: "11 Tháng M. hai, 208, 18:47"
+                call_time: "11 Tháng M. hai, 2016, 18:47"
             },
             {
                 id: 17760,
@@ -5685,7 +5685,7 @@ export function getDataTeleCall() {
                     id: 7433,
                     name: "Trần Hương Giang",
                     email: "tranhuonggiangkn@hotmail.com",
-                    phone: "088.330.3689"
+                    phone: "0168.330.3689"
                 },
                 call_status: "success",
                 caller: {
@@ -5694,7 +5694,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "đi học đóng tiền",
-                call_time: "11 Tháng M. hai, 208, 18:32"
+                call_time: "11 Tháng M. hai, 2016, 18:32"
             },
             {
                 id: 17759,
@@ -5711,7 +5711,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "không học, tự chủ động ll",
-                call_time: "11 Tháng M. hai, 208, 18:28"
+                call_time: "11 Tháng M. hai, 2016, 18:28"
             },
             {
                 id: 17758,
@@ -5728,7 +5728,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "ngày mai ck, học tháng 1",
-                call_time: "11 Tháng M. hai, 208, 18:24"
+                call_time: "11 Tháng M. hai, 2016, 18:24"
             },
             {
                 id: 17757,
@@ -5745,7 +5745,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "đợi đủ tất cả các khoá mới học, chủ động liên hệ lại",
-                call_time: "11 Tháng M. hai, 208, 18:20"
+                call_time: "11 Tháng M. hai, 2016, 18:20"
             },
             {
                 id: 17756,
@@ -5762,7 +5762,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "bạn sẽ tự chủ động liên hệ",
-                call_time: "11 Tháng M. hai, 208, 18:20"
+                call_time: "11 Tháng M. hai, 2016, 18:20"
             },
             {
                 id: 17755,
@@ -5779,7 +5779,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "không gọi đc, đã mess",
-                call_time: "11 Tháng M. hai, 208, 18:15"
+                call_time: "11 Tháng M. hai, 2016, 18:15"
             },
             {
                 id: 17754,
@@ -5796,7 +5796,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "khi nào lên học đóng tiền",
-                call_time: "11 Tháng M. hai, 208, 18:10"
+                call_time: "11 Tháng M. hai, 2016, 18:10"
             },
             {
                 id: 17753,
@@ -5813,7 +5813,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "chuyển lịch học t1",
-                call_time: "11 Tháng M. hai, 208, 18:10"
+                call_time: "11 Tháng M. hai, 2016, 18:10"
             },
             {
                 id: 17752,
@@ -5830,7 +5830,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "khai giảng lên đóng học phí",
-                call_time: "11 Tháng M. hai, 208, 18:07"
+                call_time: "11 Tháng M. hai, 2016, 18:07"
             },
             {
                 id: 17751,
@@ -5847,7 +5847,7 @@ export function getDataTeleCall() {
                     color: "78CEFF"
                 },
                 note: "",
-                call_time: "11 Tháng M. hai, 208, 18:04"
+                call_time: "11 Tháng M. hai, 2016, 18:04"
             },
             {
                 id: 17750,
@@ -5864,7 +5864,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "không có thời gian, t1 học",
-                call_time: "11 Tháng M. hai, 208, 17:59"
+                call_time: "11 Tháng M. hai, 2016, 17:59"
             },
             {
                 id: 17749,
@@ -5881,7 +5881,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "đang ở quê, không học được, chuyển sang năm sau",
-                call_time: "11 Tháng M. hai, 208, 17:56"
+                call_time: "11 Tháng M. hai, 2016, 17:56"
             },
             {
                 id: 17748,
@@ -5898,7 +5898,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "không có time, chuyển qua năm sau",
-                call_time: "11 Tháng M. hai, 208, 17:54"
+                call_time: "11 Tháng M. hai, 2016, 17:54"
             },
             {
                 id: 17747,
@@ -5915,7 +5915,7 @@ export function getDataTeleCall() {
                     color: ""
                 },
                 note: "không muốn học nữa",
-                call_time: "11 Tháng M. hai, 208, 17:52"
+                call_time: "11 Tháng M. hai, 2016, 17:52"
             }
         ],
     }
@@ -5929,8 +5929,8 @@ export function getDataPeople() {
                 id: 26,
                 name: "Linh Nhi",
                 email: "nhi.tty146@hotmail.com",
-                created_at: "208-02-10 17:47:17",
-                updated_at: "208-11-27 14:40:16",
+                created_at: "2016-02-10 17:47:17",
+                updated_at: "2016-11-27 14:40:16",
                 role: 2,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1474537430dcZ400aXFMpPuC0.jpg",
@@ -5940,7 +5940,7 @@ export function getDataPeople() {
                 work: "colorME",
                 address: "Hà Nội",
                 username: "nhi.tty146",
-                phone: "0889678262",
+                phone: "01689678262",
                 how_know: "",
                 facebook: "",
                 dob: "1995-06-14",
@@ -5968,8 +5968,8 @@ export function getDataPeople() {
                 id: 38,
                 name: "Trịnh Thanh Hà",
                 email: "trinhthanhha1105@hotmail.com",
-                created_at: "208-02-11 03:25:45",
-                updated_at: "208-09-09 17:01:58",
+                created_at: "2016-02-11 03:25:45",
+                updated_at: "2016-09-09 17:01:58",
                 role: 1,
                 code: "",
                 avatar_url: "http://s3-ap-southeast-1.amazonaws.com/cmstorage/images/146229259379k739AO8l3Ssyt.jpg",
@@ -5979,7 +5979,7 @@ export function getDataPeople() {
                 work: "",
                 address: "Cầu Giấy, Hà Nội",
                 username: "trinhthanhha1105",
-                phone: "0866575729",
+                phone: "01666575729",
                 how_know: "Lý do khác",
                 facebook: "",
                 dob: "1996-05-11",
@@ -6007,8 +6007,8 @@ export function getDataPeople() {
                 id: 39,
                 name: "Hứa Hiền Linh",
                 email: "linhhh.bav@hotmail.com",
-                created_at: "208-02-11 03:25:46",
-                updated_at: "208-09-28 15:50:40",
+                created_at: "2016-02-11 03:25:46",
+                updated_at: "2016-09-28 15:50:40",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1506588638DBPnLTYPoXBHe69.jpg",
@@ -6021,7 +6021,7 @@ export function getDataPeople() {
                 phone: "",
                 how_know: "",
                 facebook: "",
-                dob: "208-08-18",
+                dob: "2016-08-18",
                 gender: "2",
                 money: 0,
                 status: 0,
@@ -6046,8 +6046,8 @@ export function getDataPeople() {
                 id: 40,
                 name: " Đức Hoàng",
                 email: "duchoangvu240597@hotmail.com",
-                created_at: "208-02-11 03:25:48",
-                updated_at: "208-09-09 17:02:10",
+                created_at: "2016-02-11 03:25:48",
+                updated_at: "2016-09-09 17:02:10",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475488476QVYGrKR1hmf3WRu.jpg",
@@ -6085,8 +6085,8 @@ export function getDataPeople() {
                 id: 41,
                 name: "Con Cá",
                 email: "haveyoueverbeenlove@hotmail.com",
-                created_at: "208-02-11 03:25:49",
-                updated_at: "208-09-28 01:09:26",
+                created_at: "2016-02-11 03:25:49",
+                updated_at: "2016-09-28 01:09:26",
                 role: 1,
                 code: "",
                 avatar_url: "http://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1457529913ZeLnSBzbRoLrCdf.jpg",
@@ -6124,8 +6124,8 @@ export function getDataPeople() {
                 id: 45,
                 name: "Nguyen Mine Linh",
                 email: "mailinhvu.15@hotmail.com",
-                created_at: "208-02-11 03:26:00",
-                updated_at: "208-09-20 15:01:17",
+                created_at: "2016-02-11 03:26:00",
+                updated_at: "2016-09-20 15:01:17",
                 role: 1,
                 code: "",
                 avatar_url: "http://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1457424670qC09gEUVo3hAYyb.jpg",
@@ -6135,7 +6135,7 @@ export function getDataPeople() {
                 work: "colorME",
                 address: "Tây Hồ Hà Nội",
                 username: "mailinhvu.15",
-                phone: "0854085862",
+                phone: "01654085862",
                 how_know: "Lý do khác",
                 facebook: "",
                 dob: "1996-05-01",
@@ -6154,7 +6154,7 @@ export function getDataPeople() {
                 marital: 1,
                 homeland: "Hà Nội",
                 literacy: 1,
-                start_company: "208-02-02 00:00:00",
+                start_company: "2016-02-02 00:00:00",
                 age: 21,
                 deleted_at: null,
                 type: null
@@ -6163,8 +6163,8 @@ export function getDataPeople() {
                 id: 46,
                 name: "Thu Trang",
                 email: "vuthutrang.hmu@hotmail.com",
-                created_at: "208-02-11 03:26:03",
-                updated_at: "208-09-09 17:02:27",
+                created_at: "2016-02-11 03:26:03",
+                updated_at: "2016-09-09 17:02:27",
                 role: 1,
                 code: "",
                 avatar_url: "http://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1462903003SFggmwF4imwMqTw.jpeg",
@@ -6202,8 +6202,8 @@ export function getDataPeople() {
                 id: 2,
                 name: "Nguyễn Việt Hùng",
                 email: "hung@hotmail.com",
-                created_at: "208-02-11 04:03:36",
-                updated_at: "208-12-02 20:53:43",
+                created_at: "2016-02-11 04:03:36",
+                updated_at: "2016-12-02 20:53:43",
                 role: 2,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
@@ -6213,10 +6213,10 @@ export function getDataPeople() {
                 work: "1684026343",
                 address: "Dong Da",
                 username: "hung",
-                phone: "0884026343",
+                phone: "01684026343",
                 how_know: "",
                 facebook: ".",
-                dob: "208-09-14",
+                dob: "2016-09-14",
                 gender: "1",
                 money: 1685711000,
                 status: 0,
@@ -6241,8 +6241,8 @@ export function getDataPeople() {
                 id: 1,
                 name: "Quan Ca",
                 email: "aquancva@hotmail.com",
-                created_at: "208-02-13 10:35:54",
-                updated_at: "208-11-13 15:42:07",
+                created_at: "2016-02-13 10:35:54",
+                updated_at: "2016-11-13 15:42:07",
                 role: 2,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
@@ -6255,7 +6255,7 @@ export function getDataPeople() {
                 phone: "0878086530",
                 how_know: "",
                 facebook: "",
-                dob: "208-12-13",
+                dob: "2016-12-13",
                 gender: "1",
                 money: 13,
                 status: 0,
@@ -6280,8 +6280,8 @@ export function getDataPeople() {
                 id: 6730,
                 name: "Quan High",
                 email: "quan@colorme.vn",
-                created_at: "208-02-13 10:35:54",
-                updated_at: "208-11-13 15:42:07",
+                created_at: "2016-02-13 10:35:54",
+                updated_at: "2016-11-13 15:42:07",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
@@ -6294,7 +6294,7 @@ export function getDataPeople() {
                 phone: "0878086530",
                 how_know: "",
                 facebook: "",
-                dob: "208-12-13",
+                dob: "2016-12-13",
                 gender: "1",
                 money: 0,
                 status: 0,
@@ -6319,8 +6319,8 @@ export function getDataPeople() {
                 id: 74,
                 name: "Vũ Khánh Huyền",
                 email: "phamkhanhhuyen.0412@hotmail.com",
-                created_at: "208-02-16 16:02:04",
-                updated_at: "208-11-04 21:16:50",
+                created_at: "2016-02-16 16:02:04",
+                updated_at: "2016-11-04 21:16:50",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507718500CG6HuKFWDRE9bEO.jpg",
@@ -6330,7 +6330,7 @@ export function getDataPeople() {
                 work: "Công nhân tại ColorME",
                 address: "Ba Đình, Hà Nội",
                 username: "khanhuyn0412",
-                phone: "0899184360",
+                phone: "01699184360",
                 how_know: "",
                 facebook: "",
                 dob: "1996-12-04",
@@ -6358,8 +6358,8 @@ export function getDataPeople() {
                 id: 124,
                 name: "Nguyễn Anh Đức",
                 email: "ducna.mgc@hotmail.com",
-                created_at: "208-02-17 20:29:09",
-                updated_at: "208-09-07 10:02:40",
+                created_at: "2016-02-17 20:29:09",
+                updated_at: "2016-09-07 10:02:40",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504753360CgEln48Iw5etz0u.jpg",
@@ -6369,7 +6369,7 @@ export function getDataPeople() {
                 work: "Đại Học Kinh Tế Quốc Dân",
                 address: "Tô Hiệu Cầu Giấy Hà Nội",
                 username: "ducna.mgc",
-                phone: "085476269",
+                phone: "0165476269",
                 how_know: "Người quen",
                 facebook: "https://www.facebook.com/vuanh.duc.58",
                 dob: "0000-00-00",
@@ -6397,8 +6397,8 @@ export function getDataPeople() {
                 id: 221,
                 name: "Lê Trâm Anh",
                 email: "tramanhle9797@hotmail.com",
-                created_at: "208-02-22 10:24:03",
-                updated_at: "208-10-10 10:23:22",
+                created_at: "2016-02-22 10:24:03",
+                updated_at: "2016-10-10 10:23:22",
                 role: 1,
                 code: "",
                 avatar_url: "http://s3-ap-southeast-1.amazonaws.com/cmstorage/images/146098241539FobW9ObGkNTSp.jpg",
@@ -6408,7 +6408,7 @@ export function getDataPeople() {
                 work: "",
                 address: "Hà Đông",
                 username: "tramanhle9797",
-                phone: "0834361163",
+                phone: "01634361163",
                 how_know: "Facebook",
                 facebook: "facebook.com/lee.3i",
                 dob: "1997-09-07",
@@ -6436,8 +6436,8 @@ export function getDataPeople() {
                 id: 228,
                 name: "Dương Nhật Anh",
                 email: "anhdnse04260@fpt.edu.vn",
-                created_at: "208-02-22 20:46:43",
-                updated_at: "208-11-30 16:46:28",
+                created_at: "2016-02-22 20:46:43",
+                updated_at: "2016-11-30 16:46:28",
                 role: 2,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504404886wdXEVCPFipzhPqJ.jpg",
@@ -6475,8 +6475,8 @@ export function getDataPeople() {
                 id: 313,
                 name: "Huyền Trang",
                 email: "huyentrang@colorme.vn",
-                created_at: "208-02-28 22:56:05",
-                updated_at: "208-11-05 18:15:20",
+                created_at: "2016-02-28 22:56:05",
+                updated_at: "2016-11-05 18:15:20",
                 role: 2,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg",
@@ -6505,7 +6505,7 @@ export function getDataPeople() {
                 marital: 1,
                 homeland: "",
                 literacy: 1,
-                start_company: "208-02-13 00:00:00",
+                start_company: "2016-02-13 00:00:00",
                 age: 20,
                 deleted_at: null,
                 type: null
@@ -6514,8 +6514,8 @@ export function getDataPeople() {
                 id: 336,
                 name: "Nguyễn Kiều Trang",
                 email: "kieutrangnt53.fbaelite@hotmail.com",
-                created_at: "208-03-02 23:05:46",
-                updated_at: "208-09-09 17:02:52",
+                created_at: "2016-03-02 23:05:46",
+                updated_at: "2016-09-09 17:02:52",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1479719670PveTZYk9d4gj7vG.jpg",
@@ -6525,10 +6525,10 @@ export function getDataPeople() {
                 work: "colorME",
                 address: "Chùa Láng ",
                 username: "kieutrangnt53.fbaelite",
-                phone: "0864202629",
+                phone: "01664202629",
                 how_know: "Lý do khác",
                 facebook: "https://www.facebook.com/rosalinalaciel",
-                dob: "208-07-06",
+                dob: "2016-07-06",
                 gender: "2",
                 money: 0,
                 status: 0,
@@ -6553,8 +6553,8 @@ export function getDataPeople() {
                 id: 507,
                 name: "Le Tuan Dat",
                 email: "datlt.bav@hotmail.com",
-                created_at: "208-03-21 20:06:27",
-                updated_at: "208-09-09 17:02:57",
+                created_at: "2016-03-21 20:06:27",
+                updated_at: "2016-09-09 17:02:57",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1482480963wiOGb5SjVsRb7pT.jpg",
@@ -6592,8 +6592,8 @@ export function getDataPeople() {
                 id: 587,
                 name: "Nguyễn Thanh Xuyến",
                 email: "thaovucass25897@hotmail.com",
-                created_at: "208-03-31 17:34:46",
-                updated_at: "208-09-09 17:03:08",
+                created_at: "2016-03-31 17:34:46",
+                updated_at: "2016-09-09 17:03:08",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1483364168VmBoUA5pF3RzuWb.jpg",
@@ -6603,7 +6603,7 @@ export function getDataPeople() {
                 work: "",
                 address: "tam trinh , hà nội",
                 username: "thaovucass25897",
-                phone: "0862164306",
+                phone: "01662164306",
                 how_know: "",
                 facebook: "",
                 dob: "1996-11-30",
@@ -6631,8 +6631,8 @@ export function getDataPeople() {
                 id: 650,
                 name: "Nguyễn Việt Anh",
                 email: "vuvietanh.020395@hotmail.com",
-                created_at: "208-04-08 23:16:51",
-                updated_at: "208-09-09 17:03:13",
+                created_at: "2016-04-08 23:16:51",
+                updated_at: "2016-09-09 17:03:13",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1486463354BFNafPVd92tGgaR.jpg",
@@ -6670,8 +6670,8 @@ export function getDataPeople() {
                 id: 708,
                 name: "Hoàng Minh Tùng ",
                 email: "blueberryandmatcha@hotmail.com",
-                created_at: "208-04-12 23:05:06",
-                updated_at: "208-10-31 11:31:11",
+                created_at: "2016-04-12 23:05:06",
+                updated_at: "2016-10-31 11:31:11",
                 role: 1,
                 code: "",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1505995284sSCsAFCwB0lAf38.jpg",
@@ -6850,8 +6850,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 12,
-                created_at: "208-10-22 15:53:12",
-                updated_at: "208-10-22 15:53:12",
+                created_at: "2016-10-22 15:53:12",
+                updated_at: "2016-10-22 15:53:12",
                 deleted_at: null
             },
             {
@@ -6860,8 +6860,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 9,
-                created_at: "208-10-08 10:35:05",
-                updated_at: "208-11-01 23:33:41",
+                created_at: "2016-10-08 10:35:05",
+                updated_at: "2016-11-01 23:33:41",
                 deleted_at: null
             },
             {
@@ -6870,8 +6870,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 22,
-                created_at: "208-09-20 15:01:06",
-                updated_at: "208-11-16 00:03:06",
+                created_at: "2016-09-20 15:01:06",
+                updated_at: "2016-11-16 00:03:06",
                 deleted_at: null
             },
             {
@@ -6880,8 +6880,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 27,
-                created_at: "208-09-07 14:59:12",
-                updated_at: "208-10-12 13:07:37",
+                created_at: "2016-09-07 14:59:12",
+                updated_at: "2016-10-12 13:07:37",
                 deleted_at: null
             },
             {
@@ -6890,8 +6890,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 34,
-                created_at: "208-08-08 11:22:05",
-                updated_at: "208-10-12 13:08:19",
+                created_at: "2016-08-08 11:22:05",
+                updated_at: "2016-10-12 13:08:19",
                 deleted_at: null
             },
             {
@@ -6900,8 +6900,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 7,
-                created_at: "208-10-16 10:38:59",
-                updated_at: "208-11-27 00:11:26",
+                created_at: "2016-10-16 10:38:59",
+                updated_at: "2016-11-27 00:11:26",
                 deleted_at: null
             },
             {
@@ -6910,8 +6910,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 1,
-                created_at: "208-08-28 22:09:43",
-                updated_at: "208-08-28 22:09:43",
+                created_at: "2016-08-28 22:09:43",
+                updated_at: "2016-08-28 22:09:43",
                 deleted_at: null
             },
             {
@@ -6920,8 +6920,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 4,
-                created_at: "208-07-11 20:41:32",
-                updated_at: "208-09-05 13:01:59",
+                created_at: "2016-07-11 20:41:32",
+                updated_at: "2016-09-05 13:01:59",
                 deleted_at: null
             },
             {
@@ -6930,8 +6930,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 26,
-                created_at: "208-07-08 14:31:05",
-                updated_at: "208-09-05 13:03:42",
+                created_at: "2016-07-08 14:31:05",
+                updated_at: "2016-09-05 13:03:42",
                 deleted_at: null
             },
             {
@@ -6940,8 +6940,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 48,
-                created_at: "208-07-05 16:36:35",
-                updated_at: "208-10-12 13:10:48",
+                created_at: "2016-07-05 16:36:35",
+                updated_at: "2016-10-12 13:10:48",
                 deleted_at: null
             },
             {
@@ -6950,8 +6950,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 12,
-                created_at: "208-07-05 16:35:28",
-                updated_at: "208-09-05 13:01:20",
+                created_at: "2016-07-05 16:35:28",
+                updated_at: "2016-09-05 13:01:20",
                 deleted_at: null
             },
             {
@@ -6960,8 +6960,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 61,
-                created_at: "208-07-05 16:34:41",
-                updated_at: "208-10-12 13:09:48",
+                created_at: "2016-07-05 16:34:41",
+                updated_at: "2016-10-12 13:09:48",
                 deleted_at: null
             },
             {
@@ -6970,8 +6970,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 33,
-                created_at: "208-07-05 16:33:00",
-                updated_at: "208-10-12 13:09:05",
+                created_at: "2016-07-05 16:33:00",
+                updated_at: "2016-10-12 13:09:05",
                 deleted_at: null
             },
             {
@@ -6980,8 +6980,8 @@ export function getDataRole() {
                 role_slug: "",
                 num_staffs: 0,
                 num_tabs: 21,
-                created_at: "208-07-05 09:40:29",
-                updated_at: "208-04-15 21:50:21",
+                created_at: "2016-07-05 09:40:29",
+                updated_at: "2016-04-15 21:50:21",
                 deleted_at: null
             }
         ]
@@ -7168,11 +7168,11 @@ export function getDataRegisterStudent() {
                     name: "PR 31.1",
                     id: 1042,
                     study_time: "(19h-21h) Thứ 7 - Chủ Nhật",
-                    description: "Khai giảng ngày 16 tháng 12 năm 208",
+                    description: "Khai giảng ngày 16 tháng 12 năm 2016",
                     room: "Tầng 4",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-04 10:32:30",
+                created_at: "2016-12-04 10:32:30",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7211,7 +7211,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 4",
                     base: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM"
                 },
-                created_at: "208-12-04 10:16:05",
+                created_at: "2016-12-04 10:16:05",
                 is_delete: true,
                 call_status: "success",
                 saler: {
@@ -7246,11 +7246,11 @@ export function getDataRegisterStudent() {
                     name: "PS 31.17 (Sài Gòn)",
                     id: 1059,
                     study_time: "(19h-21h) Thứ 4 - Thứ 6",
-                    description: "Khai giảng ngày 13 tháng 12 năm 208",
+                    description: "Khai giảng ngày 13 tháng 12 năm 2016",
                     room: "Tầng 5",
                     base: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM"
                 },
-                created_at: "208-12-04 10:15:17",
+                created_at: "2016-12-04 10:15:17",
                 is_delete: true,
                 call_status: "success",
                 saler: {
@@ -7285,11 +7285,11 @@ export function getDataRegisterStudent() {
                     name: "AI 31.4",
                     id: 1023,
                     study_time: "(19h-21h) Thứ 4 - Thứ 6",
-                    description: "Khai giảng ngày 13 tháng 12 năm 208",
+                    description: "Khai giảng ngày 13 tháng 12 năm 2016",
                     room: "Tầng 2",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-04 09:29:58",
+                created_at: "2016-12-04 09:29:58",
                 is_delete: true,
                 call_status: "uncall"
             },
@@ -7302,7 +7302,7 @@ export function getDataRegisterStudent() {
                 email: "ledanghoangtung@hotmail.com",
                 university: "RMIT",
                 avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0838595779",
+                phone: "01638595779",
                 paid_status: false,
                 time_to_reach: 22,
                 course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
@@ -7314,11 +7314,11 @@ export function getDataRegisterStudent() {
                     name: "PS 31.6",
                     id: 1009,
                     study_time: "(19h-21h) Thứ 7 - Chủ Nhật",
-                    description: "Khai giảng ngày 16 tháng 12 năm 208",
+                    description: "Khai giảng ngày 16 tháng 12 năm 2016",
                     room: "Tầng 5",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-04 08:47:27",
+                created_at: "2016-12-04 08:47:27",
                 is_delete: true,
                 call_status: "uncall"
             },
@@ -7343,11 +7343,11 @@ export function getDataRegisterStudent() {
                     name: "PT 31.2",
                     id: 1049,
                     study_time: "(19h-21h) Thứ 3 - Thứ 5",
-                    description: "Khai giảng ngày 12 tháng 12 năm 208",
+                    description: "Khai giảng ngày 12 tháng 12 năm 2016",
                     room: "Studio Tầng 5",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-04 03:02:54",
+                created_at: "2016-12-04 03:02:54",
                 is_delete: true,
                 call_status: "uncall"
             },
@@ -7372,11 +7372,11 @@ export function getDataRegisterStudent() {
                     name: "PR 31.2",
                     id: 1045,
                     study_time: "(19h-21h) Thứ 4 - Thứ 6",
-                    description: "Khai giảng ngày 13 tháng 12 năm 208",
+                    description: "Khai giảng ngày 13 tháng 12 năm 2016",
                     room: "Tầng 3",
                     base: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội"
                 },
-                created_at: "208-12-04 02:57:55",
+                created_at: "2016-12-04 02:57:55",
                 is_delete: true,
                 call_status: "uncall"
             },
@@ -7405,7 +7405,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 5",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-04 00:52:03",
+                created_at: "2016-12-04 00:52:03",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7440,11 +7440,11 @@ export function getDataRegisterStudent() {
                     name: "AI 31.1",
                     id: 1026,
                     study_time: "(9h-11h) Thứ 3 - Thứ 5",
-                    description: "Khai giảng ngày 12 tháng 12 năm 208",
+                    description: "Khai giảng ngày 12 tháng 12 năm 2016",
                     room: "Tầng 2",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-04 00:46:59",
+                created_at: "2016-12-04 00:46:59",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7467,7 +7467,7 @@ export function getDataRegisterStudent() {
                 email: "ngoclinhrobust26@hotmail.com",
                 university: "Đại học Hà Nội",
                 avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0832361999",
+                phone: "01632361999",
                 paid_status: false,
                 time_to_reach: 14,
                 course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
@@ -7483,7 +7483,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 5",
                     base: "Số 162 phố Phương Liệt ( số 83 Trường Chinh rẽ vào) - Thanh Xuân - Hà Nội"
                 },
-                created_at: "208-12-04 00:08:21",
+                created_at: "2016-12-04 00:08:21",
                 is_delete: true,
                 call_status: "uncall"
             },
@@ -7496,7 +7496,7 @@ export function getDataRegisterStudent() {
                 email: "trungkienbui1998@hotmail.com",
                 university: "z",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508239347d2EHR8PrSvM0PLz.jpg",
-                phone: "088.770.7575",
+                phone: "0168.770.7575",
                 paid_status: false,
                 time_to_reach: 13,
                 course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
@@ -7508,11 +7508,11 @@ export function getDataRegisterStudent() {
                     name: "AE 31.1",
                     id: 1036,
                     study_time: "(19h-21h) Thứ 3 - Thứ 5",
-                    description: "Khai giảng ngày 12 tháng 12 năm 208",
+                    description: "Khai giảng ngày 12 tháng 12 năm 2016",
                     room: "Tầng 4",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 23:42:21",
+                created_at: "2016-12-03 23:42:21",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7547,11 +7547,11 @@ export function getDataRegisterStudent() {
                     name: "AE 31.1",
                     id: 1036,
                     study_time: "(19h-21h) Thứ 3 - Thứ 5",
-                    description: "Khai giảng ngày 12 tháng 12 năm 208",
+                    description: "Khai giảng ngày 12 tháng 12 năm 2016",
                     room: "Tầng 4",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 23:41:06",
+                created_at: "2016-12-03 23:41:06",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7574,7 +7574,7 @@ export function getDataRegisterStudent() {
                 email: "vttnvu295@hotmail.com",
                 university: ".",
                 avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0897670653",
+                phone: "01697670653",
                 paid_status: false,
                 time_to_reach: 12,
                 course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
@@ -7590,7 +7590,7 @@ export function getDataRegisterStudent() {
                     room: "Studio Tầng 5",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 22:32:28",
+                created_at: "2016-12-03 22:32:28",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7613,7 +7613,7 @@ export function getDataRegisterStudent() {
                 email: "vttnvu295@hotmail.com",
                 university: ".",
                 avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0897670653",
+                phone: "01697670653",
                 paid_status: false,
                 time_to_reach: 12,
                 course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
@@ -7629,7 +7629,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 2",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 22:32:17",
+                created_at: "2016-12-03 22:32:17",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7652,7 +7652,7 @@ export function getDataRegisterStudent() {
                 email: "vttnvu295@hotmail.com",
                 university: ".",
                 avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0897670653",
+                phone: "01697670653",
                 paid_status: false,
                 time_to_reach: 12,
                 course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
@@ -7668,7 +7668,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 2",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 22:32:06",
+                created_at: "2016-12-03 22:32:06",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7691,7 +7691,7 @@ export function getDataRegisterStudent() {
                 email: "vttnvu295@hotmail.com",
                 university: ".",
                 avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0897670653",
+                phone: "01697670653",
                 paid_status: false,
                 time_to_reach: 12,
                 course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
@@ -7707,7 +7707,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 5",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 22:31:52",
+                created_at: "2016-12-03 22:31:52",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7746,7 +7746,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 5",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 22:11:18",
+                created_at: "2016-12-03 22:11:18",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7785,7 +7785,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 2",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 22:11:03",
+                created_at: "2016-12-03 22:11:03",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7824,7 +7824,7 @@ export function getDataRegisterStudent() {
                     room: "Studio Tầng 5",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 22:10:48",
+                created_at: "2016-12-03 22:10:48",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7863,7 +7863,7 @@ export function getDataRegisterStudent() {
                     room: "Tầng 2",
                     base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
                 },
-                created_at: "208-12-03 22:10:24",
+                created_at: "2016-12-03 22:10:24",
                 is_delete: true,
                 call_status: "uncall",
                 saler: {
@@ -7889,7 +7889,7 @@ export function getDataGens() {
                 id: 26,
                 name: "32",
                 description: "Khai giảng ngày 16 tháng 1 năm 2018",
-                start_time: "208-12-01",
+                start_time: "2016-12-01",
                 end_time: "2018-02-18",
                 status: 0,
                 teach_status: 0
@@ -7897,9 +7897,9 @@ export function getDataGens() {
             {
                 id: 25,
                 name: "31",
-                description: "Khai giảng ngày 12 tháng 12 năm 208",
-                start_time: "208-11-09",
-                end_time: "208-12-12",
+                description: "Khai giảng ngày 12 tháng 12 năm 2016",
+                start_time: "2016-11-09",
+                end_time: "2016-12-12",
                 status: 1,
                 teach_status: 0
             },
@@ -7907,8 +7907,8 @@ export function getDataGens() {
                 id: 23,
                 name: "30",
                 description: "Khóa 30",
-                start_time: "208-10-11",
-                end_time: "208-11-08",
+                start_time: "2016-10-11",
+                end_time: "2016-11-08",
                 status: 0,
                 teach_status: 1
             },
@@ -7916,8 +7916,8 @@ export function getDataGens() {
                 id: 22,
                 name: "29",
                 description: "",
-                start_time: "208-09-07",
-                end_time: "208-10-11",
+                start_time: "2016-09-07",
+                end_time: "2016-10-11",
                 status: 0,
                 teach_status: 0
             },
@@ -7925,8 +7925,8 @@ export function getDataGens() {
                 id: 21,
                 name: "28",
                 description: "",
-                start_time: "208-08-09",
-                end_time: "208-09-06",
+                start_time: "2016-08-09",
+                end_time: "2016-09-06",
                 status: 0,
                 teach_status: 0
             },
@@ -7934,8 +7934,8 @@ export function getDataGens() {
                 id: 20,
                 name: "27",
                 description: "",
-                start_time: "208-07-07",
-                end_time: "208-08-08",
+                start_time: "2016-07-07",
+                end_time: "2016-08-08",
                 status: 0,
                 teach_status: 0
             },
@@ -7943,8 +7943,8 @@ export function getDataGens() {
                 id: 19,
                 name: "26",
                 description: "",
-                start_time: "208-06-09",
-                end_time: "208-07-06",
+                start_time: "2016-06-09",
+                end_time: "2016-07-06",
                 status: 0,
                 teach_status: 0
             },
@@ -7953,8 +7953,8 @@ export function getDataGens() {
                 id: 18,
                 name: "25",
                 description: "",
-                start_time: "208-05-13",
-                end_time: "208-06-10",
+                start_time: "2016-05-13",
+                end_time: "2016-06-10",
                 status: 0,
                 teach_status: 0
             },
@@ -7962,8 +7962,8 @@ export function getDataGens() {
                 id: 17,
                 name: "24",
                 description: "",
-                start_time: "208-04-13",
-                end_time: "208-05-13",
+                start_time: "2016-04-13",
+                end_time: "2016-05-13",
                 status: 0,
                 teach_status: 0
             },
@@ -7971,8 +7971,8 @@ export function getDataGens() {
                 id: 16,
                 name: "23",
                 description: "",
-                start_time: "208-03-14",
-                end_time: "208-04-12",
+                start_time: "2016-03-14",
+                end_time: "2016-04-12",
                 status: 0,
                 teach_status: 0
             },
@@ -7980,8 +7980,8 @@ export function getDataGens() {
                 id: 15,
                 name: "21",
                 description: "",
-                start_time: "208-02-13",
-                end_time: "208-03-14",
+                start_time: "2016-02-13",
+                end_time: "2016-03-14",
                 status: 0,
                 teach_status: 0
             },
@@ -7989,8 +7989,8 @@ export function getDataGens() {
                 id: 14,
                 name: "20",
                 description: "",
-                start_time: "208-01-04",
-                end_time: "208-02-17",
+                start_time: "2016-01-04",
+                end_time: "2016-02-17",
                 status: 0,
                 teach_status: 0
             },
@@ -7998,8 +7998,8 @@ export function getDataGens() {
                 id: 13,
                 name: "19",
                 description: "",
-                start_time: "208-12-03",
-                end_time: "208-01-03",
+                start_time: "2016-12-03",
+                end_time: "2016-01-03",
                 status: 0,
                 teach_status: 0
             },
@@ -8007,8 +8007,8 @@ export function getDataGens() {
                 id: 12,
                 name: "18",
                 description: "",
-                start_time: "208-11-06",
-                end_time: "208-12-03",
+                start_time: "2016-11-06",
+                end_time: "2016-12-03",
                 status: 0,
                 teach_status: 0
             },
@@ -8017,8 +8017,8 @@ export function getDataGens() {
                 id: 10,
                 name: "17",
                 description: "ƯU ĐÃI NỔI BẬT: ĐĂNG KÝ & ĐÓNG HỌC PHÍ TRƯỚC NGÀY 17/10 GIẢM NGAY 150K HỌC PHÍ MÔN THIẾT KẾ BẤT KỲ ⚠️ ƯU ĐÃI LỚN NHẤT: GIẢM ĐẾN 200K HỌC PHÍ CHO KHÓA NHIẾP ẢNH: HỌC NHIẾP ẢNH SẴN MÁY ẢNH CHỈ VỚI GIÁ 1.000.000Đ ⚠️ ƯU ĐÃI NGAY 800.000Đ KHI ĐĂNG KÝ COMBO 4",
-                start_time: "208-10-09",
-                end_time: "208-11-07",
+                start_time: "2016-10-09",
+                end_time: "2016-11-07",
                 status: 0,
                 teach_status: 0
             },
@@ -8026,8 +8026,8 @@ export function getDataGens() {
                 id: 9,
                 name: "16",
                 description: "",
-                start_time: "208-09-06",
-                end_time: "208-10-09",
+                start_time: "2016-09-06",
+                end_time: "2016-10-09",
                 status: 0,
                 teach_status: 0
             },
@@ -8035,8 +8035,8 @@ export function getDataGens() {
                 id: 8,
                 name: "15",
                 description: "",
-                start_time: "208-08-04",
-                end_time: "208-09-06",
+                start_time: "2016-08-04",
+                end_time: "2016-09-06",
                 status: 0,
                 teach_status: 0
             },
@@ -8044,8 +8044,8 @@ export function getDataGens() {
                 id: 6,
                 name: "14",
                 description: "",
-                start_time: "208-07-05",
-                end_time: "208-08-03",
+                start_time: "2016-07-05",
+                end_time: "2016-08-03",
                 status: 0,
                 teach_status: 0
             },
@@ -8053,8 +8053,8 @@ export function getDataGens() {
                 id: 5,
                 name: "13",
                 description: "",
-                start_time: "208-06-06",
-                end_time: "208-07-04",
+                start_time: "2016-06-06",
+                end_time: "2016-07-04",
                 status: 0,
                 teach_status: 0
             },
@@ -8062,8 +8062,8 @@ export function getDataGens() {
                 id: 4,
                 name: "12",
                 description: "",
-                start_time: "208-05-09",
-                end_time: "208-06-05",
+                start_time: "2016-05-09",
+                end_time: "2016-06-05",
                 status: 0,
                 teach_status: 0
             },
@@ -8071,8 +8071,8 @@ export function getDataGens() {
                 id: 3,
                 name: "11",
                 description: "",
-                start_time: "208-04-03",
-                end_time: "208-05-08",
+                start_time: "2016-04-03",
+                end_time: "2016-05-08",
                 status: 0,
                 teach_status: 0
             },
@@ -8080,8 +8080,8 @@ export function getDataGens() {
                 id: 2,
                 name: "10",
                 description: "",
-                start_time: "208-03-01",
-                end_time: "208-04-02",
+                start_time: "2016-03-01",
+                end_time: "2016-04-02",
                 status: 0,
                 teach_status: 0
             },
@@ -8089,8 +8089,8 @@ export function getDataGens() {
                 id: 1,
                 name: "9",
                 description: "Khóa 9 - Bắt đầu tuyển sinh từ cuối tháng 2, chính thức học vào đầu tháng 3",
-                start_time: "208-02-14",
-                end_time: "208-03-05",
+                start_time: "2016-02-14",
+                end_time: "2016-03-05",
                 status: 0,
                 teach_status: 0
             }
@@ -8146,7 +8146,7 @@ export function getDataCourse() {
             {
                 id: 6,
                 name: "InDesign",
-                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/148144089SyPRLsY5aXZOL6d.jpg",
+                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg",
                 num_classes: 14,
                 duration: 8,
                 price: 1000000
@@ -8178,8 +8178,8 @@ export function getDataClasses() {
             {
                 id: 1051,
                 name: "AI nhóm (SG)",
-                datestart: "24 Tháng M. hai, 208",
-                datestart_en: "208-12-24",
+                datestart: "24 Tháng M. hai, 2016",
+                datestart_en: "2016-12-24",
                 study_time: "(8h30-11h30 & 13h30-16h30) Chủ nhật",
                 description: "Đăng kí lớp cho nhóm của bạn",
                 status: 0,
@@ -8189,7 +8189,7 @@ export function getDataClasses() {
                 target: 6,
                 total_register: 6,
                 regis_target: 6,
-                created_at: "08:41, 8 Tháng M. một, 208",
+                created_at: "08:41, 8 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8213,8 +8213,8 @@ export function getDataClasses() {
             {
                 id: 1050,
                 name: "PS nhóm (SG)",
-                datestart: "03 Tháng M. hai, 208",
-                datestart_en: "208-12-03",
+                datestart: "03 Tháng M. hai, 2016",
+                datestart_en: "2016-12-03",
                 study_time: "(8h30-11h30 & 13h30-16h30) Chủ nhật",
                 description: "Đăng kí lớp cho nhóm của bạn",
                 status: 0,
@@ -8224,7 +8224,7 @@ export function getDataClasses() {
                 target: 6,
                 total_register: 6,
                 regis_target: 6,
-                created_at: "08:38, 8 Tháng M. một, 208",
+                created_at: "08:38, 8 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8248,10 +8248,10 @@ export function getDataClasses() {
             {
                 id: 1049,
                 name: "PT 31.2",
-                datestart: "12 Tháng M. hai, 208",
-                datestart_en: "208-12-12",
+                datestart: "12 Tháng M. hai, 2016",
+                datestart_en: "2016-12-12",
                 study_time: "(19h-21h) Thứ 3 - Thứ 5",
-                description: "Khai giảng ngày 12 tháng 12 năm 208",
+                description: "Khai giảng ngày 12 tháng 12 năm 2016",
                 status: 1,
                 activated: 0,
                 schedule_id: 13,
@@ -8259,7 +8259,7 @@ export function getDataClasses() {
                 target: 10,
                 total_register: 8,
                 regis_target: 10,
-                created_at: "12:04, 7 Tháng M. một, 208",
+                created_at: "12:04, 7 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8293,10 +8293,10 @@ export function getDataClasses() {
             {
                 id: 1048,
                 name: "PT 31.3",
-                datestart: "13 Tháng M. hai, 208",
-                datestart_en: "208-12-13",
+                datestart: "13 Tháng M. hai, 2016",
+                datestart_en: "2016-12-13",
                 study_time: "(19h-21h) Thứ 4 - Thứ 6",
-                description: "Khai giảng ngày 13 tháng 12 năm 208",
+                description: "Khai giảng ngày 13 tháng 12 năm 2016",
                 status: 1,
                 activated: 0,
                 schedule_id: 16,
@@ -8304,7 +8304,7 @@ export function getDataClasses() {
                 target: 10,
                 total_register: 3,
                 regis_target: 10,
-                created_at: "12:04, 7 Tháng M. một, 208",
+                created_at: "12:04, 7 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8338,10 +8338,10 @@ export function getDataClasses() {
             {
                 id: 1047,
                 name: "PT 31.4",
-                datestart: "16 Tháng M. hai, 208",
-                datestart_en: "208-12-16",
+                datestart: "16 Tháng M. hai, 2016",
+                datestart_en: "2016-12-16",
                 study_time: "(15h-17h) Thứ 7 - Chủ Nhật",
-                description: "Khai giảng ngày 16 tháng 12 năm 208",
+                description: "Khai giảng ngày 16 tháng 12 năm 2016",
                 status: 1,
                 activated: 0,
                 schedule_id: 18,
@@ -8349,7 +8349,7 @@ export function getDataClasses() {
                 target: 10,
                 total_register: 8,
                 regis_target: 10,
-                created_at: "12:04, 7 Tháng M. một, 208",
+                created_at: "12:04, 7 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8383,10 +8383,10 @@ export function getDataClasses() {
             {
                 id: 1046,
                 name: "PT 31.5",
-                datestart: "16 Tháng M. hai, 208",
-                datestart_en: "208-12-16",
+                datestart: "16 Tháng M. hai, 2016",
+                datestart_en: "2016-12-16",
                 study_time: "(9h-11h) Thứ 7 - Chủ Nhật",
-                description: "Khai giảng ngày 16 tháng 12 năm 208",
+                description: "Khai giảng ngày 16 tháng 12 năm 2016",
                 status: 1,
                 activated: 0,
                 schedule_id: 17,
@@ -8394,7 +8394,7 @@ export function getDataClasses() {
                 target: 10,
                 total_register: 7,
                 regis_target: 10,
-                created_at: "12:04, 7 Tháng M. một, 208",
+                created_at: "12:04, 7 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8428,10 +8428,10 @@ export function getDataClasses() {
             {
                 id: 1045,
                 name: "PR 31.2",
-                datestart: "13 Tháng M. hai, 208",
-                datestart_en: "208-12-13",
+                datestart: "13 Tháng M. hai, 2016",
+                datestart_en: "2016-12-13",
                 study_time: "(19h-21h) Thứ 4 - Thứ 6",
-                description: "Khai giảng ngày 13 tháng 12 năm 208",
+                description: "Khai giảng ngày 13 tháng 12 năm 2016",
                 status: 1,
                 activated: 0,
                 schedule_id: 19,
@@ -8439,7 +8439,7 @@ export function getDataClasses() {
                 target: 20,
                 total_register: 11,
                 regis_target: 20,
-                created_at: "12:02, 7 Tháng M. một, 208",
+                created_at: "12:02, 7 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8473,8 +8473,8 @@ export function getDataClasses() {
             {
                 id: 1044,
                 name: "PT - Khoá Sau (Danh Sách Chờ)",
-                datestart: "10 Tháng Mười, 208",
-                datestart_en: "208-10-10",
+                datestart: "10 Tháng Mười, 2016",
+                datestart_en: "2016-10-10",
                 study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
                 description: "Nhận ưu đãi tốt nhất từ colorME",
                 status: 1,
@@ -8484,7 +8484,7 @@ export function getDataClasses() {
                 target: 1,
                 total_register: 43,
                 regis_target: 1,
-                created_at: "11:58, 7 Tháng M. một, 208",
+                created_at: "11:58, 7 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8513,8 +8513,8 @@ export function getDataClasses() {
             {
                 id: 1043,
                 name: "PR - Danh Sách Chờ (Cơ sở 4)",
-                datestart: "10 Tháng Mười, 208",
-                datestart_en: "208-10-10",
+                datestart: "10 Tháng Mười, 2016",
+                datestart_en: "2016-10-10",
                 study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
                 description: "Nhận ưu đãi tốt nhất từ colorME",
                 status: 1,
@@ -8524,7 +8524,7 @@ export function getDataClasses() {
                 target: 1,
                 total_register: 3,
                 regis_target: 1,
-                created_at: "11:58, 7 Tháng M. một, 208",
+                created_at: "11:58, 7 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8553,10 +8553,10 @@ export function getDataClasses() {
             {
                 id: 1042,
                 name: "PR 31.1",
-                datestart: "16 Tháng M. hai, 208",
-                datestart_en: "208-12-16",
+                datestart: "16 Tháng M. hai, 2016",
+                datestart_en: "2016-12-16",
                 study_time: "(19h-21h) Thứ 7 - Chủ Nhật",
-                description: "Khai giảng ngày 16 tháng 12 năm 208",
+                description: "Khai giảng ngày 16 tháng 12 năm 2016",
                 status: 0,
                 activated: 0,
                 schedule_id: 19,
@@ -8564,7 +8564,7 @@ export function getDataClasses() {
                 target: 20,
                 total_register: 23,
                 regis_target: 20,
-                created_at: "11:58, 7 Tháng M. một, 208",
+                created_at: "11:58, 7 Tháng M. một, 2016",
                 gen: {
                     id: 25,
                     name: "31"
@@ -8605,10 +8605,10 @@ export function getDataClass() {
         classInfo: {
             id: 948,
             name: "AI 30.4",
-            datestart: "08 Tháng M. một, 208",
-            datestart_en: "208-11-08",
+            datestart: "08 Tháng M. một, 2016",
+            datestart_en: "2016-11-08",
             study_time: "(19h-21h) Thứ 4 - Thứ 6",
-            description: "Khai giảng ngày 8 tháng 11 năm 208",
+            description: "Khai giảng ngày 8 tháng 11 năm 2016",
             status: 0,
             activated: 1,
             schedule_id: 16,
@@ -8616,7 +8616,7 @@ export function getDataClass() {
             target: 20,
             total_register: 21,
             regis_target: 20,
-            created_at: "21:49, 10 Tháng Mười, 208",
+            created_at: "21:49, 10 Tháng Mười, 2016",
             gen: {
                 id: 23,
                 name: "30"
@@ -8640,7 +8640,7 @@ export function getDataClass() {
                         staff: {
                             id: 4068,
                             name: "Thanh Diệp",
-                            phone: "0867525988",
+                            phone: "01667525988",
                             email: "Haraairi@hotmail.com",
                             color: "e91e63",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
@@ -8655,7 +8655,7 @@ export function getDataClass() {
                         staff: {
                             id: 45,
                             name: "Nguyen Mine Linh",
-                            phone: "0854085862",
+                            phone: "01654085862",
                             email: "mailinhvu.15@hotmail.com",
                             color: "cddc39",
                             avatar_url: "http://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1457424670qC09gEUVo3hAYyb.jpg"
@@ -8674,7 +8674,7 @@ export function getDataClass() {
                         staff: {
                             id: 4068,
                             name: "Thanh Diệp",
-                            phone: "0867525988",
+                            phone: "01667525988",
                             email: "Haraairi@hotmail.com",
                             color: "e91e63",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
@@ -8689,7 +8689,7 @@ export function getDataClass() {
                         staff: {
                             id: 4068,
                             name: "Thanh Diệp",
-                            phone: "0867525988",
+                            phone: "01667525988",
                             email: "Haraairi@hotmail.com",
                             color: "e91e63",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
@@ -8704,7 +8704,7 @@ export function getDataClass() {
                         staff: {
                             id: 4068,
                             name: "Thanh Diệp",
-                            phone: "0867525988",
+                            phone: "01667525988",
                             email: "Haraairi@hotmail.com",
                             color: "e91e63",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
@@ -8719,7 +8719,7 @@ export function getDataClass() {
                         staff: {
                             id: 4068,
                             name: "Thanh Diệp",
-                            phone: "0867525988",
+                            phone: "01667525988",
                             email: "Haraairi@hotmail.com",
                             color: "e91e63",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
@@ -8734,7 +8734,7 @@ export function getDataClass() {
                         staff: {
                             id: 4068,
                             name: "Thanh Diệp",
-                            phone: "0867525988",
+                            phone: "01667525988",
                             email: "Haraairi@hotmail.com",
                             color: "e91e63",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
@@ -8749,7 +8749,7 @@ export function getDataClass() {
                         staff: {
                             id: 4068,
                             name: "Thanh Diệp",
-                            phone: "0867525988",
+                            phone: "01667525988",
                             email: "Haraairi@hotmail.com",
                             color: "e91e63",
                             avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/149309022495t7mhYBRHDar6J.jpg"
@@ -8933,7 +8933,7 @@ export function getDataClass() {
                     student: {
                         id: 7293,
                         name: "Vũ Mai Huơng",
-                        phone: "0854169458",
+                        phone: "01654169458",
                         email: "phammaihuongpmh@hotmail.com",
                         avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507736051guzBkoSKaITF2Qq.jpg"
                     },
@@ -9026,14 +9026,14 @@ export function getDataClass() {
                 {
                     id: 16375,
                     money: 0,
-                    code: "CM3083",
+                    code: "CM30163",
                     paid_status: true,
                     received_id_card: true,
                     note: "DSC CM29161",
                     student: {
                         id: 6667,
                         name: "Bùi Khánh Linh",
-                        phone: "0892606682",
+                        phone: "01692606682",
                         email: "khanhlinh.marketer@hotmail.com",
                         avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
                     },
@@ -9183,7 +9183,7 @@ export function getDataClass() {
                     student: {
                         id: 5644,
                         name: "Phan Đình Đức",
-                        phone: "089.529.4021",
+                        phone: "0169.529.4021",
                         email: "Ducpd.1192@hotmail.com",
                         avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15108935879ppsg7uY1yNWp3W.jpg"
                     },
@@ -9198,7 +9198,7 @@ export function getDataClass() {
                             status: 1
                         },
                         {
-                            id: 18908,
+                            id: 189016,
                             status: 1
                         },
                         {
@@ -9283,7 +9283,7 @@ export function getDataClass() {
                     student: {
                         id: 4793,
                         name: "Vũ Tố Uyên",
-                        phone: "0867099068",
+                        phone: "01667099068",
                         email: "vutouyen15121998@hotmail.com",
                         avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
                     },
@@ -9383,7 +9383,7 @@ export function getDataClass() {
                     student: {
                         id: 4874,
                         name: "Võ Minh Huyền",
-                        phone: "085.754.7555",
+                        phone: "0165.754.7555",
                         email: "huyen2998@hotmail.com",
                         avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
                     },
@@ -9433,7 +9433,7 @@ export function getDataClass() {
                     student: {
                         id: 2181,
                         name: "Bùi Ánh Thanh",
-                        phone: "0838349688",
+                        phone: "01638349688",
                         email: "buianhngoc8998@hotmail.com",
                         avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
                     },
@@ -9800,7 +9800,7 @@ export function getDataClass() {
                     student: {
                         id: 7114,
                         name: "Nguyễn Trọng Quang Huy",
-                        phone: "0836723377",
+                        phone: "01636723377",
                         email: "quanghuy1998hn@hotmail.com",
                         avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/user.png"
                     },
@@ -9850,7 +9850,7 @@ export function getDataClass() {
                     student: {
                         id: 7115,
                         name: "Trần Hoàng Nam",
-                        phone: "0866881998",
+                        phone: "01666881998",
                         email: "namtran0798@hotmail.com",
                         avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507828482gvct2ufTCSmLR2N.jpg"
                     },
@@ -9946,56 +9946,56 @@ export function getDataClass() {
                     order: 1,
                     total_attendance: 17,
                     is_change: false,
-                    class_lesson_time: "208-11-08",
+                    class_lesson_time: "2016-11-08",
                     class_lesson_id: 7108
                 },
                 {
                     order: 2,
                     total_attendance: 17,
                     is_change: false,
-                    class_lesson_time: "208-11-10",
+                    class_lesson_time: "2016-11-10",
                     class_lesson_id: 7110
                 },
                 {
                     order: 3,
                     total_attendance: 16,
                     is_change: false,
-                    class_lesson_time: "208-11-15",
+                    class_lesson_time: "2016-11-15",
                     class_lesson_id: 7112
                 },
                 {
                     order: 4,
                     total_attendance: 13,
                     is_change: false,
-                    class_lesson_time: "208-11-17",
+                    class_lesson_time: "2016-11-17",
                     class_lesson_id: 7114
                 },
                 {
                     order: 5,
                     total_attendance: 14,
                     is_change: false,
-                    class_lesson_time: "208-11-22",
+                    class_lesson_time: "2016-11-22",
                     class_lesson_id: 7116
                 },
                 {
                     order: 6,
                     total_attendance: 14,
                     is_change: false,
-                    class_lesson_time: "208-11-24",
+                    class_lesson_time: "2016-11-24",
                     class_lesson_id: 7118
                 },
                 {
                     order: 7,
                     total_attendance: 14,
                     is_change: false,
-                    class_lesson_time: "208-11-29",
+                    class_lesson_time: "2016-11-29",
                     class_lesson_id: 7120
                 },
                 {
                     order: 8,
                     total_attendance: 8,
                     is_change: false,
-                    class_lesson_time: "208-12-01",
+                    class_lesson_time: "2016-12-01",
                     class_lesson_id: 7122
                 }
             ]
@@ -10022,7 +10022,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Trc 8/12 qua vp",
-                call_time: "5 Tháng M. hai, 208, 11:23"
+                call_time: "5 Tháng M. hai, 2016, 11:23"
             },
             {
                 id: 17329,
@@ -10039,7 +10039,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Trc 8/12 ck",
-                call_time: "5 Tháng M. hai, 208, 11:18"
+                call_time: "5 Tháng M. hai, 2016, 11:18"
             },
             {
                 id: 17328,
@@ -10056,7 +10056,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Giảm 10% học viên cũ do kì kèo quá",
-                call_time: "5 Tháng M. hai, 208, 11:17"
+                call_time: "5 Tháng M. hai, 2016, 11:17"
             },
             {
                 id: 17327,
@@ -10073,7 +10073,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "Mess",
-                call_time: "5 Tháng M. hai, 208, 11:08"
+                call_time: "5 Tháng M. hai, 2016, 11:08"
             },
             {
                 id: 17326,
@@ -10090,7 +10090,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "Cf đi học",
-                call_time: "5 Tháng M. hai, 208, 11:07"
+                call_time: "5 Tháng M. hai, 2016, 11:07"
             },
             {
                 id: 17325,
@@ -10107,7 +10107,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "Cf xác nhận",
-                call_time: "5 Tháng M. hai, 208, 11:05"
+                call_time: "5 Tháng M. hai, 2016, 11:05"
             },
             {
                 id: 17324,
@@ -10115,7 +10115,7 @@ export function getDataCallHistory() {
                     id: 8003,
                     name: "Nguyễn Văn Sơn",
                     email: "vanson25798@hotmail.com",
-                    phone: "0892108889"
+                    phone: "01692108889"
                 },
                 call_status: "success",
                 caller: {
@@ -10124,7 +10124,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Trc 8/12 ck",
-                call_time: "5 Tháng M. hai, 208, 09:55"
+                call_time: "5 Tháng M. hai, 2016, 09:55"
             },
             {
                 id: 17323,
@@ -10141,7 +10141,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Chiều qua vp, giảm 15%",
-                call_time: "5 Tháng M. hai, 208, 09:48"
+                call_time: "5 Tháng M. hai, 2016, 09:48"
             },
             {
                 id: 17322,
@@ -10158,7 +10158,7 @@ export function getDataCallHistory() {
                     color: ""
                 },
                 note: "mai lên vp đóng tiền ưu đãi 15%",
-                call_time: "4 Tháng M. hai, 208, 23:22"
+                call_time: "4 Tháng M. hai, 2016, 23:22"
             },
             {
                 id: 17321,
@@ -10175,7 +10175,7 @@ export function getDataCallHistory() {
                     color: "e91e63"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 22:39"
+                call_time: "4 Tháng M. hai, 2016, 22:39"
             },
             {
                 id: 17320,
@@ -10192,7 +10192,7 @@ export function getDataCallHistory() {
                     color: "e91e63"
                 },
                 note: "Nghi vấn học hộ, đã hẹn buổi đầu mang chứng minh thư hoặc thẻ sinh viên để giảng viên kiểm tra",
-                call_time: "4 Tháng M. hai, 208, 22:39"
+                call_time: "4 Tháng M. hai, 2016, 22:39"
             },
             {
                 id: 17319,
@@ -10209,7 +10209,7 @@ export function getDataCallHistory() {
                     color: "F62359"
                 },
                 note: "đang cân nhắc xem có học PT không, sẽ báo lại",
-                call_time: "4 Tháng M. hai, 208, 22:19"
+                call_time: "4 Tháng M. hai, 2016, 22:19"
             },
             {
                 id: 17318,
@@ -10226,7 +10226,7 @@ export function getDataCallHistory() {
                     color: "F62359"
                 },
                 note: "đang cân nhắc xem có học PT không, sẽ báo lại",
-                call_time: "4 Tháng M. hai, 208, 22:19"
+                call_time: "4 Tháng M. hai, 2016, 22:19"
             },
             {
                 id: 17317,
@@ -10234,7 +10234,7 @@ export function getDataCallHistory() {
                     id: 8391,
                     name: "Vũ Thị Thảo Nguyên",
                     email: "vttnvu295@hotmail.com",
-                    phone: "0897670653"
+                    phone: "01697670653"
                 },
                 call_status: "success",
                 caller: {
@@ -10243,7 +10243,7 @@ export function getDataCallHistory() {
                     color: "F62359"
                 },
                 note: "đang cân nhắc xem có học PT không, sẽ báo lại",
-                call_time: "4 Tháng M. hai, 208, 22:18"
+                call_time: "4 Tháng M. hai, 2016, 22:18"
             },
             {
                 id: 17316,
@@ -10260,7 +10260,7 @@ export function getDataCallHistory() {
                     color: "c0ca33"
                 },
                 note: "Đang chơi event",
-                call_time: "4 Tháng M. hai, 208, 21:09"
+                call_time: "4 Tháng M. hai, 2016, 21:09"
             },
             {
                 id: 17315,
@@ -10268,7 +10268,7 @@ export function getDataCallHistory() {
                     id: 3939,
                     name: "Bùi Trung Kiên",
                     email: "trungkienbui1998@hotmail.com",
-                    phone: "088.770.7575"
+                    phone: "0168.770.7575"
                 },
                 call_status: "success",
                 caller: {
@@ -10277,7 +10277,7 @@ export function getDataCallHistory() {
                     color: "c0ca33"
                 },
                 note: "Trước mùng 8 qua vp",
-                call_time: "4 Tháng M. hai, 208, 21:09"
+                call_time: "4 Tháng M. hai, 2016, 21:09"
             },
             {
                 id: 17314,
@@ -10294,7 +10294,7 @@ export function getDataCallHistory() {
                     color: "c0ca33"
                 },
                 note: "Đang chơi event để được giảm. Giảm thì qua",
-                call_time: "4 Tháng M. hai, 208, 21:08"
+                call_time: "4 Tháng M. hai, 2016, 21:08"
             },
             {
                 id: 17313,
@@ -10311,7 +10311,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "trc 8/12 ck",
-                call_time: "4 Tháng M. hai, 208, 20:52"
+                call_time: "4 Tháng M. hai, 2016, 20:52"
             },
             {
                 id: 17312,
@@ -10328,7 +10328,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 20:49"
+                call_time: "4 Tháng M. hai, 2016, 20:49"
             },
             {
                 id: 17311,
@@ -10336,7 +10336,7 @@ export function getDataCallHistory() {
                     id: 8302,
                     name: "Vũ Thanh Chinh",
                     email: "chinhngoc21@hotmail.com",
-                    phone: "0883885992"
+                    phone: "01683885992"
                 },
                 call_status: "success",
                 caller: {
@@ -10345,7 +10345,7 @@ export function getDataCallHistory() {
                     color: "00bcd4"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 16:14"
+                call_time: "4 Tháng M. hai, 2016, 16:14"
             },
             {
                 id: 17310,
@@ -10353,7 +10353,7 @@ export function getDataCallHistory() {
                     id: 8305,
                     name: "Nguyễn Thạch Thảo",
                     email: "sailorneoqueenmoon@hotmail.com",
-                    phone: "0883986087"
+                    phone: "01683986087"
                 },
                 call_status: "failed",
                 caller: {
@@ -10362,7 +10362,7 @@ export function getDataCallHistory() {
                     color: "00bcd4"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 16:13"
+                call_time: "4 Tháng M. hai, 2016, 16:13"
             },
             {
                 id: 17309,
@@ -10370,7 +10370,7 @@ export function getDataCallHistory() {
                     id: 7433,
                     name: "Trần Hương Giang",
                     email: "tranhuonggiangkn@hotmail.com",
-                    phone: "088.330.3689"
+                    phone: "0168.330.3689"
                 },
                 call_status: "success",
                 caller: {
@@ -10379,7 +10379,7 @@ export function getDataCallHistory() {
                     color: "e81284"
                 },
                 note: "học viên cũ, 800k",
-                call_time: "4 Tháng M. hai, 208, 15:57"
+                call_time: "4 Tháng M. hai, 2016, 15:57"
             },
             {
                 id: 17308,
@@ -10396,7 +10396,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Nhóm 3 900, trc 8/12 đóng",
-                call_time: "4 Tháng M. hai, 208, 14:51"
+                call_time: "4 Tháng M. hai, 2016, 14:51"
             },
             {
                 id: 17307,
@@ -10413,7 +10413,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Nhóm 3 900",
-                call_time: "4 Tháng M. hai, 208, 14:51"
+                call_time: "4 Tháng M. hai, 2016, 14:51"
             },
             {
                 id: 17306,
@@ -10430,7 +10430,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Trc 8/12 ck",
-                call_time: "4 Tháng M. hai, 208, 14:34"
+                call_time: "4 Tháng M. hai, 2016, 14:34"
             },
             {
                 id: 17305,
@@ -10447,7 +10447,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Trc 8/12 qua vp",
-                call_time: "4 Tháng M. hai, 208, 14:33"
+                call_time: "4 Tháng M. hai, 2016, 14:33"
             },
             {
                 id: 17304,
@@ -10464,7 +10464,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 14:29"
+                call_time: "4 Tháng M. hai, 2016, 14:29"
             },
             {
                 id: 17303,
@@ -10481,7 +10481,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 14:28"
+                call_time: "4 Tháng M. hai, 2016, 14:28"
             },
             {
                 id: 17302,
@@ -10498,7 +10498,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Nhầm máy?? Email",
-                call_time: "4 Tháng M. hai, 208, 14:26"
+                call_time: "4 Tháng M. hai, 2016, 14:26"
             },
             {
                 id: 17301,
@@ -10506,7 +10506,7 @@ export function getDataCallHistory() {
                     id: 8394,
                     name: "Lê Đặng Hoàng Tùng",
                     email: "ledanghoangtung@hotmail.com",
-                    phone: "0838595779"
+                    phone: "01638595779"
                 },
                 call_status: "success",
                 caller: {
@@ -10515,7 +10515,7 @@ export function getDataCallHistory() {
                     color: "78CEFF"
                 },
                 note: "Nhóm 3, 900k, trc 8/12 qua vp",
-                call_time: "4 Tháng M. hai, 208, 14:23"
+                call_time: "4 Tháng M. hai, 2016, 14:23"
             },
             {
                 id: 17300,
@@ -10532,7 +10532,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 13:57"
+                call_time: "4 Tháng M. hai, 2016, 13:57"
             },
             {
                 id: 17299,
@@ -10540,7 +10540,7 @@ export function getDataCallHistory() {
                     id: 7557,
                     name: "Vũ Lê Thanh Linh",
                     email: "ngoclinhrobust26@hotmail.com",
-                    phone: "0832361999"
+                    phone: "01632361999"
                 },
                 call_status: "failed",
                 caller: {
@@ -10549,7 +10549,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "Mess",
-                call_time: "4 Tháng M. hai, 208, 13:53"
+                call_time: "4 Tháng M. hai, 2016, 13:53"
             },
             {
                 id: 17298,
@@ -10566,7 +10566,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "Mess",
-                call_time: "4 Tháng M. hai, 208, 13:50"
+                call_time: "4 Tháng M. hai, 2016, 13:50"
             },
             {
                 id: 17297,
@@ -10574,7 +10574,7 @@ export function getDataCallHistory() {
                     id: 7115,
                     name: "Trần Hoàng Nam",
                     email: "namtran0798@hotmail.com",
-                    phone: "0866881998"
+                    phone: "01666881998"
                 },
                 call_status: "success",
                 caller: {
@@ -10583,7 +10583,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 13:49"
+                call_time: "4 Tháng M. hai, 2016, 13:49"
             },
             {
                 id: 17296,
@@ -10591,7 +10591,7 @@ export function getDataCallHistory() {
                     id: 7114,
                     name: "Nguyễn Trọng Quang Huy",
                     email: "quanghuy1998hn@hotmail.com",
-                    phone: "0836723377"
+                    phone: "01636723377"
                 },
                 call_status: "success",
                 caller: {
@@ -10600,7 +10600,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 13:48"
+                call_time: "4 Tháng M. hai, 2016, 13:48"
             },
             {
                 id: 17295,
@@ -10617,7 +10617,7 @@ export function getDataCallHistory() {
                     color: "8bc34a"
                 },
                 note: "Đã mess",
-                call_time: "4 Tháng M. hai, 208, 13:47"
+                call_time: "4 Tháng M. hai, 2016, 13:47"
             },
             {
                 id: 17294,
@@ -10634,7 +10634,7 @@ export function getDataCallHistory() {
                     color: "009688"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 11:14"
+                call_time: "4 Tháng M. hai, 2016, 11:14"
             },
             {
                 id: 17293,
@@ -10651,7 +10651,7 @@ export function getDataCallHistory() {
                     color: "009688"
                 },
                 note: "vẫn k ck, đã remind",
-                call_time: "4 Tháng M. hai, 208, 11:13"
+                call_time: "4 Tháng M. hai, 2016, 11:13"
             },
             {
                 id: 17292,
@@ -10668,7 +10668,7 @@ export function getDataCallHistory() {
                     color: "009688"
                 },
                 note: "",
-                call_time: "4 Tháng M. hai, 208, 11:13"
+                call_time: "4 Tháng M. hai, 2016, 11:13"
             },
             {
                 id: 17291,
@@ -10676,7 +10676,7 @@ export function getDataCallHistory() {
                     id: 7888,
                     name: "Hà Thị Thuỳ Linh",
                     email: "Halinh.12061998@hotmail.com",
-                    phone: "0843534549"
+                    phone: "01643534549"
                 },
                 call_status: "success",
                 caller: {
@@ -10685,7 +10685,7 @@ export function getDataCallHistory() {
                     color: "009688"
                 },
                 note: "k nghe máy, đã ntin",
-                call_time: "4 Tháng M. hai, 208, 11:12"
+                call_time: "4 Tháng M. hai, 2016, 11:12"
             }
         ],
     }
@@ -10699,32 +10699,32 @@ export function getDataBase() {
                 id: 3,
                 name: "Cơ sở 1",
                 address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
-                created_at: "03/04/208 20:39:06",
-                updated_at: "25/09/208 14:56:31",
+                created_at: "03/04/2016 20:39:06",
+                updated_at: "25/09/2016 14:56:31",
                 center: 1
             },
             {
                 id: 4,
                 name: "Cơ sở 2",
                 address: "Số 162 phố Phương Liệt ( số 83 Trường Chinh rẽ vào) - Thanh Xuân - Hà Nội",
-                created_at: "03/04/208 20:39:39",
-                updated_at: "25/09/208 14:54:33",
+                created_at: "03/04/2016 20:39:39",
+                updated_at: "25/09/2016 14:54:33",
                 center: 0
             },
             {
                 id: 6,
                 name: "Cơ sở 3",
                 address: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM",
-                created_at: "11/03/208 15:47:12",
-                updated_at: "09/11/208 14:09:55",
+                created_at: "11/03/2016 15:47:12",
+                updated_at: "09/11/2016 14:09:55",
                 center: 1
             },
             {
                 id: 8,
                 name: "Cơ sở 4",
                 address: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội",
-                created_at: "25/09/208 10:10:17",
-                updated_at: "25/09/208 14:57:12",
+                created_at: "25/09/2016 10:10:17",
+                updated_at: "25/09/2016 14:57:12",
                 center: 0
             }
         ],
@@ -10834,7 +10834,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 10.5",
                         class_type: "",
-                        register_time: "26/03/208",
+                        register_time: "26/03/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -10848,7 +10848,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 10.4",
                         class_type: "",
-                        register_time: "31/03/208",
+                        register_time: "31/03/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -10862,7 +10862,7 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 10.3",
                         class_type: "",
-                        register_time: "31/03/208",
+                        register_time: "31/03/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
@@ -10877,7 +10877,7 @@ export function getDataMoneyCollect() {
                 id: 38,
                 name: "Trịnh Thanh Hà",
                 avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/146229259379k739AO8l3Ssyt.jpg",
-                phone: "0866575729",
+                phone: "01666575729",
                 email: "trinhthanhha1105@hotmail.com",
                 registers: [
                     {
@@ -10885,7 +10885,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 10.6",
                         class_type: "",
-                        register_time: "30/03/208",
+                        register_time: "30/03/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -10899,7 +10899,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 10.4",
                         class_type: "",
-                        register_time: "30/03/208",
+                        register_time: "30/03/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -10914,7 +10914,7 @@ export function getDataMoneyCollect() {
                 id: 2,
                 name: "Nguyễn Việt Hùng",
                 avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg",
-                phone: "0884026343",
+                phone: "01684026343",
                 email: "hung@hotmail.com",
                 registers: [
                     {
@@ -10922,13 +10922,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.4",
                         class_type: "",
-                        register_time: "28/02/208",
+                        register_time: "28/02/2016",
                         code: "CM26573",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
-                        paid_time: "30/06/208",
+                        paid_time: "30/06/2016",
                         is_paid: 1
                     },
                     {
@@ -10936,13 +10936,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.4",
                         class_type: "",
-                        register_time: "29/02/208",
+                        register_time: "29/02/2016",
                         code: "CM29143",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
-                        paid_time: "11/09/208",
+                        paid_time: "11/09/2016",
                         is_paid: 1
                     },
                     {
@@ -10950,13 +10950,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 23.11 (Sài Gòn)",
                         class_type: "",
-                        register_time: "29/03/208",
+                        register_time: "29/03/2016",
                         code: "CM21999",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 1,
                         note: "Test",
-                        paid_time: "29/03/208",
+                        paid_time: "29/03/2016",
                         is_paid: 1
                     },
                     {
@@ -10964,7 +10964,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS - Danh Sách Chờ (Cơ sở 2)",
                         class_type: "",
-                        register_time: "04/11/208",
+                        register_time: "04/11/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -10987,13 +10987,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.5",
                         class_type: "",
-                        register_time: "16/02/208",
+                        register_time: "16/02/2016",
                         code: "CM01000",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 1,
                         received_id_card: 1,
                         note: "test",
-                        paid_time: "18/09/208",
+                        paid_time: "18/09/2016",
                         is_paid: 1
                     },
                     {
@@ -11001,13 +11001,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 12.2",
                         class_type: "",
-                        register_time: "01/06/208",
+                        register_time: "01/06/2016",
                         code: "CM000001",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 10000,
                         received_id_card: 0,
                         note: "test",
-                        paid_time: "04/09/208",
+                        paid_time: "04/09/2016",
                         is_paid: 1
                     },
                     {
@@ -11015,13 +11015,13 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 12.3",
                         class_type: "",
-                        register_time: "01/06/208",
+                        register_time: "01/06/2016",
                         code: "CM00002",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 2000,
                         received_id_card: 0,
                         note: "tét sms nhé",
-                        paid_time: "04/09/208",
+                        paid_time: "04/09/2016",
                         is_paid: 1
                     },
                     {
@@ -11029,13 +11029,13 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 14.2",
                         class_type: "",
-                        register_time: "11/07/208",
+                        register_time: "11/07/2016",
                         code: "CM01002",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 1,
                         received_id_card: 0,
                         note: "hihi",
-                        paid_time: "18/09/208",
+                        paid_time: "18/09/2016",
                         is_paid: 1
                     },
                     {
@@ -11043,13 +11043,13 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "test",
                         class_type: "",
-                        register_time: "25/09/208",
+                        register_time: "25/09/2016",
                         code: "CCM0077",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
                         received_id_card: 0,
                         note: "123",
-                        paid_time: "04/12/208",
+                        paid_time: "04/12/2016",
                         is_paid: 1
                     },
                     {
@@ -11057,13 +11057,13 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 16.1",
                         class_type: "",
-                        register_time: "26/09/208",
+                        register_time: "26/09/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
                         received_id_card: 0,
                         note: "test",
-                        paid_time: "29/03/208",
+                        paid_time: "29/03/2016",
                         is_paid: 0
                     },
                     {
@@ -11071,13 +11071,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 18.7",
                         class_type: "",
-                        register_time: "15/11/208",
+                        register_time: "15/11/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "test",
-                        paid_time: "27/11/208",
+                        paid_time: "27/11/2016",
                         is_paid: 0
                     },
                     {
@@ -11085,13 +11085,13 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE - Danh Sách Chờ (Cơ sở 1)",
                         class_type: "",
-                        register_time: "13/07/208",
+                        register_time: "13/07/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
                         received_id_card: 0,
                         note: "chưa đưa thẻ, gá người quen: 750",
-                        paid_time: "04/08/208",
+                        paid_time: "04/08/2016",
                         is_paid: 0
                     },
                     {
@@ -11099,13 +11099,13 @@ export function getDataMoneyCollect() {
                         course: "InDesign",
                         class_name: "ID - Khoá Sau (Danh Sách Chờ)",
                         class_type: "",
-                        register_time: "17/07/208",
+                        register_time: "17/07/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/148144089SyPRLsY5aXZOL6d.jpg",
+                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "ck",
-                        paid_time: "18/08/208",
+                        paid_time: "18/08/2016",
                         is_paid: 0
                     },
                     {
@@ -11113,7 +11113,7 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE - Danh Sách Chờ (Cơ sở 1)",
                         class_type: "waiting",
-                        register_time: "02/12/208",
+                        register_time: "02/12/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
@@ -11128,7 +11128,7 @@ export function getDataMoneyCollect() {
                 id: 82,
                 name: "Nguyễn Hải Anh",
                 avatar_url: "http://manageapi.colorme.vn/img/user.png",
-                phone: "0899181850",
+                phone: "01699181850",
                 email: "haianhvu224bmf@hotmail.com",
                 registers: [
                     {
@@ -11136,7 +11136,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.5",
                         class_type: "",
-                        register_time: "16/02/208",
+                        register_time: "16/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -11159,13 +11159,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.3",
                         class_type: "",
-                        register_time: "16/02/208",
+                        register_time: "16/02/2016",
                         code: "CM09018",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 650000,
                         received_id_card: 0,
                         note: "",
-                        paid_time: "17/02/208",
+                        paid_time: "17/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11173,7 +11173,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.3",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11196,13 +11196,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "16/02/208",
+                        register_time: "16/02/2016",
                         code: "CM09017",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 600000,
                         received_id_card: 0,
                         note: "",
-                        paid_time: "17/02/208",
+                        paid_time: "17/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11210,7 +11210,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11224,7 +11224,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11247,7 +11247,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.1",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -11270,7 +11270,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.1",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -11293,13 +11293,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.5",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "CM09040",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "học lại",
-                        paid_time: "18/02/208",
+                        paid_time: "18/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11307,13 +11307,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.3",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "CM09041",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "học lại",
-                        paid_time: "18/02/208",
+                        paid_time: "18/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11321,13 +11321,13 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 9.2",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "CM09042",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 800000,
                         received_id_card: 0,
                         note: "",
-                        paid_time: "18/02/208",
+                        paid_time: "18/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11335,7 +11335,7 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 9.2",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
@@ -11358,13 +11358,13 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 9.1",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "CM09057",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 800000,
                         received_id_card: 0,
                         note: "",
-                        paid_time: "18/02/208",
+                        paid_time: "18/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11372,7 +11372,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 17.5",
                         class_type: "",
-                        register_time: "04/11/208",
+                        register_time: "04/11/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -11395,7 +11395,7 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 9.1",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
@@ -11418,7 +11418,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11432,7 +11432,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11446,7 +11446,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11461,7 +11461,7 @@ export function getDataMoneyCollect() {
                 id: 134,
                 name: "Lê Xuân Huy",
                 avatar_url: "http://manageapi.colorme.vn/img/user.png",
-                phone: "0867187383",
+                phone: "01667187383",
                 email: "skydevil1102@hotmail.com",
                 registers: [
                     {
@@ -11469,13 +11469,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "CM09102",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 600000,
                         received_id_card: 0,
                         note: "CK",
-                        paid_time: "19/02/208",
+                        paid_time: "19/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11483,7 +11483,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11506,13 +11506,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.4",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "CM09178",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 500000,
                         received_id_card: 0,
                         note: "học bổng 50%",
-                        paid_time: "26/02/208",
+                        paid_time: "26/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11520,7 +11520,7 @@ export function getDataMoneyCollect() {
                         course: "Premiere",
                         class_name: "PR Dành riêng cho doanh nghiệp",
                         class_type: "",
-                        register_time: "23/03/208",
+                        register_time: "23/03/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
                         money: 0,
@@ -11535,7 +11535,7 @@ export function getDataMoneyCollect() {
                 id: 146,
                 name: "Nguyễn Thị Vân Anh",
                 avatar_url: "http://manageapi.colorme.vn/img/user.png",
-                phone: "0865599473",
+                phone: "01665599473",
                 email: "VanAnhNT95@hotmail.com",
                 registers: [
                     {
@@ -11543,7 +11543,7 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 9.1",
                         class_type: "",
-                        register_time: "17/02/208",
+                        register_time: "17/02/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
@@ -11557,7 +11557,7 @@ export function getDataMoneyCollect() {
                         course: "After Effects",
                         class_name: "AE 9.3",
                         class_type: "",
-                        register_time: "28/02/208",
+                        register_time: "28/02/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
                         money: 0,
@@ -11580,13 +11580,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.1",
                         class_type: "",
-                        register_time: "18/02/208",
+                        register_time: "18/02/2016",
                         code: "CM09063",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 750000,
                         received_id_card: 0,
                         note: "Repost",
-                        paid_time: "18/02/208",
+                        paid_time: "18/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11594,7 +11594,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.1",
                         class_type: "",
-                        register_time: "18/02/208",
+                        register_time: "18/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -11617,13 +11617,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.3",
                         class_type: "",
-                        register_time: "18/02/208",
+                        register_time: "18/02/2016",
                         code: "CM09070",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 600000,
                         received_id_card: 0,
                         note: "",
-                        paid_time: "18/02/208",
+                        paid_time: "18/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11631,13 +11631,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 9.2",
                         class_type: "",
-                        register_time: "18/02/208",
+                        register_time: "18/02/2016",
                         code: "CM09071",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "Học Lại",
-                        paid_time: "18/02/208",
+                        paid_time: "18/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11645,13 +11645,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 14.2",
                         class_type: "",
-                        register_time: "18/07/208",
+                        register_time: "18/07/2016",
                         code: "CM14193",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "Ai 9.3 học lại",
-                        paid_time: "18/07/208",
+                        paid_time: "18/07/2016",
                         is_paid: 1
                     },
                     {
@@ -11659,13 +11659,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 14.2",
                         class_type: "",
-                        register_time: "18/07/208",
+                        register_time: "18/07/2016",
                         code: "CM14194",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "Ps 9.2 học lại",
-                        paid_time: "18/07/208",
+                        paid_time: "18/07/2016",
                         is_paid: 1
                     },
                     {
@@ -11673,13 +11673,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 15.6",
                         class_type: "",
-                        register_time: "23/08/208",
+                        register_time: "23/08/2016",
                         code: "CM15245",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "PS 14.2 bảo lưu",
-                        paid_time: "23/08/208",
+                        paid_time: "23/08/2016",
                         is_paid: 1
                     },
                     {
@@ -11687,13 +11687,13 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS 23.2",
                         class_type: "",
-                        register_time: "15/03/208",
-                        code: "CM2208",
+                        register_time: "15/03/2016",
+                        code: "CM22016",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "học lại",
-                        paid_time: "16/03/208",
+                        paid_time: "16/03/2016",
                         is_paid: 1
                     },
                     {
@@ -11701,7 +11701,7 @@ export function getDataMoneyCollect() {
                         course: "Photoshop",
                         class_name: "PS - Danh Sách Chờ (Cơ sở 1)",
                         class_type: "",
-                        register_time: "14/08/208",
+                        register_time: "14/08/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
                         money: 0,
@@ -11716,7 +11716,7 @@ export function getDataMoneyCollect() {
                 id: 182,
                 name: "Nguyễn Thu Oanh",
                 avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1459940355DDfoHjMbCE4XAfd.jpg",
-                phone: "086 6263 151",
+                phone: "0166 6263 151",
                 email: "oanhnto1601@hotmail.com",
                 registers: [
                     {
@@ -11724,7 +11724,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "19/02/208",
+                        register_time: "19/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11738,13 +11738,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.4",
                         class_type: "",
-                        register_time: "21/02/208",
+                        register_time: "21/02/2016",
                         code: "CM09106",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 700000,
                         received_id_card: 0,
                         note: "",
-                        paid_time: "21/02/208",
+                        paid_time: "21/02/2016",
                         is_paid: 1
                     }
                 ]
@@ -11761,7 +11761,7 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.4",
                         class_type: "",
-                        register_time: "19/02/208",
+                        register_time: "19/02/2016",
                         code: "",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 0,
@@ -11775,13 +11775,13 @@ export function getDataMoneyCollect() {
                         course: "Illustrator",
                         class_name: "AI 9.5",
                         class_type: "",
-                        register_time: "21/02/208",
+                        register_time: "21/02/2016",
                         code: "CM09169",
                         icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
                         money: 750000,
                         received_id_card: 0,
                         note: "Share event",
-                        paid_time: "25/02/208",
+                        paid_time: "25/02/2016",
                         is_paid: 1
                     },
                     {
@@ -11789,7 +11789,7 @@ export function getDataMoneyCollect() {
                         course: "Photography",
                         class_name: "PT 30.4",
                         class_type: "",
-                        register_time: "14/11/208",
+                        register_time: "14/11/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
                         money: 0,
@@ -11803,7 +11803,7 @@ export function getDataMoneyCollect() {
                         course: "Photography",
                         class_name: "PT - Khoá Sau (Danh Sách Chờ)",
                         class_type: "waiting",
-                        register_time: "19/11/208",
+                        register_time: "19/11/2016",
                         code: "",
                         icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
                         money: 0,
