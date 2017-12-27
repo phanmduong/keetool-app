@@ -10,7 +10,6 @@ import HamburgerButton from '../../commons/HamburgerButton';
 import {connect} from 'react-redux'
 import {Col, Grid} from "react-native-easy-grid";
 import Loading from '../../commons/Loading';
-import general from '../../styles/generalStyle';
 
 class RegisterContainer extends Component {
     constructor() {
@@ -65,7 +64,7 @@ class RegisterContainer extends Component {
 
 
     ShowTab() {
-        const {colors, shift_sessions, shift_register} = this.props;
+        const {colors, shift_sessions, shift_register, general} = this.props;
         const {isLoading} = this.state;
         switch (this.state.tab) {
             case 0:

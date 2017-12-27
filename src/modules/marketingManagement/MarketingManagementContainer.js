@@ -8,7 +8,6 @@ import Icon from '../../commons/Icon';
 import {Col, Grid} from "react-native-easy-grid";
 import Loading from '../../commons/Loading';
 import Communications from 'react-native-communications';
-import PercentageCircle from 'react-native-percentage-circle';
 
 class MarketingManagementContainer extends Component {
     constructor() {
@@ -137,46 +136,44 @@ class MarketingManagementContainer extends Component {
                                         <Grid
                                             style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                             <Col style={general.paddingRight}>
-                                                <Text style={general.textDescriptionCardLight}>Caller</Text>
+                                                <Text style={general.textDescriptionCard}>Caller</Text>
                                             </Col>
                                             <Col>
-                                                <Text style={general.textDescriptionCardLight}>Student</Text>
+                                                <Text style={general.textDescriptionCard}>Student</Text>
                                             </Col>
                                             <Col>
-                                                <Text style={general.textDescriptionCardLight}>Phone</Text>
+                                                <Text style={general.textDescriptionCard}>Phone</Text>
                                             </Col>
                                         </Grid>
                                     </View>
 
-                                    <FlatList
-                                        showsVerticalScrollIndicator={false}
-                                        data={tele_call}
-                                        renderItem={({item}) =>
+                                    {
+                                        tele_call.map((item, i) =>
                                             <TouchableOpacity
+                                                key={i}
                                                 onPress={() => this.setModalTeleSaleHistory(true, item)}
                                             >
                                                 <Grid
                                                     style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                                     <Col style={general.paddingRight}>
                                                         <Text><Text
-                                                            style={[general.textDescriptionCardLight,
+                                                            style={[general.textDescriptionCard,
                                                                 // {backgroundColor: `#${item.caller.color}`}
-                                                                ]}
+                                                            ]}
                                                         >{item.caller.name}</Text></Text>
                                                     </Col>
                                                     <Col>
                                                         <Text
-                                                            style={general.textDescriptionCardLight}>{item.student.name}</Text>
+                                                            style={general.textDescriptionCard}>{item.student.name}</Text>
                                                     </Col>
                                                     <Col>
                                                         <Text
-                                                            style={general.textDescriptionCardLight}>{item.student.phone}</Text>
+                                                            style={general.textDescriptionCard}>{item.student.phone}</Text>
                                                     </Col>
                                                 </Grid>
                                             </TouchableOpacity>
-
-                                        }
-                                    />
+                                        )
+                                    }
 
                                     <Modal
                                         presentationStyle="overFullScreen"
@@ -200,7 +197,9 @@ class MarketingManagementContainer extends Component {
 
                                                         <Text style={general.textDescriptionCardLight}>
                                                             Caller: <Text
-                                                            style={[general.textDescriptionCardLight, general.buttonUser, {backgroundColor: `#${tele_calls.caller.color}`}]}>{tele_calls.caller.name}</Text></Text>
+                                                            style={[general.textDescriptionCardLight, general.buttonUser
+                                                                // , {backgroundColor: `#${tele_calls.caller.color}`}
+                                                            ]}>{tele_calls.caller.name}</Text></Text>
                                                         <Text/>
 
                                                     </View>
@@ -271,7 +270,7 @@ class MarketingManagementContainer extends Component {
                                                         <Text><Text
                                                             style={[general.textDescriptionCardLight,
                                                                 // {backgroundColor: `#${item.color}`}
-                                                                ]}>{item.name}</Text></Text>
+                                                            ]}>{item.name}</Text></Text>
                                                     </Col>
                                                 </Grid>
                                             </TouchableOpacity>
@@ -342,18 +341,18 @@ class MarketingManagementContainer extends Component {
                         <Content horizontal={true}
                                  showsHorizontalScrollIndicator={false}>
                             {/*<TouchableOpacity onPress={() => this.ViewTeleSale()}*/}
-                                              {/*style={{height: 30}}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 0*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
-                                    {/*<Text style={this.state.tab === 0 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Telesale*/}
-                                    {/*</Text>*/}
-                                {/*</View>*/}
+                            {/*style={{height: 30}}>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 0*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
+                            {/*<Text style={this.state.tab === 0 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Telesale*/}
+                            {/*</Text>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
 
                             <TouchableOpacity onPress={() => this.ViewTeleSaleHistory()}
@@ -372,20 +371,20 @@ class MarketingManagementContainer extends Component {
                             </TouchableOpacity>
 
                             {/*<TouchableOpacity onPress={() => this.ViewStudents()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 2*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 2*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Students*/}
-                                    {/*</Text>*/}
+                            {/*<Text*/}
+                            {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Students*/}
+                            {/*</Text>*/}
 
-                                {/*</View>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
                             <TouchableOpacity onPress={() => this.ViewCampaigns()}>
                                 <View style={
@@ -404,36 +403,36 @@ class MarketingManagementContainer extends Component {
                                 </View>
                             </TouchableOpacity>
                             {/*<TouchableOpacity onPress={() => this.ViewSales()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 4*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 4*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Sales*/}
-                                    {/*</Text>*/}
+                            {/*<Text*/}
+                            {/*style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Sales*/}
+                            {/*</Text>*/}
 
-                                {/*</View>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
                             {/*<TouchableOpacity onPress={() => this.ViewSummary()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 5*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
+                            {/*<View style={*/}
+                            {/*this.state.tab === 5*/}
+                            {/*?*/}
+                            {/*general.wrapperMenuTextIsActive*/}
+                            {/*:*/}
+                            {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*Summary*/}
-                                    {/*</Text>*/}
+                            {/*<Text*/}
+                            {/*style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>*/}
+                            {/*Summary*/}
+                            {/*</Text>*/}
 
-                                {/*</View>*/}
+                            {/*</View>*/}
                             {/*</TouchableOpacity>*/}
                         </Content>
                     </View>

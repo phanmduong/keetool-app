@@ -304,34 +304,34 @@ import Loading from '../../commons/Loading';
                                 <Text style={this.state.tab === 0 ? general.textIstActive : general.textNotActive}>Dashboard</Text>
                             </View>
                         </TouchableOpacity>
-                        <TouchableOpacity onPress={() => this.ViewBlog()}>
-                            <View style={
-                                this.state.tab === 1
-                                    ?
-                                    general.wrapperMenuTextIsActive
-                                    :
-                                    general.wrapperMenuTextNotActive
-                            }>
+                        {/*<TouchableOpacity onPress={() => this.ViewBlog()}>*/}
+                            {/*<View style={*/}
+                                {/*this.state.tab === 1*/}
+                                    {/*?*/}
+                                    {/*general.wrapperMenuTextIsActive*/}
+                                    {/*:*/}
+                                    {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                <Text
-                                    style={this.state.tab === 1 ? general.textIstActive : general.textNotActive}>Blog</Text>
+                                {/*<Text*/}
+                                    {/*style={this.state.tab === 1 ? general.textIstActive : general.textNotActive}>Blog</Text>*/}
 
-                            </View>
-                        </TouchableOpacity>
-                        <TouchableOpacity onPress={() => this.ViewCard()}>
-                            <View style={
-                                this.state.tab === 2
-                                    ?
-                                    general.wrapperMenuTextIsActive
-                                    :
-                                    general.wrapperMenuTextNotActive
-                            }>
+                            {/*</View>*/}
+                        {/*</TouchableOpacity>*/}
+                        {/*<TouchableOpacity onPress={() => this.ViewCard()}>*/}
+                            {/*<View style={*/}
+                                {/*this.state.tab === 2*/}
+                                    {/*?*/}
+                                    {/*general.wrapperMenuTextIsActive*/}
+                                    {/*:*/}
+                                    {/*general.wrapperMenuTextNotActive*/}
+                            {/*}>*/}
 
-                                <Text
-                                    style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>Cards</Text>
+                                {/*<Text*/}
+                                    {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>Cards</Text>*/}
 
-                            </View>
-                        </TouchableOpacity>
+                            {/*</View>*/}
+                        {/*</TouchableOpacity>*/}
                     </View>
                     {this.ShowTab()}
 
