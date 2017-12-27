@@ -33,7 +33,7 @@ class MapContainer extends Component {
         }
     }
 
-    watchID: ? number = null;
+    watchID: ?number = null;
 
     componentWillMount() {
         navigator.geolocation.clearWatch(this.watchID);
@@ -43,8 +43,6 @@ class MapContainer extends Component {
         navigator.geolocation.getCurrentPosition((position) => {
                 let lat = parseFloat(position.coords.latitude);
                 let long = parseFloat(position.coords.longitude);
-                // let lat = 21.0229925;
-                // let long = 105.7993911;
                 let initialRegion = {
                     latitude: lat,
                     longitude: long,
@@ -59,8 +57,6 @@ class MapContainer extends Component {
         this.watchID = navigator.geolocation.watchPosition((position) => {
             let lat = parseFloat(position.coords.latitude);
             let long = parseFloat(position.coords.longitude);
-            // let lat = 21.0229925;
-            // let long = 105.7993911;
             let lastRegion = {
                 latitude: lat,
                 longitude: long,
@@ -74,11 +70,7 @@ class MapContainer extends Component {
             this.setState({initialPosition: lastRegion, markerPosition: lastRegion});
             Geocoder.geocodePosition(NY).then(res => {
                 console.log(res)
-                this.setState({
-                    Address: res[0].formattedAddress,
-                    streetName: res[0].streetName,
-                    country: res[0].country
-                })
+                this.setState({Address: res[0].formattedAddress, streetName: res[0].streetName, country: res[0].country })
             })
                 .catch(err => console.log(err))
         })
