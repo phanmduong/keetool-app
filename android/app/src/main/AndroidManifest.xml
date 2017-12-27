@@ -18,6 +18,9 @@
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
       android:theme="@style/AppTheme">
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyDE2o6xtdR2eVieYMtJ2pZ9dC4e3gKwtkE"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
@@ -30,11 +33,6 @@
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
     </application>
-    <application>
-        <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
-        <meta-data
-                android:name="com.google.android.geo.API_KEY"
-                android:value="AIzaSyD33NOhTZj9CYyfB9eBkr7ockeNArEzU3I"/>
-    </application>
+
 
 </manifest>
