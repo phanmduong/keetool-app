@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
-import {
-    Text, TouchableOpacity, View, FlatList, Image, Modal, PanResponder
-} from 'react-native';
-import {
-    Container, Item, Left, Right, Spinner, Content
-} from 'native-base';
+import {FlatList, Image, PanResponder, Text, TouchableOpacity, View} from 'react-native';
+import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import {connect} from 'react-redux'
@@ -90,11 +86,10 @@ class RegisterContainer extends Component {
 
                                         </Grid>
                                     </View>
-                                    <FlatList
-                                        showsVerticalScrollIndicator={false}
-                                        data={shift_sessions}
-                                        renderItem={({item}) =>
+                                    {
+                                        shift_sessions.map((item, i) =>
                                             <TouchableOpacity
+                                                key={i}
                                                 onPress={() => this.setModalSubscriber(true)}
                                             >
                                                 <Grid
@@ -102,18 +97,18 @@ class RegisterContainer extends Component {
                                                     <Col>
                                                         <Text style={general.textDescriptionCard}>{item.name}</Text>
                                                     </Col>
-                                                     <Col>
-                                                        <Text style={general.textDescriptionCard}>{item.start_time}</Text>
+                                                    <Col>
+                                                        <Text
+                                                            style={general.textDescriptionCard}>{item.start_time}</Text>
                                                     </Col>
-                                                     <Col>
+                                                    <Col>
                                                         <Text style={general.textDescriptionCard}>{item.end_time}</Text>
                                                     </Col>
 
                                                 </Grid>
                                             </TouchableOpacity>
-
-                                        }
-                                    />
+                                        )
+                                    }
                                 </View>
                         }
                         <View style={general.wrapperBottomModule}/>
@@ -141,7 +136,7 @@ class RegisterContainer extends Component {
                                                 onPress={() => this.setModalSubscriber(true)}
                                             >
                                                 <View
-                                                    style={[general.wrapperCenter, general.marginRight ,general.shadow, {borderRadius: 15}]}>
+                                                    style={[general.wrapperCenter, general.marginRight, general.shadow, {borderRadius: 15}]}>
                                                     <View style={general.trelloCart}>
                                                         <View style={[general.headerModal, general.haveBorderBottom]}>
                                                             <Text style={general.textTitleCardDark}>
@@ -156,14 +151,16 @@ class RegisterContainer extends Component {
                                                                     <TouchableOpacity
                                                                         onPress={() => this.setModalSubscriber(true)}
                                                                     >
-                                                                        <View style={[general.wrapperItem, general.marginTop, general.wrapperRowCenter, general.paddingLR]}>
+                                                                        <View
+                                                                            style={[general.wrapperItem, general.marginTop, general.wrapperRowCenter, general.paddingLR]}>
                                                                             <Image
                                                                                 resizeMode={'cover'}
                                                                                 source={{uri: item.user.avatar_url}}
                                                                                 style={general.imageCircleNormal}
                                                                             />
                                                                             <View style={general.marginLeft}>
-                                                                                <Text style={general.textDescriptionCardDark}>
+                                                                                <Text
+                                                                                    style={general.textDescriptionCardDark}>
                                                                                     {item.user.name}
                                                                                 </Text>
                                                                             </View>
@@ -208,7 +205,6 @@ class RegisterContainer extends Component {
     render() {
         const {navigate} = this.props.navigation;
         const {colors, general} = this.props;
-
         return (
             <Container style={general.wrapperContainer}>
                 <LinearGradient
@@ -256,22 +252,22 @@ class RegisterContainer extends Component {
 
                                 </View>
                             </TouchableOpacity>
-                            <TouchableOpacity onPress={() => this.ViewHistory()}>
-                                <View style={
-                                    this.state.tab === 2
-                                        ?
-                                        general.wrapperMenuTextIsActive
-                                        :
-                                        general.wrapperMenuTextNotActive
-                                }>
+                            {/*<TouchableOpacity onPress={() => this.ViewHistory()}>*/}
+                                {/*<View style={*/}
+                                    {/*this.state.tab === 2*/}
+                                        {/*?*/}
+                                        {/*general.wrapperMenuTextIsActive*/}
+                                        {/*:*/}
+                                        {/*general.wrapperMenuTextNotActive*/}
+                                {/*}>*/}
 
-                                    <Text
-                                        style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>
-                                        History
-                                    </Text>
+                                    {/*<Text*/}
+                                        {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
+                                        {/*History*/}
+                                    {/*</Text>*/}
 
-                                </View>
-                            </TouchableOpacity>
+                                {/*</View>*/}
+                            {/*</TouchableOpacity>*/}
                         </Content>
                     </View>
 

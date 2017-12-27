@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FlatList, Modal, PanResponder, Text, TouchableOpacity, View} from 'react-native';
+import {Modal, PanResponder, Text, TouchableOpacity, View} from 'react-native';
 import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
@@ -254,29 +254,25 @@ class MarketingManagementContainer extends Component {
                                         <Grid
                                             style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                             <Col style={general.paddingRight}>
-                                                <Text style={general.textDescriptionCardLight}>Campaign</Text>
+                                                <Text style={general.textDescriptionCard}>Campaign</Text>
                                             </Col>
                                         </Grid>
                                     </View>
-                                    <FlatList
-                                        showsVerticalScrollIndicator={false}
-                                        data={marketing_campaigns}
-                                        renderItem={({item}) =>
-                                            <TouchableOpacity
-                                            >
+                                    {
+                                        marketing_campaigns.map((item, i) =>
+                                            <TouchableOpacity key={i}>
                                                 <Grid
                                                     style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                                     <Col style={general.paddingRight}>
                                                         <Text><Text
-                                                            style={[general.textDescriptionCardLight,
+                                                            style={[general.textDescriptionCard,
                                                                 // {backgroundColor: `#${item.color}`}
                                                             ]}>{item.name}</Text></Text>
                                                     </Col>
                                                 </Grid>
                                             </TouchableOpacity>
-
-                                        }
-                                    />
+                                        )
+                                    }
                                     <View style={general.wrapperBottomModule}/>
                                 </View>
                         }

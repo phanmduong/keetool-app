@@ -1,16 +1,13 @@
 import React, {Component} from 'react';
-import {
-    Text, TouchableOpacity, View, FlatList, Image, Modal, PanResponder
-} from 'react-native';
-import {
-    Container, Item, Left, Right, Spinner, Content,Input
-} from 'native-base';
+import {FlatList, Image, Modal, PanResponder, Text, TouchableOpacity, View} from 'react-native';
+import {Container, Content, Input, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import {connect} from 'react-redux'
 import {Col, Grid} from "react-native-easy-grid";
 import Loading from '../../commons/Loading';
 import Communications from 'react-native-communications'
+
 class EmailContainer extends Component {
     constructor() {
         super();
@@ -18,9 +15,9 @@ class EmailContainer extends Component {
             tab: 0,
             isLoading: false,
             modalMoneySubscriber: false,
-            modalContactEmail : false,
-            email : '',
-            bodyEmail : '',
+            modalContactEmail: false,
+            email: '',
+            bodyEmail: '',
         }
     }
 
@@ -69,17 +66,18 @@ class EmailContainer extends Component {
             modalMoneySubscriber: visible,
         })
     }
-    setModalContactEmail(visible, email){
+
+    setModalContactEmail(visible, email) {
         this.setState({
             modalContactEmail: visible,
-            email : email
+            email: email
         })
     }
-    modalEmailEndContact () {
-        this.setState({modalContactEmail : false});
-        Communications.email([this.state.email],null,null,'My Subject',this.state.bodyEmail);
-    }
 
+    modalEmailEndContact() {
+        this.setState({modalContactEmail: false});
+        Communications.email([this.state.email], null, null, 'My Subject', this.state.bodyEmail);
+    }
 
 
     ShowTab() {
@@ -102,31 +100,29 @@ class EmailContainer extends Component {
                                             </Col>
                                             <Col size={20}>
 
-                                            <Text style={general.textTitleCard}>Subscriber</Text>
+                                                <Text style={general.textTitleCard}>Subscriber</Text>
                                             </Col>
                                         </Grid>
                                     </View>
-                                    <FlatList
-                                        showsVerticalScrollIndicator={false}
-                                        data={subscribers_list}
-                                        renderItem={({item}) =>
+                                    {
+                                        subscribers_list.map((item, i) =>
                                             <TouchableOpacity
+                                                key={i}
                                                 onPress={() => this.setModalSubscriber(true)}
                                             >
                                                 <Grid
                                                     style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
                                                     <Col size={80}>
-
                                                         <Text style={general.textDescriptionCard}>{item.name}</Text>
                                                     </Col>
                                                     <Col style={{paddingLeft: 10}} size={20}>
-                                                        <Text style={general.textDescriptionCard}>{item.total_subscribers}</Text>
+                                                        <Text
+                                                            style={general.textDescriptionCard}>{item.total_subscribers}</Text>
                                                     </Col>
                                                 </Grid>
                                             </TouchableOpacity>
-
-                                        }
-                                    />
+                                        )
+                                    }
                                 </View>
                         }
                         <Modal
@@ -145,7 +141,7 @@ class EmailContainer extends Component {
                                             subscriber.map((item, i) =>
                                                 <TouchableOpacity
                                                     key={i}
-                                                    onPress = {() => this.setModalContactEmail(true, item.email)}
+                                                    onPress={() => this.setModalContactEmail(true, item.email)}
                                                     style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
                                                     <View style={[{flex: 1}, general.paddingLR]}>
                                                         <Text style={general.textIstActive}>{item.email}</Text>
@@ -194,42 +190,42 @@ class EmailContainer extends Component {
                             </Modal>
                         </Modal>
                         {/*<Modal*/}
-                            {/*presentationStyle="overFullScreen"*/}
-                            {/*animationType="fade"*/}
-                            {/*transparent={true}*/}
-                            {/*visible={this.state.modalContactEmail}*/}
+                        {/*presentationStyle="overFullScreen"*/}
+                        {/*animationType="fade"*/}
+                        {/*transparent={true}*/}
+                        {/*visible={this.state.modalContactEmail}*/}
                         {/*>*/}
-                            {/*<View*/}
-                                {/*style={general.wrapperModal}*/}
-                                {/*{...this.panResponder.panHandlers}*/}
-                            {/*>*/}
-                                {/*<View style={general.modalCart}>*/}
-                                    {/*<View style={[general.headerModal, general.haveBorderBottom]}>*/}
-                                        {/*<Text style={general.textTitleCardDark}>*/}
-                                            {/*CONTACT*/}
-                                        {/*</Text>*/}
-                                    {/*</View>*/}
-                                    {/*<View style={{flex: 1}}>*/}
-                                        {/*<Item>*/}
-                                            {/*<Input*/}
-                                                {/*style={general.inputTheme}*/}
-                                                {/*onChangeText={(bodyEmail) => {*/}
-                                                    {/*this.setState({bodyEmail})*/}
-                                                {/*}}*/}
-                                                {/*placeholder="content"*/}
-                                            {/*/>*/}
-                                        {/*</Item>*/}
-                                    {/*</View>*/}
-                                    {/*<TouchableOpacity*/}
-                                        {/*style={[general.bottomModal, general.haveBorderTop]}*/}
-                                        {/*onPress={() => {*/}
-                                                {/*this.modalEmailEndContact()*/}
-                                        {/*}}*/}
-                                    {/*>*/}
-                                        {/*<Text style={general.textTitleCardBlue}>+ Add</Text>*/}
-                                    {/*</TouchableOpacity>*/}
-                                {/*</View>*/}
-                            {/*</View>*/}
+                        {/*<View*/}
+                        {/*style={general.wrapperModal}*/}
+                        {/*{...this.panResponder.panHandlers}*/}
+                        {/*>*/}
+                        {/*<View style={general.modalCart}>*/}
+                        {/*<View style={[general.headerModal, general.haveBorderBottom]}>*/}
+                        {/*<Text style={general.textTitleCardDark}>*/}
+                        {/*CONTACT*/}
+                        {/*</Text>*/}
+                        {/*</View>*/}
+                        {/*<View style={{flex: 1}}>*/}
+                        {/*<Item>*/}
+                        {/*<Input*/}
+                        {/*style={general.inputTheme}*/}
+                        {/*onChangeText={(bodyEmail) => {*/}
+                        {/*this.setState({bodyEmail})*/}
+                        {/*}}*/}
+                        {/*placeholder="content"*/}
+                        {/*/>*/}
+                        {/*</Item>*/}
+                        {/*</View>*/}
+                        {/*<TouchableOpacity*/}
+                        {/*style={[general.bottomModal, general.haveBorderTop]}*/}
+                        {/*onPress={() => {*/}
+                        {/*this.modalEmailEndContact()*/}
+                        {/*}}*/}
+                        {/*>*/}
+                        {/*<Text style={general.textTitleCardBlue}>+ Add</Text>*/}
+                        {/*</TouchableOpacity>*/}
+                        {/*</View>*/}
+                        {/*</View>*/}
                         {/*</Modal>*/}
                         <View style={general.wrapperBottomModule}/>
                     </Content>
@@ -254,11 +250,10 @@ class EmailContainer extends Component {
                                             </Col>
                                         </Grid>
                                     </View>
-                                    <FlatList
-                                        showsVerticalScrollIndicator={false}
-                                        data={campaigns}
-                                        renderItem={({item}) =>
+                                    {
+                                        campaigns.map((item, i) =>
                                             <TouchableOpacity
+                                                key={i}
                                                 onPress={() => this.setModalSubscriber(true)}
                                             >
                                                 <Grid
@@ -267,13 +262,13 @@ class EmailContainer extends Component {
                                                         <Text style={general.textDescriptionCard}>{item.name}</Text>
                                                     </Col>
                                                     <Col style={{paddingLeft: 10}} size={20}>
-                                                        <Text style={general.textDescriptionCard}>{item.owner.name}</Text>
+                                                        <Text
+                                                            style={general.textDescriptionCard}>{item.owner.name}</Text>
                                                     </Col>
                                                 </Grid>
                                             </TouchableOpacity>
-
-                                        }
-                                    />
+                                        )
+                                    }
                                 </View>
                         }
                     </Content>
@@ -301,7 +296,8 @@ class EmailContainer extends Component {
                                                     source={{uri: item.thumbnail_url}}
                                                     style={general.imageFeature}
                                                 />
-                                                <View style={[general.marginTop, general.wrapperCenterLeftToRightColumn]}>
+                                                <View
+                                                    style={[general.marginTop, general.wrapperCenterLeftToRightColumn]}>
                                                     <Text style={general.textTitleCard}>{item.name.toUpperCase()}</Text>
                                                     <Text style={general.textDescriptionCard}>{item.owner.name}</Text>
                                                 </View>
@@ -333,11 +329,10 @@ class EmailContainer extends Component {
                                             </Col>
                                         </Grid>
                                     </View>
-                                    <FlatList
-                                        showsVerticalScrollIndicator={false}
-                                        data={email_forms}
-                                        renderItem={({item}) =>
+                                    {
+                                        email_forms.map((item, i) =>
                                             <TouchableOpacity
+                                                key={i}
                                                 onPress={() => this.setModalSubscriber(true)}
                                             >
                                                 <Grid
@@ -347,13 +342,14 @@ class EmailContainer extends Component {
                                                         <Text style={general.textDescriptionCard}>{item.name}</Text>
                                                     </Col>
                                                     <Col style={{paddingLeft: 10}} size={20}>
-                                                        <Text style={general.textDescriptionCard}>{item.creator.name}</Text>
+                                                        <Text
+                                                            style={general.textDescriptionCard}>{item.creator.name}</Text>
                                                     </Col>
                                                 </Grid>
                                             </TouchableOpacity>
-
+                                        )
                                         }
-                                    />
+
                                 </View>
                         }
                     </Content>
@@ -480,7 +476,6 @@ class EmailContainer extends Component {
 
                                 </View>
                             </TouchableOpacity>
-
 
 
                         </Content>
