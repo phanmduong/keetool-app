@@ -265,6 +265,7 @@ class BookStoreContainer extends Component {
                         <View style={general.paddingLR}>
                             {this.ShowTab()}
                         </View>
+                        <View style={general.wrapperBottomModule}/>
                     </Content>
                 </LinearGradient>
             </Container>

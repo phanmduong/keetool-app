@@ -1,5 +1,6 @@
 export const none = 'transparent';
 export const textColor = '#000000';
+export const loadingImage = 'rgba(224, 224, 224, 0.5)';
 export const themeColor = '#FFFFFF';
 export const colorGradient0 = '#FFFFFF';
 export const colorGradient1 = '#FFFFFF';

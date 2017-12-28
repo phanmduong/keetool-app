@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import {FlatList, Image, PanResponder, Text, TouchableOpacity, View} from 'react-native';
+import {Image, PanResponder, Text, TouchableOpacity, View} from 'react-native';
 import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import {connect} from 'react-redux'
 import {Col, Grid} from "react-native-easy-grid";
 import Loading from '../../commons/Loading';
+import ArrowDown from '../../commons/ArrowDown';
+import ArrowUp from '../../commons/ArrowUp';
 
 class RegisterContainer extends Component {
     constructor() {
@@ -97,12 +99,13 @@ class RegisterContainer extends Component {
                                                     <Col>
                                                         <Text style={general.textDescriptionCard}>{item.name}</Text>
                                                     </Col>
-                                                    <Col>
-                                                        <Text
-                                                            style={general.textDescriptionCard}>{item.start_time}</Text>
+                                                    <Col style={{flexDirection: 'row'}}>
+                                                        <ArrowUp/><Text
+                                                        style={general.textDescriptionCard}>{item.start_time}</Text>
                                                     </Col>
-                                                    <Col>
-                                                        <Text style={general.textDescriptionCard}>{item.end_time}</Text>
+                                                    <Col style={{flexDirection: 'row'}}>
+                                                        <ArrowDown/><Text
+                                                        style={general.textDescriptionCard}>{item.end_time}</Text>
                                                     </Col>
 
                                                 </Grid>
@@ -127,32 +130,33 @@ class RegisterContainer extends Component {
                                     showsHorizontalScrollIndicator={false}
                                     horizontal={true}
                                     style={{padding: 20}}>
-                                    <FlatList
-                                        showsVerticalScrollIndicator={false}
-                                        horizontal={true}
-                                        data={shift_register}
-                                        renderItem={({item}) =>
+                                    {
+                                        shift_register.map((item) =>
                                             <TouchableOpacity
                                                 onPress={() => this.setModalSubscriber(true)}
                                             >
                                                 <View
-                                                    style={[general.wrapperCenter, general.marginRight, general.shadow, {borderRadius: 15}]}>
-                                                    <View style={general.trelloCart}>
-                                                        <View style={[general.headerModal, general.haveBorderBottom]}>
-                                                            <Text style={general.textTitleCardDark}>
+                                                    style={[general.wrapperCenter, general.marginRight, general.shadow]}>
+                                                    <View>
+                                                        <View style={general.marginBottom}>
+                                                            <Text style={general.textTitleCard}>
                                                                 {item.date}
                                                             </Text>
                                                         </View>
-                                                        <View style={[general.contentTrello, {alignItems: 'center'}]}>
-                                                            <FlatList
-                                                                showsVerticalScrollIndicator={false}
-                                                                data={item.shifts}
-                                                                renderItem={({item}) =>
+                                                        <View style={[general.contentTrello, {
+                                                            alignItems: 'center',
+                                                            backgroundColor: 'transparent'
+                                                        }]}>
+                                                            {
+                                                                item.shifts.map((item) =>
                                                                     <TouchableOpacity
                                                                         onPress={() => this.setModalSubscriber(true)}
                                                                     >
                                                                         <View
-                                                                            style={[general.wrapperItem, general.marginTop, general.wrapperRowCenter, general.paddingLR]}>
+                                                                            style={[general.wrapperItem, general.wrapperRowCenter, {
+                                                                                backgroundColor: 'transparent',
+                                                                                width: 200
+                                                                            }]}>
                                                                             <Image
                                                                                 resizeMode={'cover'}
                                                                                 source={{uri: item.user.avatar_url}}
@@ -160,22 +164,20 @@ class RegisterContainer extends Component {
                                                                             />
                                                                             <View style={general.marginLeft}>
                                                                                 <Text
-                                                                                    style={general.textDescriptionCardDark}>
+                                                                                    style={general.textDescriptionCard}>
                                                                                     {item.user.name}
                                                                                 </Text>
                                                                             </View>
 
                                                                         </View>
                                                                     </TouchableOpacity>
-                                                                }
-                                                            />
+                                                                )
+                                                            }
                                                         </View>
                                                     </View>
                                                 </View>
                                             </TouchableOpacity>
-
-                                        }
-                                    />
+                                        )}
                                 </Content>
                         }
                     </View>
@@ -253,22 +255,6 @@ class RegisterContainer extends Component {
 
                                 </View>
                             </TouchableOpacity>
-                            {/*<TouchableOpacity onPress={() => this.ViewHistory()}>*/}
-                                {/*<View style={*/}
-                                    {/*this.state.tab === 2*/}
-                                        {/*?*/}
-                                        {/*general.wrapperMenuTextIsActive*/}
-                                        {/*:*/}
-                                        {/*general.wrapperMenuTextNotActive*/}
-                                {/*}>*/}
-
-                                    {/*<Text*/}
-                                        {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
-                                        {/*History*/}
-                                    {/*</Text>*/}
-
-                                {/*</View>*/}
-                            {/*</TouchableOpacity>*/}
                         </Content>
                     </View>
 

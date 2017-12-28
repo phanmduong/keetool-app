@@ -60,7 +60,7 @@ export function getDataShiftRegister() {
                             id: 3331,
                             name: "Lý Hà Thanh",
                             color: "F62359",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                            avatar_url: "https://media.toofab.com/2017/04/13/macgyver-tristan-may-main-480x360.jpg"
                         },
                         date: "Thứ hai - 18/12/2016",
                         week: 1,
@@ -81,7 +81,7 @@ export function getDataShiftRegister() {
                             id: 1947,
                             name: "Lan Hương",
                             color: "78CEFF",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                            avatar_url: "https://img.buzzfeed.com/buzzfeed-static/static/2014-04/tmp/webdr02/2/17/0e7cd6da3ce720d983515a9ab831a530-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"
                         },
                         date: "Thứ hai - 18/12/2016",
                         week: 1,
@@ -102,7 +102,7 @@ export function getDataShiftRegister() {
                             id: 1947,
                             name: "Lan Hương",
                             color: "78CEFF",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                            avatar_url: "https://img.buzzfeed.com/buzzfeed-static/static/2014-04/tmp/webdr02/2/17/0e7cd6da3ce720d983515a9ab831a530-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"
                         },
                         date: "Thứ hai - 18/12/2016",
                         week: 1,
@@ -123,7 +123,7 @@ export function getDataShiftRegister() {
                             id: 1947,
                             name: "Lan Hương",
                             color: "78CEFF",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                            avatar_url: "https://img.buzzfeed.com/buzzfeed-static/static/2014-04/tmp/webdr02/2/17/0e7cd6da3ce720d983515a9ab831a530-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"
                         },
                         date: "Thứ hai - 18/12/2016",
                         week: 1,
@@ -144,7 +144,7 @@ export function getDataShiftRegister() {
                             id: 5063,
                             name: "Lê Khánh Linh",
                             color: "00bcd4",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
+                            avatar_url: "https://engineering.unl.edu/images/staff/Kayla_Person-small.jpg"
                         },
                         date: "Thứ hai - 18/12/2016",
                         week: 1,
@@ -170,7 +170,7 @@ export function getDataShiftRegister() {
                             id: 3331,
                             name: "Lý Hà Thanh",
                             color: "F62359",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                            avatar_url: "https://media.toofab.com/2017/04/13/macgyver-tristan-may-main-480x360.jpg"
                         },
                         date: "Thứ ba - 19/12/2016",
                         week: 1,
@@ -191,7 +191,7 @@ export function getDataShiftRegister() {
                             id: 3331,
                             name: "Lý Hà Thanh",
                             color: "F62359",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                            avatar_url: "https://media.toofab.com/2017/04/13/macgyver-tristan-may-main-480x360.jpg"
                         },
                         date: "Thứ ba - 19/12/2016",
                         week: 1,
@@ -212,7 +212,7 @@ export function getDataShiftRegister() {
                             id: 3331,
                             name: "Lý Hà Thanh",
                             color: "F62359",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                            avatar_url: "https://media.toofab.com/2017/04/13/macgyver-tristan-may-main-480x360.jpg"
                         },
                         date: "Thứ ba - 19/12/2016",
                         week: 1,
@@ -233,7 +233,7 @@ export function getDataShiftRegister() {
                             id: 3331,
                             name: "Lý Hà Thanh",
                             color: "F62359",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                            avatar_url: "https://media.toofab.com/2017/04/13/macgyver-tristan-may-main-480x360.jpg"
                         },
                         date: "Thứ ba - 19/12/2016",
                         week: 1,
@@ -280,7 +280,7 @@ export function getDataShiftRegister() {
                             id: 6083,
                             name: "Vũ Hà Thu",
                             color: "009688",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                            avatar_url: "http://blog.univ-angers.fr/mariong/files/2016/04/malala-yousafzai-2.jpg"
                         },
                         date: "Thứ tư - 20/12/2016",
                         week: 1,
@@ -301,7 +301,7 @@ export function getDataShiftRegister() {
                             id: 6083,
                             name: "Vũ Hà Thu",
                             color: "009688",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                            avatar_url: "http://blog.univ-angers.fr/mariong/files/2016/04/malala-yousafzai-2.jpg"
                         },
                         date: "Thứ tư - 20/12/2016",
                         week: 1,
@@ -322,7 +322,7 @@ export function getDataShiftRegister() {
                             id: 6083,
                             name: "Vũ Hà Thu",
                             color: "009688",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                            avatar_url: "http://blog.univ-angers.fr/mariong/files/2016/04/malala-yousafzai-2.jpg"
                         },
                         date: "Thứ tư - 20/12/2016",
                         week: 1,
@@ -343,7 +343,7 @@ export function getDataShiftRegister() {
                             id: 1947,
                             name: "Lan Hương",
                             color: "78CEFF",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                            avatar_url: "https://img.buzzfeed.com/buzzfeed-static/static/2014-04/tmp/webdr02/2/17/0e7cd6da3ce720d983515a9ab831a530-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"
                         },
                         date: "Thứ tư - 20/12/2016",
                         week: 1,
@@ -388,9 +388,9 @@ export function getDataShiftRegister() {
                         name: "Ca 1",
                         user: {
                             id: 3290,
-                            name: "Nguyễn Mỹ Linh",
+                            name: "Nguyễn Minh ",
                             color: "c0ca33",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                            avatar_url: "http://cdn.playbuzz.com/cdn/8903d858-fabb-4e76-b60a-254719a7e593/44203791-c3dc-4ec8-8d0a-9542826f8f5f.jpg"
                         },
                         date: "Thứ năm - 21/12/2016",
                         week: 1,
@@ -409,9 +409,9 @@ export function getDataShiftRegister() {
                         name: "Ca 2",
                         user: {
                             id: 3290,
-                            name: "Nguyễn Mỹ Linh",
+                            name: "Nguyễn Minh ",
                             color: "c0ca33",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                            avatar_url: "http://cdn.playbuzz.com/cdn/8903d858-fabb-4e76-b60a-254719a7e593/44203791-c3dc-4ec8-8d0a-9542826f8f5f.jpg"
                         },
                         date: "Thứ năm - 21/12/2016",
                         week: 1,
@@ -430,9 +430,9 @@ export function getDataShiftRegister() {
                         name: "Ca 3",
                         user: {
                             id: 3290,
-                            name: "Nguyễn Mỹ Linh",
+                            name: "Nguyễn Minh ",
                             color: "c0ca33",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                            avatar_url: "http://cdn.playbuzz.com/cdn/8903d858-fabb-4e76-b60a-254719a7e593/44203791-c3dc-4ec8-8d0a-9542826f8f5f.jpg"
                         },
                         date: "Thứ năm - 21/12/2016",
                         week: 1,
@@ -451,9 +451,9 @@ export function getDataShiftRegister() {
                         name: "Ca 4",
                         user: {
                             id: 3290,
-                            name: "Nguyễn Mỹ Linh",
+                            name: "Nguyễn Minh ",
                             color: "c0ca33",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                            avatar_url: "http://cdn.playbuzz.com/cdn/8903d858-fabb-4e76-b60a-254719a7e593/44203791-c3dc-4ec8-8d0a-9542826f8f5f.jpg"
                         },
                         date: "Thứ năm - 21/12/2016",
                         week: 1,
@@ -472,9 +472,9 @@ export function getDataShiftRegister() {
                         name: "Ca 5",
                         user: {
                             id: 3290,
-                            name: "Nguyễn Mỹ Linh",
+                            name: "Nguyễn Minh ",
                             color: "c0ca33",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                            avatar_url: "http://cdn.playbuzz.com/cdn/8903d858-fabb-4e76-b60a-254719a7e593/44203791-c3dc-4ec8-8d0a-9542826f8f5f.jpg"
                         },
                         date: "Thứ năm - 21/12/2016",
                         week: 1,
@@ -498,9 +498,9 @@ export function getDataShiftRegister() {
                         name: "Ca 1",
                         user: {
                             id: 3290,
-                            name: "Nguyễn Mỹ Linh",
+                            name: "Nguyễn Minh ",
                             color: "c0ca33",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/150039760761mrCMAtbCS5W3I.jpg"
+                            avatar_url: "http://cdn.playbuzz.com/cdn/8903d858-fabb-4e76-b60a-254719a7e593/44203791-c3dc-4ec8-8d0a-9542826f8f5f.jpg"
                         },
                         date: "Thứ sáu - 22/12/2016",
                         week: 1,
@@ -521,7 +521,7 @@ export function getDataShiftRegister() {
                             id: 6083,
                             name: "Vũ Hà Thu",
                             color: "009688",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                            avatar_url: "http://blog.univ-angers.fr/mariong/files/2016/04/malala-yousafzai-2.jpg"
                         },
                         date: "Thứ sáu - 22/12/2016",
                         week: 1,
@@ -542,7 +542,7 @@ export function getDataShiftRegister() {
                             id: 6083,
                             name: "Vũ Hà Thu",
                             color: "009688",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                            avatar_url: "http://blog.univ-angers.fr/mariong/files/2016/04/malala-yousafzai-2.jpg"
                         },
                         date: "Thứ sáu - 22/12/2016",
                         week: 1,
@@ -563,7 +563,7 @@ export function getDataShiftRegister() {
                             id: 6083,
                             name: "Vũ Hà Thu",
                             color: "009688",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1512989175907SJhfzZpCaeuB.jpg"
+                            avatar_url: "http://blog.univ-angers.fr/mariong/files/2016/04/malala-yousafzai-2.jpg"
                         },
                         date: "Thứ sáu - 22/12/2016",
                         week: 1,
@@ -584,7 +584,7 @@ export function getDataShiftRegister() {
                             id: 3331,
                             name: "Lý Hà Thanh",
                             color: "F62359",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1511248240GDLohfsbug6WZw5.jpg"
+                            avatar_url: "https://media.toofab.com/2017/04/13/macgyver-tristan-may-main-480x360.jpg"
                         },
                         date: "Thứ sáu - 22/12/2016",
                         week: 1,
@@ -610,7 +610,7 @@ export function getDataShiftRegister() {
                             id: 1947,
                             name: "Lan Hương",
                             color: "78CEFF",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                            avatar_url: "https://img.buzzfeed.com/buzzfeed-static/static/2014-04/tmp/webdr02/2/17/0e7cd6da3ce720d983515a9ab831a530-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"
                         },
                         date: "Thứ bảy - 23/12/2016",
                         week: 1,
@@ -631,7 +631,7 @@ export function getDataShiftRegister() {
                             id: 1947,
                             name: "Lan Hương",
                             color: "78CEFF",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504588259ieqC2oP0im0nA7u.jpg"
+                            avatar_url: "https://img.buzzfeed.com/buzzfeed-static/static/2014-04/tmp/webdr02/2/17/0e7cd6da3ce720d983515a9ab831a530-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"
                         },
                         date: "Thứ bảy - 23/12/2016",
                         week: 1,
@@ -650,9 +650,9 @@ export function getDataShiftRegister() {
                         name: "Ca 3",
                         user: {
                             id: 6079,
-                            name: "Phương Thảo",
+                            name: "Phương Na",
                             color: "8bc34a",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                            avatar_url: "http://timedotcom.files.wordpress.com/2017/04/time-100-2017-emma-stone.jpg?quality=85&crop=0px%2C197px%2C1988px%2C1988px&resize=600%2C600&strip&zoom=2"
                         },
                         date: "Thứ bảy - 23/12/2016",
                         week: 1,
@@ -671,9 +671,9 @@ export function getDataShiftRegister() {
                         name: "Ca 4",
                         user: {
                             id: 6079,
-                            name: "Phương Thảo",
+                            name: "Phương Na",
                             color: "8bc34a",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                            avatar_url: "http://timedotcom.files.wordpress.com/2017/04/time-100-2017-emma-stone.jpg?quality=85&crop=0px%2C197px%2C1988px%2C1988px&resize=600%2C600&strip&zoom=2"
                         },
                         date: "Thứ bảy - 23/12/2016",
                         week: 1,
@@ -692,9 +692,9 @@ export function getDataShiftRegister() {
                         name: "Ca 5",
                         user: {
                             id: 6079,
-                            name: "Phương Thảo",
+                            name: "Phương Na",
                             color: "8bc34a",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                            avatar_url: "http://timedotcom.files.wordpress.com/2017/04/time-100-2017-emma-stone.jpg?quality=85&crop=0px%2C197px%2C1988px%2C1988px&resize=600%2C600&strip&zoom=2"
                         },
                         date: "Thứ bảy - 23/12/2016",
                         week: 1,
@@ -718,9 +718,9 @@ export function getDataShiftRegister() {
                         name: "Ca 1",
                         user: {
                             id: 6079,
-                            name: "Phương Thảo",
+                            name: "Phương Na",
                             color: "8bc34a",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                            avatar_url: "http://timedotcom.files.wordpress.com/2017/04/time-100-2017-emma-stone.jpg?quality=85&crop=0px%2C197px%2C1988px%2C1988px&resize=600%2C600&strip&zoom=2"
                         },
                         date: "Chủ nhật - 24/12/2016",
                         week: 1,
@@ -739,9 +739,9 @@ export function getDataShiftRegister() {
                         name: "Ca 2",
                         user: {
                             id: 6079,
-                            name: "Phương Thảo",
+                            name: "Phương Na",
                             color: "8bc34a",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                            avatar_url: "http://timedotcom.files.wordpress.com/2017/04/time-100-2017-emma-stone.jpg?quality=85&crop=0px%2C197px%2C1988px%2C1988px&resize=600%2C600&strip&zoom=2"
                         },
                         date: "Chủ nhật - 24/12/2016",
                         week: 1,
@@ -760,9 +760,9 @@ export function getDataShiftRegister() {
                         name: "Ca 3",
                         user: {
                             id: 6079,
-                            name: "Phương Thảo",
+                            name: "Phương Na",
                             color: "8bc34a",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504991367mkr1ZVWIdhC1vsb.jpg"
+                            avatar_url: "http://timedotcom.files.wordpress.com/2017/04/time-100-2017-emma-stone.jpg?quality=85&crop=0px%2C197px%2C1988px%2C1988px&resize=600%2C600&strip&zoom=2"
                         },
                         date: "Chủ nhật - 24/12/2016",
                         week: 1,
@@ -783,7 +783,7 @@ export function getDataShiftRegister() {
                             id: 5063,
                             name: "Lê Khánh Linh",
                             color: "00bcd4",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
+                            avatar_url: "https://img.buzzfeed.com/buzzfeed-static/static/2014-04/tmp/webdr02/2/17/0e7cd6da3ce720d983515a9ab831a530-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"
                         },
                         date: "Chủ nhật - 24/12/2016",
                         week: 1,
@@ -804,7 +804,7 @@ export function getDataShiftRegister() {
                             id: 5063,
                             name: "Lê Khánh Linh",
                             color: "00bcd4",
-                            avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1504184015qBAFUAMtV3mePsS.jpg"
+                            avatar_url: "https://img.buzzfeed.com/buzzfeed-static/static/2014-04/tmp/webdr02/2/17/0e7cd6da3ce720d983515a9ab831a530-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"
                         },
                         date: "Chủ nhật - 24/12/2016",
                         week: 1,
@@ -1676,7 +1676,8 @@ export function getDataCampaign() {
         campaigns: [
             {
                 id: 149,
-                name: " - NHỮNG CONCEPT THIẾT KẾ SLIDES",
+                url: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9d09b842112717.5607131ca485f.jpg",
+                name: "NHỮNG CONCEPT THIẾT KẾ SLIDES",
                 subject: "NHỮNG CONCEPT THIẾT KẾ SLIDES",
                 owner: {
                     id: 313,
@@ -1701,6 +1702,7 @@ export function getDataCampaign() {
             },
             {
                 id: 148,
+                url: "https://s-i.huffpost.com/gen/1365583/images/o-EBOOK-facebook.jpg",
                 name: "EBOOK CÂU CHUYỆN VỀ LOGO",
                 subject: "ColorME gửi tặng Ebook Câu Chuyện về Logo",
                 owner: {
@@ -1726,7 +1728,8 @@ export function getDataCampaign() {
             },
             {
                 id: 147,
-                name: " - THIẾT KẾ TẬP SỰ",
+                url: "https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Operations/Our%20Insights/The%20expanding%20role%20of%20design%20in%20creating%20an%20end%20to%20end%20customer%20experience/Expanding-role-of-design-1536x1536-400_Standard.ashx",
+                name: "THIẾT KẾ TẬP SỰ",
                 subject: "ColorME gửi tặng Ebook Thiết kế Tập sự",
                 owner: {
                     id: 313,
@@ -1750,33 +1753,9 @@ export function getDataCampaign() {
                 total: 499
             },
             {
-                id: 146,
-                name: " [Bộ 5000 slides] 18.11.2016",
-                subject: " SHARE BỘ 5000 SLIDE TEMPLATES",
-                owner: {
-                    id: 313,
-                    name: "Huyền Trang",
-                    phone: "0849587867",
-                    email: "huyentrang@colorme.vn",
-                    color: "4caf50",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
-                },
-                send_status: 1,
-                open: 911,
-                sended: 1242,
-                complaint: 0,
-                delivery: 1213,
-                hide: 0,
-                timer: "2016-11-18 11:51:00",
-                form_id: 16,
-                subscribers_list_ids: [
-                    153
-                ],
-                total: 1242
-            },
-            {
                 id: 145,
-                name: " [Cải thiện thiết kế slide] 5.11.2016",
+                url: "https://i.ytimg.com/vi/wPbylymgQEs/maxresdefault.jpg",
+                name: " Cải thiện thiết kế slide",
                 subject: "CẢI THIỆN THIẾT KẾ SLIDE",
                 owner: {
                     id: 313,
@@ -1800,58 +1779,9 @@ export function getDataCampaign() {
                 total: 165
             },
             {
-                id: 144,
-                name: " [Cải thiện thiết kế slide] 5.11.2016",
-                subject: "CẢI THIỆN THIẾT KẾ SLIDE",
-                owner: {
-                    id: 313,
-                    name: "Huyền Trang",
-                    phone: "0849587867",
-                    email: "huyentrang@colorme.vn",
-                    color: "4caf50",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
-                },
-                send_status: 1,
-                open: 858,
-                sended: 1266,
-                complaint: 0,
-                delivery: 1231,
-                hide: 0,
-                timer: "2016-11-07 12:05:00",
-                form_id: 15,
-                subscribers_list_ids: [
-                    151
-                ],
-                total: 1266
-            },
-            {
-                id: 142,
-                name: "24.10.2016 - LẦN 2",
-                subject: "COLOR - MÀU SẮC TRONG THIẾT KẾ",
-                owner: {
-                    id: 313,
-                    name: "Huyền Trang",
-                    phone: "0849587867",
-                    email: "huyentrang@colorme.vn",
-                    color: "4caf50",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
-                },
-                send_status: 1,
-                open: 215,
-                sended: 305,
-                complaint: 0,
-                delivery: 293,
-                hide: 0,
-                timer: "2016-10-29 11:48:00",
-                form_id: 14,
-                subscribers_list_ids: [
-                    149
-                ],
-                total: 305
-            },
-            {
                 id: 140,
-                name: "Share Ebook]24.10.2016",
+                url: "http://sailbeforesunset.com/wp-content/uploads/2016/05/ebooks_2.jpg",
+                name: "Share Ebook",
                 subject: "Share Ebook]24.10.2016",
                 owner: {
                     id: 1966,
@@ -1875,108 +1805,9 @@ export function getDataCampaign() {
                 total: 1084
             },
             {
-                id: 139,
-                name: "24.10.2016 (Lần 4)",
-                subject: "24.10.2016",
-                owner: {
-                    id: 1966,
-                    name: "Phan Minh Dương",
-                    phone: "0865189796",
-                    email: "phanminhduong@hotmail.com",
-                    color: "ff9800",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
-                },
-                send_status: 1,
-                open: 97,
-                sended: 310,
-                complaint: 0,
-                delivery: 294,
-                hide: 0,
-                timer: "2016-10-24 16:49:00",
-                form_id: 14,
-                subscribers_list_ids: [
-                    148
-                ],
-                total: 155
-            },
-            {
-                id: 138,
-                name: "24.10.2016 (Lần 4)",
-                subject: "24.10.2016",
-                owner: {
-                    id: 1966,
-                    name: "Phan Minh Dương",
-                    phone: "0865189796",
-                    email: "phanminhduong@hotmail.com",
-                    color: "ff9800",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
-                },
-                send_status: 1,
-                open: 71,
-                sended: 525,
-                complaint: 0,
-                delivery: 510,
-                hide: 0,
-                timer: "2016-10-24 15:09:00",
-                form_id: 14,
-                subscribers_list_ids: [
-                    147
-                ],
-                total: 501
-            },
-            {
-                id: 137,
-                name: "24.10.2016 (Lần 3)",
-                subject: "24.10.2016",
-                owner: {
-                    id: 1966,
-                    name: "Phan Minh Dương",
-                    phone: "0865189796",
-                    email: "phanminhduong@hotmail.com",
-                    color: "ff9800",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
-                },
-                send_status: 1,
-                open: 81,
-                sended: 1242,
-                complaint: 0,
-                delivery: 1232,
-                hide: 0,
-                timer: "2016-10-24 14:45:00",
-                form_id: 14,
-                subscribers_list_ids: [
-                    146
-                ],
-                total: 786
-            },
-            {
-                id: 136,
-                name: "24.10.2016 (Lần 2)",
-                subject: "24.10.2016",
-                owner: {
-                    id: 1966,
-                    name: "Phan Minh Dương",
-                    phone: "0865189796",
-                    email: "phanminhduong@hotmail.com",
-                    color: "ff9800",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1507360610guklUlpMsW7DnlW.jpg"
-                },
-                send_status: 1,
-                open: 143,
-                sended: 675,
-                complaint: 0,
-                delivery: 673,
-                hide: 0,
-                timer: "2016-10-24 14:19:00",
-                form_id: 14,
-                subscribers_list_ids: [
-                    143
-                ],
-                total: 928
-            },
-            {
                 id: 134,
-                name: "24.10.2016",
+                url: "https://media.istockphoto.com/photos/paint-explosion-picture-id170955250?k=6&m=170955250&s=612x612&w=0&h=EdRJNMtUrKY9_lgnv3sCUrozMjs3Ys8g9EJfa12Jg4A=",
+                name: "COLOR - MÀU SẮC TRONG THIẾT KẾ",
                 subject: "COLOR - MÀU SẮC TRONG THIẾT KẾ",
                 owner: {
                     id: 313,
@@ -1999,81 +1830,7 @@ export function getDataCampaign() {
                 ],
                 total: 1084
             },
-            {
-                id: 131,
-                name: "chiến dịch 1",
-                subject: "Share ebook 1",
-                owner: {
-                    id: 2,
-                    name: "Nguyễn Việt Hùng",
-                    phone: "01684026343",
-                    email: "hung@hotmail.com",
-                    color: "009688",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg"
-                },
-                send_status: 1,
-                open: 3,
-                sended: 16,
-                complaint: 0,
-                delivery: 16,
-                hide: 0,
-                timer: "2016-10-09 20:22:00",
-                form_id: 3,
-                subscribers_list_ids: [
-                    140
-                ],
-                total: 4
-            },
-            {
-                id: 130,
-                name: "hello",
-                subject: "TEST EMAIL",
-                owner: {
-                    id: 2,
-                    name: "Nguyễn Việt Hùng",
-                    phone: "01684026343",
-                    email: "hung@hotmail.com",
-                    color: "009688",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503369355g3nTaVigDKKyjUQ.jpg"
-                },
-                send_status: 1,
-                open: 3,
-                sended: 4,
-                complaint: 0,
-                delivery: 4,
-                hide: 0,
-                timer: "2016-10-05 10:40:00",
-                form_id: 3,
-                subscribers_list_ids: [
-                    140
-                ],
-                total: 4
-            },
-            {
-                id: 120,
-                name: " [Những concept trong Thiết kế Slide] 25/9/2016",
-                subject: " TẶNG BẠN EBOOK: NHỮNG CONCEPT TRONG THIẾT KẾ SLIDE",
-                owner: {
-                    id: 313,
-                    name: "Huyền Trang",
-                    phone: "0849587867",
-                    email: "huyentrang@colorme.vn",
-                    color: "4caf50",
-                    avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/15045995749eyjJ6XH9OHC43F.jpg"
-                },
-                send_status: 1,
-                open: 740,
-                sended: 971,
-                complaint: 0,
-                delivery: 961,
-                hide: 0,
-                timer: null,
-                form_id: 0,
-                subscribers_list_ids: [
-                    139
-                ],
-                total: 972
-            }
+
         ],
     }
 }
@@ -2164,6 +1921,7 @@ export function getDataSubscribersList() {
         subscribers_list: [
             {
                 id: 157,
+                url: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9d09b842112717.5607131ca485f.jpg",
                 name: "EBOOK NHỮNG CONCEPT THIẾT KẾ SLIDES",
                 created_at: "12:32, 15 Tháng M. hai, 2016",
                 updated_at: "12:32, 15 Tháng M. hai, 2016",
@@ -2171,6 +1929,7 @@ export function getDataSubscribersList() {
             },
             {
                 id: 156,
+                url: "https://www.seoclerk.com/pics/551103-1TOqFD1502285018.jpg",
                 name: "CÂU CHUYỆN LOGO",
                 created_at: "00:15, 8 Tháng M. hai, 2016",
                 updated_at: "00:15, 8 Tháng M. hai, 2016",
@@ -2178,6 +1937,7 @@ export function getDataSubscribersList() {
             },
             {
                 id: 155,
+                url: "http://cdn-media-2.lifehack.org/wp-content/files/2015/06/Designer-struggles.jpg",
                 name: "THIẾT KẾ TẬP SỰ",
                 created_at: "18:10, 2 Tháng M. hai, 2016",
                 updated_at: "18:10, 2 Tháng M. hai, 2016",
@@ -2185,113 +1945,16 @@ export function getDataSubscribersList() {
             },
             {
                 id: 154,
+                url: "https://thumbs.dreamstime.com/b/design-team-planning-new-project-43728909.jpg",
                 name: "Share tài liệu giao tiếp căn bản",
                 created_at: "15:24, 25 Tháng M. một, 2016",
                 updated_at: "15:24, 25 Tháng M. một, 2016",
                 total_subscribers: 2
             },
             {
-                id: 153,
-                name: " [Bộ 5000 slides] 18.11.2016",
-                created_at: "10:15, 18 Tháng M. một, 2016",
-                updated_at: "10:15, 18 Tháng M. một, 2016",
-                total_subscribers: 1242
-            },
-            {
-                id: 152,
-                name: " [Sài gòn] [Cải thiện thiết kế slide] 5.11.2016",
-                created_at: "08:03, 9 Tháng M. một, 2016",
-                updated_at: "08:03, 9 Tháng M. một, 2016",
-                total_subscribers: 165
-            },
-            {
-                id: 151,
-                name: " [Cải thiện thiết kế slide] 5.11.2016",
-                created_at: "16:49, 6 Tháng M. một, 2016",
-                updated_at: "16:49, 6 Tháng M. một, 2016",
-                total_subscribers: 1266
-            },
-            {
-                id: 149,
-                name: "Share ebook lần 2 - color",
-                created_at: "09:50, 28 Tháng Mười, 2016",
-                updated_at: "09:50, 28 Tháng Mười, 2016",
-                total_subscribers: 305
-            },
-            {
-                id: 148,
-                name: "24.10.2016 (Lần 5)",
-                created_at: "15:20, 24 Tháng Mười, 2016",
-                updated_at: "15:20, 24 Tháng Mười, 2016",
-                total_subscribers: 155
-            },
-            {
-                id: 147,
-                name: "24.10.2016 (Lần 4)",
-                created_at: "15:06, 24 Tháng Mười, 2016",
-                updated_at: "15:06, 24 Tháng Mười, 2016",
-                total_subscribers: 501
-            },
-            {
-                id: 146,
-                name: "24.10.2016 (Lần 3)",
-                created_at: "14:42, 24 Tháng Mười, 2016",
-                updated_at: "14:42, 24 Tháng Mười, 2016",
-                total_subscribers: 786
-            },
-            {
-                id: 143,
-                name: "24.10.2016 (Lần 2)",
-                created_at: "14:05, 24 Tháng Mười, 2016",
-                updated_at: "14:05, 24 Tháng Mười, 2016",
-                total_subscribers: 928
-            },
-            {
-                id: 141,
-                name: "24.10.2016",
-                created_at: "10:11, 24 Tháng Mười, 2016",
-                updated_at: "10:11, 24 Tháng Mười, 2016",
-                total_subscribers: 1084
-            },
-            {
-                id: 140,
-                name: "test",
-                created_at: "12:08, 3 Tháng Mười, 2016",
-                updated_at: "12:08, 3 Tháng Mười, 2016",
-                total_subscribers: 4
-            },
-            {
-                id: 139,
-                name: " [Những concept trong Thiết kế Slide] 25/9/2016",
-                created_at: "11:38, 25 Tháng Chín, 2016",
-                updated_at: "11:38, 25 Tháng Chín, 2016",
-                total_subscribers: 972
-            },
-            {
-                id: 137,
-                name: "[SHARE] EBOOK LAYOUT 10/9",
-                created_at: "12:21, 11 Tháng Chín, 2016",
-                updated_at: "12:21, 11 Tháng Chín, 2016",
-                total_subscribers: 511
-            },
-            {
-                id: 136,
-                name: "Quan Ca",
-                created_at: "20:40, 5 Tháng Chín, 2016",
-                updated_at: "20:40, 5 Tháng Chín, 2016",
-                total_subscribers: 1
-
-            },
-            {
-                id: 135,
-                name: "[SHARE] Ebook ngày 5/9/2016",
-                created_at: "19:36, 5 Tháng Chín, 2016",
-                updated_at: "19:36, 5 Tháng Chín, 2016",
-                total_subscribers: 1637
-            },
-            {
                 id: 134,
-                name: "[SHARE] Tạp chí Graphics đợt 2 01/08/2016 (2)",
+                url: "https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-9/24775079_1833924343494956_8984112638279743187_n.jpg?oh=3e62fbc197222119f28c9debba93e85c&oe=5AC8EF48",
+                name: "[SHARE] Tạp chí Graphics đợt 2",
                 created_at: "12:49, 1 Tháng Tám, 2016",
                 updated_at: "12:49, 1 Tháng Tám, 2016",
                 total_subscribers: 183
@@ -2594,7 +2257,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 26,
-                    name: "Linh Nhi",
+                    name: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg",
                     color: "e91e63"
                 }
             },
@@ -2880,7 +2543,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 }
             },
@@ -3049,7 +2712,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 }
             },
@@ -3114,7 +2777,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 }
             },
@@ -3296,7 +2959,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 }
             },
@@ -3413,7 +3076,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 }
             },
@@ -3725,7 +3388,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 }
             },
@@ -3816,7 +3479,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 }
             },
@@ -3920,7 +3583,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 }
             },
@@ -4011,7 +3674,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 }
             },
@@ -4076,7 +3739,7 @@ export function getDataSummary() {
                 },
                 saler: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 }
             },
@@ -4119,7 +3782,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1054,
                     name: "AI 31.14",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 7699,
@@ -4149,7 +3812,7 @@ export function getDataPaidList() {
                 },
                 collector: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 }
             },
@@ -4171,11 +3834,11 @@ export function getDataPaidList() {
                 class: {
                     id: 1016,
                     name: "ID 31.1",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg"
                 },
                 collector: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 }
             },
@@ -4197,11 +3860,11 @@ export function getDataPaidList() {
                 class: {
                     id: 1088,
                     name: "AI 32.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 }
             },
@@ -4223,11 +3886,11 @@ export function getDataPaidList() {
                 class: {
                     id: 1024,
                     name: "AI 31.3",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 }
             },
@@ -4249,11 +3912,11 @@ export function getDataPaidList() {
                 class: {
                     id: 1024,
                     name: "AI 31.3",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 }
             },
@@ -4275,7 +3938,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1052,
                     name: "ID 31.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg"
                 },
                 collector: {
                     id: 4324,
@@ -4301,7 +3964,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1052,
                     name: "ID 31.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg"
                 },
                 collector: {
                     id: 4324,
@@ -4327,7 +3990,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1075,
                     name: "PS 32.14 (Sài Gòn)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 4324,
@@ -4353,7 +4016,7 @@ export function getDataPaidList() {
                 class: {
                     id: 990,
                     name: "PS - Danh Sách Chờ (Cơ sở 4)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 3331,
@@ -4379,7 +4042,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1024,
                     name: "AI 31.3",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 3331,
@@ -4405,7 +4068,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1052,
                     name: "ID 31.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg"
                 },
                 collector: {
                     id: 4324,
@@ -4457,7 +4120,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1080,
                     name: "AI 32.12 (Sài Gòn)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 4324,
@@ -4483,7 +4146,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1077,
                     name: "PS 32.12 (Sài Gòn)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 4324,
@@ -4535,7 +4198,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1080,
                     name: "AI 32.12 (Sài Gòn)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 7698,
@@ -4613,7 +4276,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1025,
                     name: "AI 31.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 6083,
@@ -4639,7 +4302,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1081,
                     name: "AI 32.11 (Sài Gòn)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 4324,
@@ -4691,7 +4354,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1014,
                     name: "AI 31.8",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 2,
@@ -4717,7 +4380,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1007,
                     name: "PS 31.4",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 2,
@@ -4743,7 +4406,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1054,
                     name: "AI 31.14",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 4324,
@@ -4769,7 +4432,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1061,
                     name: "ID - Khoá Sau (Danh Sách Chờ cơ sở 3)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg"
+                    icon_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg"
                 },
                 collector: {
                     id: 2,
@@ -4795,7 +4458,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1004,
                     name: "PS 31.1",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 5063,
@@ -4821,7 +4484,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1025,
                     name: "AI 31.2",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 3331,
@@ -4847,7 +4510,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1004,
                     name: "PS 31.1",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 5063,
@@ -4859,7 +4522,7 @@ export function getDataPaidList() {
                 id: 18893,
                 student: {
                     id: 8678,
-                    name: "Nguyễn Thị Phương Thảo",
+                    name: "Nguyễn Thị Phương Na",
                     email: "no3bie@hotmail.com",
                     phone: "0805327723"
                 },
@@ -4899,7 +4562,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1059,
                     name: "PS 31.17 (Sài Gòn)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 4324,
@@ -4925,7 +4588,7 @@ export function getDataPaidList() {
                 class: {
                     id: 999,
                     name: "PS 31.9",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 3331,
@@ -4951,7 +4614,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1014,
                     name: "AI 31.8",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 2,
@@ -4977,7 +4640,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1014,
                     name: "AI 31.8",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 2,
@@ -5003,7 +4666,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1006,
                     name: "PS 31.3",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 2,
@@ -5029,7 +4692,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1013,
                     name: "AI 31.6",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 2,
@@ -5055,7 +4718,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1008,
                     name: "PS 31.5",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 collector: {
                     id: 2,
@@ -5107,7 +4770,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1019,
                     name: "AI - Danh Sách Chờ (Cơ sở 1)",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 collector: {
                     id: 2,
@@ -5248,7 +4911,7 @@ export function getDataTeleCall() {
                 call_status: "success",
                 caller: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 },
                 note: "",
@@ -5282,7 +4945,7 @@ export function getDataTeleCall() {
                 call_status: "success",
                 caller: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 },
                 note: "thuê bao",
@@ -5401,7 +5064,7 @@ export function getDataTeleCall() {
                 call_status: "failed",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "Đã mess",
@@ -5853,7 +5516,7 @@ export function getDataTeleCall() {
                 id: 17750,
                 student: {
                     id: 7628,
-                    name: "Huỳnh Vũ Phương Thảo",
+                    name: "Huỳnh Vũ Phương Na",
                     email: "hvpthao@hotmail.com",
                     phone: "0838250083"
                 },
@@ -6245,7 +5908,7 @@ export function getDataPeople() {
                 updated_at: "2016-11-13 15:42:07",
                 role: 2,
                 code: "",
-                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                avatar_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg",
                 cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage",
                 description: "",
                 university: "Quan Ca",
@@ -6284,7 +5947,7 @@ export function getDataPeople() {
                 updated_at: "2016-11-13 15:42:07",
                 role: 1,
                 code: "",
-                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                avatar_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg",
                 cover_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage",
                 description: "",
                 university: "Quan Ca",
@@ -7151,7 +6814,7 @@ export function getDataRegisterStudent() {
                 id: 18594,
                 gen_id: 25,
                 code: "CM31545",
-                name: "Nguyễn Việt Nga",
+                name: "Nguyễn Việt Hoàng",
                 student_id: 7359,
                 email: "vietnga.skt@hotmail.com",
                 university: ".",
@@ -7159,7 +6822,7 @@ export function getDataRegisterStudent() {
                 phone: "0879682929",
                 paid_status: true,
                 time_to_reach: 24,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
+                course_avatar_url: "http://www.channel4.com/media/images/Channel4/c4-news/2013/Dec/24/24_snowden3_g_w.jpg",
                 course_money: 1000000,
                 money: 0,
                 study_time: 3,
@@ -7187,45 +6850,6 @@ export function getDataRegisterStudent() {
                 }
             },
             {
-                id: 18593,
-                gen_id: 25,
-                code: "",
-                name: "Tăng Mỹ Kỳ",
-                student_id: 8396,
-                email: "myky.tang@hotmail.com",
-                university: ".",
-                avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0833901144",
-                paid_status: false,
-                time_to_reach: 1,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
-                course_money: 1000000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "AI - Danh Sách Chờ (Cơ sở 3)",
-                    id: 1010,
-                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
-                    description: "Nhận ưu đãi tốt nhất từ colorME",
-                    room: "Tầng 4",
-                    base: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM"
-                },
-                created_at: "2016-12-04 10:16:05",
-                is_delete: true,
-                call_status: "success",
-                saler: {
-                    id: 7698,
-                    name: "Nguyễn Thanh Ngân",
-                    color: ""
-                },
-                campaign: {
-                    id: 10,
-                    name: "Inbox",
-                    color: "fbc02d"
-                }
-            },
-            {
                 id: 18592,
                 gen_id: 25,
                 code: "",
@@ -7237,7 +6861,7 @@ export function getDataRegisterStudent() {
                 phone: "0833901144",
                 paid_status: false,
                 time_to_reach: 1,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                 course_money: 1000000,
                 money: 0,
                 study_time: 1,
@@ -7276,7 +6900,7 @@ export function getDataRegisterStudent() {
                 phone: "0868959480",
                 paid_status: false,
                 time_to_reach: 23,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                course_avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                 course_money: 1000000,
                 money: 0,
                 study_time: 3,
@@ -7305,7 +6929,7 @@ export function getDataRegisterStudent() {
                 phone: "01638595779",
                 paid_status: false,
                 time_to_reach: 22,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                 course_money: 1000000,
                 money: 0,
                 study_time: 1,
@@ -7323,103 +6947,6 @@ export function getDataRegisterStudent() {
                 call_status: "uncall"
             },
             {
-                id: 18589,
-                gen_id: 25,
-                code: "",
-                name: "Ngô Minh",
-                student_id: 2802,
-                email: "minh.greencity@hotmail.com",
-                university: "Đi làm",
-                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1478516137yVOHRaaLI8mHFNy.jpg",
-                phone: "0862183335",
-                paid_status: false,
-                time_to_reach: 17,
-                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
-                course_money: 1200000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "PT 31.2",
-                    id: 1049,
-                    study_time: "(19h-21h) Thứ 3 - Thứ 5",
-                    description: "Khai giảng ngày 12 tháng 12 năm 2016",
-                    room: "Studio Tầng 5",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-04 03:02:54",
-                is_delete: true,
-                call_status: "uncall"
-            },
-            {
-                id: 18588,
-                gen_id: 25,
-                code: "",
-                name: "Ngô Minh",
-                student_id: 2802,
-                email: "minh.greencity@hotmail.com",
-                university: "Đi làm",
-                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1478516137yVOHRaaLI8mHFNy.jpg",
-                phone: "0862183335",
-                paid_status: false,
-                time_to_reach: 17,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
-                course_money: 1000000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "PR 31.2",
-                    id: 1045,
-                    study_time: "(19h-21h) Thứ 4 - Thứ 6",
-                    description: "Khai giảng ngày 13 tháng 12 năm 2016",
-                    room: "Tầng 3",
-                    base: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội"
-                },
-                created_at: "2016-12-04 02:57:55",
-                is_delete: true,
-                call_status: "uncall"
-            },
-            {
-                id: 18587,
-                gen_id: 25,
-                code: "",
-                name: "Nguyễn Thanh Diệp Linh",
-                student_id: 8393,
-                email: "diepyenng@hotmail.com",
-                university: "Viện ĐH Mở Hà Nội",
-                avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0889363951",
-                paid_status: false,
-                time_to_reach: 14,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
-                course_money: 1000000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "PS - Danh Sách Chờ (Cơ sở 1)",
-                    id: 994,
-                    study_time: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
-                    description: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
-                    room: "Tầng 5",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-04 00:52:03",
-                is_delete: true,
-                call_status: "uncall",
-                saler: {
-                    id: 5064,
-                    name: "Nguyễn Thanh Thi",
-                    color: ""
-                },
-                campaign: {
-                    id: 8,
-                    name: "Fanpage",
-                    color: "7cb342"
-                }
-            },
-            {
                 id: 18586,
                 gen_id: 25,
                 code: "",
@@ -7431,7 +6958,7 @@ export function getDataRegisterStudent() {
                 phone: "0889363951",
                 paid_status: false,
                 time_to_reach: 14,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                course_avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                 course_money: 1000000,
                 money: 0,
                 study_time: 1,
@@ -7470,7 +6997,7 @@ export function getDataRegisterStudent() {
                 phone: "01632361999",
                 paid_status: false,
                 time_to_reach: 14,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                course_avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                 course_money: 1000000,
                 money: 0,
                 study_time: 2,
@@ -7488,45 +7015,6 @@ export function getDataRegisterStudent() {
                 call_status: "uncall"
             },
             {
-                id: 18584,
-                gen_id: 25,
-                code: "",
-                name: "Bùi Trung Kiên",
-                student_id: 3939,
-                email: "trungkienbui1998@hotmail.com",
-                university: "z",
-                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1508239347d2EHR8PrSvM0PLz.jpg",
-                phone: "0168.770.7575",
-                paid_status: false,
-                time_to_reach: 13,
-                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
-                course_money: 1200000,
-                money: 0,
-                study_time: 2,
-                note: "",
-                class: {
-                    name: "AE 31.1",
-                    id: 1036,
-                    study_time: "(19h-21h) Thứ 3 - Thứ 5",
-                    description: "Khai giảng ngày 12 tháng 12 năm 2016",
-                    room: "Tầng 4",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-03 23:42:21",
-                is_delete: true,
-                call_status: "uncall",
-                saler: {
-                    id: 3290,
-                    name: "Nguyễn Mỹ Linh",
-                    color: "c0ca33"
-                },
-                campaign: {
-                    id: 10,
-                    name: "Inbox",
-                    color: "fbc02d"
-                }
-            },
-            {
                 id: 18583,
                 gen_id: 25,
                 code: "",
@@ -7538,7 +7026,7 @@ export function getDataRegisterStudent() {
                 phone: "0883633970",
                 paid_status: false,
                 time_to_reach: 13,
-                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                course_avatar_url: "https://images-na.ssl-images-amazon.com/images/M/MV5BMzc2NjE3NzUzNV5BMl5BanBnXkFtZTcwMDg0Njg3Mw@@._V1_UY1200_CR87,0,630,1200_AL_.jpg",
                 course_money: 1200000,
                 money: 0,
                 study_time: 1,
@@ -7556,86 +7044,8 @@ export function getDataRegisterStudent() {
                 call_status: "uncall",
                 saler: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
-                },
-                campaign: {
-                    id: 10,
-                    name: "Inbox",
-                    color: "fbc02d"
-                }
-            },
-            {
-                id: 18582,
-                gen_id: 25,
-                code: "",
-                name: "Vũ Thị Thảo Nguyên",
-                student_id: 8391,
-                email: "vttnvu295@hotmail.com",
-                university: ".",
-                avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "01697670653",
-                paid_status: false,
-                time_to_reach: 12,
-                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
-                course_money: 1200000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "PT - Khoá Sau (Danh Sách Chờ)",
-                    id: 1044,
-                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
-                    description: "Nhận ưu đãi tốt nhất từ colorME",
-                    room: "Studio Tầng 5",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-03 22:32:28",
-                is_delete: true,
-                call_status: "uncall",
-                saler: {
-                    id: 3331,
-                    name: "Lý Hà Thanh",
-                    color: "F62359"
-                },
-                campaign: {
-                    id: 10,
-                    name: "Inbox",
-                    color: "fbc02d"
-                }
-            },
-            {
-                id: 18581,
-                gen_id: 25,
-                code: "",
-                name: "Vũ Thị Thảo Nguyên",
-                student_id: 8391,
-                email: "vttnvu295@hotmail.com",
-                university: ".",
-                avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "01697670653",
-                paid_status: false,
-                time_to_reach: 12,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
-                course_money: 1000000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "PR - Danh Sách Chờ (Cơ sở 1)",
-                    id: 1041,
-                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
-                    description: "Nhận ưu đãi tốt nhất từ colorME",
-                    room: "Tầng 2",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-03 22:32:17",
-                is_delete: true,
-                call_status: "uncall",
-                saler: {
-                    id: 3331,
-                    name: "Lý Hà Thanh",
-                    color: "F62359"
                 },
                 campaign: {
                     id: 10,
@@ -7655,7 +7065,7 @@ export function getDataRegisterStudent() {
                 phone: "01697670653",
                 paid_status: false,
                 time_to_reach: 12,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                course_avatar_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                 course_money: 1000000,
                 money: 0,
                 study_time: 1,
@@ -7683,162 +7093,6 @@ export function getDataRegisterStudent() {
                 }
             },
             {
-                id: 18579,
-                gen_id: 25,
-                code: "",
-                name: "Vũ Thị Thảo Nguyên",
-                student_id: 8391,
-                email: "vttnvu295@hotmail.com",
-                university: ".",
-                avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "01697670653",
-                paid_status: false,
-                time_to_reach: 12,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
-                course_money: 1000000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "PS - Danh Sách Chờ (Cơ sở 1)",
-                    id: 994,
-                    study_time: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
-                    description: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
-                    room: "Tầng 5",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-03 22:31:52",
-                is_delete: true,
-                call_status: "uncall",
-                saler: {
-                    id: 3331,
-                    name: "Lý Hà Thanh",
-                    color: "F62359"
-                },
-                campaign: {
-                    id: 10,
-                    name: "Inbox",
-                    color: "fbc02d"
-                }
-            },
-            {
-                id: 18578,
-                gen_id: 25,
-                code: "",
-                name: "Hoàng Mai Linh",
-                student_id: 8390,
-                email: "linhbin18799@hotmail.com",
-                university: ".",
-                avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0864980070",
-                paid_status: false,
-                time_to_reach: 12,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
-                course_money: 1000000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "PS - Danh Sách Chờ (Cơ sở 1)",
-                    id: 994,
-                    study_time: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
-                    description: "ColorME sẽ gọi cho bạn ngay khi có khoá mới.",
-                    room: "Tầng 5",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-03 22:11:18",
-                is_delete: true,
-                call_status: "uncall",
-                saler: {
-                    id: 3331,
-                    name: "Lý Hà Thanh",
-                    color: "F62359"
-                },
-                campaign: {
-                    id: 10,
-                    name: "Inbox",
-                    color: "fbc02d"
-                }
-            },
-            {
-                id: 18577,
-                gen_id: 25,
-                code: "",
-                name: "Hoàng Mai Linh",
-                student_id: 8390,
-                email: "linhbin18799@hotmail.com",
-                university: ".",
-                avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0864980070",
-                paid_status: false,
-                time_to_reach: 12,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
-                course_money: 1000000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "AI - Danh Sách Chờ (Cơ sở 1)",
-                    id: 1019,
-                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
-                    description: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
-                    room: "Tầng 2",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-03 22:11:03",
-                is_delete: true,
-                call_status: "uncall",
-                saler: {
-                    id: 3331,
-                    name: "Lý Hà Thanh",
-                    color: "F62359"
-                },
-                campaign: {
-                    id: 10,
-                    name: "Inbox",
-                    color: "fbc02d"
-                }
-            },
-            {
-                id: 18576,
-                gen_id: 25,
-                code: "",
-                name: "Hoàng Mai Linh",
-                student_id: 8390,
-                email: "linhbin18799@hotmail.com",
-                university: ".",
-                avatar_url: "http://api.colorme.vn/img/user.png",
-                phone: "0864980070",
-                paid_status: false,
-                time_to_reach: 12,
-                course_avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1468283993EUvpBPDYpu8IkQ0.jpg",
-                course_money: 1200000,
-                money: 0,
-                study_time: 1,
-                note: "",
-                class: {
-                    name: "PT - Khoá Sau (Danh Sách Chờ)",
-                    id: 1044,
-                    study_time: "colorME sẽ gọi cho bạn mỗi khi có khoá mới.",
-                    description: "Nhận ưu đãi tốt nhất từ colorME",
-                    room: "Studio Tầng 5",
-                    base: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội"
-                },
-                created_at: "2016-12-03 22:10:48",
-                is_delete: true,
-                call_status: "uncall",
-                saler: {
-                    id: 3331,
-                    name: "Lý Hà Thanh",
-                    color: "F62359"
-                },
-                campaign: {
-                    id: 10,
-                    name: "Inbox",
-                    color: "fbc02d"
-                }
-            },
-            {
                 id: 18575,
                 gen_id: 25,
                 code: "",
@@ -7850,7 +7104,7 @@ export function getDataRegisterStudent() {
                 phone: "0864980070",
                 paid_status: false,
                 time_to_reach: 12,
-                course_avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481009736PWVqDXlU8KoFwwJ.jpg",
+                course_avatar_url: "http://cdn.collider.com/wp-content/uploads/person-of-interest-taraji-p-henson-4.jpg",
                 course_money: 1000000,
                 money: 0,
                 study_time: 1,
@@ -8106,7 +7360,7 @@ export function getDataCourse() {
             {
                 id: 1,
                 name: "Photoshop",
-                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                 num_classes: 218,
                 duration: 8,
                 price: 1000000
@@ -8114,7 +7368,7 @@ export function getDataCourse() {
             {
                 id: 2,
                 name: "Illustrator",
-                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                 num_classes: 175,
                 duration: 8,
                 price: 1000000
@@ -8146,7 +7400,7 @@ export function getDataCourse() {
             {
                 id: 6,
                 name: "InDesign",
-                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg",
+                icon_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg",
                 num_classes: 14,
                 duration: 8,
                 price: 1000000
@@ -8197,7 +7451,7 @@ export function getDataClasses() {
                 course: {
                     id: 2,
                     name: "Illustrator",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
                 },
                 room: {
                     id: 20,
@@ -8232,7 +7486,7 @@ export function getDataClasses() {
                 course: {
                     id: 1,
                     name: "Photoshop",
-                    icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg"
                 },
                 room: {
                     id: 20,
@@ -8624,7 +7878,7 @@ export function getDataClass() {
             course: {
                 id: 2,
                 name: "Illustrator",
-                icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg"
+                icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ"
             },
             teacher: {
                 id: 4068,
@@ -10069,7 +9323,7 @@ export function getDataCallHistory() {
                 call_status: "failed",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "Mess",
@@ -10086,7 +9340,7 @@ export function getDataCallHistory() {
                 call_status: "success",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "Cf đi học",
@@ -10103,7 +9357,7 @@ export function getDataCallHistory() {
                 call_status: "success",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "Cf xác nhận",
@@ -10256,7 +9510,7 @@ export function getDataCallHistory() {
                 call_status: "success",
                 caller: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 },
                 note: "Đang chơi event",
@@ -10273,7 +9527,7 @@ export function getDataCallHistory() {
                 call_status: "success",
                 caller: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 },
                 note: "Trước mùng 8 qua vp",
@@ -10290,7 +9544,7 @@ export function getDataCallHistory() {
                 call_status: "success",
                 caller: {
                     id: 3290,
-                    name: "Nguyễn Mỹ Linh",
+                    name: "Nguyễn Minh ",
                     color: "c0ca33"
                 },
                 note: "Đang chơi event để được giảm. Giảm thì qua",
@@ -10528,7 +9782,7 @@ export function getDataCallHistory() {
                 call_status: "success",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "",
@@ -10545,7 +9799,7 @@ export function getDataCallHistory() {
                 call_status: "failed",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "Mess",
@@ -10562,7 +9816,7 @@ export function getDataCallHistory() {
                 call_status: "failed",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "Mess",
@@ -10579,7 +9833,7 @@ export function getDataCallHistory() {
                 call_status: "success",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "",
@@ -10596,7 +9850,7 @@ export function getDataCallHistory() {
                 call_status: "success",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "",
@@ -10613,7 +9867,7 @@ export function getDataCallHistory() {
                 call_status: "failed",
                 caller: {
                     id: 6079,
-                    name: "Phương Thảo",
+                    name: "Phương Na",
                     color: "8bc34a"
                 },
                 note: "Đã mess",
@@ -10697,6 +9951,7 @@ export function getDataBase() {
         bases: [
             {
                 id: 3,
+                url: "https://www.theofficegroup.co.uk/wp-content/uploads/2016/09/Template_Single_Image_borough_3.jpg",
                 name: "Cơ sở 1",
                 address: " Số 175 phố Chùa Láng - Đống Đa - Hà Nội",
                 created_at: "03/04/2016 20:39:06",
@@ -10705,6 +9960,7 @@ export function getDataBase() {
             },
             {
                 id: 4,
+                url: "https://physioinmotion.ca/wp-content/uploads/2015/05/The-Office-Rivington-Street-Office-Space-940x407.jpg",
                 name: "Cơ sở 2",
                 address: "Số 162 phố Phương Liệt ( số 83 Trường Chinh rẽ vào) - Thanh Xuân - Hà Nội",
                 created_at: "03/04/2016 20:39:39",
@@ -10713,6 +9969,7 @@ export function getDataBase() {
             },
             {
                 id: 6,
+                url: "https://www.startupoffice.vn/cmslinguyen/media/tin-tuc/Khong-hoat-dong-tai-dia-diem-dang-ky-kinh-doanh-doanh-nghiep-co-bi-phat-khong-1.jpg",
                 name: "Cơ sở 3",
                 address: "Số 835/14 Trần Hưng Đạo, Phường 1, Quận 5, TP HCM",
                 created_at: "11/03/2016 15:47:12",
@@ -10721,6 +9978,7 @@ export function getDataBase() {
             },
             {
                 id: 8,
+                url: "https://www.elnido.in/wp-content/uploads/2016/03/modern_office_interior-designer-delhi-gurgaon-noida-El-Nido.jpg",
                 name: "Cơ sở 4",
                 address: "Số 15 ngõ 2 Thọ Tháp (Trần Thái Tông rẽ vào) - Cầu Giấy - Hà Nội",
                 created_at: "25/09/2016 10:10:17",
@@ -10738,6 +9996,7 @@ export function getDataBaseRoom() {
         rooms: [
             {
                 id: 4,
+                url: "https://cdn.theatlantic.com/assets/media/img/mt/2016/09/RTX1ZJQZ/lead_960.jpg?1474914842",
                 name: "Tầng 4",
                 base_id: 3,
                 base_name: "Cơ sở 1",
@@ -10745,6 +10004,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 6,
+                url: "https://cdn.24.co.za/files/Cms/General/d/2343/8a958bbccdfe49ba851b311d007eca8d.jpg",
                 name: "Tầng 5",
                 base_id: 3,
                 base_name: "Cơ sở 1",
@@ -10752,6 +10012,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 8,
+                url: "http://mediad.publicbroadcasting.net/p/kstx/files/201504/school.jpeg",
                 name: "Studio Tầng 5",
                 base_id: 3,
                 base_name: "Cơ sở 1",
@@ -10759,6 +10020,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 9,
+                url: "https://d18l82el6cdm1i.cloudfront.net/solvable/4c3723dd7a.8d767bf5b7.4hwpF8.jpg",
                 name: "Tầng 2",
                 base_id: 3,
                 base_name: "Cơ sở 1",
@@ -10766,6 +10028,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 14,
+                url: "https://cdn1.pri.org/sites/default/files/migration/PriMigrationsVivvoFilesImagesMigration/pri.org/files/brunwasser1_23_620_417179806.jpeg",
                 name: "Tầng 5",
                 base_id: 4,
                 base_name: "Cơ sở 2",
@@ -10773,6 +10036,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 15,
+                url: "http://www.bu.edu/today/files/2011/04/11-3377-VIDEOGAMES-081_h.jpg",
                 name: "Tầng 5",
                 base_id: 4,
                 base_name: "Cơ sở 2",
@@ -10780,6 +10044,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 16,
+                url: "https://floridastatecollegeoflaw.files.wordpress.com/2012/08/033_forfacebook.jpg",
                 name: "Tầng 4",
                 base_id: 6,
                 base_name: "Cơ sở 3",
@@ -10787,6 +10052,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 17,
+                url: "https://media.glassdoor.com/l/8d/e3/71/09/painting-class.jpg",
                 name: "Tầng 3",
                 base_id: 3,
                 base_name: "Cơ sở 1",
@@ -10794,6 +10060,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 18,
+                url: "http://themuseum.org/sites/default/files/_dsc3318.jpg",
                 name: "Tầng 2",
                 base_id: 8,
                 base_name: "Cơ sở 4",
@@ -10801,6 +10068,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 19,
+                url: "http://mediad.publicbroadcasting.net/p/wbaa/files/styles/x_large/public/201606/InsideOut5_1.jpg",
                 name: "Tầng 3",
                 base_id: 8,
                 base_name: "Cơ sở 4",
@@ -10808,6 +10076,7 @@ export function getDataBaseRoom() {
             },
             {
                 id: 20,
+                url: "http://magazine.art21.org/wp-content/uploads/2017/09/IMG_7725-e1505229899702.jpg",
                 name: "Tầng 5",
                 base_id: 6,
                 base_name: "Cơ sở 3",
@@ -10836,7 +10105,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "26/03/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10850,7 +10119,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "31/03/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10887,7 +10156,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "30/03/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10901,7 +10170,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "30/03/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10924,7 +10193,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "28/02/2016",
                         code: "CM26573",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10938,7 +10207,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "29/02/2016",
                         code: "CM29143",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10952,7 +10221,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "29/03/2016",
                         code: "CM21999",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 1,
                         note: "Test",
@@ -10966,7 +10235,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "04/11/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10978,7 +10247,7 @@ export function getDataMoneyCollect() {
             {
                 id: 1,
                 name: "Quan Ca",
-                avatar_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1503131612qkfg0K1kNOoQ5IJ.jpg",
+                avatar_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg",
                 phone: "0878086530",
                 email: "aquancva@hotmail.com",
                 registers: [
@@ -10989,7 +10258,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "16/02/2016",
                         code: "CM01000",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 1,
                         received_id_card: 1,
                         note: "test",
@@ -11003,7 +10272,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "01/06/2016",
                         code: "CM000001",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 10000,
                         received_id_card: 0,
                         note: "test",
@@ -11073,7 +10342,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "15/11/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "test",
@@ -11101,7 +10370,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/07/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1481440169SyPRLsY5aXZOL6d.jpg",
+                        icon_url: "https://cdn1.thr.com/sites/default/files/2017/08/gettyimages-630421358_-_h_2017.jpg",
                         money: 0,
                         received_id_card: 0,
                         note: "ck",
@@ -11138,7 +10407,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "16/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11161,7 +10430,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "16/02/2016",
                         code: "CM09018",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 650000,
                         received_id_card: 0,
                         note: "",
@@ -11175,7 +10444,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11198,7 +10467,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "16/02/2016",
                         code: "CM09017",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 600000,
                         received_id_card: 0,
                         note: "",
@@ -11212,7 +10481,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11226,7 +10495,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11237,7 +10506,7 @@ export function getDataMoneyCollect() {
             },
             {
                 id: 96,
-                name: "Hà Thị Minh Hương",
+                name: "Minh Hương",
                 avatar_url: "http://manageapi.colorme.vn/img/user.png",
                 phone: "0883038625",
                 email: "haminhhuong7284@yahoo.com",
@@ -11249,7 +10518,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11260,7 +10529,7 @@ export function getDataMoneyCollect() {
             },
             {
                 id: 98,
-                name: "Hà Thị Minh Hương",
+                name: "Minh Hương",
                 avatar_url: "http://manageapi.colorme.vn/img/user.png",
                 phone: "0883038625",
                 email: "huonghaminh7284@hotmail.com",
@@ -11272,7 +10541,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11283,7 +10552,7 @@ export function getDataMoneyCollect() {
             },
             {
                 id: 99,
-                name: "Vũ Thanh Thu ",
+                name: "Vũ Thanh Thu",
                 avatar_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1457697272FgdosOgmJ8ZQTiF.jpg",
                 phone: "0836037765",
                 email: "vuthanhthu18091996@hotmail.com",
@@ -11295,7 +10564,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "CM09040",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "học lại",
@@ -11309,7 +10578,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "CM09041",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "học lại",
@@ -11374,7 +10643,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "04/11/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11420,7 +10689,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11434,7 +10703,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11448,7 +10717,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11471,7 +10740,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "CM09102",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 600000,
                         received_id_card: 0,
                         note: "CK",
@@ -11485,7 +10754,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11508,7 +10777,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "CM09178",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 500000,
                         received_id_card: 0,
                         note: "học bổng 50%",
@@ -11582,7 +10851,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "18/02/2016",
                         code: "CM09063",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 750000,
                         received_id_card: 0,
                         note: "Repost",
@@ -11596,7 +10865,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "18/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11619,7 +10888,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "18/02/2016",
                         code: "CM09070",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 600000,
                         received_id_card: 0,
                         note: "",
@@ -11633,7 +10902,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "18/02/2016",
                         code: "CM09071",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "Học Lại",
@@ -11647,7 +10916,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "18/07/2016",
                         code: "CM14193",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "Ai 9.3 học lại",
@@ -11661,7 +10930,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "18/07/2016",
                         code: "CM14194",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "Ps 9.2 học lại",
@@ -11675,7 +10944,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "23/08/2016",
                         code: "CM15245",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "PS 14.2 bảo lưu",
@@ -11689,7 +10958,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "15/03/2016",
                         code: "CM22016",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "học lại",
@@ -11703,7 +10972,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "14/08/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072407tOyRFhAeFPjsbfu.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdVIQ-0vgfLGKUJ09Kd_hChq-CcWqU199VpqsqDu3AJcBPMkg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11726,7 +10995,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "19/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11740,7 +11009,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "21/02/2016",
                         code: "CM09106",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 700000,
                         received_id_card: 0,
                         note: "",
@@ -11763,7 +11032,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "19/02/2016",
                         code: "",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -11777,7 +11046,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "21/02/2016",
                         code: "CM09169",
-                        icon_url: "http://d1j8r0kxyu9tj8.cloudfront.net/images/1475072336A5Ks9NSnqnHsXOn.jpg",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XyTIviVTIQKlSfO9oX1mbrqCwARZOn4eFUSilMXhSD4UZOSZ",
                         money: 750000,
                         received_id_card: 0,
                         note: "Share event",

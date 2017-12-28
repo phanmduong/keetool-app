@@ -13,8 +13,8 @@ class HamburgerButton extends Component{
                 onPress={() => this.props.navigate('DrawerOpen')}>
                 <Icon
                     name="materialCommunity|menu"
-                    size={30}
-                    style={[general.iconStyle, {marginRight: -3}]}
+                    size={35}
+                    style={[general.iconStyle, {marginRight: -3, padding: 5}]}
                 />
             </TouchableOpacity>
         );

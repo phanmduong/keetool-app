@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FlatList, Image, Modal, PanResponder, Text, TouchableOpacity, View} from 'react-native';
+import {Image, PanResponder, Text, TouchableOpacity, View} from 'react-native';
 import {Container, Content, Input, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
@@ -86,147 +86,31 @@ class EmailContainer extends Component {
         switch (this.state.tab) {
             case 0:
                 return (
-                    <Content style={{flex: 1}}>
+                    <Content style={{flex: 1, padding: 20}}>
                         {
                             isLoading
                                 ?
                                 <Loading/>
                                 :
-                                <View style={{padding: 20}}>
-                                    <View>
-                                        <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
-                                            <Col size={80}>
-                                                <Text style={general.textTitleCard}>Name</Text>
-                                            </Col>
-                                            <Col size={20}>
+                                subscribers_list.map((item, i) =>
+                                    <TouchableOpacity
+                                        key={i}
+                                        activeOpacity={0.8}
+                                        style={[general.marginTopBottom, general.shadow, {marginTop: 20}]}>
+                                        <Image
+                                            resizeMode={'cover'}
+                                            source={{uri: item.url}}
+                                            style={general.imageFeature}
+                                        />
+                                        <View style={[general.marginTop, general.wrapperCenterLeftToRightColumn]}>
+                                            <Text style={general.textTitleCard}>{item.name.toUpperCase()}</Text>
+                                            <Text style={general.textDescriptionCard}>Subscribers
+                                                : {item.total_subscribers}</Text>
+                                        </View>
+                                    </TouchableOpacity>
+                                )
 
-                                                <Text style={general.textTitleCard}>Subscriber</Text>
-                                            </Col>
-                                        </Grid>
-                                    </View>
-                                    {
-                                        subscribers_list.map((item, i) =>
-                                            <TouchableOpacity
-                                                key={i}
-                                                onPress={() => this.setModalSubscriber(true)}
-                                            >
-                                                <Grid
-                                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                                    <Col size={80}>
-                                                        <Text style={general.textDescriptionCard}>{item.name}</Text>
-                                                    </Col>
-                                                    <Col style={{paddingLeft: 10}} size={20}>
-                                                        <Text
-                                                            style={general.textDescriptionCard}>{item.total_subscribers}</Text>
-                                                    </Col>
-                                                </Grid>
-                                            </TouchableOpacity>
-                                        )
-                                    }
-                                </View>
                         }
-                        <Modal
-                            presentationStyle="overFullScreen"
-                            animationType="fade"
-                            transparent={true}
-                            visible={this.state.modalMoneySubscriber}
-                        >
-                            <View
-                                style={general.wrapperModal}
-                                {...this.panResponder.panHandlers}
-                            >
-                                <View style={general.wrapperModalClass}>
-                                    <Content>
-                                        {
-                                            subscriber.map((item, i) =>
-                                                <TouchableOpacity
-                                                    key={i}
-                                                    onPress={() => this.setModalContactEmail(true, item.email)}
-                                                    style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}>
-                                                    <View style={[{flex: 1}, general.paddingLR]}>
-                                                        <Text style={general.textIstActive}>{item.email}</Text>
-                                                    </View>
-                                                </TouchableOpacity>
-                                            )
-                                        }
-                                    </Content>
-
-                                </View>
-                            </View>
-                            <Modal
-                                presentationStyle="overFullScreen"
-                                animationType="fade"
-                                transparent={true}
-                                visible={this.state.modalContactEmail}
-                            >
-                                <View
-                                    style={general.wrapperModal}
-                                    {...this.panResponder.panHandlers}
-                                >
-                                    <View style={general.modalCart}>
-                                        <View style={[general.headerModal, general.haveBorderBottom]}>
-                                            <Text style={general.textTitleCardDark}>
-                                                CONTACT
-                                            </Text>
-                                        </View>
-                                        <View style={{flex: 1}}>
-                                            <Item>
-                                                <Input
-                                                    style={general.inputTheme}
-                                                    onChangeText={(bodyEmail) => {
-                                                        this.setState({bodyEmail})
-                                                    }}
-                                                    placeholder="content"
-                                                />
-                                            </Item>
-                                        </View>
-                                        <TouchableOpacity
-                                            style={[general.bottomModal, general.haveBorderTop]}
-                                        >
-                                            <Text style={general.textTitleCardBlue}>+ Add</Text>
-                                        </TouchableOpacity>
-                                    </View>
-                                </View>
-                            </Modal>
-                        </Modal>
-                        {/*<Modal*/}
-                        {/*presentationStyle="overFullScreen"*/}
-                        {/*animationType="fade"*/}
-                        {/*transparent={true}*/}
-                        {/*visible={this.state.modalContactEmail}*/}
-                        {/*>*/}
-                        {/*<View*/}
-                        {/*style={general.wrapperModal}*/}
-                        {/*{...this.panResponder.panHandlers}*/}
-                        {/*>*/}
-                        {/*<View style={general.modalCart}>*/}
-                        {/*<View style={[general.headerModal, general.haveBorderBottom]}>*/}
-                        {/*<Text style={general.textTitleCardDark}>*/}
-                        {/*CONTACT*/}
-                        {/*</Text>*/}
-                        {/*</View>*/}
-                        {/*<View style={{flex: 1}}>*/}
-                        {/*<Item>*/}
-                        {/*<Input*/}
-                        {/*style={general.inputTheme}*/}
-                        {/*onChangeText={(bodyEmail) => {*/}
-                        {/*this.setState({bodyEmail})*/}
-                        {/*}}*/}
-                        {/*placeholder="content"*/}
-                        {/*/>*/}
-                        {/*</Item>*/}
-                        {/*</View>*/}
-                        {/*<TouchableOpacity*/}
-                        {/*style={[general.bottomModal, general.haveBorderTop]}*/}
-                        {/*onPress={() => {*/}
-                        {/*this.modalEmailEndContact()*/}
-                        {/*}}*/}
-                        {/*>*/}
-                        {/*<Text style={general.textTitleCardBlue}>+ Add</Text>*/}
-                        {/*</TouchableOpacity>*/}
-                        {/*</View>*/}
-                        {/*</View>*/}
-                        {/*</Modal>*/}
                         <View style={general.wrapperBottomModule}/>
                     </Content>
                 );
@@ -239,33 +123,28 @@ class EmailContainer extends Component {
                                 <Loading/>
                                 :
                                 <View style={{padding: 20}}>
-                                    <View>
-                                        <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
-                                            <Col size={80}>
-                                                <Text style={general.textTitleCard}>Name</Text>
-                                            </Col>
-                                            <Col size={20}>
-
-                                                <Text style={general.textTitleCard}>Owner</Text>
-                                            </Col>
-                                        </Grid>
-                                    </View>
                                     {
                                         campaigns.map((item, i) =>
                                             <TouchableOpacity
                                                 key={i}
-                                                onPress={() => this.setModalSubscriber(true)}
                                             >
-                                                <Grid
-                                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                                    <Col size={80}>
-                                                        <Text style={general.textDescriptionCard}>{item.name}</Text>
-                                                    </Col>
-                                                    <Col style={{paddingLeft: 10}} size={20}>
+                                                <TouchableOpacity
+                                                    key={i}
+                                                    activeOpacity={0.8}
+                                                    style={[general.marginTopBottom, general.shadow, {marginTop: 20}]}>
+                                                    <Image
+                                                        resizeMode={'cover'}
+                                                        source={{uri: item.url}}
+                                                        style={general.imageFeature}
+                                                    />
+                                                    <View
+                                                        style={[general.marginTop, general.wrapperCenterLeftToRightColumn]}>
+                                                        <Text
+                                                            style={general.textTitleCard}>{item.name.toUpperCase()}</Text>
                                                         <Text
                                                             style={general.textDescriptionCard}>{item.owner.name}</Text>
-                                                    </Col>
-                                                </Grid>
+                                                    </View>
+                                                </TouchableOpacity>
                                             </TouchableOpacity>
                                         )
                                     }
@@ -319,36 +198,25 @@ class EmailContainer extends Component {
                                 <Loading/>
                                 :
                                 <View style={{padding: 20}}>
-                                    <View>
-                                        <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
-                                            <Col size={80}>
-                                                <Text style={general.textTitleCard}>Name</Text>
-                                            </Col>
-                                            <Col size={20}>
-                                                <Text style={general.textTitleCard}>Owner</Text>
-                                            </Col>
-                                        </Grid>
-                                    </View>
                                     {
                                         email_forms.map((item, i) =>
                                             <TouchableOpacity
                                                 key={i}
-                                                onPress={() => this.setModalSubscriber(true)}
-                                            >
-                                                <Grid
-                                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                                    <Col size={80}>
-
-                                                        <Text style={general.textDescriptionCard}>{item.name}</Text>
-                                                    </Col>
-                                                    <Col style={{paddingLeft: 10}} size={20}>
-                                                        <Text
-                                                            style={general.textDescriptionCard}>{item.creator.name}</Text>
-                                                    </Col>
-                                                </Grid>
+                                                activeOpacity={0.8}
+                                                style={[general.marginTopBottom, general.shadow, {marginTop: 20}]}>
+                                                <Image
+                                                    resizeMode={'cover'}
+                                                    source={{uri: item.avatar_url}}
+                                                    style={general.imageFeature}
+                                                />
+                                                <View style={[general.marginTop, general.wrapperCenterLeftToRightColumn]}>
+                                                    <Text style={general.textTitleCard}>{item.name.toUpperCase()}</Text>
+                                                    <Text style={general.textDescriptionCard}>{item.creator.name}</Text>
+                                                    <Text style={general.textNoteCard}>{item.creator.created_at}</Text>
+                                                </View>
                                             </TouchableOpacity>
                                         )
-                                        }
+                                    }
 
                                 </View>
                         }

@@ -1,6 +1,5 @@
-import {StyleSheet, Platform} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 import * as colorDark from './colorDark';
-import * as colorLight from './colorLight';
 import * as size from './size';
 import {hei, wid} from './size';
 
@@ -288,9 +287,12 @@ export const style = {
     imageFeature: {
         height: hei / 3,
         borderRadius: 15,
+        backgroundColor: color.loadingImage
     },
     imageFullWidth: {
         flex: 1,
+        backgroundColor: color.loadingImage
+
     },
     wrapperModal: {
         flex: 1,
@@ -350,39 +352,49 @@ export const style = {
     imageSquareBig: {
         height: wid - 40,
         borderRadius: 15,
+        backgroundColor: color.loadingImage
+
+
     },
     imageCircleTiny: {
         height: 20,
         width: 20,
         borderRadius: 10,
+        backgroundColor: color.loadingImage
     },
     imageCircleNormal: {
         height: 50,
         width: 50,
         borderRadius: 25,
+        backgroundColor: color.loadingImage
     },
     imageSquare: {
         height: wid / 3,
         width: wid / 3,
         borderRadius: 15,
+        backgroundColor: color.loadingImage
     },
     imageSquareSmall: {
         height: (wid - 60) / 3,
         width: (wid - 60) / 3,
         borderRadius: 15,
+        backgroundColor: color.loadingImage
     },
     imageRectangleSmall: {
         width: wid / 5,
         height: wid / 5 * 1.5,
+        backgroundColor: color.loadingImage
     },
     imageSquareAvatar: {
         height: wid / 5,
         width: wid / 5,
         borderRadius: 10,
+        backgroundColor: color.loadingImage
     },
     imageRectangle: {
         width: wid / 3,
         height: wid / 3 * 1.5,
+        backgroundColor: color.loadingImage
     },
 
     linearGradient: {
