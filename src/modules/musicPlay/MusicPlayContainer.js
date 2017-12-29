@@ -131,19 +131,6 @@ import MusicControl from 'react-native-music-control';
                 minute: 0,
                 second: 0,
             })
-            // MusicControl.setNowPlaying({
-            //     title: this.state.data[this.state.index].name,
-            //     artwork: this.state.data[this.state.index].image_url, // URL or RN's image require()
-            //     artist: 'Michael Jackson',
-            //     album: 'Thriller',
-            //     genre: 'Post-disco, Rhythm and Blues, Funk, Dance-pop',
-            //     duration: this.state.duration, // (Seconds)
-            //     description: '', // Android Only
-            //     color: 0xFFFFFF, // Notification Color - Android Only
-            //     date: '1983-01-02T00:00:00Z', // Release Date (RFC 3339) - Android Only
-            //     rating: 84, // Android Only (Boolean or Number depending on the type)
-            //     notificationIcon: 'my_custom_icon' // Android Only (String), Android Drawable resource name for a custom notification icon
-            // })
             MusicControl.resetNowPlaying()
         }
 
@@ -166,19 +153,6 @@ import MusicControl from 'react-native-music-control';
                 second: 0,
             })
         }
-        // MusicControl.setNowPlaying({
-        //     title: this.state.data[this.state.index].name,
-        //     artwork: this.state.data[this.state.index].image_url, // URL or RN's image require()
-        //     artist: 'Michael Jackson',
-        //     album: 'Thriller',
-        //     genre: 'Post-disco, Rhythm and Blues, Funk, Dance-pop',
-        //     duration: this.state.duration, // (Seconds)
-        //     description: '', // Android Only
-        //     color: 0xFFFFFF, // Notification Color - Android Only
-        //     date: '1983-01-02T00:00:00Z', // Release Date (RFC 3339) - Android Only
-        //     rating: 84, // Android Only (Boolean or Number depending on the type)
-        //     notificationIcon: 'my_custom_icon' // Android Only (String), Android Drawable resource name for a custom notification icon
-        // })
         MusicControl.resetNowPlaying()
     }
     onLoad(data) {
@@ -341,6 +315,11 @@ import MusicControl from 'react-native-music-control';
     }
      componentDidMount(){
          MusicControl.enableBackgroundMode(true);
+         MusicControl.enableControl('play', true)
+         MusicControl.enableControl('pause', true)
+         MusicControl.enableControl('stop', false)
+         MusicControl.enableControl('nextTrack', true)
+         MusicControl.enableControl('previousTrack', false)
          MusicControl.on('play', () => {this.playTheSong(this.state.index)})
          MusicControl.on('pause', () => {this.pauseTheSong()})
          MusicControl.on('nextTrack', ()=> {
