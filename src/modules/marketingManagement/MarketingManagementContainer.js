@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import {Modal, PanResponder, Text, TouchableOpacity, View} from 'react-native';
+import {Image, Modal, PanResponder, Text, TouchableOpacity, View} from 'react-native';
 import {Container, Content, Item, Left, Right, Spinner} from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 import HamburgerButton from '../../commons/HamburgerButton';
 import {connect} from 'react-redux'
 import Icon from '../../commons/Icon';
-import {Col, Grid} from "react-native-easy-grid";
 import Loading from '../../commons/Loading';
 import Communications from 'react-native-communications';
 
@@ -132,45 +131,27 @@ class MarketingManagementContainer extends Component {
                                 <Loading/>
                                 :
                                 <View style={{padding: 20}}>
-                                    <View>
-                                        <Grid
-                                            style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                            <Col style={general.paddingRight}>
-                                                <Text style={general.textDescriptionCard}>Caller</Text>
-                                            </Col>
-                                            <Col>
-                                                <Text style={general.textDescriptionCard}>Student</Text>
-                                            </Col>
-                                            <Col>
-                                                <Text style={general.textDescriptionCard}>Phone</Text>
-                                            </Col>
-                                        </Grid>
-                                    </View>
-
                                     {
                                         tele_call.map((item, i) =>
                                             <TouchableOpacity
                                                 key={i}
                                                 onPress={() => this.setModalTeleSaleHistory(true, item)}
+                                                style={[general.wrapperPeople, general.wrapperRowCenter]}
                                             >
-                                                <Grid
-                                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                                    <Col style={general.paddingRight}>
-                                                        <Text><Text
-                                                            style={[general.textDescriptionCard,
-                                                                // {backgroundColor: `#${item.caller.color}`}
-                                                            ]}
-                                                        >{item.caller.name}</Text></Text>
-                                                    </Col>
-                                                    <Col>
-                                                        <Text
-                                                            style={general.textDescriptionCard}>{item.student.name}</Text>
-                                                    </Col>
-                                                    <Col>
-                                                        <Text
-                                                            style={general.textDescriptionCard}>{item.student.phone}</Text>
-                                                    </Col>
-                                                </Grid>
+                                                <View style={[{flex: 1}, general.paddingLR]}>
+                                                    <Text style={general.textIstActive}>{item.student.name}</Text>
+                                                    <Text style={general.textDescriptionCard}
+                                                          numberOfLines={1}>{item.student.phone}</Text>
+                                                </View>
+                                                <TouchableOpacity onPress={() => {
+                                                    Communications.phonecall(item.phone, true)
+                                                }}>
+                                                    <Icon
+                                                        name={item.call_status == "success" ? "ion|ios-call" : "ion|ios-call-outline"}
+                                                        size={30}
+                                                        style={general.iconStyle}
+                                                    />
+                                                </TouchableOpacity>
                                             </TouchableOpacity>
                                         )
                                     }
@@ -250,26 +231,21 @@ class MarketingManagementContainer extends Component {
                                 <Loading/>
                                 :
                                 <View style={{padding: 20}}>
-                                    <View>
-                                        <Grid
-                                            style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                            <Col style={general.paddingRight}>
-                                                <Text style={general.textDescriptionCard}>Campaign</Text>
-                                            </Col>
-                                        </Grid>
-                                    </View>
                                     {
                                         marketing_campaigns.map((item, i) =>
-                                            <TouchableOpacity key={i}>
-                                                <Grid
-                                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                                    <Col style={general.paddingRight}>
-                                                        <Text><Text
-                                                            style={[general.textDescriptionCard,
-                                                                // {backgroundColor: `#${item.color}`}
-                                                            ]}>{item.name}</Text></Text>
-                                                    </Col>
-                                                </Grid>
+                                            <TouchableOpacity key={i}
+                                                              style={[general.marginTopBottom, general.shadow, {marginTop: 20}]}
+                                            >
+                                                <Image
+                                                    resizeMode={'cover'}
+                                                    source={{uri: item.avatar_url}}
+                                                    style={general.imageFeature}
+                                                />
+                                                <View
+                                                    style={[general.marginTop, general.wrapperCenterLeftToRightColumn]}>
+                                                    <Text style={general.textTitleCard}>{item.name.toUpperCase()}</Text>
+                                                    <Text style={general.textDescriptionCard}>ID : {item.id}</Text>
+                                                </View>
                                             </TouchableOpacity>
                                         )
                                     }
@@ -336,21 +312,6 @@ class MarketingManagementContainer extends Component {
                     <View style={general.wrapperMenuHome}>
                         <Content horizontal={true}
                                  showsHorizontalScrollIndicator={false}>
-                            {/*<TouchableOpacity onPress={() => this.ViewTeleSale()}*/}
-                            {/*style={{height: 30}}>*/}
-                            {/*<View style={*/}
-                            {/*this.state.tab === 0*/}
-                            {/*?*/}
-                            {/*general.wrapperMenuTextIsActive*/}
-                            {/*:*/}
-                            {/*general.wrapperMenuTextNotActive*/}
-                            {/*}>*/}
-                            {/*<Text style={this.state.tab === 0 ? general.textIstActive : general.textNotActive}>*/}
-                            {/*Telesale*/}
-                            {/*</Text>*/}
-                            {/*</View>*/}
-                            {/*</TouchableOpacity>*/}
-
                             <TouchableOpacity onPress={() => this.ViewTeleSaleHistory()}
                                               style={{height: 30}}>
                                 <View style={
@@ -365,23 +326,6 @@ class MarketingManagementContainer extends Component {
                                     </Text>
                                 </View>
                             </TouchableOpacity>
-
-                            {/*<TouchableOpacity onPress={() => this.ViewStudents()}>*/}
-                            {/*<View style={*/}
-                            {/*this.state.tab === 2*/}
-                            {/*?*/}
-                            {/*general.wrapperMenuTextIsActive*/}
-                            {/*:*/}
-                            {/*general.wrapperMenuTextNotActive*/}
-                            {/*}>*/}
-
-                            {/*<Text*/}
-                            {/*style={this.state.tab === 2 ? general.textIstActive : general.textNotActive}>*/}
-                            {/*Students*/}
-                            {/*</Text>*/}
-
-                            {/*</View>*/}
-                            {/*</TouchableOpacity>*/}
                             <TouchableOpacity onPress={() => this.ViewCampaigns()}>
                                 <View style={
                                     this.state.tab === 3
@@ -398,38 +342,7 @@ class MarketingManagementContainer extends Component {
 
                                 </View>
                             </TouchableOpacity>
-                            {/*<TouchableOpacity onPress={() => this.ViewSales()}>*/}
-                            {/*<View style={*/}
-                            {/*this.state.tab === 4*/}
-                            {/*?*/}
-                            {/*general.wrapperMenuTextIsActive*/}
-                            {/*:*/}
-                            {/*general.wrapperMenuTextNotActive*/}
-                            {/*}>*/}
 
-                            {/*<Text*/}
-                            {/*style={this.state.tab === 4 ? general.textIstActive : general.textNotActive}>*/}
-                            {/*Sales*/}
-                            {/*</Text>*/}
-
-                            {/*</View>*/}
-                            {/*</TouchableOpacity>*/}
-                            {/*<TouchableOpacity onPress={() => this.ViewSummary()}>*/}
-                            {/*<View style={*/}
-                            {/*this.state.tab === 5*/}
-                            {/*?*/}
-                            {/*general.wrapperMenuTextIsActive*/}
-                            {/*:*/}
-                            {/*general.wrapperMenuTextNotActive*/}
-                            {/*}>*/}
-
-                            {/*<Text*/}
-                            {/*style={this.state.tab === 5 ? general.textIstActive : general.textNotActive}>*/}
-                            {/*Summary*/}
-                            {/*</Text>*/}
-
-                            {/*</View>*/}
-                            {/*</TouchableOpacity>*/}
                         </Content>
                     </View>
                     <View style={general.wrapperFullWidth}>

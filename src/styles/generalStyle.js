@@ -287,11 +287,11 @@ export const style = {
     imageFeature: {
         height: hei / 3,
         borderRadius: 15,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
     },
     imageFullWidth: {
         flex: 1,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
 
     },
     wrapperModal: {
@@ -352,7 +352,7 @@ export const style = {
     imageSquareBig: {
         height: wid - 40,
         borderRadius: 15,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
 
 
     },
@@ -360,41 +360,41 @@ export const style = {
         height: 20,
         width: 20,
         borderRadius: 10,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
     },
     imageCircleNormal: {
         height: 50,
         width: 50,
         borderRadius: 25,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
     },
     imageSquare: {
         height: wid / 3,
         width: wid / 3,
         borderRadius: 15,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
     },
     imageSquareSmall: {
         height: (wid - 60) / 3,
         width: (wid - 60) / 3,
         borderRadius: 15,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
     },
     imageRectangleSmall: {
         width: wid / 5,
         height: wid / 5 * 1.5,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
     },
     imageSquareAvatar: {
         height: wid / 5,
         width: wid / 5,
         borderRadius: 10,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
     },
     imageRectangle: {
         width: wid / 3,
         height: wid / 3 * 1.5,
-        backgroundColor: color.loadingImage
+        backgroundColor: Platform.OS === 'IOS' ? color.loadingImage : 'transparent',
     },
 
     linearGradient: {

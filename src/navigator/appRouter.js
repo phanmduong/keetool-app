@@ -18,7 +18,6 @@ import EventContainer from '../modules/event/EventContainer';
 import BaseContainer from '../modules/base/BaseContainer';
 import * as size from '../styles/size';
 import MapContainer from "../modules/maps/MapContainer";
-import QRcodeContainer from "../modules/QRcode/QRcodeContainer";
 import TrelloContainer from '../modules/trello/TrelloContainer';
 import RegisterContainer from '../modules/register/RegisterContainer';
 import CartContainer from '../modules/cart/CartContainer'
@@ -43,7 +42,6 @@ const Drawer = DrawerNavigator(
         Calendar: {screen: CalendarContainer},
         Dashboard: {screen: DashboardContainer},
         Map : {screen : MapContainer},
-        QRCode : {screen : QRcodeContainer},
         Trello : {screen : TrelloContainer},
         PersonnelManagement : {screen : PersonnelManagementContainer},
         Teach : {screen : TeachContainer},

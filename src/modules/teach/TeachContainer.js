@@ -9,6 +9,8 @@ import {connect} from 'react-redux'
 import {Col, Grid} from "react-native-easy-grid";
 import Communications from 'react-native-communications';
 import Loading from '../../commons/Loading';
+import ArrowDown from '../../commons/ArrowDown';
+import ArrowUp from '../../commons/ArrowUp';
 
 class TeachContainer extends Component {
     constructor() {
@@ -260,11 +262,13 @@ class TeachContainer extends Component {
                                                 <Col>
                                                     <Text style={general.textDescriptionCard}>{item.weekday}</Text>
                                                 </Col>
-                                                <Col>
-                                                    <Text style={general.textDescriptionCard}>{item.start_time}</Text>
+                                                <Col style={{flexDirection: 'row'}}>
+                                                    <ArrowUp/><Text
+                                                    style={general.textDescriptionCardLight}>{item.start_time}</Text>
                                                 </Col>
-                                                <Col>
-                                                    <Text style={general.textDescriptionCard}>{item.end_time}</Text>
+                                                <Col style={{flexDirection: 'row'}}>
+                                                    <ArrowDown/><Text
+                                                    style={general.textDescriptionCardLight}>{item.end_time}</Text>
                                                 </Col>
                                             </Grid>
                                         )
@@ -451,12 +455,12 @@ class TeachContainer extends Component {
                                                 <Col size={30}>
                                                     <Text style={general.textDescriptionCardLight}>{item.name}</Text>
                                                 </Col>
-                                                <Col size={35}>
-                                                    <Text
+                                                <Col style={{flexDirection: 'row'}} size={35}>
+                                                    <ArrowUp/><Text
                                                         style={general.textDescriptionCardLight}>{item.start_time}</Text>
                                                 </Col>
-                                                <Col size={35}>
-                                                    <Text
+                                                <Col style={{flexDirection: 'row'}} size={35}>
+                                                    <ArrowDown/><Text
                                                         style={general.textDescriptionCardLight}>{item.end_time}</Text>
                                                 </Col>
                                             </Grid>

@@ -4,7 +4,6 @@ import android.app.Application;
 
 import com.facebook.react.ReactApplication;
 import com.tanguyantoine.react.MusicControl;
-import com.lwansbrough.RCTCamera.RCTCameraPackage;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.devfd.RNGeocoder.RNGeocoderPackage;
 import com.brentvatne.react.ReactVideoPackage;
@@ -30,7 +29,6 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new MusicControl(),
-            new RCTCameraPackage(),
             new MapsPackage(),
             new RNGeocoderPackage(),
             new ReactVideoPackage(),

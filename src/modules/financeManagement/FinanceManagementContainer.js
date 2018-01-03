@@ -145,34 +145,23 @@ class FinanceManagementContainer extends Component {
                                 <Loading/>
                                 :
                                 <View style={{padding: 20}}>
-                                    <View>
-                                        <Grid style={[general.paddingBottom, general.haveBorderBottom]}>
-                                            <Col>
-                                                <Text style={general.textTitleCard}>Name</Text>
-                                            </Col>
-                                            <Col>
-                                                <Text style={general.textTitleCard}>Email</Text>
-                                            </Col>
-                                            <Col>
-                                                <Text style={general.textTitleCard}>Phone</Text>
-                                            </Col>
-                                        </Grid>
-                                    </View>
                                     {
                                         moneyCollect.map((item) =>
-                                            <TouchableOpacity onPress={() => this.setModalMoneyCollect(true, item)}>
-                                                <Grid
-                                                    style={[general.paddingBottom, general.haveBorderBottom, general.paddingTop]}>
-                                                    <Col>
-                                                        <Text style={general.textDescriptionCard}>{item.name}</Text>
-                                                    </Col>
-                                                    <Col>
-                                                        <Text style={general.textDescriptionCard}>{item.email}</Text>
-                                                    </Col>
-                                                    <Col>
-                                                        <Text style={general.textDescriptionCard}>{item.phone}</Text>
-                                                    </Col>
-                                                </Grid>
+                                            <TouchableOpacity
+                                                onPress={() => this.setModalMoneyCollect(true, item)}
+                                                style={[general.wrapperPeople, general.wrapperRowCenter, general.haveBorderBottom]}
+                                            >
+                                                <Image
+                                                    resizeMode={'cover'}
+                                                    source={{uri: item.avatar_url}}
+                                                    style={general.imageCircleNormal}
+                                                />
+                                                <View style={[{flex: 1}, general.paddingLR]}>
+                                                    <Text style={general.textIstActive}>{item.name}</Text>
+                                                    <Text style={general.textDescriptionCard}
+                                                          numberOfLines={1}>{item.email}</Text>
+                                                </View>
+
                                             </TouchableOpacity>
                                         )
                                     }
@@ -190,7 +179,8 @@ class FinanceManagementContainer extends Component {
                                 {...this.panResponder.panHandlers}
                             >
                                 <View style={general.wrapperModalClass}>
-                                    <Content>
+                                    <Content showsVerticalScrollIndicator={false}
+                                    >
                                         {
                                             this.state.registers.map((item, i) =>
                                                 <TouchableOpacity

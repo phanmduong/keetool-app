@@ -3808,7 +3808,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1035,
                     name: "AE 31.2",
-                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg"
                 },
                 collector: {
                     id: 3290,
@@ -4094,7 +4094,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1086,
                     name: "AE 32.3 (Sài Gòn)",
-                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg"
                 },
                 collector: {
                     id: 4324,
@@ -4328,7 +4328,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1036,
                     name: "AE 31.1",
-                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg"
                 },
                 collector: {
                     id: 6083,
@@ -4796,7 +4796,7 @@ export function getDataPaidList() {
                 class: {
                     id: 1033,
                     name: "AE - Danh Sách Chờ (Cơ sở 1)",
-                    icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png"
+                    icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg"
                 },
                 collector: {
                     id: 2,
@@ -7376,7 +7376,7 @@ export function getDataCourse() {
             {
                 id: 3,
                 name: "After Effects",
-                icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                 num_classes: 78,
                 duration: 8,
                 price: 1200000
@@ -10133,7 +10133,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "31/03/2016",
                         code: "",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10286,7 +10286,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "01/06/2016",
                         code: "CM00002",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 2000,
                         received_id_card: 0,
                         note: "tét sms nhé",
@@ -10300,7 +10300,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "11/07/2016",
                         code: "CM01002",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 1,
                         received_id_card: 0,
                         note: "hihi",
@@ -10314,7 +10314,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "25/09/2016",
                         code: "CCM0077",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "123",
@@ -10328,7 +10328,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "26/09/2016",
                         code: "",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "test",
@@ -10356,7 +10356,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "13/07/2016",
                         code: "",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "chưa đưa thẻ, gá người quen: 750",
@@ -10384,7 +10384,7 @@ export function getDataMoneyCollect() {
                         class_type: "waiting",
                         register_time: "02/12/2016",
                         code: "",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10592,7 +10592,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "CM09042",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 800000,
                         received_id_card: 0,
                         note: "",
@@ -10606,7 +10606,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10629,7 +10629,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "CM09057",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 800000,
                         received_id_card: 0,
                         note: "",
@@ -10666,7 +10666,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10814,7 +10814,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "17/02/2016",
                         code: "",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
@@ -10828,7 +10828,7 @@ export function getDataMoneyCollect() {
                         class_type: "",
                         register_time: "28/02/2016",
                         code: "",
-                        icon_url: "https://s3-ap-southeast-1.amazonaws.com/cmstorage/images/1455035399GURqJY2y45AZIAp.png",
+                        icon_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIW5ZuwoV9D-KYfaJt49iqXBaRbQrDgLrNMbHIoG7-qLlrORusg",
                         money: 0,
                         received_id_card: 0,
                         note: "",
